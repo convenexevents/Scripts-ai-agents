@@ -17,13 +17,13 @@ session's conversation.
 
 ## Two open items that need a decision from the business owner
 
-1. **Automation #4 can't be built as designed.** The Xero integration connected to this
-   environment only exposes reporting tools (get_invoices, get_contacts, get_aged_receivables,
-   etc.) — there is no create/write tool for invoices at all. This isn't a safety gate that can be
-   satisfied with approval, like the HubSpot ones — the capability simply isn't there. Needs one
-   of: (a) the Xero connector granted write access, or (b) redefine #4 as an assistant that
-   prepares the invoice details (customer, line items, 0% VAT, reference = HubSpot Deal ID) for a
-   human to key into Xero manually, rather than creating the draft itself.
+1. **Automation #4 is not built yet.** The Xero integration connected to this environment only
+   exposes reporting tools (get_invoices, get_contacts, get_aged_receivables, etc.) — there is no
+   create/write tool for invoices at all. This isn't a safety gate that can be satisfied with
+   approval, like the HubSpot ones — the capability simply isn't there. Decision (2026-08-08): get
+   the Xero connector granted write access first, then build #4 properly — draft invoice creation
+   matched to the deal, 0% VAT, same draft-and-approve pattern as the other automations. Once
+   write access is added, tell Claude and it can be built the same session.
 2. **enquiries@/sales@convenexevents.com aren't reachable yet.** They're being set up on Neo Mail,
    a separate host from the Gmail account connected here (convenexevents@gmail.com). Automations
    #5 and #2 are built against the right `to:` addresses and `Deal ID:` conventions, so they
