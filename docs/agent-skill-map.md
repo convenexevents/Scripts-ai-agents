@@ -18,11 +18,11 @@ Nathan (founder, signs off everything)
 │
 ├── Jarvis ................. Orchestrator: routes every job, morning brief
 │
-├── Victor Drake ........... CRO Advisor                              [manual only]
-├── Andrew Whitfield ....... Head of Partnerships                     [manual only]
-├── Marcus Reid ............ Partnerships Architect                   [manual only]
-├── Morgan Ellis ........... Delegate & Guest Relations Lead          [manual only]
-├── Jordan Pryce ........... Sales Ops, Intelligence & Quality Lead
+├── Victor Drake ........... CRO Advisor, leads the revenue team    [manual only]
+│   ├── Andrew Whitfield ... Head of Partnerships                     [manual only]
+│   ├── Marcus Reid ........ Partnerships Architect                   [manual only]
+│   ├── Morgan Ellis ....... Delegate & Guest Relations Lead          [manual only]
+│   └── Jordan Pryce ....... Sales Ops, Intelligence & Quality Lead
 ├── Sienna Cole ............ Head of Event Operations & Delivery
 ├── Priya Anand ............ Head of Finance
 ├── Grace Bellamy .......... Operations & Admin Coordinator
@@ -43,8 +43,8 @@ Nathan (founder, signs off everything)
     └── Rhys Calder ........ Video Editor & Motion Film Producer (added 2026-11-06)
 ```
 
-**Proposed, not yet agreed:** group Andrew, Marcus, Morgan and Jordan under
-Victor as one revenue team, so you get one revenue view instead of four.
+**Revenue team (agreed 9 Nov):** Andrew, Marcus, Morgan and Jordan report to Victor.
+Every agent is a Claude Code agent `cx-<firstname>` in `.claude/agents/`, routed by `CLAUDE.md`.
 
 ---
 
@@ -140,17 +140,17 @@ not installed where cloud sessions can see it (it may exist on your PC).
 ### Kai Novak: Web & UX/UI Designer
 - Skills: `web-artifacts-builder`, `theme-factory`, `design:design-system`, `design:design-handoff`, `design:accessibility-review`, `design:user-research`, all `engineering:*` (10), `code-review`, `simplify`, `security-review`. Vault: Elementor skills (lmoncany ×2, jezweb, proofpilot), baseline-ui, improve-ui, ui-skills-root, create-design-md, design-loop, design-teardown, fixing-accessibility, fixing-motion-performance, vercel-react-best-practices, agent-browser
 - Tools: WordPress, Figma
-- **NOT IN CLOUD:** `web-designer` (his core skill per the roster)
+- `web-designer` (repo, rebuilt from the vault), plus `jezweb-wordpress-elementor`, `lmoncany-elementor-wordpress`, `proofpilot-elementor-calibration`, `design-loop`, `design-teardown` (repo)
 
 ### Zara Lindqvist: Motion & Microsite Specialist
 - Skills: `canvas-design`, `small-business:canva-creator`, `canva:edit-design`, `canva:implement-feedback`, `canva:bulk-create`, scroll-film-studio (vault), skill-graphic-designer (vault)
 - Tools: Canva, Higgsfield, Figma
-- **NOT IN CLOUD:** `motion-microsite` (her core skill per the roster)
+- `motion-microsite` and `scroll-film-studio` (repo, rebuilt from the vault)
 
 ### Rhys Calder: Video Editor & Motion Film Producer
-- Skills: `generate` (repo, kie.ai video)
+- Skills: `video-production` (repo, ffmpeg playbook), `blotato-video` (repo, kie.ai video; renamed from `generate`)
 - Tools: Higgsfield, Canva video
-- **NOT IN CLOUD:** video-director, huashu-motion, take-one, explainroo, argo-guide, rossark-motion-skill, reanimate, earshot, real-sound (all 9 roster skills; his role file says they run on the PC)
+- **PC ONLY:** video-director, huashu-motion, take-one, explainroo, argo-guide, rossark-motion-skill, reanimate, earshot, real-sound (need local installs in `C:\Users\User\video-tools`)
 
 ### Not assigned (no current need)
 - `human-resources:*` (9 skills), `small-business:hiring-screener`, `small-business:job-post-builder`, `small-business:payroll-prep`, `small-business:plan-payroll`: no staff yet
@@ -165,10 +165,10 @@ not installed where cloud sessions can see it (it may exist on your PC).
 
 1. ~~The org chart is out of date.~~ **Fixed 9 Nov:** `org-chart.md` in Drive is rewritten with all 22 agents + Jarvis. The Command Centre Agents tab now includes Rhys, shows the org chart, and lists each agent's skills.
 2. **No agent runs on a schedule.** The Agent Jobs sheet shows all 8 scheduled jobs and 6 starter jobs were cancelled on 6 Nov to replan. `team-roster.md` now says so (fixed 9 Nov); `INDEX.md` still has the old wording.
-3. **9 empty skill files in the Drive root.** `skill-aeo.md` ×2, `skill-commercial.md` ×2, `skill-compliance-os.md` ×2, `skill-sales.md`, `skill-negotiation.md`: all 0 bytes. `skill-graphic-designer.md` exists 3 times. These look like failed uploads. The real ones should be in the vault's `Skills/` folder; delete the empties.
+3. ~~Empty files in the Drive root.~~ **Fixed 9 Nov:** 15 empty files and 2 identical skill-graphic-designer copies moved to the Drive bin.
 4. ~~Roster skill names don't match what's installed.~~ **Fixed 9 Nov:** `team-roster.md` now uses the installed names (`marketing:campaign-plan`, `email-sequence`, `brand-review`, `performance-report`).
-5. **`generate` name clash.** The tech stack names a `/generate` skill (OpenRouter, Kie, fal) on your PC; the Blotato one in this repo has the same name. Rename one.
-6. **The `cx-<name>` Claude Code agents exist only on your PC** (`~/.claude/agents`), so cloud sessions can't call "get Amara to…".
+5. ~~`generate` name clash.~~ **Fixed 9 Nov:** the repo skill is now `blotato-video`.
+6. ~~`cx-` agents PC only.~~ **Fixed 9 Nov:** all 22 rebuilt from the vault into `.claude/agents/`; `CLAUDE.md` routes "get Amara to…".
 7. **Connectors failing in cloud sessions:** Slack, Notion, Asana, Ahrefs, Klaviyo, Similarweb, Calendly, Clay and others (proxy refused), plus n8n. SEO_Data, BigQuery and Datadog need sign-in.
 
 ---
@@ -177,9 +177,9 @@ not installed where cloud sessions can see it (it may exist on your PC).
 
 | # | Missing | For | Why it matters |
 |---|---|---|---|
-| 1 | `web-designer` | Kai | His core skill per the roster; not visible to cloud sessions |
-| 2 | `motion-microsite` | Zara | Same |
-| 3 | Rhys's 9 video skills | Rhys | PC only; in the cloud he only has `generate` |
+| 1 | ~~`web-designer`~~ | Kai | Done 9 Nov |
+| 2 | ~~`motion-microsite`~~ | Zara | Done 9 Nov |
+| 3 | Rhys's 9 video tools | Rhys | PC only (local installs); cloud uses `video-production` + `blotato-video` |
 | 4 | Delegate fit scorer / guest-list builder | Morgan | Scores sign-ups against the Director+ ICP and five sectors, and builds the host sign-off list. That's the core of the business, and no skill does it. |
 | 5 | Event run-sheet & seating plan | Sienna | Day-of timings, table plan, host briefing pack. `operations:runbook` is generic. |
 | 6 | Venue shortlist & booking brief | Sienna | Pulls from the 10+ London venue pages on the site and compares options |
