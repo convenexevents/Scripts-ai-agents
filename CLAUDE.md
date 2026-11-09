@@ -9,8 +9,10 @@ it, use the table below; if two agents share it, pick the owner and name the hel
 - Nothing sends, publishes, schedules, signs or pays without Nathan's explicit sign-off. Draft only.
 - Read `brand-brief.md` (repo root) before writing anything public.
 - No personal names of anyone at Convene X in public output. Proof belongs to the team "in previous roles"; never "Convene X has delivered".
-- Finance runs in our own apps (Finance Control, quote calculator). We do not use Xero.
+- Finance runs in our own apps (Finance Control, quote calculator). Contacts and pipeline live in the Convene X CRM (sheet + CRM app). We do not use Xero, HubSpot or Zoho CRM (Zoho Mail is still used).
 - Felix reviews brand and quality before Freya signs off; Freya's sign-off comes before Nathan's.
+- If Nathan says STOP, HALT or ABORT, stop at once and confirm.
+- Log each finished job as a row in the Convene X Agent Jobs sheet (Agent, Title, Result, Needs approval for) so the Command Centre shows it.
 
 ## Who does what
 
@@ -39,7 +41,11 @@ it, use the table below; if two agents share it, pick the owner and name the hel
 | cx-zara | Motion & Microsites | Freya | One-off microsites, scroll films |
 | cx-rhys | Video | Freya | Short videos, edits, recaps |
 
+## Prospecting Machine flow
+Marcus builds lists → Jordan imports, qualifies and keeps the rules and do-not-contact list (owner) → Andrew works the shortlist and drafts outreach (Amara writes templates, Felix checks) → Nathan sends → Jordan logs in the CRM → Victor reviews monthly. App: https://claude.ai/artifact/T5xBi5t6GxPLa861E7fcfa
+
 ## Where things live
+- JARVIS v4 install pack (one Rocket.Chat channel per agent): `jarvis-v4/README.md`.
 - Full skill and tool map: `docs/agent-skill-map.md` (also `00-overview/skill-map.md` in the Doctor Doom Drive vault).
 - Agent source files: Doctor Doom vault in Google Drive, `agents/<name>/` (role, skills, instructions, cadence, log). The `.claude/agents/` files here are built from them; when a vault file changes, rebuild the agent.
 - Internal apps (claude.ai artifacts): Command Centre, CRM, Events Control, Prospecting Machine, Social Media Machine, Finance Control, quote calculator, Convene X Standing.

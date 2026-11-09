@@ -60,16 +60,16 @@ not installed where cloud sessions can see it (it may exist on your PC).
 
 ### Victor Drake: CRO Advisor
 - Skills: `sales:forecast`, `sales:pipeline-review`, `sales:team-pipeline`, `sales:deal-review`, `sales:deal-signals`, `sales:deal-slip-scenario`, `sales:deal-advance-gap`, `sales:win-loss-review`, `convenex-business-plan`, `small-business:business-pulse`, `small-business:growth-pulse`, `product-management:write-spec`, `product-management:roadmap-update`, `product-management:stakeholder-update`, `product-management:metrics-review`, `product-management:brainstorm`, `product-management:product-brainstorming`, `product-management:sprint-planning`
-- Tools: CRM app, Finance Control (read), Convene X CRM sheet, HubSpot (read), Sheets
+- Tools: CRM app, Finance Control (read), Prospecting Machine (monthly review), Convene X CRM sheet, Sheets
 - Move out: `SKILL-design-teardown.md` and `ui-ux-skill-addition.md` sit in Victor's folder but are design skills. Move them to Kai.
 
 ### Andrew Whitfield: Head of Partnerships
 - Skills: `convenex-offer-usp`, `sales:call-prep`, `sales:call-summary`, `sales:close-plan`, `sales:handle-objection`, `sales:account-research`, `sales:create-an-asset`, `small-business:proposal-builder`, `small-business:grant-rfp-writer` (sponsor RFPs), skill-sales / skill-negotiation / skill-commercial (vault)
-- Tools: CRM app, quote calculator, Gmail (drafts only), Cal.com, Apollo, Jotform Sign, Google Docs
+- Tools: Prospecting Machine (works the shortlist, drafts outreach), CRM app, quote calculator, Gmail (drafts only), Cal.com, Apollo, Jotform Sign, Google Docs
 
 ### Marcus Reid: Partnerships Architect
 - Skills: `sales:account-plan`, `sales:account-tiering`, `sales:expansion-whitespace`, `sales:stakeholder-map`, `small-business:grow-pipeline`, `small-business:lead-finder`, `event-lead-magnet-builder`
-- Tools: Prospecting Machine, CRM app, Apollo, Firecrawl people/company search, Apify
+- Tools: Prospecting Machine (builds the lists), CRM app, Apollo, Firecrawl people/company search, Apify
 
 ### Morgan Ellis: Delegate & Guest Relations Lead
 - Skills: `convene-x-calcom:calcom-bookings`, `sales:draft-outreach`, `sales:inbox-sweep`, `sales:lead-triage`, `sales:route-lead`, `sales:schedule-meeting`, `small-business:speed-to-lead`, `small-business:outreach-composer`, `small-business:inbox-manager`, `customer-support:draft-response`, `customer-support:customer-research`, `customer-support:ticket-triage`, `customer-support:customer-escalation`, `customer-support:kb-article` (guest FAQs), `small-business:ticket-deflector`
@@ -77,7 +77,7 @@ not installed where cloud sessions can see it (it may exist on your PC).
 
 ### Jordan Pryce: Sales Ops, Intelligence & Quality Lead
 - Skills: `sales:crm-hygiene-check`, `sales:update-opportunity`, `sales:log-activity`, `sales:account-context`, `sales:rep-context`, `sales:daily-briefing`, `sales:end-of-day`, `sales:weekly-wrap`, `sales:renewal-radar`, `sales:customer-health`, `sales:customer-voice`, `sales:setup`, `small-business:crm-autopilot`, `small-business:call-list`, `small-business:reactivate`, `data:validate-data`, `data:explore-data`, `data:data-context-extractor`, `/cx-sales-research` (PC only)
-- Tools: CRM app, Prospecting Machine, Convene X CRM sheet, HubSpot, Zoho CRM, Apollo, Apify, Supabase
+- Tools: Prospecting Machine (owner: imports, rules, do-not-contact), CRM app, Convene X CRM sheet, Apollo, Apify, Supabase
 
 ### Sienna Cole: Head of Event Operations & Delivery
 - Skills: `operations:runbook`, `operations:process-doc`, `operations:risk-assessment`, `operations:status-report`, `operations:change-request`, `operations:capacity-plan`, `operations:vendor-review` (venues, caterers)
@@ -110,15 +110,15 @@ not installed where cloud sessions can see it (it may exist on your PC).
 
 ### Theo Marsh: Social Media & LinkedIn Strategist
 - Skills: `social-media-expert`, `post-writer` (repo), `viral-hooks` (repo), `post-scheduler` (repo, Buffer), `convenex-carousel-writer`, `small-business:social-content-engine`, `canva:resize-for-social-media`, linkedin-hook-writer (vault)
-- Tools: Social Media Machine, Buffer, Canva, HubSpot social (read)
+- Tools: Social Media Machine, Buffer, Canva, Social Media Machine
 
 ### Amara Osei: Email & Lifecycle Specialist
 - Skills: `marketing:email-sequence`
-- Tools: Gmail (drafts only), HubSpot marketing email (drafts). **No bulk email platform yet** (Brevo planned).
+- Tools: Prospecting Machine (outreach templates), Gmail (drafts only), CRM app (contacts). **No bulk email platform yet** (Brevo planned).
 
 ### Leo Ferreira: Campaign Strategist
 - Skills: `marketing:campaign-plan`, `small-business:ad-manager` (dormant until ad budget)
-- Tools: HubSpot campaigns, Google Calendar
+- Tools: Social Media Machine (campaigns), Google Calendar
 - Vault: event-campaign-runbook, landing-page-sprint
 
 ### Callum Reyes: SEO & Technical Auditor
@@ -135,7 +135,7 @@ not installed where cloud sessions can see it (it may exist on your PC).
 
 ### Sana Iqbal: Performance & Analytics Lead
 - Skills: `marketing:performance-report`, `small-business:report-builder`, `data:analyze`, `data:build-dashboard`, `data:create-viz`, `data:data-visualization`, `data:statistical-analysis`, `data:sql-queries`, `data:write-query`, `dataviz`
-- Tools: CRM app, Finance Control, Social Media Machine, Buffer metrics, HubSpot analytics, Sheets, Supabase
+- Tools: CRM app, Finance Control, Social Media Machine, Buffer metrics, Sheets, Supabase
 
 ### Kai Novak: Web & UX/UI Designer
 - Skills: `web-artifacts-builder`, `theme-factory`, `design:design-system`, `design:design-handoff`, `design:accessibility-review`, `design:user-research`, all `engineering:*` (10), `code-review`, `simplify`, `security-review`. Vault: Elementor skills (lmoncany ×2, jezweb, proofpilot), baseline-ui, improve-ui, ui-skills-root, create-design-md, design-loop, design-teardown, fixing-accessibility, fixing-motion-performance, vercel-react-best-practices, agent-browser
@@ -193,3 +193,22 @@ not installed where cloud sessions can see it (it may exist on your PC).
 Tool gaps (from `tech-stack.md`, still open): Brevo (bulk email, SMS, WhatsApp),
 Make scenarios wired to the CRM, Stripe payment links, and UTM source tracking.
 Accounting runs in our own Finance Control app, not Xero.
+
+---
+
+## 5. Cleanup log (9 November 2026)
+
+Outdated processes removed where a newer one exists:
+
+| Old | Replaced by | What was done |
+|---|---|---|
+| HubSpot and Zoho CRM as the CRM (in 30 vault files and 22 agents) | Convene X CRM (Google Sheet + CRM app), since 6 Nov | Every reference rewritten; logs left as history. Task Tracker item marked Done. |
+| Xero for accounting | Finance Control + quote calculator | Every reference rewritten |
+| 22 "append this to skills.md" addition files that were never merged | Each agent's skills.md | Merged into skills.md under "Merged additions", then binned |
+| Second, older skills.md in Kai's and Zara's folders | The main skills.md | Kai's was fully contained; Zara's 3 extra rules were merged first. Both binned. |
+| "Not yet live (as of 2026-08-15)" status in Callum, Leo and Sana's cadence files | Agent Jobs sheet (all paused 6 Nov) | Status lines updated |
+| Blotato `generate` skill name | `blotato-video` | Renamed (PC `/generate` keeps its name) |
+| "T&C pending solicitor review" warnings in Eleanor's files | T&C reviewed (confirmed 9 Nov) | Status set to DONE; Eleanor only flags if a different version is sent. Task Tracker item marked Done. |
+| 15 empty files + 2 identical duplicates in the Drive root | n/a | Binned (restorable for 30 days) |
+
+Still open (not removed, needs a decision): two Elementor skill versions in Kai's folder (`SKILL-lmoncany-elementor-wordpress.md` and the `-OFFICIAL` copy; the repo uses OFFICIAL), and `scroll-film-studio` stored in both Kai's and Zara's folders (Zara owns it).
