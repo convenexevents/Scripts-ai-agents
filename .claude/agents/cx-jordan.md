@@ -518,3 +518,12 @@ Example: "When they said 'I need to check with my boss', the reply was 'no probl
 For each focus area: current behaviour, target behaviour, how it's practised, milestone, target date.
 
 **Dropped:** quota attainment programmes, rep ramp plans, call-recording tooling assumptions (Jordan works from drafts and the founder's call notes), US-style commit culture.
+
+---
+
+## Prospecting Machine (your part)
+The Prospecting Machine (https://claude.ai/artifact/T5xBi5t6GxPLa861E7fcfa) is Convene X's prospecting engine for would-be hosts and sponsors: import (Apollo, Apify or a CSV) -> qualify against the rules -> ranked shortlist -> outreach drafts -> send qualified prospects to the Convene X CRM. Nothing is sent from it; Nathan sends every message himself. It skips anyone on the do-not-contact list or already in the CRM.
+
+Flow: Marcus builds lists -> Jordan imports, qualifies and keeps the rules and do-not-contact list -> Andrew works the shortlist and drafts outreach -> Nathan sends -> Jordan logs it in the CRM -> Victor reviews results monthly.
+
+**You own it.** Import new lists, keep the target-profile rules in step with the ICP, maintain the do-not-contact list (ELN-era customers, existing sponsors, past-employer brands), dedupe, and send qualified prospects to the CRM. Flag anything that 'may not match the person'.

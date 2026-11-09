@@ -60,16 +60,16 @@ not installed where cloud sessions can see it (it may exist on your PC).
 
 ### Victor Drake: CRO Advisor
 - Skills: `sales:forecast`, `sales:pipeline-review`, `sales:team-pipeline`, `sales:deal-review`, `sales:deal-signals`, `sales:deal-slip-scenario`, `sales:deal-advance-gap`, `sales:win-loss-review`, `convenex-business-plan`, `small-business:business-pulse`, `small-business:growth-pulse`, `product-management:write-spec`, `product-management:roadmap-update`, `product-management:stakeholder-update`, `product-management:metrics-review`, `product-management:brainstorm`, `product-management:product-brainstorming`, `product-management:sprint-planning`
-- Tools: CRM app, Finance Control (read), Convene X CRM sheet, Sheets
+- Tools: CRM app, Finance Control (read), Prospecting Machine (monthly review), Convene X CRM sheet, Sheets
 - Move out: `SKILL-design-teardown.md` and `ui-ux-skill-addition.md` sit in Victor's folder but are design skills. Move them to Kai.
 
 ### Andrew Whitfield: Head of Partnerships
 - Skills: `convenex-offer-usp`, `sales:call-prep`, `sales:call-summary`, `sales:close-plan`, `sales:handle-objection`, `sales:account-research`, `sales:create-an-asset`, `small-business:proposal-builder`, `small-business:grant-rfp-writer` (sponsor RFPs), skill-sales / skill-negotiation / skill-commercial (vault)
-- Tools: CRM app, quote calculator, Gmail (drafts only), Cal.com, Apollo, Jotform Sign, Google Docs
+- Tools: Prospecting Machine (works the shortlist, drafts outreach), CRM app, quote calculator, Gmail (drafts only), Cal.com, Apollo, Jotform Sign, Google Docs
 
 ### Marcus Reid: Partnerships Architect
 - Skills: `sales:account-plan`, `sales:account-tiering`, `sales:expansion-whitespace`, `sales:stakeholder-map`, `small-business:grow-pipeline`, `small-business:lead-finder`, `event-lead-magnet-builder`
-- Tools: Prospecting Machine, CRM app, Apollo, Firecrawl people/company search, Apify
+- Tools: Prospecting Machine (builds the lists), CRM app, Apollo, Firecrawl people/company search, Apify
 
 ### Morgan Ellis: Delegate & Guest Relations Lead
 - Skills: `convene-x-calcom:calcom-bookings`, `sales:draft-outreach`, `sales:inbox-sweep`, `sales:lead-triage`, `sales:route-lead`, `sales:schedule-meeting`, `small-business:speed-to-lead`, `small-business:outreach-composer`, `small-business:inbox-manager`, `customer-support:draft-response`, `customer-support:customer-research`, `customer-support:ticket-triage`, `customer-support:customer-escalation`, `customer-support:kb-article` (guest FAQs), `small-business:ticket-deflector`
@@ -77,7 +77,7 @@ not installed where cloud sessions can see it (it may exist on your PC).
 
 ### Jordan Pryce: Sales Ops, Intelligence & Quality Lead
 - Skills: `sales:crm-hygiene-check`, `sales:update-opportunity`, `sales:log-activity`, `sales:account-context`, `sales:rep-context`, `sales:daily-briefing`, `sales:end-of-day`, `sales:weekly-wrap`, `sales:renewal-radar`, `sales:customer-health`, `sales:customer-voice`, `sales:setup`, `small-business:crm-autopilot`, `small-business:call-list`, `small-business:reactivate`, `data:validate-data`, `data:explore-data`, `data:data-context-extractor`, `/cx-sales-research` (PC only)
-- Tools: CRM app, Prospecting Machine, Convene X CRM sheet, Apollo, Apify, Supabase
+- Tools: Prospecting Machine (owner: imports, rules, do-not-contact), CRM app, Convene X CRM sheet, Apollo, Apify, Supabase
 
 ### Sienna Cole: Head of Event Operations & Delivery
 - Skills: `operations:runbook`, `operations:process-doc`, `operations:risk-assessment`, `operations:status-report`, `operations:change-request`, `operations:capacity-plan`, `operations:vendor-review` (venues, caterers)
@@ -114,7 +114,7 @@ not installed where cloud sessions can see it (it may exist on your PC).
 
 ### Amara Osei: Email & Lifecycle Specialist
 - Skills: `marketing:email-sequence`
-- Tools: Gmail (drafts only), CRM app (contacts). **No bulk email platform yet** (Brevo planned).
+- Tools: Prospecting Machine (outreach templates), Gmail (drafts only), CRM app (contacts). **No bulk email platform yet** (Brevo planned).
 
 ### Leo Ferreira: Campaign Strategist
 - Skills: `marketing:campaign-plan`, `small-business:ad-manager` (dormant until ad budget)

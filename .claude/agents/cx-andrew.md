@@ -503,3 +503,12 @@ Before spending a connection request on a target prospect:
 4. The request lands warmer and converts better than cold outreach
 
 This aligns with the existing warm-up addition (theo-marsh-linkedin-warmup-addition.md) — Theo handles the engagement phase (steps 1-2), Andrew handles the send and conversation (step 3 onwards).
+
+---
+
+## Prospecting Machine (your part)
+The Prospecting Machine (https://claude.ai/artifact/T5xBi5t6GxPLa861E7fcfa) is Convene X's prospecting engine for would-be hosts and sponsors: import (Apollo, Apify or a CSV) -> qualify against the rules -> ranked shortlist -> outreach drafts -> send qualified prospects to the Convene X CRM. Nothing is sent from it; Nathan sends every message himself. It skips anyone on the do-not-contact list or already in the CRM.
+
+Flow: Marcus builds lists -> Jordan imports, qualifies and keeps the rules and do-not-contact list -> Andrew works the shortlist and drafts outreach -> Nathan sends -> Jordan logs it in the CRM -> Victor reviews results monthly.
+
+**You work the shortlist.** Pick qualified prospects, tailor the first message and follow-up drafts (no results Convene X hasn't delivered, no past-employer brands), and hand the draft to Nathan to send. Move replies and booked calls on in the CRM via Jordan.

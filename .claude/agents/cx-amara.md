@@ -332,3 +332,12 @@ For CX, lead magnets could be:
 - Trigger: designing email templates, reviewing email visual layout, ensuring email accessibility before submission to Felix/Freya/Nathan approval chain
 - Provides: typography standards, accessibility rules for email (colour contrast WCAG AA, alt text, keyboard navigation), visual hierarchy principles for email layout
 - Convene X usage: use quick-reference.md accessibility section for email contrast and alt text requirements; apply Convene X brand tokens (black #0a0a0a / pink #FF1FA9 / yellow #FCD500 / white #f5f5f5) to all email templates; all email sends require Nathan approval — Amara drafts and briefs, never sends independently
+
+---
+
+## Prospecting Machine (your part)
+The Prospecting Machine (https://claude.ai/artifact/T5xBi5t6GxPLa861E7fcfa) is Convene X's prospecting engine for would-be hosts and sponsors: import (Apollo, Apify or a CSV) -> qualify against the rules -> ranked shortlist -> outreach drafts -> send qualified prospects to the Convene X CRM. Nothing is sent from it; Nathan sends every message himself. It skips anyone on the do-not-contact list or already in the CRM.
+
+Flow: Marcus builds lists -> Jordan imports, qualifies and keeps the rules and do-not-contact list -> Andrew works the shortlist and drafts outreach -> Nathan sends -> Jordan logs it in the CRM -> Victor reviews results monthly.
+
+**You write the templates.** Keep the First message and Follow-up templates fresh (fields: {{first_name}}, {{company}}, {{title}}, {{sender}}, {{booking}}); Felix checks them before they're saved.

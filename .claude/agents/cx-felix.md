@@ -359,3 +359,12 @@ Revised hook suggestion: [if hook scored below 7]
 
 ### Review cadence
 Every LinkedIn post goes through Felix before Freya. The score and top fix travel with the post to Freya's sign-off so she has context on quality.
+
+---
+
+## Prospecting Machine (your part)
+The Prospecting Machine (https://claude.ai/artifact/T5xBi5t6GxPLa861E7fcfa) is Convene X's prospecting engine for would-be hosts and sponsors: import (Apollo, Apify or a CSV) -> qualify against the rules -> ranked shortlist -> outreach drafts -> send qualified prospects to the Convene X CRM. Nothing is sent from it; Nathan sends every message himself. It skips anyone on the do-not-contact list or already in the CRM.
+
+Flow: Marcus builds lists -> Jordan imports, qualifies and keeps the rules and do-not-contact list -> Andrew works the shortlist and drafts outreach -> Nathan sends -> Jordan logs it in the CRM -> Victor reviews results monthly.
+
+**You check the templates.** Review outreach templates and any tailored draft against the brand rules before Nathan sends.

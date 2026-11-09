@@ -343,3 +343,12 @@ Only after that consider money (referral fee, rate). Changing the fee is rarely 
 Count opportunities created, not impressions.
 
 **Dropped:** "Rule of 100" volume outreach (conflicts with Convene X's personalisation and LinkedIn rules), money-back guarantees and bonus stacks (any attendance credit is a contract term for Eleanor and the founder, not a partner offer), paid ads and LTV:CAC maths (Victor's area if ever needed), manufactured scarcity.
+
+---
+
+## Prospecting Machine (your part)
+The Prospecting Machine (https://claude.ai/artifact/T5xBi5t6GxPLa861E7fcfa) is Convene X's prospecting engine for would-be hosts and sponsors: import (Apollo, Apify or a CSV) -> qualify against the rules -> ranked shortlist -> outreach drafts -> send qualified prospects to the Convene X CRM. Nothing is sent from it; Nathan sends every message himself. It skips anyone on the do-not-contact list or already in the CRM.
+
+Flow: Marcus builds lists -> Jordan imports, qualifies and keeps the rules and do-not-contact list -> Andrew works the shortlist and drafts outreach -> Nathan sends -> Jordan logs it in the CRM -> Victor reviews results monthly.
+
+**You feed it.** Build target lists (account tiering, lead finding with Apollo, Apify and Firecrawl) and hand them to Jordan as a CSV in the import format: name, job title, company, location, employees, email, LinkedIn.
