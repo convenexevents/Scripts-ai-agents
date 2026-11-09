@@ -30,7 +30,12 @@ Two readers:
 
 ## Primary CTA
 Book a 45-minute exploratory call: a conversation about their audience and
-goals, not a pitch. Link: [BOOKING LINK]
+goals, not a pitch.
+Link: https://cal.com/convenexevents/15min (the same link as every "Book
+Exploratory Call" button on convenexevents.com)
+
+LinkedIn tip: links in the post body cut reach. Put the booking link in the
+first comment, and end the post with "Link in the first comment".
 
 ## Strong Opinion / Wedge
 The best sponsored event is the one where nobody sells. Sponsors earn

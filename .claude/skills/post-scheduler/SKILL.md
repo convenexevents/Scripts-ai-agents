@@ -23,6 +23,10 @@ Organisation "My organization" (Buffer free plan: 3 channels, max 10 scheduled p
 | LinkedIn | convene-x-events-363baa3a3 | personal profile | Only if the user asks for the personal profile |
 | Instagram | convenexevents | personal profile | Needs an image or video; reminder-only (see below) |
 
+Company page queue (Europe/London): Mon 21:25/22:09, Tue 21:05/22:21, Wed 16:08/17:52, Thu 13:25/15:57, Fri 14:16/16:47, Sat 06:56/09:09, Sun 06:52/22:06. Change these in Buffer > channel > Posting Schedule.
+
+Booking link for CTAs: https://cal.com/convenexevents/15min. On LinkedIn, put it in `metadata.linkedin.firstComment`, not the post body.
+
 Always re-fetch IDs with `list_channels` rather than trusting this table. Never guess a channel ID.
 
 ## When to Activate
