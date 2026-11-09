@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Install the Convene X agent team into a JARVIS v4 checkout.
 # Usage: bash jarvis-v4/install.sh /path/to/jarvis-v4 [--deploy]
+#   JARVIS_ENGINE=claude  run agents on Claude Code instead of Cursor (needs patch-claude-engine.py)
 #   --deploy  also runs `python3 deploy.py cx-<name> --no-attach` for every agent
 #             (needs Rocket.Chat set up first: python3 apps/master-rocketchat.py setup)
 set -euo pipefail
@@ -11,7 +12,7 @@ DEPLOY="${2:-}"
 [ -f "$V4/deploy.py" ] && [ -f "$V4/templates/agent-context.md" ] || { echo "Not a JARVIS v4 checkout: $V4"; exit 1; }
 
 python3 - "$REPO" "$V4" <<'PY'
-import json, re, sys, shutil
+import json, os, re, sys, shutil
 from pathlib import Path
 repo, v4 = Path(sys.argv[1]), Path(sys.argv[2])
 meta = json.loads((repo/"jarvis-v4/agents.json").read_text(encoding="utf-8"))
@@ -29,6 +30,8 @@ for slug, m in meta.items():
             f"**Department:** {m['department']}  \n**Reports to:** {m['reports_to']}  \n"
             "**Fleet rules:** see the Convene X addendum at the end of `../../MASTER-CONTEXT.md`.\n\n" + body + "\n")
     (d/"context.md").write_text(ctx, encoding="utf-8")   # deploy.py keeps an existing context.md
+    if os.environ.get("JARVIS_ENGINE") == "claude":
+        (d/".jarvis-engine").write_text("claude\n", encoding="utf-8")
     (d/"tags.json").write_text(json.dumps(["Convene X", m["department"], "reports to " + m["reports_to"]]), encoding="utf-8")
     for sub in ("routines", "utilities", "docs"):
         t = v4/"templates"/sub/"README.md"
