@@ -1,6 +1,6 @@
 # Convene X agent team: skills, tools and org chart
 
-Audit date: 9 November 2026. Sources: Doctor Doom vault in Google Drive
+Audit date: 9 November 2026. Live copies: Command Centre → Agents tab (org chart + skills per agent), and `00-overview/skill-map.md` in Doctor Doom. Sources: Doctor Doom vault in Google Drive
 (`org-chart.md`, `team-roster.md`, `INDEX.md`, `tech-stack.md`, Agency Agents
 Playbooks `README.md`, Convene X Agent Jobs sheet), the skills installed in
 claude.ai, the plugins and connectors attached to this session, and this repo's
@@ -14,48 +14,45 @@ pays without the founder's explicit sign-off.
 ## 1. Org chart (22 agents + Jarvis)
 
 ```
-Founder
+Nathan (founder, signs off everything)
 │
-├── Jarvis ............................ Orchestrator / chief of staff (routes work, morning brief)
+├── Jarvis ................. Orchestrator: routes every job, morning brief
 │
-├── Victor Drake ...................... CRO Advisor (revenue strategy)              [manual only]
-│   ├── Andrew Whitfield .............. Head of Partnerships (sponsors, deals)       [manual only]
-│   │   └── Marcus Reid ............... Partnerships Architect (accounts, offers)    [manual only]
-│   ├── Morgan Ellis .................. Delegate & Guest Relations Lead              [manual only]
-│   └── Jordan Pryce .................. Sales Ops, Intelligence & Quality Lead
+├── Victor Drake ........... CRO Advisor                              [manual only]
+├── Andrew Whitfield ....... Head of Partnerships                     [manual only]
+├── Marcus Reid ............ Partnerships Architect                   [manual only]
+├── Morgan Ellis ........... Delegate & Guest Relations Lead          [manual only]
+├── Jordan Pryce ........... Sales Ops, Intelligence & Quality Lead
+├── Sienna Cole ............ Head of Event Operations & Delivery
+├── Priya Anand ............ Head of Finance
+├── Grace Bellamy .......... Operations & Admin Coordinator
+├── Eleanor Voss ........... Legal & Compliance Lead                  [manual only]
 │
-├── Freya Lockhart .................... Head of Marketing & Content
-│   ├── Felix Grant ................... Brand & Quality Reviewer (gate before Freya signs off)
-│   ├── Iris Bennett .................. Senior Content Writer
-│   ├── Theo Marsh .................... Social Media & LinkedIn Strategist
-│   ├── Amara Osei .................... Email & Lifecycle Specialist
-│   ├── Leo Ferreira .................. Campaign Strategist
-│   ├── Callum Reyes .................. SEO & Technical Auditor
-│   ├── Dev Malhotra .................. Keyword & Search Insights Analyst
-│   ├── Nadia Kovač ................... Competitive Intelligence Analyst
-│   ├── Sana Iqbal .................... Performance & Analytics Lead
-│   ├── Kai Novak ..................... Web & UX/UI Designer (owns convenexevents.com)
-│   ├── Zara Lindqvist ................ Motion & Microsite Specialist (one-off microsites only)
-│   └── Rhys Calder ................... Video Editor & Motion Film Producer
-│
-├── Sienna Cole ....................... Head of Event Operations & Delivery
-├── Priya Anand ....................... Head of Finance
-├── Grace Bellamy ..................... Operations & Admin Coordinator
-└── Eleanor Voss ...................... Legal & Compliance Lead                      [manual only]
+└── Freya Lockhart ......... Head of Marketing & Content
+    ├── Felix Grant ........ Brand & Quality Reviewer (gate before Freya signs off)
+    ├── Iris Bennett ....... Senior Content Writer
+    ├── Theo Marsh ......... Social Media & LinkedIn Strategist (owns Buffer posting)
+    ├── Amara Osei ......... Email & Lifecycle Specialist
+    ├── Leo Ferreira ....... Campaign Strategist
+    ├── Callum Reyes ....... SEO & Technical Auditor
+    ├── Dev Malhotra ....... Keyword & Search Insights Analyst
+    ├── Nadia Kovač ........ Competitive Intelligence Analyst
+    ├── Sana Iqbal ......... Performance & Analytics Lead
+    ├── Kai Novak .......... Web & UX/UI Designer (owns convenexevents.com)
+    ├── Zara Lindqvist ..... Motion & Microsite Specialist (one-off microsites only)
+    └── Rhys Calder ........ Video Editor & Motion Film Producer (added 2026-11-06)
 ```
 
-**Proposed change (needs your OK):** the vault has all 10 leads reporting to you
-directly. The chart above groups Andrew, Marcus, Morgan and Jordan under Victor
-as a revenue team, so you get one revenue view instead of four. If you'd rather
-keep them flat, everything below still applies; only the reporting lines move.
+**Proposed, not yet agreed:** group Andrew, Marcus, Morgan and Jordan under
+Victor as one revenue team, so you get one revenue view instead of four.
 
 ---
 
 ## 2. Skills and tools by agent
 
 Legend: **(repo)** = in this repo's `.claude/skills/`; **(vault)** = a file in
-the Doctor Doom vault, not a callable skill; **MISSING** = named in the roster
-but not installed anywhere Claude can see.
+the Doctor Doom vault, not a callable skill; **NOT IN CLOUD** = named in the roster but
+not installed where cloud sessions can see it (it may exist on your PC).
 
 ### Jarvis: Orchestrator
 - Skills: `morning`, `productivity:start`, `productivity:update`, `productivity:task-management`, `productivity:memory-management`, `enterprise-search:search`, `enterprise-search:digest`, `enterprise-search:knowledge-synthesis`, `enterprise-search:search-strategy`, `enterprise-search:source-management`, `small-business:smb-router`, `small-business:smb-onboard`, `small-business:monday-brief`, `small-business:build-agent`, `small-business:build-connector`, `convenex-brain-builder`, `learn`, `import-memory`, `skill-creator`, `find-skills` (vault), `teach` / `grilling` / `grill-me` (vault)
@@ -143,17 +140,17 @@ but not installed anywhere Claude can see.
 ### Kai Novak: Web & UX/UI Designer
 - Skills: `web-artifacts-builder`, `theme-factory`, `design:design-system`, `design:design-handoff`, `design:accessibility-review`, `design:user-research`, all `engineering:*` (10), `code-review`, `simplify`, `security-review`. Vault: Elementor skills (lmoncany ×2, jezweb, proofpilot), baseline-ui, improve-ui, ui-skills-root, create-design-md, design-loop, design-teardown, fixing-accessibility, fixing-motion-performance, vercel-react-best-practices, agent-browser
 - Tools: WordPress, Figma
-- **MISSING:** `web-designer` (his core skill per the roster)
+- **NOT IN CLOUD:** `web-designer` (his core skill per the roster)
 
 ### Zara Lindqvist: Motion & Microsite Specialist
 - Skills: `canvas-design`, `small-business:canva-creator`, `canva:edit-design`, `canva:implement-feedback`, `canva:bulk-create`, scroll-film-studio (vault), skill-graphic-designer (vault)
 - Tools: Canva, Higgsfield, Figma
-- **MISSING:** `motion-microsite` (her core skill per the roster)
+- **NOT IN CLOUD:** `motion-microsite` (her core skill per the roster)
 
 ### Rhys Calder: Video Editor & Motion Film Producer
 - Skills: `generate` (repo, kie.ai video)
 - Tools: Higgsfield, Canva video
-- **MISSING:** video-director, huashu-motion, take-one, explainroo, argo-guide, rossark-motion-skill, reanimate, earshot, real-sound (all 9 roster skills)
+- **NOT IN CLOUD:** video-director, huashu-motion, take-one, explainroo, argo-guide, rossark-motion-skill, reanimate, earshot, real-sound (all 9 roster skills; his role file says they run on the PC)
 
 ### Not assigned (no current need)
 - `human-resources:*` (9 skills), `small-business:hiring-screener`, `small-business:job-post-builder`, `small-business:payroll-prep`, `small-business:plan-payroll`: no staff yet
@@ -166,10 +163,10 @@ but not installed anywhere Claude can see.
 
 ## 3. Problems found
 
-1. **The org chart is out of date.** `org-chart.md` shows 19 agents and leaves out Victor Drake, Marcus Reid and Rhys Calder. The roster lists 22.
-2. **Automation status contradicts itself.** The roster says the Sana, Leo and Callum jobs went live on 24 Sep; INDEX says "not yet live". The Agent Jobs sheet shows all 8 scheduled jobs and 6 starter jobs were cancelled on 6 Nov. Right now **no agent runs on a schedule**.
+1. ~~The org chart is out of date.~~ **Fixed 9 Nov:** `org-chart.md` in Drive is rewritten with all 22 agents + Jarvis. The Command Centre Agents tab now includes Rhys, shows the org chart, and lists each agent's skills.
+2. **No agent runs on a schedule.** The Agent Jobs sheet shows all 8 scheduled jobs and 6 starter jobs were cancelled on 6 Nov to replan. `team-roster.md` now says so (fixed 9 Nov); `INDEX.md` still has the old wording.
 3. **9 empty skill files in the Drive root.** `skill-aeo.md` ×2, `skill-commercial.md` ×2, `skill-compliance-os.md` ×2, `skill-sales.md`, `skill-negotiation.md`: all 0 bytes. `skill-graphic-designer.md` exists 3 times. These look like failed uploads. The real ones should be in the vault's `Skills/` folder; delete the empties.
-4. **Roster skill names don't match what's installed.** campaign-planner, email-sequencer, brand-reviewer and performance-reporter aren't installed; the marketing plugin versions (`marketing:campaign-plan`, `email-sequence`, `brand-review`, `performance-report`) do the same job. Update the roster.
+4. ~~Roster skill names don't match what's installed.~~ **Fixed 9 Nov:** `team-roster.md` now uses the installed names (`marketing:campaign-plan`, `email-sequence`, `brand-review`, `performance-report`).
 5. **`generate` name clash.** The tech stack names a `/generate` skill (OpenRouter, Kie, fal) on your PC; the Blotato one in this repo has the same name. Rename one.
 6. **The `cx-<name>` Claude Code agents exist only on your PC** (`~/.claude/agents`), so cloud sessions can't call "get Amara to…".
 7. **Connectors failing in cloud sessions:** Slack, Notion, Asana, Ahrefs, Klaviyo, Similarweb, Calendly, Clay and others (proxy refused), plus n8n. SEO_Data, BigQuery and Datadog need sign-in.
@@ -180,9 +177,9 @@ but not installed anywhere Claude can see.
 
 | # | Missing | For | Why it matters |
 |---|---|---|---|
-| 1 | `web-designer` | Kai | His core skill per the roster; not installed |
+| 1 | `web-designer` | Kai | His core skill per the roster; not visible to cloud sessions |
 | 2 | `motion-microsite` | Zara | Same |
-| 3 | Rhys's 9 video skills | Rhys | None installed; he only has `generate` |
+| 3 | Rhys's 9 video skills | Rhys | PC only; in the cloud he only has `generate` |
 | 4 | Delegate fit scorer / guest-list builder | Morgan | Scores sign-ups against the Director+ ICP and five sectors, and builds the host sign-off list. That's the core of the business, and no skill does it. |
 | 5 | Event run-sheet & seating plan | Sienna | Day-of timings, table plan, host briefing pack. `operations:runbook` is generic. |
 | 6 | Venue shortlist & booking brief | Sienna | Pulls from the 10+ London venue pages on the site and compares options |
