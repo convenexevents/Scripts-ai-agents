@@ -1,21 +1,35 @@
 ---
 name: post-scheduler
-description: Schedule a finished social post to one or more platforms via the Blotato API. Handles single-platform and multi-platform scheduling, fetches connected accounts, applies a final pre-publish check, and returns scheduled time + post IDs. Triggers on "schedule this," "post this to [platform]," or as the final step in content-coach and post-writer flows. Falls back to saving the post as a copy-paste file if Blotato isn't configured.
+description: Schedule a finished social post to one or more platforms via Buffer. Handles single-platform and multi-platform scheduling, fetches connected Buffer channels, applies a final pre-publish check, gets explicit sign-off, and returns scheduled time + post IDs. Triggers on "schedule this," "post this to [platform]," "queue this in Buffer," or as the final step in content-coach and post-writer flows. Falls back to saving the post as a copy-paste file if Buffer isn't connected.
 argument-hint: "[post text or path] [platform(s)] [optional time]"
-allowed-tools: Read, Write, Edit, Glob, AskUserQuestion, mcp__blotato__blotato_list_accounts, mcp__blotato__blotato_create_post, mcp__blotato__blotato_get_post_status
+allowed-tools: Read, Write, Edit, Glob, AskUserQuestion, mcp__Buffer__get_account, mcp__Buffer__list_channels, mcp__Buffer__get_channel, mcp__Buffer__create_post, mcp__Buffer__list_posts
 ---
 
-# Post Scheduler
+# Post Scheduler (Buffer)
 
-You take an approved post and ship it via Blotato. You do NOT write or revise the post — that's `post-writer`'s job. By the time a post reaches you, it's been graded and approved.
+You take an approved post and ship it via Buffer. You do NOT write or revise the post. That's `post-writer`'s job. By the time a post reaches you, it's been graded and approved.
 
-If Blotato isn't set up (no API key, no connected account), you fall back gracefully: save the post to a file the user can paste manually. Don't fail the flow.
+If Buffer isn't available (connector missing, no channel for the platform), fall back gracefully: save the post to a file the user can paste manually. Don't fail the flow.
+
+**House rule: nothing is sent to Buffer without explicit sign-off for that specific post.** A Buffer post that isn't a draft will publish and can't be unsent.
+
+## Connected channels (as of November 2026)
+
+Organisation "My organization" (Buffer free plan: 3 channels, max 10 scheduled posts at once). Account timezone: Europe/London.
+
+| Platform | Channel | Type | Notes |
+|---|---|---|---|
+| LinkedIn | convene-x-events | company page | **Default for all company content** |
+| LinkedIn | convene-x-events-363baa3a3 | personal profile | Only if the user asks for the personal profile |
+| Instagram | convenexevents | personal profile | Needs an image or video; reminder-only (see below) |
+
+Always re-fetch IDs with `list_channels` rather than trusting this table. Never guess a channel ID.
 
 ## When to Activate
 
 - "Schedule this post"
-- "Post this to Instagram tomorrow at 9am"
-- "Send this to LinkedIn"
+- "Post this to LinkedIn tomorrow at 9am"
+- "Queue this in Buffer"
 - Auto-called as the final step of `content-coach` after user approval.
 
 ## Workflow
@@ -23,24 +37,26 @@ If Blotato isn't set up (no API key, no connected account), you fall back gracef
 ### Step 1: Get inputs
 
 You need:
-1. **Post text** — inline, or path to a file
-2. **Platform(s)** — one or more from: instagram, facebook, twitter, linkedin, tiktok, threads, bluesky, youtube
-3. **Time** — default `useNextFreeSlot: true`, or a specific ISO timestamp if user specified
+1. **Post text**: inline, or path to a file
+2. **Platform(s)**: linkedin and/or instagram (the connected channels). For any other platform, say it isn't connected in Buffer and offer the paste file.
+3. **Time**: default is Buffer's queue (`mode: addToQueue`). Use `customScheduled` + `dueAt` only if the user names a time.
+4. **Media** (Instagram only, required): a public, directly downloadable image or video URL.
 
-If platform is missing, ask. Don't guess.
+If platform is missing, ask. Don't guess. For LinkedIn, default to the company page.
 
 ### Step 2: Final pre-publish check
 
-Before hitting Blotato, scan the post one more time for:
+Before touching Buffer, scan the post one more time for:
 
 - [ ] Zero em dashes
 - [ ] No banned filler ("really," "very," "just," "basically," "literally," "actually")
+- [ ] No banned words from `brand-brief.md` (unlock, leverage, elevate, seamless, etc.)
 - [ ] No filler openers ("in today's world," "let me tell you")
-- [ ] Active voice
-- [ ] Contractions used
-- [ ] Hashtag count fits platform (0 for Twitter/Threads/Bluesky/LinkedIn/Facebook, 3-5 for Instagram, max 5 for TikTok)
+- [ ] Active voice, contractions used, UK spelling
+- [ ] Hashtag count fits platform (0-3 for LinkedIn, 3-5 for Instagram)
 - [ ] For Instagram: media URL is attached
-- [ ] For LinkedIn: no external links in post body
+- [ ] For LinkedIn: external links are flagged (they reduce reach; suggest putting the link in the first comment via `metadata.linkedin.firstComment`)
+- [ ] Convene X non-negotiables (from `brand-brief.md`): no personal names, proof framed as "in previous roles", no "Convene X has delivered", no promised leads/ROI, no pricing, no unconfirmed numbers
 
 If anything fails, **stop and report**:
 
@@ -54,71 +70,78 @@ Want me to send this back to post-grader, or override and ship as-is?
 
 Wait for explicit user response. Don't auto-fix without permission.
 
-### Step 3: Fetch connected accounts
+### Step 3: Fetch channels
 
-```
-mcp__blotato__blotato_list_accounts()
-```
+1. `mcp__Buffer__get_account()` → organisation ID and `currentTime` (the reference for "now", "tomorrow", etc.). Tell the user which organisation you're using.
+2. `mcp__Buffer__list_channels({ organizationId })` → match requested platforms to channel IDs. Skip any channel with `isDisconnected` or `isLocked` true and tell the user.
 
-Group results by platform. If a requested platform has multiple accounts, ask which to use.
-
-If a requested platform has **zero** accounts:
+If a requested platform has **zero** channels:
 ```
-No [platform] account is connected to Blotato. To connect:
-1. Open Blotato (blotato.com)
-2. Add [platform] from the Accounts page
-3. Come back and re-run this skill
+No [platform] channel is connected to Buffer. To connect one, open
+buffer.com > Channels > Connect a channel, then re-run this.
 
 For now, I can save the post to a file so you can paste it manually. Want that?
 ```
 
-### Step 4: Schedule
+### Step 4: Confirm before sending (required)
 
-For **single platform**, call Blotato directly:
+Show exactly what will happen and wait for an explicit yes:
 
 ```
-mcp__blotato__blotato_create_post({
-  accountId: "<account_id>",
-  platform: "<platform>",
+Ready to send to Buffer:
+
+| Channel | Mode | Time |
+|---|---|---|
+| LinkedIn company page (convene-x-events) | Queue | Next free slot |
+
+Reply "schedule" to queue it, "draft" to save it as a Buffer draft instead, or "cancel".
+```
+
+"Draft" is the safe option: it sits in Buffer for a final review and never publishes on its own.
+
+### Step 5: Send to Buffer
+
+One `create_post` call per channel:
+
+```
+mcp__Buffer__create_post({
+  channelId: "<exact id from list_channels>",
+  schedulingType: "automatic",          // see Instagram note
+  mode: "addToQueue",                   // or "customScheduled" + dueAt
+  dueAt: "2026-11-12T09:00:00+00:00",   // only with customScheduled; Europe/London offset, must be in the future
+  saveToDraft: false,                   // true if the user chose "draft"
   text: "<post text>",
-  mediaUrls: ["<url>"],  // or [] for text-only
-  useNextFreeSlot: true   // or scheduledTime: "2026-04-30T09:00:00Z"
+  assets: [{ image: { url: "<public url>", metadata: { altText: "<description>" } } }]  // optional for LinkedIn
 })
 ```
 
-Platform-specific required fields (add as needed):
-- **Facebook**: `pageId` (Facebook Page ID — required)
-- **TikTok**: `privacyLevel` (one of: `PUBLIC_TO_EVERYONE`, `MUTUAL_FOLLOW_FRIENDS`, `SELF_ONLY`), `disableDuet`, `disableComment`, `disableStitch`
-- **YouTube**: `title` (under 100 chars), `privacyStatus` (one of: `public`, `unlisted`, `private`)
-- **Instagram**: `mediaUrls` is required (Instagram requires media)
+Platform specifics:
+- **LinkedIn**: text-only is fine. Optional `metadata.linkedin.firstComment` for a link.
+- **Instagram** (personal profile): requires an image or video asset, `metadata.instagram: { type: "post" | "reel" | "story", shouldShareToFeed: true }`, and **`schedulingType: "notification"`**. Buffer sends a phone reminder and the user publishes by hand. Tell them that.
+- Never use `mode: "shareNow"` unless the user says "post now" or "publish immediately".
 
-For **multiple platforms**, call Blotato once per platform. The same text may need slight tweaks (e.g., shorten for Bluesky's 300-char limit). If a post is over a platform's limit, ask the user how to handle it: shorten, skip that platform, or override.
+Buffer's free plan allows 10 scheduled posts at once. If `create_post` fails on a limit, tell the user and offer to save as a draft instead.
 
-### Step 5: Report results
-
-Show the user a confirmation table:
+### Step 6: Report results
 
 ```
-## Scheduled
+## Scheduled in Buffer
 
-| Platform | Account | Time | Status | Post ID |
+| Platform | Channel | Time | Status | Post ID |
 |----------|---------|------|--------|---------|
-| Instagram | @username | Next free slot | Scheduled | abc-123 |
-| Twitter | @username | Next free slot | Scheduled | def-456 |
+| LinkedIn | convene-x-events (page) | Queue: Thu 12 Nov, 09:00 | Scheduled | 6a5... |
 
-You can view and edit scheduled posts at https://my.blotato.com/scheduler
+View or edit at https://publish.buffer.com
 ```
 
-For partial failures (3 of 5 succeed), report success and failure separately. Don't roll back.
+Use the `dueAt`/status the API returns, not your guess. For partial failures, report successes and failures separately. Don't roll back.
 
-### Step 6: Fallback (no Blotato)
+### Step 7: Fallback (no Buffer)
 
-If `mcp__blotato__blotato_list_accounts` errors out (not signed in, MCP server not configured, or no connected accounts):
+If the Buffer tools error out or aren't available:
 
 ```
-Blotato isn't connected. I'll save your post so you can copy-paste it manually.
-
-To enable scheduling, sign in to Blotato (one-time OAuth) and connect your accounts.
+Buffer isn't reachable right now. I've saved your post so you can copy-paste it manually.
 ```
 
 Save to `post-ready-to-paste.txt` in the current directory:
@@ -136,92 +159,18 @@ If multi-platform, save one block per platform. Tell the user the file path.
 
 ## What NOT to Do
 
+- **Don't send anything to Buffer without the Step 4 sign-off.** Every post, every time.
 - **Don't auto-fix voice issues.** That's `post-grader` and `post-writer`'s job. You only flag and ask.
-- **Don't skip the pre-publish check.** It's the last line of defense.
-- **Don't post immediately by default.** Default is `useNextFreeSlot: true`. Only publish-now when the user explicitly says "post now" or "publish immediately."
-- **Don't poll for status on scheduled posts.** Blotato confirms scheduling instantly. Status polling is only for immediate publishes that return `in-progress`.
-- **Don't fail silently if Blotato errors.** Always either retry once, fall back to file, or tell the user the exact error.
-- **Don't log success without the post ID.** "Done" without evidence isn't done.
-
-## Setting Up Blotato (one-time, for new users)
-
-If the user has never used Blotato, walk them through this. **Don't dump all 4 sections at once — go one at a time, wait for them to confirm, then move to the next.**
-
-### Part 1: Create a Blotato account (5 minutes)
-
-1. Open a browser and go to **https://blotato.com**
-2. Click **Sign up** (top right corner). You can sign up with Google, or with email + password.
-3. After signup, you'll land in the Blotato dashboard. Keep this tab open — you'll need it for Part 2.
-
-**If something goes wrong**: If the Sign up button doesn't appear, refresh the page. If signup fails, try a different browser (Chrome works best). Email signups need email verification — check spam.
-
-### Part 2: Connect your social accounts (5-10 minutes per platform)
-
-Blotato can only post to platforms you connect. Connect each platform you want to post to.
-
-1. In the Blotato dashboard, find the **Accounts** or **Connections** section in the left sidebar.
-2. Click **Add account** and pick a platform (e.g., Instagram).
-3. A pop-up will open asking you to sign in to that platform and authorize Blotato. Sign in with the account you want to post from.
-4. Approve the permissions. The pop-up will close. The account should now appear in your Blotato dashboard.
-5. Repeat for each platform you want (Instagram, Facebook, LinkedIn, Twitter, TikTok, Threads, Bluesky, YouTube).
-
-**If something goes wrong**:
-- *Pop-up blocked*: Allow pop-ups for blotato.com in your browser, then retry.
-- *Instagram fails*: You'll need a Business or Creator account on Instagram (Personal accounts can't be connected). Switch in the Instagram app under Settings → Account type.
-- *Facebook fails*: You need a Facebook Page (not just a personal profile). Create one for free at facebook.com/pages/create.
-- *TikTok fails*: TikTok requires going through their developer portal sometimes — Blotato's setup wizard will tell you what to click.
-
-You don't have to connect every platform on day one. Start with 1-2.
-
-### Part 3: Connect Blotato to Claude (5 minutes)
-
-The Blotato MCP server is what lets Claude talk to Blotato. It runs remotely — no install, no config files. You connect it once.
-
-**Prerequisite**: MCP access needs a paid Blotato plan and at least one connected social account (Part 2).
-
-**For Claude.ai Web, Claude Desktop, or Claude Cowork (OAuth — easiest):**
-1. In the left sidebar, click **Customize** > **Connectors**.
-2. Click the **+** button > **Add custom connector**.
-3. Name: `Blotato`
-4. URL: `https://mcp.blotato.com/mcp`
-5. Click **Connect** and approve access.
-
-You must be logged into your Blotato account in the same browser to finish the OAuth approval.
-
-**For Claude Code (Terminal):**
-1. Start a Claude Code session.
-2. Paste this command:
-   ```bash
-   claude mcp add --transport http Blotato https://mcp.blotato.com/mcp
-   ```
-3. Run `/mcp`, select `Blotato > Authenticate`, and approve access.
-4. Restart Claude Code.
-
-**For Cursor, Antigravity, Codex, and other API-key clients:**
-1. Grab your API key from [Settings > API](https://my.blotato.com/settings/api).
-2. Follow the "Other MCP Clients" steps in the setup guide (link below).
-
-Full setup guide with screenshots and troubleshooting: **https://help.blotato.com/api/mcp/setup**
-
-### Part 4: Authorize on first use (1 minute)
-
-If you approved access during Part 3, you're already authorized — skip to scheduling. If you skipped that approval, the first Blotato tool call triggers sign-in:
-
-1. Ask Claude to schedule a post (or type `/post-scheduler`).
-2. The first Blotato MCP tool call opens a browser tab asking you to sign in to Blotato (OAuth flow).
-3. Sign in with the same account from Part 1. Approve.
-4. The browser tab will say "you can close this window now." Go back to Claude. The MCP is now authorized.
-
-That's it. From now on, Claude can schedule posts to Blotato without re-authenticating until the OAuth session expires (typically 30+ days).
-
-### What if I skip all this?
-
-This skill works without Blotato. If you're not ready to set it up, it'll save your post to a file (`post-ready-to-paste.txt`) and you can copy-paste it into each platform manually. You'll lose the scheduling automation but you'll still get the writing + grading.
+- **Don't skip the pre-publish check.** It's the last line of defence.
+- **Don't publish immediately by default.** Default is the queue.
+- **Don't guess channel IDs or timezones.** Use `list_channels` and `get_account`.
+- **Don't fail silently.** Retry once, fall back to the file, or show the exact error.
+- **Don't report success without the Buffer post ID.**
 
 ## Error Handling
 
-- **401/403**: OAuth session expired. Tell the user to re-authenticate with Blotato (the MCP will prompt sign-in again).
-- **429**: Rate limited. Wait per `Retry-After` header, retry once.
-- **Missing account**: Platform not connected. Show fallback file option.
-- **Post over char limit**: Don't auto-truncate. Ask the user how to handle.
-- **Network failure**: Retry once. If it fails again, save to fallback file and report.
+- **Auth error**: Buffer connector needs reconnecting in claude.ai connector settings. Fall back to the file.
+- **Rate limit**: Buffer returns `rateLimit` with `resetSeconds`. Wait or tell the user; retry once.
+- **Validation error** (e.g. Instagram without media): show the error, ask for the missing piece.
+- **Scheduled-post limit reached**: offer to save as a draft.
+- **Post over character limit** (LinkedIn 3,000; Instagram 2,200): don't auto-truncate. Ask.

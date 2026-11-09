@@ -104,7 +104,7 @@ If they want edits, take the change, re-run grader, show again.
 
 On approval, hand off to `post-scheduler` with the post text + platform.
 
-If `post-scheduler` reports Blotato isn't set up, fall back: copy the post text to a file (`post-ready-to-paste.txt`), tell the user "Blotato isn't connected yet. I've saved your post to `post-ready-to-paste.txt` — copy and paste it into [platform]."
+If `post-scheduler` reports Buffer isn't reachable or has no channel for that platform, fall back: copy the post text to a file (`post-ready-to-paste.txt`), tell the user "Buffer isn't connected for [platform]. I've saved your post to `post-ready-to-paste.txt`, copy and paste it into [platform]."
 
 ## Tone with the User
 
