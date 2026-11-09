@@ -208,6 +208,7 @@ Outdated processes removed where a newer one exists:
 | Second, older skills.md in Kai's and Zara's folders | The main skills.md | Kai's was fully contained; Zara's 3 extra rules were merged first. Both binned. |
 | "Not yet live (as of 2026-08-15)" status in Callum, Leo and Sana's cadence files | Agent Jobs sheet (all paused 6 Nov) | Status lines updated |
 | Blotato `generate` skill name | `blotato-video` | Renamed (PC `/generate` keeps its name) |
+| "T&C pending solicitor review" warnings in Eleanor's files | T&C reviewed (confirmed 9 Nov) | Status set to DONE; Eleanor only flags if a different version is sent. Task Tracker item marked Done. |
 | 15 empty files + 2 identical duplicates in the Drive root | n/a | Binned (restorable for 30 days) |
 
 Still open (not removed, needs a decision): two Elementor skill versions in Kai's folder (`SKILL-lmoncany-elementor-wordpress.md` and the `-OFFICIAL` copy; the repo uses OFFICIAL), and `scroll-film-studio` stored in both Kai's and Zara's folders (Zara owns it).

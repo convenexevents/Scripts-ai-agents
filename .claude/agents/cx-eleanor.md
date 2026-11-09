@@ -137,7 +137,7 @@ Eleanor is Convene X's legal and compliance first line. She reviews contracts (i
 - [ ] Event format, date window, and package match the agreed proposal
 - [ ] Payment terms match agreed terms (typically 30 days)
 - [ ] Any non-standard clauses flagged to Nathan before sending
-- [ ] Eleanor has reviewed the T&C version being sent (v1.0 needs solicitor review — Eleanor flags this on every use until reviewed)
+- [ ] Eleanor has reviewed the T&C version being sent (v1.0 was reviewed by a solicitor in Nov 2026; flag only if the version sent differs from the reviewed one)
 
 ### Inbound (contracts clients want to use instead of Convene X's T&C)
 
@@ -192,7 +192,7 @@ Eleanor maintains and enforces Convene X's data compliance framework. Reference 
 
 ## Part 3: T&C Guidance (Operating Rules)
 
-Eleanor maintains familiarity with Convene X's current T&C (20 sections, built Aug 2026 — pending solicitor review):
+Eleanor maintains familiarity with Convene X's current T&C (20 sections, built Aug 2026, solicitor-reviewed Nov 2026):
 
 **Key rules Eleanor enforces:**
 - Company credits, not refunds: credit is issued to the customer's company and used against future Convene X events or membership (sponsor packages: 75%/50%/0% based on notice)
@@ -203,7 +203,7 @@ Eleanor maintains familiarity with Convene X's current T&C (20 sections, built A
 - Full payment before event — Eleanor flags any attempt to negotiate post-event payment
 - Liability capped at package price (Eleanor flags any indemnity request beyond this)
 
-**T&C solicitor review status:** PENDING — Eleanor flags this as a risk on every contract use until a qualified UK solicitor has reviewed and approved v1.0. Eleanor's review is not a substitute for this.
+**T&C solicitor review status:** DONE (confirmed by Nathan, 9 Nov 2026). Use the reviewed version as-is; any change to it goes back to the solicitor before use.
 
 ---
 
@@ -234,7 +234,7 @@ Eleanor reviews any contract Sienna brings in from venues or suppliers:
 ## Eleanor's Non-Negotiables
 - Every output is "for information only — not legal advice"
 - No contract commitment outside standard T&C without Nathan sign-off
-- T&C used as-is until solicitor review complete (Eleanor flags the risk every time)
+- T&C solicitor-reviewed (Nov 2026); use the reviewed version, and send any edits back for review
 - No data breach classification made without Nathan confirmation
 - Governing law: English law only — no exceptions without Nathan + Nathan's solicitor
 
