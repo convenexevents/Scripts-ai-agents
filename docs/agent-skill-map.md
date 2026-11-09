@@ -60,37 +60,37 @@ not installed where cloud sessions can see it (it may exist on your PC).
 
 ### Victor Drake: CRO Advisor
 - Skills: `sales:forecast`, `sales:pipeline-review`, `sales:team-pipeline`, `sales:deal-review`, `sales:deal-signals`, `sales:deal-slip-scenario`, `sales:deal-advance-gap`, `sales:win-loss-review`, `convenex-business-plan`, `small-business:business-pulse`, `small-business:growth-pulse`, `product-management:write-spec`, `product-management:roadmap-update`, `product-management:stakeholder-update`, `product-management:metrics-review`, `product-management:brainstorm`, `product-management:product-brainstorming`, `product-management:sprint-planning`
-- Tools: Convene X CRM sheet, HubSpot (read), Sheets
+- Tools: CRM app, Finance Control (read), Convene X CRM sheet, HubSpot (read), Sheets
 - Move out: `SKILL-design-teardown.md` and `ui-ux-skill-addition.md` sit in Victor's folder but are design skills. Move them to Kai.
 
 ### Andrew Whitfield: Head of Partnerships
 - Skills: `convenex-offer-usp`, `sales:call-prep`, `sales:call-summary`, `sales:close-plan`, `sales:handle-objection`, `sales:account-research`, `sales:create-an-asset`, `small-business:proposal-builder`, `small-business:grant-rfp-writer` (sponsor RFPs), skill-sales / skill-negotiation / skill-commercial (vault)
-- Tools: Gmail (drafts only), Cal.com, Apollo, Jotform Sign, Google Docs
+- Tools: CRM app, quote calculator, Gmail (drafts only), Cal.com, Apollo, Jotform Sign, Google Docs
 
 ### Marcus Reid: Partnerships Architect
 - Skills: `sales:account-plan`, `sales:account-tiering`, `sales:expansion-whitespace`, `sales:stakeholder-map`, `small-business:grow-pipeline`, `small-business:lead-finder`, `event-lead-magnet-builder`
-- Tools: Apollo, Firecrawl people/company search, Apify
+- Tools: Prospecting Machine, CRM app, Apollo, Firecrawl people/company search, Apify
 
 ### Morgan Ellis: Delegate & Guest Relations Lead
 - Skills: `convene-x-calcom:calcom-bookings`, `sales:draft-outreach`, `sales:inbox-sweep`, `sales:lead-triage`, `sales:route-lead`, `sales:schedule-meeting`, `small-business:speed-to-lead`, `small-business:outreach-composer`, `small-business:inbox-manager`, `customer-support:draft-response`, `customer-support:customer-research`, `customer-support:ticket-triage`, `customer-support:customer-escalation`, `customer-support:kb-article` (guest FAQs), `small-business:ticket-deflector`
-- Tools: Gmail (drafts only), Google Calendar, Cal.com, Jotform, Convene X CRM sheet
+- Tools: CRM app, Events Control (guest lists), Gmail (drafts only), Google Calendar, Cal.com, Jotform, Convene X CRM sheet
 
 ### Jordan Pryce: Sales Ops, Intelligence & Quality Lead
 - Skills: `sales:crm-hygiene-check`, `sales:update-opportunity`, `sales:log-activity`, `sales:account-context`, `sales:rep-context`, `sales:daily-briefing`, `sales:end-of-day`, `sales:weekly-wrap`, `sales:renewal-radar`, `sales:customer-health`, `sales:customer-voice`, `sales:setup`, `small-business:crm-autopilot`, `small-business:call-list`, `small-business:reactivate`, `data:validate-data`, `data:explore-data`, `data:data-context-extractor`, `/cx-sales-research` (PC only)
-- Tools: Convene X CRM sheet, HubSpot, Zoho CRM, Apollo, Apify, Supabase
+- Tools: CRM app, Prospecting Machine, Convene X CRM sheet, HubSpot, Zoho CRM, Apollo, Apify, Supabase
 
 ### Sienna Cole: Head of Event Operations & Delivery
 - Skills: `operations:runbook`, `operations:process-doc`, `operations:risk-assessment`, `operations:status-report`, `operations:change-request`, `operations:capacity-plan`, `operations:vendor-review` (venues, caterers)
-- Tools: Google Calendar, Docs, Sheets, WordPress (event pages, read)
+- Tools: Events Control, Google Calendar, Docs, Sheets, WordPress (event pages, read)
 - Vault: Guide 1 (Five-Step Framework), Guide 2 (45-Minute Conversation Arc), event-campaign-runbook
 
 ### Priya Anand: Head of Finance
 - Skills: `finance:journal-entry`, `finance:journal-entry-prep`, `finance:reconciliation`, `finance:close-management`, `finance:financial-statements`, `finance:variance-analysis`, `finance:audit-support`, `finance:sox-testing` (not needed yet), `small-business:cash-flow-snapshot`, `small-business:close-month`, `small-business:month-end-prep`, `small-business:invoice-chase`, `small-business:ap-processor`, `small-business:pay-the-bills`, `small-business:report-pack`, `small-business:tax-prep`, `small-business:tax-season-organizer`, `xlsx`
-- Tools: Sheets. Xero is in the stack but **not connected** to Claude.
+- Tools: Finance Control and the quote calculator (our own claude.ai apps; we do not use Xero), Sheets.
 
 ### Grace Bellamy: Operations & Admin Coordinator
 - Skills: `operations:process-optimization`, `docx`, `pdf`, `pptx`, `docs`, `google-workspace`, `pdf-viewer:open`, `pdf-viewer:fill-form`, `pdf-viewer:annotate`, `slack-by-salesforce:channel-digest`, `slack-by-salesforce:summarize-channel`, `slack-by-salesforce:standup`
-- Tools: Drive, Docs, Sheets, Google Calendar, WordPress (BuddyPress members, read)
+- Tools: Convene X Standing (members), Events Control (dates), Drive, Docs, Sheets, Google Calendar, WordPress (BuddyPress members, read)
 
 ### Eleanor Voss: Legal & Compliance Lead
 - Skills: `legal:review-contract`, `legal:triage-nda`, `legal:compliance-check`, `legal:legal-risk-assessment`, `legal:legal-response`, `legal:brief`, `legal:meeting-briefing`, `legal:vendor-check`, `legal:signature-request` (prepare only), `operations:compliance-tracking`, `small-business:contract-review`, `pdf-viewer:sign` (prepare only), skill-compliance-os (vault)
@@ -110,7 +110,7 @@ not installed where cloud sessions can see it (it may exist on your PC).
 
 ### Theo Marsh: Social Media & LinkedIn Strategist
 - Skills: `social-media-expert`, `post-writer` (repo), `viral-hooks` (repo), `post-scheduler` (repo, Buffer), `convenex-carousel-writer`, `small-business:social-content-engine`, `canva:resize-for-social-media`, linkedin-hook-writer (vault)
-- Tools: Buffer, Canva, HubSpot social (read)
+- Tools: Social Media Machine, Buffer, Canva, HubSpot social (read)
 
 ### Amara Osei: Email & Lifecycle Specialist
 - Skills: `marketing:email-sequence`
@@ -135,7 +135,7 @@ not installed where cloud sessions can see it (it may exist on your PC).
 
 ### Sana Iqbal: Performance & Analytics Lead
 - Skills: `marketing:performance-report`, `small-business:report-builder`, `data:analyze`, `data:build-dashboard`, `data:create-viz`, `data:data-visualization`, `data:statistical-analysis`, `data:sql-queries`, `data:write-query`, `dataviz`
-- Tools: Buffer metrics, HubSpot analytics, Sheets, Supabase
+- Tools: CRM app, Finance Control, Social Media Machine, Buffer metrics, HubSpot analytics, Sheets, Supabase
 
 ### Kai Novak: Web & UX/UI Designer
 - Skills: `web-artifacts-builder`, `theme-factory`, `design:design-system`, `design:design-handoff`, `design:accessibility-review`, `design:user-research`, all `engineering:*` (10), `code-review`, `simplify`, `security-review`. Vault: Elementor skills (lmoncany ×2, jezweb, proofpilot), baseline-ui, improve-ui, ui-skills-root, create-design-md, design-loop, design-teardown, fixing-accessibility, fixing-motion-performance, vercel-react-best-practices, agent-browser
@@ -191,5 +191,5 @@ not installed where cloud sessions can see it (it may exist on your PC).
 | 12 | Membership admin (BuddyPress / cx-standing) | Grace | Onboarding SOP exists, but no skill |
 
 Tool gaps (from `tech-stack.md`, still open): Brevo (bulk email, SMS, WhatsApp),
-Make scenarios wired to the CRM, Stripe payment links, a Xero connector, and UTM
-source tracking.
+Make scenarios wired to the CRM, Stripe payment links, and UTM source tracking.
+Accounting runs in our own Finance Control app, not Xero.
