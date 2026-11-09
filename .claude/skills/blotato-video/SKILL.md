@@ -1,10 +1,10 @@
 ---
-name: generate
-description: Generate faceless video content cheaply and consistently. Draft a still on a cheap model, run a pre-animate quality check, then animate the approved still through kie.ai, always routing to the lowest cost model. Enforces a running spend cap with a cost ledger, applies reusable style and character presets so a whole channel stays consistent, and outputs a publish-ready clip that hands off to Blotato for scheduling. Triggers on /generate, generate image, generate video, make a POV clip, animate this.
+name: blotato-video
+description: Generate faceless video content cheaply and consistently. Draft a still on a cheap model, run a pre-animate quality check, then animate the approved still through kie.ai, always routing to the lowest cost model. Enforces a running spend cap with a cost ledger, applies reusable style and character presets so a whole channel stays consistent, and outputs a publish-ready clip that hands off to Blotato for scheduling. Triggers on /blotato-video, kie.ai video, faceless video, make a POV clip, animate this.
 allowed-tools: Read, Write, Edit, Bash, Glob
 ---
 
-# /generate
+# /blotato-video
 
 Make faceless video content for pennies, keep a channel visually consistent, and never blow the budget. Draft a cheap still, check it before you spend on animation, then animate only the still you approve. Output lands publish-ready.
 
@@ -43,7 +43,7 @@ A preset is a saved style so every clip in a series looks like it came from the 
 - the aspect ratio and resolution,
 - pinned reference images in `generations/refs/` (a character sheet, your app logo, a watermark).
 
-Invoke with a preset: "/generate using the pov preset: you wake up as a Roman senator." Load the preset, merge its locked fragment and its refs into the prompt, and never drift from them across the series.
+Invoke with a preset: "/blotato-video using the pov preset: you wake up as a Roman senator." Load the preset, merge its locked fragment and its refs into the prompt, and never drift from them across the series.
 
 Ship with these starters (edit them to your channel):
 - `presets/pov.md` the POV wake-up format.
