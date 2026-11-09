@@ -23,7 +23,19 @@ Organisation "My organization" (Buffer free plan: 3 channels, max 10 scheduled p
 | LinkedIn | convene-x-events-363baa3a3 | personal profile | Only if the user asks for the personal profile |
 | Instagram | convenexevents | personal profile | Needs an image or video; reminder-only (see below) |
 
-Company page queue (Europe/London): Mon 21:25/22:09, Tue 21:05/22:21, Wed 16:08/17:52, Thu 13:25/15:57, Fri 14:16/16:47, Sat 06:56/09:09, Sun 06:52/22:06. Change these in Buffer > channel > Posting Schedule.
+### Optimum posting slots (LinkedIn company page, Europe/London)
+
+Senior B2B readers check LinkedIn on weekday mornings before meetings and over lunch. Tuesday to Thursday is strongest. Evenings and weekends are wasted.
+
+| Priority | Slots |
+|---|---|
+| 1 (use first) | Tue 08:15, Wed 08:15, Thu 08:15 |
+| 2 | Tue 12:15, Wed 12:15, Thu 12:15 |
+| 3 (only if 1-2 are full this week) | Mon 12:15, Fri 08:15 |
+
+Never Saturday or Sunday, never after 18:00. Aim for 2-3 posts a week; at most one post per day.
+
+Buffer's own queue times for this channel are evening/weekend slots, so **don't use `addToQueue` for LinkedIn**. Use `customScheduled` with the next free optimum slot (see Step 5).
 
 Booking link for CTAs: https://cal.com/convenexevents/15min. On LinkedIn, put it in `metadata.linkedin.firstComment`, not the post body.
 
@@ -43,7 +55,7 @@ Always re-fetch IDs with `list_channels` rather than trusting this table. Never 
 You need:
 1. **Post text**: inline, or path to a file
 2. **Platform(s)**: linkedin and/or instagram (the connected channels). For any other platform, say it isn't connected in Buffer and offer the paste file.
-3. **Time**: default is Buffer's queue (`mode: addToQueue`). Use `customScheduled` + `dueAt` only if the user names a time.
+3. **Time**: if the user names a time, use it. Otherwise pick the next free optimum slot (see "Optimum posting slots") and propose it in Step 4.
 4. **Media** (Instagram only, required): a public, directly downloadable image or video URL.
 
 If platform is missing, ask. Don't guess. For LinkedIn, default to the company page.
@@ -96,7 +108,7 @@ Ready to send to Buffer:
 
 | Channel | Mode | Time |
 |---|---|---|
-| LinkedIn company page (convene-x-events) | Queue | Next free slot |
+| LinkedIn company page (convene-x-events) | Scheduled | Tue 10 Nov, 08:15 |
 
 Reply "schedule" to queue it, "draft" to save it as a Buffer draft instead, or "cancel".
 ```
@@ -105,14 +117,16 @@ Reply "schedule" to queue it, "draft" to save it as a Buffer draft instead, or "
 
 ### Step 5: Send to Buffer
 
+**Picking the slot:** call `list_posts({ organizationId, channelIds: [channelId], status: ["scheduled"] })`, note the days that already have a post, then take the earliest optimum slot (priority order, at least 1 hour after `currentTime` from `get_account`) on a day with no post. Build `dueAt` with the Europe/London offset for that date (+00:00 in winter, +01:00 during British Summer Time).
+
 One `create_post` call per channel:
 
 ```
 mcp__Buffer__create_post({
   channelId: "<exact id from list_channels>",
   schedulingType: "automatic",          // see Instagram note
-  mode: "addToQueue",                   // or "customScheduled" + dueAt
-  dueAt: "2026-11-12T09:00:00+00:00",   // only with customScheduled; Europe/London offset, must be in the future
+  mode: "customScheduled",              // LinkedIn: always, with an optimum slot
+  dueAt: "2026-11-10T08:15:00+00:00",   // Europe/London offset, must be in the future
   saveToDraft: false,                   // true if the user chose "draft"
   text: "<post text>",
   assets: [{ image: { url: "<public url>", metadata: { altText: "<description>" } } }]  // optional for LinkedIn
@@ -133,7 +147,7 @@ Buffer's free plan allows 10 scheduled posts at once. If `create_post` fails on 
 
 | Platform | Channel | Time | Status | Post ID |
 |----------|---------|------|--------|---------|
-| LinkedIn | convene-x-events (page) | Queue: Thu 12 Nov, 09:00 | Scheduled | 6a5... |
+| LinkedIn | convene-x-events (page) | Tue 10 Nov, 08:15 | Scheduled | 6a5... |
 
 View or edit at https://publish.buffer.com
 ```
@@ -166,7 +180,8 @@ If multi-platform, save one block per platform. Tell the user the file path.
 - **Don't send anything to Buffer without the Step 4 sign-off.** Every post, every time.
 - **Don't auto-fix voice issues.** That's `post-grader` and `post-writer`'s job. You only flag and ask.
 - **Don't skip the pre-publish check.** It's the last line of defence.
-- **Don't publish immediately by default.** Default is the queue.
+- **Don't publish immediately by default.** Default is the next optimum slot.
+- **Don't use Buffer's queue (`addToQueue`) for LinkedIn.** Its times are evenings and weekends.
 - **Don't guess channel IDs or timezones.** Use `list_channels` and `get_account`.
 - **Don't fail silently.** Retry once, fall back to the file, or show the exact error.
 - **Don't report success without the Buffer post ID.**
