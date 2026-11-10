@@ -9,6 +9,15 @@
 - Roosevelt/Niagara: keep the copy to the combined 80 until the hotel confirms. Kai shouldn't quote per-room seated figures on tiles either.
 - Card: "Mayfair's longest-standing hotel, open since 1837" comes off unless sourced.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved with edits. Kai may apply now.**
+
+- I checked the hotel's private dining page myself (Firecrawl, 10 Nov). Both heritage lines are there word for word: the Lord Byron Room "named after the poet whose fortune helped establish Brown's Hotel", and the Graham Bell Room "where London's first telephone call was made by Alexander Graham Bell".
+- Edits: the body now credits both heritage claims to the hotel, as the opening already does. "A dinner of 8 to 12" becomes "10 to 12".
+- Roosevelt and Niagara: no per-room seated figures on tiles or in schema. Use only the combined 80, as Felix said.
+- Kai: apply Felix's carousel/tile/amenity rule as written (default is remove). "Longest-standing" and "open since 1837" come off the card.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/brown-s-hotel-london-private-dining-venue/`
@@ -26,11 +35,11 @@ Replaces the remaining "About this venue" paragraphs, including the shared closi
 
 Brown's has a set of genuinely small private dining rooms, which makes it a strong choice for board-level tables.
 
-Three rooms sit at the intimate end. **The Graham Bell Room**, on the ground floor, seats up to 10 and is where London's first telephone call was made. **The Lord Byron Room**, next to it, seats 12, with botanical green wallpaper and views over Dover Street; it's named after the poet whose fortune helped establish the hotel. The two connect for receptions of up to 22. **The St George Room** seats up to 8 and is the hotel's choice for private dining and discreet meetings.
+Three rooms sit at the intimate end. **The Graham Bell Room**, on the ground floor, seats up to 10 and is, the hotel says, where London's first telephone call was made. **The Lord Byron Room**, next to it, seats 12, with botanical green wallpaper and views over Dover Street; the hotel says it's named after the poet whose fortune helped establish Brown's. The two connect for receptions of up to 22. **The St George Room** seats up to 8 and is the hotel's choice for private dining and discreet meetings.
 
 For larger dinners, **the Roosevelt Room** is a first-floor room with large windows over Albemarle Street, named after Theodore Roosevelt, who stayed at Brown's on the eve of his 1886 wedding. **The Niagara Room**, also on the first floor, has high ceilings, natural daylight and antique furnishings. The two connect for up to 80 seated. **The Clarendon Room**, the largest, seats 70 and has its own Dover Street entrance.
 
-For our formats, the Graham Bell and Lord Byron Rooms suit a dinner of 8 to 12 CFOs, CIOs or general counsel. The Roosevelt or Niagara Room suits a dinner of 20 or more. The hotel is on Albemarle Street, W1S 4BP.
+For our formats, the Graham Bell and Lord Byron Rooms suit a dinner of 10 to 12 CFOs, CIOs or general counsel. The Roosevelt or Niagara Room suits a dinner of 20 or more. The hotel is on Albemarle Street, W1S 4BP.
 
 ## 3. FAQ (3 questions, for an FAQ block plus FAQPage schema)
 

@@ -7,6 +7,14 @@
 - The address is removed from the copy (not re-checked on the hotel site). Kai: confirm 4 Richmond Mews, W1D 3DH with Firmdale before it goes in the address block and schema.
 - Sector sentence softened. "Who tend to respond to a room with personality" was a claim about guests we can't back.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved. Kai may apply now.**
+
+- Address: leave the live address block and schema as they are. Don't re-key them until Firmdale confirms.
+- Drop the Drive sheet's "Crimson Room (30)" wherever it appears. The hotel lists The Crimson Bar, with no capacity.
+- Kai: apply Felix's carousel/tile/amenity rule as written (default is remove).
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/soho-hotel-london/`

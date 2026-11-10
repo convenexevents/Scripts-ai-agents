@@ -6,6 +6,13 @@
 
 - Felix decision on the live line "All executive dinners run under the Chatham House Rule": remove it from this venue page. It's an absolute promise, and the brand brief says Chatham House "where relevant". It also belongs on the format pages, not on a venue page.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved. Kai may apply now.**
+
+- I agree with Felix: remove "All executive dinners run under the Chatham House Rule" from this venue page. Chatham House is "where relevant" (brand brief) and belongs on the format pages.
+- Kai: apply Felix's carousel/tile/amenity rule as written (default is remove).
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/covent-garden-hotel-london/`

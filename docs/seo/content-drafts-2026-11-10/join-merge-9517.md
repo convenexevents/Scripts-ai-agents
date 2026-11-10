@@ -12,6 +12,16 @@ The structure is right: one path (Request an invitation), guest-facing mode with
 - "Two minutes" becomes "2 minutes". FAQ "Each room is hosted by a partner organisation" becomes "Rooms are hosted by partner organisations" (not every peer-led room has a host; Freya to confirm the wording).
 - **Blocking go-live:** (1) Kai to confirm what `cx/v1/join` does before the two-step form is retired; (2) **Eleanor** on consent wording (one tick vs two) and the GDPR basis for matching; (3) n8n redirect URLs updated from /join-the-network/ to /join/; (4) the footer newsletter form currently drops sign-ups site-wide, which is a consent and data issue for Amara and Eleanor regardless of this page.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved with edits, COPY ONLY. Not cleared for build.** Kai doesn't touch /join/ or /join-the-network/ until Felix's 4 blockers are closed: `cx/v1/join` explained, Eleanor's consent and GDPR answer, the n8n redirects moved, and a decision on the footer newsletter form. When they're closed, the copy below is approved as it stands, and it doesn't need to come back to me unless the form fields change.
+
+Decisions:
+- **"Rooms are hosted by partner organisations": no, it doesn't hold as written.** We run 2 modes, and the peer-led one is our public positioning. Saying every room is hosted tells a guest every room has a sponsor behind it, which is untrue and invites the "is this a sales event?" worry. The FAQ answer now reads: "Yes. Invited guests never pay. Some rooms are hosted by a partner organisation that covers the cost; others we run ourselves."
+- **Chatham House: yes, "where relevant".** The facts strip value becomes "Chatham House, where relevant". The meta description's closing "Chatham House Rule." is replaced with "Free for invited guests." to stay under length and avoid an absolute. That's in line with Felix's Covent Garden Hotel call.
+- **Dinner seats: 10 to 25**, as the copy already says. The "Points for Felix" note further down saying "kept 8 to 25" is out of date; ignore it.
+- For Nathan to confirm before build (I can't verify these): (a) "nothing recorded" in the lede and "Off the record" is a standing policy for sponsor-hosted rooms as well as peer-led ones; (b) whether the invitation names the host when a room is sponsored. Eleanor may want that for transparency. If yes, I'd add it to the FAQ answer.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Decision (Nathan): one page at `/join/`; `/join-the-network/` (11638) then 301s to `/join/`.
 Drafted by: Senior Content Writer, 10 November 2026. Kai builds after Felix > Freya, and only once the form questions in section 2 are settled.
@@ -72,7 +82,7 @@ Combines the best of both pages with no duplication: the waitlist page's headlin
 | Label | Value |
 |---|---|
 | Cost to you | Free |
-| House rule | Chatham House |
+| House rule | Chatham House, where relevant |
 | In the room | Director and up |
 
 ### H2: Why join
@@ -111,7 +121,7 @@ Success state: whatever n8n currently returns. If Kai builds an in-page message,
 ### H2: Before you join
 
 **Is it really free?**
-Yes. Rooms are hosted by partner organisations, which is why invited guests never pay.
+Yes. Invited guests never pay. Some rooms are hosted by a partner organisation that covers the cost; others we run ourselves.
 
 **Who is it for?**
 Senior leaders, Director level and up for dinners and roundtables. Webinars are open to Senior Managers too.
@@ -149,7 +159,7 @@ Questions before you request an invitation? Email enquiries@convenexevents.com.
 ## 3. Meta for /join/ (Rank Math)
 
 - **SEO title (50 chars):** `Request an Invitation | Join the Convene X Network`
-- **Meta description (150 chars, edited by Felix):** `Request a seat at invitation-only executive dinners and virtual roundtables for Director-level leaders and above. Free for guests. Chatham House Rule.`
+- **Meta description (138 chars, edited by Felix, then Freya):** `Request a seat at invitation-only executive dinners and virtual roundtables for Director-level leaders and above. Free for invited guests.`
 - **Focus keyword:** keep `join our network` for now (avoids a new overlap with `/why-invitation-only-events/`). Dev to check search demand for "executive network invitation" before changing it.
 - **Robots:** index, follow (as now).
 - **Page title (WordPress):** change "Join Our Network" → "Request an Invitation".

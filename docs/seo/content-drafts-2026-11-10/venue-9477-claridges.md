@@ -6,6 +6,14 @@
 
 - FAQ question 2 asked for the "largest" room for 20 to 24, but the Highgrove Room takes 35. Reworded so the answer is accurate.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved with edits. Kai may apply now.**
+
+- Edit: "a confidential evening for a handful of CFOs or general counsel" becomes "a confidential dinner for CFOs or general counsel". "Handful" implies fewer than 10, and our dinners start at 10. The Boardroom's 10 to 16 is already in the copy above.
+- Replace the live Bryan O'Sullivan / "Claridge's Restaurant, seating just 16" line with the new copy (it's the Dante Mayfair Private Dining Room now).
+- Kai: apply Felix's carousel/tile/amenity rule as written (default is remove). "Michelin-recognised", "1856" and "two centuries" come off.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/claridges-london-executive-dinner-venue/`
@@ -29,7 +37,7 @@ For a board-level dinner of 10 to 16, **the Boardroom** on the mezzanine has flo
 
 For a fuller dinner, **the St James Room** on the mezzanine offers private dining for up to 20, with daylight and views over Brook Street, and connects to the Clarence Room when numbers grow. **The Foyer Private Dining Room** seats up to 24 and is available from breakfast through to dinner. **The Highgrove Room**, with Art Deco design, takes 16 to 35.
 
-The Boardroom suits a confidential evening for a handful of CFOs or general counsel. The St James Room or the Foyer suits a cross-sector dinner of 18 to 24. The hotel is on Brook Street, W1K 4HR, in Mayfair.
+The Boardroom suits a confidential dinner for CFOs or general counsel. The St James Room or the Foyer suits a cross-sector dinner of 18 to 24. The hotel is on Brook Street, W1K 4HR, in Mayfair.
 
 ## 3. FAQ (3 questions, for an FAQ block plus FAQPage schema)
 

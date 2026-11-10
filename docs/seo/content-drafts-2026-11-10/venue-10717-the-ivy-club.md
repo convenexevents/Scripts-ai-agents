@@ -11,6 +11,20 @@ Spot-checked against the-ivyclub.co.uk with Firecrawl (home, /privatedining/, /t
 - "Dinner runs from 18:30..." is a Loft timing, so the copy now says so.
 - **Member access (Freya):** the club's private dining index is described as "members' only private dining". Until we know a non-member host can book, this page shouldn't be promoted to sponsors.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Not approved. HELD. Apply the interim fix below now.**
+
+- Decision: **hold.** This isn't a copy problem. The club describes "members' only private dining", and The Private Room may belong to The Ivy restaurant rather than the club. If a non-member host can't book it, the whole page promotes a room our sponsors can't use. Writing copy that steps around that point would be a quiet form of misleading, so I won't publish it.
+- **Interim fix: yes, Kai removes the wrong facts from the live page now.** Strip only; add no new copy:
+  1. Delete the sentence "For a private dinner, the Loft seats up to 30 guests and the Private Dining Room up to 18, giving flexibility for a tightly curated table or a slightly larger gathering."
+  2. Remove the "Up to 30" capacity tile, the walk-time tile and "Audio-visual support available" (and any matching schema `description` text).
+  3. Change the address block and schema to the club's own address: 9 West Street, WC2H 9NE (from the club homepage, confirmed by Felix).
+  4. Leave the carousel as it is until the full copy goes in.
+- Edit for when this resumes: "a table of 8 to 10" becomes "a table of 10 to 12".
+- To unblock (Nathan or Marcus, by email to the club's events team): (1) Can a non-member company host a private dinner in The Loft? (2) Is The Private Room the club's or The Ivy restaurant's, and is it bookable through the club? If the answer to (1) is yes, this file goes back to Felix for a 5-minute check and then to Kai.
+- Nathan: don't request indexing for this URL (GSC Day 2 list) until it's resolved.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-ivy-club-london-private-dining-venue/`
@@ -32,7 +46,7 @@ The Ivy Club opened in September 2008 across three floors above The Ivy restaura
 
 The club's pages also list **The Private Room** at The Ivy, which seats up to 60, or 100 standing. A refurbishment added a bespoke bar and a collection of contemporary art alongside the signature harlequin stained glass and oak panelling.
 
-Both rooms are generous for an executive dinner, which makes The Ivy Club a better fit for a slightly larger evening: a sector dinner for 20 to 30 marketing, technology or professional-services leaders who know the West End, with drinks and dinner in one room. For a table of 8 to 10, a smaller room elsewhere in the portfolio will feel more intimate.
+Both rooms are generous for an executive dinner, which makes The Ivy Club a better fit for a slightly larger evening: a sector dinner for 20 to 30 marketing, technology or professional-services leaders who know the West End, with drinks and dinner in one room. For a table of 10 to 12, a smaller room elsewhere in the portfolio will feel more intimate.
 
 Dinner in The Loft runs from 18:30 to midnight, with host access from 18:00. The nearest Tube is Leicester Square: leave by Exit 3, walk up Charing Cross Road and turn right into Litchfield Street. On West Street, walk past The Ivy to The Flower Shop on your left, which is the club's entrance.
 

@@ -10,6 +10,15 @@ Voice is right: calm, specific, peer-level, UK English, no exclamation marks, no
 - Numbers as digits: "Four things" becomes "4 things", and "two to three days" becomes "2 to 3 days".
 - Blocking: none on copy. The 301 and inbound-link updates must ship in the same release (Kai, Callum).
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved with edits. Kai may apply now, as one release with the 301 and the inbound-link updates.**
+
+- Edit, opening: "Not because the format is bad, but because..." was the "not X, but Y" pattern we ban. It now makes the point directly.
+- Edit: "This does two things" becomes "This does 2 things" (numbers as digits).
+- No proof claim on this page, and none needed. Keep it that way.
+- Release order for Kai: (1) new body, meta and cleared OG overrides on 8987; (2) 301 `how-to-host-a-virtual-roundtable` to `/b2b-virtual-roundtable-guide/` in Rank Math; (3) update every inbound link to the old URL (Callum pulls the list from the Rank Math link report); (4) move 8782 to draft; (5) check logged out after the FlyingPress purge. If step 2 can't be done (the Rank Math integration is still switched off for the MCP user), **don't ship step 1 on its own.** Stop and ask Nathan to add the redirect by hand first.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Drafted by: Senior Content Writer, 10 November 2026.
 Signed off for drafting by Nathan (plan items B5/B6). Kai applies after Felix > Freya.
@@ -90,7 +99,7 @@ That takes 8987 from 2 to 6 distinct internal targets, which meets B3's "5+ link
 ## New body for post 8987 (paste into the block editor as Custom HTML, or convert to blocks)
 
 ```html
-<p>Most B2B virtual roundtables have a reputation problem. Not because the format is bad, but because most of them are run badly, and senior leaders have learned to expect a 60-minute call that could have been a well-written email.</p>
+<p>Most B2B virtual roundtables have a reputation problem, and the format isn't to blame. Most of them are run badly, and senior leaders have learned to expect a 60-minute call that could have been a well-written email.</p>
 
 <p>The ones that work share a handful of structural choices that most organisers don't make. This guide covers them: who to invite, how to design the hour, how to facilitate, what goes wrong, and what to do afterwards. It's also how we design our own <a href="https://convenexevents.com/executive-virtual-roundtables/">executive virtual roundtables</a>.</p>
 
@@ -177,7 +186,7 @@ That takes 8987 from 2 to 6 distinct internal targets, which meets B3's "5+ link
 
 <p>Most virtual roundtable invitations describe the format and the date. The ones that produce good attendance and good conversation send a participant brief 2 to 3 days before. It should include the opening question, the guest list by role and company type (not individual names unless agreed), the facilitation structure, and what a participant who comes prepared should think about in advance.</p>
 
-<p>This does two things. It filters out passive attendees who were never going to contribute. It prepares the active ones to arrive with something worth saying. It also answers most of the reasons <a href="https://convenexevents.com/senior-executives-say-no-to-events/">senior executives say no to events</a> before they come up.</p>
+<p>This does 2 things. It filters out passive attendees who were never going to contribute. It prepares the active ones to arrive with something worth saying. It also answers most of the reasons <a href="https://convenexevents.com/senior-executives-say-no-to-events/">senior executives say no to events</a> before they come up.</p>
 
 <h2>On the day: format design</h2>
 

@@ -7,6 +7,13 @@
 - Removed the Executive Chef's name from the copy and the FAQ. Named chefs change, and a stale name on an evergreen venue page is a factual error waiting to happen. "Modern British" stays.
 - FAQ question 3 replaced with a view question that the verified copy already answers.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved. Kai may apply now.**
+
+- Agree with removing the chef's name. That rule now applies across the venue set (see The Stafford).
+- Kai: apply Felix's carousel/tile/amenity rule as written (default is remove).
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-lanesborough-london-private-dining-venue/`

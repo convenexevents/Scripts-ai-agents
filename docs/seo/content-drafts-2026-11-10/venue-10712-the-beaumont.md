@@ -10,6 +10,15 @@ Spot-checked against thebeaumont.com with Firecrawl (occasions, Lotos, Sargent, 
 - Sargent Room: "a screen is built in" becomes the hotel's own wording, a plasma screen for presentations.
 - Munnings figures are now confirmed from a full scrape, not just a search excerpt.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved. Kai may apply now.**
+
+- Address: use Brown Hart Gardens, W1K 6TF in the address block and schema `streetAddress`. The live "8 Balderton St" is wrong. The postcode stays the same.
+- Remove the non-existent "Cub Room" everywhere it appears (copy, tiles, schema).
+- Section 6 still says the Munnings figures come from a search excerpt. Felix has since confirmed them from a full scrape, so ignore that line.
+- Kai: apply Felix's carousel/tile/amenity rule as written (default is remove).
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-beaumont-london-private-dining-venue/`

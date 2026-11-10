@@ -7,6 +7,14 @@
 Spot-checked against thened.com with Firecrawl (meetings and events, The Rose Room). Six Grade I-listed rooms and two terraces on the sixth floor, Rose Room 21 m² / 14 (named after the Rose Tavern and the Great Fire), RWB 45 m² / 50, Drawing Room 70 m² connecting to The Saloon and its Devonshire House chandelier, Tapestry Room 200, Princes Dome 50 with terrace: all match. The address (27 Poultry, EC2R 8AJ) is on The Ned's contact and FAQ pages; source added. Small note: the Rose Room page says "wood panelling", the overview says "mahogany". Both are official, so the copy stands.
 - Carousel includes Searcys Horizon 22. If Freya drops Horizon 22, swap in Covent Garden Hotel.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved with edits. Kai may apply now.**
+
+- Carousel: Searcys Horizon 22 is out of the executive-dinner carousels (see the Horizon 22 decision). It's replaced with **Covent Garden Hotel**. Section 4 is updated.
+- Remove the non-existent "Wren Room" and "five rooms ideal for private dining" from the live page.
+- Kai: apply Felix's carousel/tile/amenity rule as written (default is remove).
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-ned-london-executive-dinner-venue/`
@@ -47,9 +55,9 @@ A: Yes. The Princes Dome, one of two converted domes on the roof, has an outdoor
 
 Cut the 15-card carousel to these 3 nearby venues (same card markup, other cards removed):
 
-1. Searcys Horizon 22 (Bishopsgate, City)
-2. NoMad London (Covent Garden)
-3. The Ivy Club (Covent Garden)
+1. NoMad London (Covent Garden)
+2. The Ivy Club (Covent Garden)
+3. Covent Garden Hotel (Seven Dials)
 
 ## 5. Sources (venue's own website)
 

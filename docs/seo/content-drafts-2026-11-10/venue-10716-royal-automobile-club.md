@@ -8,6 +8,14 @@ Spot-checked against royalautomobileclub.co.uk with Firecrawl (banqueting and me
 - Sector-fit sentence rewritten. "Long-established industrial leaders often feel at home here" was a generalisation about guests we can't stand behind.
 - Freya to decide whether the Club stays in the public portfolio, or is shown as "by arrangement with a member host". The copy is honest about the constraint either way.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved with edits. Keep the venue and show it as "by arrangement". Kai may apply now.**
+
+- Decision: **keep the venue, marked "by arrangement".** The copy already states the member-sponsorship rule plainly, and that's the honest version. Dropping the page would lose a venue that's genuinely useful for finance and legal tables when a host is a member. Hiding the rule would mislead sponsors.
+- Edit: I've added one sentence saying how we handle it ("by arrangement", suggested only when someone on the host's side is a member). "The Founders Room suits 8 to 10 leaders" becomes "a board-level table of 10".
+- Kai: the capacity summary tile reads **"By arrangement"**, not a number. Remove "Up to 30", "Green Park, 6 min" and "Full AV". Wherever a venue card or listing has a short descriptor (the carousel cards on other pages, the /london-venues/ hub), it reads "Member-sponsored, by arrangement".
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/royal-automobile-club-london-private-dining-venue/`
@@ -23,7 +31,7 @@ Replaces the first sentence of "About this venue" (the shared template line "...
 
 Replaces the remaining "About this venue" paragraphs, including the shared closing paragraph ("Convene X curates the full evening here..."), which is identical on every venue page.
 
-This is a private members' club, and that shapes how it works for an executive dinner. The Club states that any event, function or meeting at Pall Mall must be sponsored by a member, so the first step is a member host or sponsor.
+This is a private members' club, and that shapes how it works for an executive dinner. The Club states that any event, function or meeting at Pall Mall must be sponsored by a member, so the first step is a member host or sponsor. We list it by arrangement: we'll suggest it when you, or someone on your side, is a member who can sponsor the evening.
 
 Once that's in place, the rooms cover most formats. For lunch or dinner, the Club lists these maximum capacities:
 
@@ -34,7 +42,7 @@ Once that's in place, the rooms cover most formats. For lunch or dinner, the Clu
 - **The Committee Room:** 70.
 - **The Mountbatten Room:** 210, the largest, for banquets.
 
-For a senior dinner around one table, the Founders Room suits 8 to 10 leaders, and the Mall, Stewart or Segrave Room suits 16 to 26. The Terrace Room works well when you want an oval table for 20 to 30 and space for drinks. The Committee and Mountbatten Rooms are for larger, more formal occasions.
+For a senior dinner around one table, the Founders Room suits a board-level table of 10, and the Mall, Stewart or Segrave Room suits 16 to 26. The Terrace Room works well when you want an oval table for 20 to 30 and space for drinks. The Committee and Mountbatten Rooms are for larger, more formal occasions.
 
 The clubhouse's formality suits a more traditional evening, for example a dinner for finance, legal or public-sector leaders. Guests attending private events can also book bedrooms at the Club, subject to availability. The clubhouse is at 89 Pall Mall, SW1Y 5HS.
 

@@ -7,6 +7,12 @@
 - The opening said "Park Lane" twice in one sentence. Tightened.
 - "The most memorable choice in the building" is an unprovable superlative. It now reads "the strongest choice for that size".
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved. Kai may apply now.**
+
+- Kai: apply Felix's carousel/tile/amenity rule as written (default is remove). "Michelin-starred", "Full AV and staging" and the walk time come off.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-dorchester-london-private-dining-venue/`

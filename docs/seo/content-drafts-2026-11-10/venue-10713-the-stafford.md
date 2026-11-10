@@ -7,6 +7,13 @@
 - "It's hard to beat" softened to "it's a strong choice": no superlatives we can't stand behind.
 - "Exclusive hire" is kept. Here it's the hotel's booking term (as opposed to semi-private), not brand hype.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved with edits. Kai may apply now.**
+
+- Edit: "The hotel's restaurant is Michael Caines at The Stafford" becomes "The hotel has its own restaurant". This follows the same rule as The Lanesborough: chef-named restaurants change, and a stale name on an evergreen page is an error waiting to happen.
+- Kai: apply Felix's carousel/tile/amenity rule as written (default is remove).
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-stafford-london-private-dining-venue/`
@@ -30,7 +37,7 @@ The Stafford's private spaces are small in number and very different in characte
 
 **The Panel Room** sits beside it, with mahogany-panelled walls, original fireplaces and a classic club style. It holds 8 around a boardroom or round table, and can be connected to the Sutherland Room for pre-dinner drinks or used on its own for a confidential board-level meeting.
 
-That combination works well for a two-part evening: a short, private session for a handful of decision-makers in the Panel Room, then dinner for 20 or so in the Sutherland Room. The hotel's restaurant is Michael Caines at The Stafford, and The American Bar is on site. The address is 16-18 St James's Place, SW1A 1NJ.
+That combination works well for a two-part evening: a short, private session for a handful of decision-makers in the Panel Room, then dinner for 20 or so in the Sutherland Room. The hotel has its own restaurant, and The American Bar is on site. The address is 16-18 St James's Place, SW1A 1NJ.
 
 ## 3. FAQ (3 questions, for an FAQ block plus FAQPage schema)
 

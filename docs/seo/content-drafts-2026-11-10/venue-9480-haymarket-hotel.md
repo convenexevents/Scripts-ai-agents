@@ -6,6 +6,13 @@
 
 Voice and house rules are clean. Nash/Rocklin identical figures: the copy is fine as long as the hotel's site says 22 for both, but Kai should confirm with Firmdale before the tiles quote both. The address isn't flagged as unverified; keep it as is.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved. Kai may apply now.**
+
+- The copy can say 22 for both the Nash and Rocklin Rooms because that's what the hotel publishes. Tiles show "Up to 22" once, not a separate figure per room, until Firmdale confirms the Rocklin numbers.
+- Kai: apply Felix's carousel/tile/amenity rule as written (default is remove).
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/haymarket-hotel-london/`

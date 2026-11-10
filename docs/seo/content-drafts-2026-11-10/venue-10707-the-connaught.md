@@ -6,6 +6,13 @@
 
 Voice, structure and house rules are clean, and the fit sentences are future-facing ("suit", "works for"). Room facts weren't re-scraped (not in the spot-check set), but every figure traces to a cited hotel page. Kai: apply the carousel/tile rule below. "Michelin-starred" comes off the tile and the card unless it's sourced.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved with edits. Kai may apply now.**
+
+- Edit: "a board-level table: 8 CFOs, CISOs or general counsel" now reads "10 CFOs...". Our dinners are 10 to 25 (brand brief), so where the copy describes *our* table it stays inside that range. Room facts (Silver Room 8 to 10) are the hotel's and stay as they are.
+- Kai: apply Felix's carousel/tile/amenity rule as written (default is remove). "Michelin-starred" comes off the tile, amenities and card.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-connaught-london-private-dining-venue/`
@@ -29,7 +36,7 @@ The Connaught's private rooms suit very different sizes of table, so the room ch
 
 **The Maple Room**, on the ground floor, is the hotel's most versatile space, for 20 to 100. Floor-to-ceiling windows, maple panelling and a mirrored ceiling give it more light and occasion. It adjoins the Mayfair Room on the lower ground floor, the largest space, designed by Guy Oliver with antique mirrors and a sprung parquet floor, for 44 to 180.
 
-For our formats, the Silver and Georgian Rooms are the natural choice for a board-level table: 8 CFOs, CISOs or general counsel, one confidential question, and nobody else in the room. The Maple Room works for a fuller executive dinner of 20 or more, where the setting needs to carry a larger group without losing the sense of a private evening.
+For our formats, the Silver and Georgian Rooms are the natural choice for a board-level table: 10 CFOs, CISOs or general counsel, one confidential question, and nobody else in the room. The Maple Room works for a fuller executive dinner of 20 or more, where the setting needs to carry a larger group without losing the sense of a private evening.
 
 The hotel sits on Carlos Place, W1K 2AL, in the middle of Mayfair.
 

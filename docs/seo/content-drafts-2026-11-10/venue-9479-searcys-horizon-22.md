@@ -7,6 +7,16 @@
 The copy is accurate and honest: it says plainly that the venue doesn't publish a small room. "Tallest building" and "254 metres" trace to horizon22.co.uk. "58th Floor" and "Private Dining Suite (30)" must come off the live page and card. The postcode conflict needs Kai to confirm with the venue before the schema changes.
 - **Freya:** keep for large formats and breakfasts, or drop from the dinner-venue set. If dropped, The Ned's carousel loses a card (use Covent Garden Hotel).
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved with edits. Kai may apply now. The page stays live, but Horizon 22 comes out of the executive-dinner set.**
+
+- Decision: **drop it from the dinner-venue set and keep the page as a large-format venue.** One 817 m² room for 280 isn't a 10 to 25 seat dinner room, and featuring it next to the Rose Room would blur what we sell. The page itself stays up (it's in search, and the copy is honest about scale). That avoids a URL removal and redirect that nobody has signed off.
+- What that means for Kai: remove it from **The Ned's carousel** (Covent Garden Hotel replaces it). It's not in any other page's carousel picks. Its own carousel (The Ned, NoMad, Covent Garden Hotel) stays.
+- Edits: "Where it does work for our formats is the breakfast window" claimed breakfasts as one of our formats, and they aren't in the brand brief. "Awards-style evening" isn't something we run. Both are reworded as bespoke-programme options.
+- Postcode: leave the live postcode and schema unchanged until the venue confirms (EC2N 4BQ vs 4AJ). Remove "58th Floor" (address line and card) and "Private Dining Suite (30)" everywhere.
+- Follow-up, not in this go-list: on /london-venues/, Horizon 22 shouldn't be labelled as a private dining or dinner room. Kai to flag where it's listed. Any wording change there goes through Felix and me.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/searcys-horizon-22/`
@@ -26,9 +36,9 @@ Horizon 22, run for events by Searcys, is a single event space of 817 m² with f
 
 It seats up to 280 or holds 500 standing, with a 4.6 by 6.6 metre 4K LED screen and an L-Acoustics sound system built in. Events run in two windows: breakfast from 6am to 9am, and evenings from 7pm to 3am.
 
-That scale shapes how we'd use it. Horizon 22 is built for larger formats: a flagship sector forum, an awards-style evening, or a reception for 100 or more senior guests where the view is the point. The venue does market intimate private dining too, but it doesn't publish a smaller private room. For a 10 to 25 seat executive dinner around one conversation, a room in the City such as The Ned's Rose Room or RWB Room will usually feel more private.
+That scale shapes how we'd use it. Horizon 22 is built for larger, bespoke formats: a flagship sector forum, or a reception for 100 or more senior guests where the view is the point. The venue does market intimate private dining too, but it doesn't publish a smaller private room. For a 10 to 25 seat executive dinner around one conversation, a room in the City such as The Ned's Rose Room or RWB Room will usually feel more private.
 
-Where it does work for our formats is the breakfast window. A 6am to 9am slot suits a senior City breakfast briefing before the working day, with the screen ready for a short presentation and the skyline doing the rest. The building is 22 Bishopsgate.
+The other option is the breakfast window. A 6am to 9am slot could suit a bespoke City breakfast briefing before the working day, with the screen ready for a short presentation and the skyline doing the rest. The building is 22 Bishopsgate.
 
 ## 3. FAQ (3 questions, for an FAQ block plus FAQPage schema)
 

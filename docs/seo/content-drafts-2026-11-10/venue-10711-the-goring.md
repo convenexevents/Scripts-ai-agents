@@ -7,6 +7,14 @@
 - The Michelin star and the Churchill line are on the hotel's own page (section 5), so they stay, but both are now attributed to the hotel. Michelin status changes every year: recheck before each republish.
 - Carousel/card: "family-owned since 1910" and "royal warrant" come off unless they're sourced on thegoring.com.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved with edits. Kai may apply now.**
+
+- Edit: "a board-level dinner of 8 to 12" becomes "10 to 12" (our dinner range is 10 to 25).
+- The Michelin line stays because it's attributed to the hotel and on its own page. Recheck it on thegoring.com before any republish.
+- Kai: apply Felix's carousel/tile/amenity rule as written (default is remove). "Royal warrant" and "family-owned since 1910" come off the cards.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-goring-london-private-dining-venue/`
@@ -34,7 +42,7 @@ The Goring's five private spaces range from an 8-seat boardroom to a garden room
 
 **The Garden Room** is the largest private room, at 86 m², with a sliding glass wall onto the private garden. It seats 44 for dinner or 20 around a boardroom table.
 
-For a board-level dinner of 8 to 12, the Drawing Room or the Silver Room keeps the conversation close and private. For a cross-sector table of 20, the Garden Room in boardroom layout gives everyone a seat at one table. The hotel says its Dining Room holds a Michelin star, which helps when the menu matters to the guest list.
+For a board-level dinner of 10 to 12, the Drawing Room or the Silver Room keeps the conversation close and private. For a cross-sector table of 20, the Garden Room in boardroom layout gives everyone a seat at one table. The hotel says its Dining Room holds a Michelin star, which helps when the menu matters to the guest list.
 
 ## 3. FAQ (3 questions, for an FAQ block plus FAQPage schema)
 

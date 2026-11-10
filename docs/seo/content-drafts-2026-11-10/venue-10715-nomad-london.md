@@ -9,6 +9,18 @@
 - FAQ answer 1 said "entrance through the original courtroom entrance". Fixed.
 - No capacities are published, and that's correct: third-party listings are not sources.
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Verdict: Approved with edits. Kai may apply now, on the conditions below. This overrides Felix's hold, for this reason.**
+
+Holding this page leaves "Magistrates Room up to 16" and "Fielding Room up to 30" live. The first is wrong and the second comes only from third-party sites. The new copy contains no capacities and nothing that isn't on the hotel's own pages. Applying it removes wrong facts and adds no unverified ones, so it's safer to publish than to hold. My rule for the set: **publish when the copy holds only verified facts and the venue is genuinely open to our hosts. Hold when the venue's availability itself is in doubt (see The Ivy Club).**
+
+Conditions for Kai:
+- **No capacity figure anywhere on the page**, including tiles, amenities, schema and the carousel card. Remove the "Up to 30" tile, or replace it with "Capacity on request".
+- **Address:** leave the live address block and schema exactly as they are. Don't add or change address data until the hotel confirms. The copy doesn't mention the address.
+- Remove the "3 min walk" tile and any AV claim.
+- Follow-up (Nathan or Marcus): ask the hotel's events team for seated capacities for the Fielding and De Veil Rooms, and confirm the address. Once they reply, Iris adds the figures and Felix checks them.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/nomad-london-private-dining-venue/`
