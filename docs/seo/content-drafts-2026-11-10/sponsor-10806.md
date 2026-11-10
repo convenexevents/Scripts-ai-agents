@@ -1,5 +1,15 @@
 # Rewrite: /sponsor/ (page 10806)
 
+## Nathan's decisions (10 Nov 2026) — Kai builds these
+
+1. **Call length: 15 minutes.** Use Version A for the "How do we start?" FAQ with "15-minute": "Book a 15-minute exploratory call..." The booking link stays cal.com/convenexevents/15min.
+2. **Guest-list sign-off: dinners and roundtables only.** Use Freya's Version B everywhere (hero, meta, OG, Twitter, step 2, FAQ).
+3. **12-week lead time and seniority bars: yes, state them.** Use Version A (drafted wording) for section 7 and both FAQs.
+4. **Reach: UK, Europe and the US.** Replace every "UK and US" / "the UK and US" with "the UK, Europe and the US" (section 7, the "Who is actually in the room?" FAQ, anywhere else it appears).
+
+Callum's FAQPage schema must match the built FAQ text word for word.
+
+
 ## Felix review (10 Nov 2026)
 
 **Verdict: PASS WITH EDITS.** I've made the edits below in this file. It can go to Freya. Nothing on the live site has been touched.

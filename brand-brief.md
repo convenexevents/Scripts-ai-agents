@@ -28,8 +28,14 @@ Two readers:
    evening for a room of genuine peers, but walk out of anything that turns
    into a sales pitch.
 
+## Reach and commitments (Nathan, 10 Nov 2026)
+- We invite senior guests from the UK, Europe and the US.
+- Public copy may state: 12 weeks minimum lead time; Director level and above
+  for dinners and roundtables; Senior Manager level and above for webinars.
+- Hosts sign off the guest list for dinners and roundtables (not webinars).
+
 ## Primary CTA
-Book a 45-minute exploratory call: a conversation about their audience and
+Book a 15-minute exploratory call: a conversation about their audience and
 goals, not a pitch.
 Link: https://cal.com/convenexevents/15min (the same link as every "Book
 Exploratory Call" button on convenexevents.com)
