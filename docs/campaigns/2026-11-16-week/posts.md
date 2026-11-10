@@ -46,7 +46,7 @@ Every post was graded with the post-grader skill: hook 50%, curiosity and specif
 **Reader:** senior guests first; hosts read over their shoulder. **Format:** carousel (LinkedIn document, 7 slides, PDF). **Goal:** saves and comments.
 **Posting time:** company page 11:00; personal 12:15 (slot A).
 
-### Company post (182 words)
+### Company post (187 words)
 
 ```text
 Before a senior leader gives up an evening, they check 4 things. The menu isn't one of them.
@@ -97,7 +97,7 @@ Link in the first comment.
 - **Company:** How we build the guest list for a private executive dinner: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=mon-company
 - **Personal:** How we put this into practice for private executive dinners: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=mon-personal
 
-### Carousel: slide-by-slide copy (7 slides)
+### Carousel: slide-by-slide copy (7 slides) FINAL (Felix)
 
 Build: 1080 x 1350 portrait, exported as PDF, uploaded as a native LinkedIn document. Background #0A0A0A, text #F5F5F5 (brand off-white, not pure white), accents #FF1FA9 (pink) and #FCD500 (yellow). Fraunces for headlines, Libre Franklin for body, IBM Plex Mono for small labels. No photos of people, no names, no logos other than our mark, no numbers other than the check count. Same template as Thursday so the 2 carousels read as a pair. The personal post attaches the same PDF.
 
@@ -128,7 +128,7 @@ Top fixes left (minor): 1. Emotion is calm by design; a guest-side line about th
 **Reader:** would-be hosts. **Format:** text only. **Goal:** comments (the argument post of the week).
 **Posting time:** company page 11:00; personal 15:00 (slot B).
 
-### Company post (196 words)
+### Company post (201 words)
 
 ```text
 The best sponsored dinner is the one where the sponsor doesn't pitch.
@@ -156,7 +156,7 @@ If you've hosted one of these, what was the hardest part of staying quiet?
 Link in the first comment.
 ```
 
-### Personal variant (201 words)
+### Personal variant (199 words)
 
 ```text
 I've watched a host lose a room with one slide.
@@ -180,7 +180,7 @@ If you've hosted one of these, what was the hardest part of staying quiet?
 Link in the first comment.
 ```
 
-**[CONFIRM THIS: Nathan]** The personal hook is a first-person claim ("I've watched a host lose a room with one slide"), and line 2 ("In previous roles I sat at a lot of executive dinners") is a second one. Only post them if they match your experience in previous roles. Fallbacks, ready to paste (Felix, 10 Nov):
+**[HOOK CONFIRMED, 10 Nov]** The coordinator has passed on Nathan's confirmation that "I've watched a host lose a room with one slide" is true to his experience in previous roles, so the hook stays as written. Nathan still signs off this post himself. Line 2 ("In previous roles I sat at a lot of executive dinners") wasn't part of that confirmation, but it follows from the hook. Nathan should glance at it when he signs off. Fallbacks stay here, ready to paste, in case anything changes before Tuesday (Felix, 10 Nov):
 - **Fallback 1 (you sat at executive dinners in previous roles, but the one-slide moment isn't yours):** swap line 1 only, to "A host can lose a room with one slide." Everything else stays.
 - **Fallback 2 (neither line is yours):** replace lines 1 and 2 with:
 
@@ -195,11 +195,11 @@ The rest of the post reads as observation and stays as written. Word count drops
 ### First comments
 
 - **Company:** What a host does at our private executive dinners, and what they don't: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=tue-company
-- **Personal:** How the host's role works at the dinners we run: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=tue-personal
+- **Personal:** How the host's role works at our private executive dinners: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=tue-personal
 
 ### Visual
 
-None (text only). If Felix or Freya want an image: a plain brand-kit quote card of the hook on #0A0A0A, white Fraunces, "doesn't pitch" in #FF1FA9, tagline strip "Who's in the room is the event." at the foot. No stock photo.
+None (text only). If Felix or Freya want an image: a plain brand-kit quote card of the hook on #0A0A0A, #F5F5F5 Fraunces, "doesn't pitch" in #FF1FA9, tagline strip "Who's in the room is the event." at the foot. No stock photo.
 
 ### Post-grader
 
@@ -215,21 +215,19 @@ Felix check: the 2 Gartner figures are separate surveys with separate dates, and
 **Reader:** would-be hosts. **Format:** single image (stat card) plus caption. **Goal:** saves and reposts.
 **Posting time:** company page 11:00; personal 12:15 (slot A).
 
-### Company post (162 words)
+### Company post (155 words)
 
 ```text
 A room full of the wrong job titles is the most expensive kind of full.
 
 Only 15% of organisers now rate their networking as "very effective", down from 46% in 2025 (Bizzabo 2026 State of Events Benchmark, a vendor survey).
 
-The easy reading is that people are tired of networking. We don't buy it.
-
-Networking events don't fail because people are tired of meeting. They fail because nobody chose the room.
+The easy reading is that people are tired of networking. We don't buy it. When a room falls flat, it's usually because nobody chose who was in it.
 
 What Director+ means when we build a virtual roundtable:
 Every title checked against the host's ideal customer.
 Inflated titles don't count. The title has to match the role behind it.
-The host signs off the guest list before we confirm anyone.
+The host signs off the guest list.
 6 to 12 people, all Director level and above.
 
 Guest-list sign-off isn't unique to us. What we won't do is pad the room to hit a number. A smaller right room beats a bigger wrong one.
@@ -266,16 +264,16 @@ Link in the first comment.
 - **Company:** How we build and check the guest list for an executive virtual roundtable: https://convenexevents.com/executive-virtual-roundtables/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=wed-company
 - **Personal:** The guide, from the question to the follow-up: https://convenexevents.com/b2b-virtual-roundtable-guide/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=wed-personal
 
-### Image brief: stat card (single image)
+### Image brief: stat card (single image) FINAL (Felix)
 
 - **Size:** 1080 x 1350 portrait.
-- **Background:** black #0A0A0A. Text white unless stated.
-- **Top label** (IBM Plex Mono, small caps, #FF1FA9 pill): "NETWORKING, RATED BY ORGANISERS"
-- **Main figure** (Fraunces, very large, centred): "46%" in #FCD500, a thin white arrow, "15%" in #FF1FA9. The 15% sits slightly larger than the 46% so the drop reads at a glance.
+- **Background:** black #0A0A0A. Text #F5F5F5 unless stated.
+- **Top label** (IBM Plex Mono, small caps, #FF1FA9 pill, #0A0A0A text): "NETWORKING, RATED BY ORGANISERS"
+- **Main figure** (Fraunces, very large, centred): "46%" in #A3A3A3, a thin #F5F5F5 arrow, "15%" in #FCD500. The 15% sits slightly larger than the 46% so the drop reads at a glance. (Felix: the draft had yellow 46% and pink 15% side by side, which puts both accents at full saturation in one block against the brand rule. Grey for the old figure and yellow for the new one also makes the drop easier to read.)
 - **Line under it** (Libre Franklin, medium): "Organisers who rate their networking 'very effective', 2025 to 2026."
-- **Source line** (IBM Plex Mono, small but legible, white at 70%): "Source: Bizzabo 2026 State of Events Benchmark (vendor survey)"
+- **Source line** (IBM Plex Mono, small but legible, #A3A3A3): "Source: Bizzabo 2026 State of Events Benchmark (vendor survey)"
 - **Save prompt** (Plex Mono, small, above the strip): "SAVE THIS FOR YOUR NEXT GUEST LIST"
-- **Tagline strip** (bottom band, Fraunces italic, white on #0A0A0A with a thin #FF1FA9 rule above): "Who's in the room is the event."
+- **Tagline strip** (bottom band, Fraunces italic, #F5F5F5 on #0A0A0A with a thin #FF1FA9 rule above): "Who's in the room is the event."
 - Small logo mark bottom right. No other numbers, no people, no logos, no URL with UTMs.
 - Personal post: same card.
 
@@ -317,10 +315,10 @@ Save it for your next post-event report. What does your finance team ask for fir
 Link in the first comment.
 ```
 
-### Personal variant (201 words)
+### Personal variant (203 words)
 
 ```text
-The hardest question after an executive dinner never came from marketing. It came from finance.
+After an executive dinner, the hardest question always came from finance.
 
 In previous roles, marketing asked how the night went. Finance asked what it was worth. On the night, I couldn't answer that honestly, and I don't think anyone can.
 
@@ -333,7 +331,7 @@ Week 6: where those relationships stand, and whether the guests would come again
 
 None of that is a promise. Nobody can honestly promise a host leads or ROI from a dinner. What you can commit to is a guest list the host signed off and an honest report at week 6.
 
-Forrester found only 38% of CMOs agree their events perform well (Forrester, The Next Era of B2B Events, 25 Jun 2026). I suspect part of that gap is reporting at the wrong moment.
+Forrester found about half of organisations say their events perform well, but only 38% of CMOs agree (Forrester, The Next Era of B2B Events, 25 Jun 2026). I suspect part of that gap is reporting at the wrong moment.
 
 What does your finance team ask for first?
 
@@ -347,7 +345,7 @@ Link in the first comment.
 - **Personal, primary (/sponsor/):** How we work with hosts, including what we don't promise: https://convenexevents.com/sponsor/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=thu-personal
 - **Personal, fallback (dinners page):** How we work with hosts on private executive dinners: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=thu-personal
 
-### Carousel: slide-by-slide copy (8 slides)
+### Carousel: slide-by-slide copy (8 slides) FINAL (Felix)
 
 Build: same template as Monday. 1080 x 1350, PDF, native document upload. #0A0A0A background, #FF1FA9 and #FCD500 accents, Fraunces / Libre Franklin / IBM Plex Mono. Slides 3 to 7 carry a horizontal timeline along the top, labelled in Plex Mono: BEFORE, THE NIGHT, WEEK 1, WEEKS 2 TO 4, WEEK 6. The current stage is highlighted in #FF1FA9; the others sit in #A3A3A3 (brand secondary grey). Not white at 40%: that comes out at about 3.7:1 on #0A0A0A and fails WCAG AA for small Plex Mono labels. Text #F5F5F5 throughout. No charts or numbers beyond the Forrester figures. No example results. Every slide says "look at", never "you'll get". The personal post attaches the same PDF.
 
@@ -368,7 +366,7 @@ Build: same template as Monday. 1080 x 1350, PDF, native document upload. #0A0A0
 
 **Personal: 8.0/10 (first draft 7.0, revised).**
 - v1 hook "In previous roles, the hardest question after an event came from finance, not marketing." scored hook 6: credentials first, and the payoff is buried after the comma. v1 total 7.0.
-- Fix applied: put the tension first ("The hardest question after an executive dinner never came from marketing. It came from finance.") and moved "In previous roles" into line 2. Also replaced v1's "What you can promise is the right room" with "What you can commit to is a guest list the host signed off", so the post makes no promise of any kind.
+- Fix applied: put the tension first ("The hardest question after an executive dinner never came from marketing. It came from finance.") and moved "In previous roles" into line 2. Also replaced v1's "What you can promise is the right room" with "What you can commit to is a guest list the host signed off", so the post makes no promise of any kind. Felix (10 Nov): hook changed again to "After an executive dinner, the hardest question always came from finance." The "never came from X. It came from Y" two-beat sits in the banned "not X, it's Y" family.
 - Final: hook 8; curiosity 8; emotion 7; share 8; voice 9; polarity 7; platform 8. Voice rules: all pass.
 
 ---
@@ -378,7 +376,7 @@ Build: same template as Monday. 1080 x 1350, PDF, native document upload. #0A0A0
 **Reader:** would-be hosts planning 2027. **Format:** text. **Goal:** comments and saves; optional playbook waitlist (Nathan's decision 2).
 **Posting time:** company page 11:00; personal 15:00 (slot B).
 
-### Company post, version A: WITHOUT the playbook line (185 words)
+### Company post, version A: WITHOUT the playbook line (184 words)
 
 ```text
 12 weeks is the minimum for an executive dinner worth attending. Anything faster is filling seats.
@@ -391,16 +389,16 @@ About 2 weeks of prep: the question, the room, and the host's ideal customer.
 
 About 10 weeks of recruitment: building the list against that profile, inviting in waves across the UK, Europe and the US, personal follow-up, confirmation and reminders. Every guest is Director level and above, and the host signs off the list.
 
-The 10 weeks aren't padding. Senior diaries fill early, and the right guest often needs more than one conversation before they give up an evening.
+Recruitment takes 10 weeks because senior diaries fill early, and the right guest often needs more than one conversation before they give up an evening.
 
-No-shows don't start the day before. They start in week 1, with a rushed invitation to people who were never the right fit. That's where empty chairs come from.
+No-shows start in week 1, long before the day-before reminder, with a rushed invitation to people who were never the right fit. That's where empty chairs come from.
 
 Save this for your 2027 planning. When does your team usually start?
 
 Link in the first comment.
 ```
 
-### Company post, version B: WITH the optional playbook line (only if Nathan approves decision 2) (208 words)
+### Company post, version B: WITH the optional playbook line (only if Nathan approves decision 2) (207 words)
 
 Same as version A, with one paragraph added before the closing question. The added line is marked.
 
@@ -415,9 +413,9 @@ About 2 weeks of prep: the question, the room, and the host's ideal customer.
 
 About 10 weeks of recruitment: building the list against that profile, inviting in waves across the UK, Europe and the US, personal follow-up, confirmation and reminders. Every guest is Director level and above, and the host signs off the list.
 
-The 10 weeks aren't padding. Senior diaries fill early, and the right guest often needs more than one conversation before they give up an evening.
+Recruitment takes 10 weeks because senior diaries fill early, and the right guest often needs more than one conversation before they give up an evening.
 
-No-shows don't start the day before. They start in week 1, with a rushed invitation to people who were never the right fit. That's where empty chairs come from.
+No-shows start in week 1, long before the day-before reminder, with a rushed invitation to people who were never the right fit. That's where empty chairs come from.
 
 [OPTIONAL PLAYBOOK LINE]
 We're writing a short, practical playbook on this. Comment "playbook" and we'll send it when it's ready.
@@ -430,7 +428,7 @@ Link in the first comment.
 
 What version B commits us to (from Leo's plan, section 5): someone replies to every "playbook" commenter when it's ready (Nathan decides who; replies drafted for his sign-off), and no delivery date is stated unless Nathan sets one. The earliest honest date is mid to late December; January is safer. Dev's e-book brief still carries the retired "34 events in 18 months" line and must be fixed before Iris writes it.
 
-### Personal variant, version A: WITHOUT the playbook line (161 words)
+### Personal variant, version A: WITHOUT the playbook line (164 words)
 
 ```text
 In previous roles, the dinners that went wrong usually went wrong in week 1, not on the night.
@@ -443,14 +441,14 @@ That's why I won't run an executive dinner on less than 12 weeks. About 2 weeks 
 
 Count it forward from today. 12 weeks from Friday 20 November is Friday 12 February. A mid-February dinner starts now, with Christmas in the middle.
 
-If there's a Q1 dinner in your 2027 plan, I'd start the guest list this month.
+If there's a late February or March dinner in your 2027 plan, I'd start the guest list this month.
 
 When does your team usually start planning?
 
 Link in the first comment.
 ```
 
-### Personal variant, version B: WITH the optional playbook line (183 words)
+### Personal variant, version B: WITH the optional playbook line (186 words)
 
 ```text
 In previous roles, the dinners that went wrong usually went wrong in week 1, not on the night.
@@ -463,7 +461,7 @@ That's why I won't run an executive dinner on less than 12 weeks. About 2 weeks 
 
 Count it forward from today. 12 weeks from Friday 20 November is Friday 12 February. A mid-February dinner starts now, with Christmas in the middle.
 
-If there's a Q1 dinner in your 2027 plan, I'd start the guest list this month.
+If there's a late February or March dinner in your 2027 plan, I'd start the guest list this month.
 
 [OPTIONAL PLAYBOOK LINE]
 We're writing a short playbook on this. Comment "playbook" and I'll send it when it's ready.
@@ -476,7 +474,7 @@ Link in the first comment.
 
 ### First comments (both versions given; use the /sponsor/ one only if Kai confirms the rewrite is live by Wed 18 Nov)
 
-- **Company, primary (/sponsor/):** If a Q1 dinner is in your 2027 plan, here's how hosting with us works: https://convenexevents.com/sponsor/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=fri-company
+- **Company, primary (/sponsor/):** If a February or March dinner is in your 2027 plan, here's how hosting with us works: https://convenexevents.com/sponsor/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=fri-company
 - **Company, fallback (dinners page):** How a private executive dinner comes together over 12 weeks: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=fri-company
 - **Personal, primary (/sponsor/):** How hosting a dinner with us works, from week 1: https://convenexevents.com/sponsor/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=fri-personal
 - **Personal, fallback (dinners page):** How we build a private executive dinner over 12 weeks: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=fri-personal
@@ -525,19 +523,19 @@ Link in the first comment.
 
 - **Company:** London private rooms we look at for executive dinners: https://convenexevents.com/london-venues/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=sat-company
 
-### Image brief: checklist card (no licensed venue photo is confirmed, so the card runs)
+### Image brief: checklist card (no licensed venue photo is confirmed, so the card runs) FINAL (Felix)
 
 - **Size:** 1080 x 1350 portrait.
 - **Background:** black #0A0A0A, with a thin #FF1FA9 neon streak line in the top-left corner.
 - **Top label** (IBM Plex Mono, small caps, #FCD500 pill with black text): "THE LONDON ROOM"
-- **Headline** (Fraunces, large, white): "5 things before the menu"
-- **The 5 points** (Libre Franklin, white, one per line, each led by a #FF1FA9 numbered pill badge 1 to 5):
+- **Headline** (Fraunces, large, #F5F5F5): "5 things before the menu"
+- **The 5 points** (Libre Franklin, #F5F5F5, one per line, each led by a #FF1FA9 numbered pill badge 1 to 5):
   1. One table, one conversation
   2. A door that shuts
   3. The quietest voice carries
   4. Close to the main stations
   5. Staff who serve around the talk
-- **Tagline strip** (bottom band, Fraunces italic, white, thin #FF1FA9 rule above): "Who's in the room is the event."
+- **Tagline strip** (bottom band, Fraunces italic, #F5F5F5, thin #FF1FA9 rule above): "Who's in the room is the event."
 - Small logo mark bottom right. No venue named or pictured, no people, no photos, no URL with UTMs.
 - If a licensed photo of a London private room set for about 12 at one table turns up before Saturday (Nathan's decision 8), it can replace the card: no faces, no guests, and no venue named unless the venue has agreed. The caption stays the same.
 
@@ -618,12 +616,12 @@ Note: the webinar posts don't mention guest-list sign-off. Hosts sign off lists 
 
 ## Open items for Felix, Freya and Nathan
 
-1. **Wednesday hook:** my version avoids the "isn't X. It's Y" shape; Leo's original is given above. Felix's call.
-2. **Tuesday personal hook:** Nathan to confirm "I've watched a host lose a room with one slide" is true to his experience in previous roles, or use the fallback line.
+1. **Wednesday hook:** decided (Felix, 10 Nov). Theo's version runs. Leo's "isn't a good event. It's an expensive one." is the banned "not X, it's Y" shape.
+2. **Tuesday personal hook:** confirmed by Nathan (passed on by the coordinator, 10 Nov). It stays. The fallbacks remain under the post.
 3. **Thursday and Friday links:** /sponsor/ only if Kai confirms the rewrite is live by Wed 18 Nov; otherwise use the dinners-page fallbacks above.
 4. **Friday:** version A or B (playbook line), per Nathan's decision 2. The 15-minute call line in the first comment is optional and also needs his decision.
 5. **Sunday:** plain text or poll, per decision 5.
 6. **Saturday:** the checklist card runs unless a licensed London room photo is confirmed (decision 8).
 7. **Canva builds:** carousel and image copy is final here; the Canva builds still need doing, then a Canva brand check before Felix.
-8. **Brand brief:** it still says executive dinners are 10 to 25 guests. Nathan's update of 10 Nov says 6 to 20, so the brief needs updating. None of these posts states a dinner size range.
+8. **Brand brief:** resolved. `brand-brief.md` was updated on 10 Nov and now says executive dinners are 6 to 20 guests. None of these posts states a dinner size range (Felix checked, 10 Nov).
 9. **Nothing is in Buffer.** No post has been created, queued or scheduled.
