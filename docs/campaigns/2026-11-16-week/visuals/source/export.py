@@ -78,7 +78,7 @@ def contact_sheet(tmp: pathlib.Path):
 def main():
     with tempfile.TemporaryDirectory() as t:
         tmp = pathlib.Path(t)
-        run([sys.executable, str(SRC / "gen.py"), str(tmp), str(SRC / "logo.png")])
+        run([sys.executable, str(SRC / "gen.py"), str(tmp), str(SRC / "logo-footer.svg")])
         for key, name in PDFS.items():
             out = VIS / name
             run([CHROME, *FLAGS, f"--print-to-pdf={out}", (tmp / f"{key}.html").as_uri()])

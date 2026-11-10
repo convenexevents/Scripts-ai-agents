@@ -81,3 +81,33 @@
 ## Pattern to raise
 
 The brief's "Poppins" conflicts with the type system everywhere else. Whoever owns that brief template should correct it at source, so the next builder doesn't have to choose.
+
+## Logo swap (Rhys, 10 Nov 2026), for Felix's final look
+
+**Source.** Nathan's logo: the "Convene X Events" script lockup, with white brush-script "Convene" and "Events" around the pink brush X. Original raster: `source/logo-master-from-nathan-2026-11-10.png` (1439 x 954), untouched (md5 `0831ed7f…` before and after). The slides use the vector trace of it, `docs/brand/logo/convene-x-events-logo.svg`, copied byte for byte to `source/logo-footer.svg` and embedded as SVG.
+- The trace has a transparent background, a #FFFFFF wordmark and a #FC1595 X (sampled from Nathan's original), with no glow or reflection.
+- It's tightly cropped to the words and the X.
+- I didn't redraw, recolour or distort anything. The rendered X samples as #FC1595 on the slides.
+- Note: the X is #FC1595 and the site/pill pink is #FF1FA9. They sit a few px apart on the Wed and Sat cards (strip rule vs the X) and read as the same pink. I kept the logo as traced, per `docs/brand/logo/README.md`.
+- `source/logo.png` (the old "CONVENE X / EVENTS" thumbnail) is no longer used by the build. I've left it in place.
+
+**Glow and reflection: dropped.** Before the vector arrived, I matted the raster myself, in two versions: a clean one, and one with the glow kept at 30%. At footer size the glow read as a brown smudge under the X, so clean was the better choice. The vector trace has no glow, so the question is settled. Neither raster cut-out is in the repo.
+
+**Build changes (`source/gen.py`, `source/export.py`)**
+- `export.py` now passes `source/logo-footer.svg`. `gen.py` embeds it as `image/svg+xml`, or as PNG if a .png is passed.
+- Logo height went from 112px to 164px (331px wide), still bottom right. The script words measure 33px tall on the slide, about 12px on a 390px phone feed, which is above the 30px / 11px floor we set for source lines. The new lockup is wide and short, so it needs more height than the old stacked one to be readable.
+- Your clear-space fix is applied: `.footer` and `.strip` now sit at `bottom:112px` (was 84px). `.hero` bottom moved from 260 to 300px to keep the hero clear of the taller footer.
+- Wed card: the save prompt moved up from bottom:300 to bottom:360. At 300 it would have crossed the strip's pink rule.
+- Sat card: the pill moved from top 200 to 180 and the content from 360 to 330, so the list clears the strip rule by 46px (it was 16px).
+- `text-wrap: balance` is now on `.tag` and `.src`. With the wider logo, the strip tagline would have left "event." alone on a line, and the Thu source line would have left "2026" alone. They now break as "Who's in the room / is the event." and as 3 even source lines. No words changed: the PDF word sequence is identical to the previous commit.
+
+**Checks after `python3 source/export.py`**
+- 17/17 pages are 1080 x 1350 and #0A0A0A to the edge (no white hairline).
+- Looked at all 15 slides and both cards at full size, plus `contact-sheet.png` and a 390px phone-width preview.
+- Measured the element boxes in Chrome, from each element to the logo box. Nothing is closer than 84px. Closest: Thu slide 2 source line 203px, Sat list 85px, Wed save prompt 84px, URLs 211px. The strip rule clears the Wed save prompt by 45px and the Sat list by 46px.
+- Fonts unchanged (Fraunces, Libre Franklin, IBM Plex Mono embedded).
+- PDFs are larger (Mon 144 KB to 431 KB, Thu 185 KB to 506 KB) because the vector logo is embedded on each page. That's well within LinkedIn's document limit.
+
+**Logo status:** the master is now confirmed (Nathan's file), so the HOLD in check 4 can close if you're happy with the look. One caveat from the brand README: this is an auto-trace of a 1439px raster, so the finest brush texture is simplified. If the designer's original vector turns up, swap it into `source/logo-footer.svg` and re-run the export. No other changes are needed.
+
+Nothing has been uploaded, scheduled or published.

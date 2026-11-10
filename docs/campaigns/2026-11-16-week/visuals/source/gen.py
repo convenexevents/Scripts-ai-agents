@@ -2,7 +2,9 @@
 import base64, html, sys, pathlib
 
 OUT = pathlib.Path(sys.argv[1])
-LOGO = base64.b64encode(pathlib.Path(sys.argv[2]).read_bytes()).decode()
+LOGO_PATH = pathlib.Path(sys.argv[2])
+LOGO = base64.b64encode(LOGO_PATH.read_bytes()).decode()
+LOGO_MIME = "image/svg+xml" if LOGO_PATH.suffix == ".svg" else "image/png"
 
 BG, TXT, GREY, PINK, YEL, INK = "#0A0A0A", "#F5F5F5", "#A3A3A3", "#FF1FA9", "#FCD500", "#0A0A0A"
 
@@ -21,22 +23,24 @@ html, body {{ background: {BG}; }}
 .pill.yellow {{ background:{YEL}; color:{INK}; }}
 .top {{ position:absolute; left:96px; right:96px; top:96px; }}
 .content {{ position:absolute; left:96px; right:96px; top:300px; }}
-.hero {{ position:absolute; left:96px; right:96px; top:0; bottom:260px; display:flex; flex-direction:column; justify-content:center; }}
+.hero {{ position:absolute; left:96px; right:96px; top:0; bottom:300px; display:flex; flex-direction:column; justify-content:center; }}
 h1 {{ font-family:'Fraunces', serif; font-weight:300; font-size:92px; line-height:1.08; letter-spacing:-0.01em; color:{TXT}; text-wrap:pretty; }}
 h1.xl {{ font-size:104px; line-height:1.04; }}
 .em {{ color:{YEL}; font-style:italic; }}
 .body {{ font-size:46px; line-height:1.32; color:{TXT}; margin-top:44px; max-width:860px; text-wrap:pretty; }}
 /* Felix 10 Nov: source lines and save prompts at 30px minimum (about 11px on a 390px-wide phone feed) */
-.src {{ font-family:'IBM Plex Mono', monospace; font-weight:500; font-size:30px; line-height:1.4; letter-spacing:0.02em; color:{GREY}; }}
+.src {{ font-family:'IBM Plex Mono', monospace; font-weight:500; font-size:30px; line-height:1.4; letter-spacing:0.02em; color:{GREY}; text-wrap:balance; }}
 .save {{ font-family:'IBM Plex Mono', monospace; font-weight:500; font-size:30px; letter-spacing:0.08em; text-transform:uppercase; color:{TXT}; }}
 .num {{ display:inline-flex; align-items:center; justify-content:center; width:96px; height:96px; border-radius:999px;
   background:{PINK}; color:{INK}; font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:48px; margin-bottom:48px; }}
 .rule-y {{ width:160px; height:6px; background:{YEL}; margin-bottom:48px; }}
-.footer {{ position:absolute; left:96px; right:96px; bottom:84px; height:90px; display:flex; align-items:flex-end; justify-content:space-between; }}
+/* Rhys 10 Nov: Nathan's script lockup (vector, docs/brand/logo). Footer raised to 112px from the foot (Felix clear-space note). */
+.footer {{ position:absolute; left:96px; right:96px; bottom:112px; display:flex; align-items:flex-end; justify-content:space-between; gap:48px; }}
 .footer .url {{ font-family:'IBM Plex Mono', monospace; font-weight:500; font-size:30px; letter-spacing:0.04em; color:{TXT}; }}
-.logo {{ height:112px; display:block; }}
-.tag {{ font-family:'Fraunces', serif; font-style:italic; font-weight:300; font-size:46px; color:{TXT}; line-height:1.1; }}
-.strip {{ position:absolute; left:96px; right:96px; bottom:84px; border-top:3px solid {PINK}; padding-top:36px;
+/* 164px tall = script words about 30px, about 11px on a 390px phone feed (same floor as .src) */
+.logo {{ height:164px; width:auto; display:block; flex:none; }}
+.tag {{ font-family:'Fraunces', serif; font-style:italic; font-weight:300; font-size:46px; color:{TXT}; line-height:1.1; text-wrap:balance; }}
+.strip {{ position:absolute; left:96px; right:96px; bottom:112px; border-top:3px solid {PINK}; padding-top:36px;
   display:flex; align-items:flex-end; justify-content:space-between; }}
 /* timeline */
 .tl {{ position:relative; height:60px; }}
@@ -54,7 +58,7 @@ h1.xl {{ font-size:104px; line-height:1.04; }}
 def doc(title, pages):
     return f"<!doctype html><html lang='en-GB'><head><meta charset='utf-8'><title>{html.escape(title)}</title><style>{CSS}</style></head><body>{''.join(pages)}</body></html>"
 
-LOGO_IMG = f"<img class='logo' src='data:image/png;base64,{LOGO}' alt='Convene X Events'>"
+LOGO_IMG = f"<img class='logo' src='data:{LOGO_MIME};base64,{LOGO}' alt='Convene X Events'>"
 
 def footer(left=""):
     return f"<div class='footer'><div class='url'>{left}</div>{LOGO_IMG}</div>"
@@ -138,7 +142,7 @@ def wed():
         <p class='body' style='margin:40px auto 0;font-weight:500;max-width:820px'>Organisers who rate their networking &#8216;very effective&#8217;, 2025 to 2026.</p>
         <p class='src' style='margin-top:48px'>Source: Bizzabo 2026 State of Events Benchmark<br>(vendor survey)</p>
       </div>
-      <p class='save' style='position:absolute;left:96px;bottom:300px'>SAVE THIS FOR YOUR NEXT GUEST LIST</p>
+      <p class='save' style='position:absolute;left:96px;bottom:360px'>SAVE THIS FOR YOUR NEXT GUEST LIST</p>
       <div class='strip'><span class='tag'>Who&#8217;s in the room is the event.</span>{LOGO_IMG}</div></section>"""]
     return doc("Convene X LinkedIn Wed 18 Nov stat card", p)
 
@@ -153,8 +157,8 @@ def sat():
       <defs><filter id='g' x='-50%' y='-50%' width='200%' height='200%'><feGaussianBlur stdDeviation='6'/></filter></defs>
       <path d='M-20 230 L330 -20' stroke='{PINK}' stroke-width='10' opacity='0.55' filter='url(#g)'/>
       <path d='M-20 230 L330 -20' stroke='{PINK}' stroke-width='3'/></svg>"""
-    p = [f"""<section class='page'>{streak}<div class='top' style='top:200px'><span class='pill yellow'>THE LONDON ROOM</span></div>
-      <div class='content' style='top:360px'><h1 style='font-size:92px'>5 things before the menu</h1>
+    p = [f"""<section class='page'>{streak}<div class='top' style='top:180px'><span class='pill yellow'>THE LONDON ROOM</span></div>
+      <div class='content' style='top:330px'><h1 style='font-size:92px'>5 things before the menu</h1>
       <ol style='list-style:none;margin-top:64px'>{rows}</ol></div>
       <div class='strip'><span class='tag'>Who&#8217;s in the room is the event.</span>{LOGO_IMG}</div></section>"""]
     return doc("Convene X LinkedIn Sat 21 Nov checklist card", p)
