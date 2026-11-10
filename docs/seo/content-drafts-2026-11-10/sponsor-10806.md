@@ -1,6 +1,65 @@
 # Rewrite: /sponsor/ (page 10806)
 
-Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
+## Felix review (10 Nov 2026)
+
+**Verdict: PASS WITH EDITS.** I've made the edits below in this file. It can go to Freya. Nothing on the live site has been touched.
+
+| Check | Result |
+|---|---|
+| Proof claim | Pass. Team framing in previous roles. No personal names, no "Convene X has delivered", no event counts, no time windows. Section 6 now uses the website proof line wording ("our founding team spent several years"). |
+| Brand voice | Pass. UK English, contractions, digits, no em dashes, no banned words, no exclamation marks. The H1 and section 2 are the strongest parts of the page. |
+| Sponsor promises | Pass after edit. No lead, pipeline, meeting or ROI promises are left. In step 4, "The relationship is yours" asserted an outcome, so it's now "The next step is yours to earn." |
+| Accuracy | Pass with open items. Every figure traces to `brand-brief.md`, and the brief is the standard. The live service pages disagree with the brief in places (see table below). Those pages need fixing; this draft doesn't. |
+| Call length | Fixed. "45-minute" removed from the FAQ. No length is stated anywhere on the page now. |
+| SEO | Pass. The title (48 characters) is unchanged. The meta description (138) has the focus keyword in its first 4 words. I've written the OG description (158) and the Twitter description (151). |
+| GDPR | None on this page. One flag on the webinar page (see Open). |
+
+### Edits I made
+1. **Section 4, webinar card:** "for 25 to 50 senior registrations" is now "aiming for 25 to 50 senior registrations". This matches the FAQ ("aim for"), so it doesn't read as a guaranteed number.
+2. **Section 5, step 4:** "The relationship is yours... Any next step" is now "The next step is yours to earn... Any follow-up". We can't promise that a relationship forms.
+3. **Section 6, proof:** "our team spent several years in previous roles" is now "our founding team spent several years, in previous roles,", aligned to the approved website proof line. It's still team framing, with no names.
+4. **Section 7, lede:** "Every guest is invited and vetted, not registered" is now "Every guest is invited and vetted against the profile you agree with us". The old line contradicted the webinar card and FAQ, which talk about registrations.
+5. **FAQ, room size:** "so everyone at the table takes part" is now "small enough for a real conversation". At 25 dinner guests, "everyone takes part" overclaims, and a webinar isn't a table.
+6. **FAQ, how do we start:** "Book a 45-minute exploratory call" is now "Book an exploratory call". The link is `/15min` and the length isn't confirmed.
+7. **Meta:** I wrote the OG and Twitter descriptions. Rank Math is currently filling both with the whole page body, old pipeline and founder lines included. That's confirmed via the Rank Math read.
+8. **Housekeeping:** I updated "Why this rewrite" item 3 and flags 2 and 3 to reflect today's brand-brief update.
+
+### Accuracy check against the live service pages (read 10 Nov)
+
+| Claim in draft | Brand brief | 9415 Dinners | 9414 Roundtables | 9413 Webinars | Call |
+|---|---|---|---|---|---|
+| Dinners 10 to 25 | 10 to 25 | **Conflicts:** "Ten seats", "Ten at the table", final CTA "Ten seats. One question.", FAQ "typically 8 to 12" | n/a | n/a | Draft is right. 9415 needs fixing. |
+| Roundtables 6 to 12 | 6 to 12 | n/a | Matches: "6 to 12" (FAQ), "Six to twelve" (body) | n/a | OK (body should use digits: "6 to 12") |
+| Webinars 25 to 50 registrations | 25 to 50 | n/a | n/a | No figure stated | Brief only. OK. |
+| Director+ for dinners and roundtables | Director+ | "C-suite leaders and senior decision-makers... heads of function". No Director+ bar stated | "senior leaders". No bar stated | n/a | Brief only. OK. Service pages are vaguer, not contradictory. |
+| Senior Manager+ for webinars | Senior Manager+ | n/a | n/a | **Conflicts:** FAQ says "typically manager level and above" | Draft is right. 9413 needs fixing. |
+| 12 weeks (2 weeks plan, 10 weeks recruit) | Yes | Not stated | Not stated | Not stated | Brief only. OK. |
+| Host signs off the guest list | Yes (sponsor-hosted model) | Not stated | Not stated | Not stated | Brief only. Applies to webinars? See Open. |
+
+### Open: for Freya
+- **Button swap in section 10** (Book Exploratory Call as primary). I recommend approving it, because it matches the hero and the brief's primary CTA.
+- **Service page fixes (Iris to draft, Kai to build; not this page):**
+  - **9415 dinners:** "Ten seats" / "Ten at the table" / "Ten seats. One question. No pitch." and FAQ "8 to 12" all conflict with 10 to 25. The FAQ "What do we get out of hosting one?" promises "warm introductions" and "meaningful commercial opportunities", which is a sponsor-promise breach. The venues copy says "trusted by global enterprise brands", which is unsubstantiated.
+  - **9413 webinars:** the **"Founder led" band** ("our founder... throughout his career") is the same house-rule breach we've just fixed here. It needs the same team rewrite. The seniority line "manager level and above" should read "Senior Manager level and above". The CTA reads "Book a Discovery Call" where every other page says "Exploratory".
+  - **9414 roundtables:** "build trusted commercial relationships" leans towards an outcome promise. It's a light edit.
+- **Pattern for Iris (recurring):** the founder band and the "warm follow-up / commercial opportunities" phrasing appear on 3 pages now. Worth a site-wide search for "founder", "his career", "pipeline", "warm" and "commercial opportunit" before the next batch.
+
+### Open: for Nathan
+1. **Call length.** Is it 45 minutes or 15? The brief says 45 and the link slug says `/15min`. Until you confirm, the page states no length. If the call is 45 minutes, consider renaming the slug, and update `brand-brief.md` if it's 15.
+2. **Guest-list sign-off for webinars.** The hero, meta, OG, Twitter, step 2 and FAQ all say "you sign off the guest list". The brief supports this for sponsor-hosted events, but no service page confirms it, and webinars run on registrations. If it doesn't hold for webinars, the fallback for the FAQ is "For dinners and roundtables, you sign off the guest list." The meta still works as written.
+3. **12-week lead time and Director+ / Senior Manager+.** These are stated publicly for the first time on this page (they come from the brief). Please confirm you're happy to commit to them in public copy.
+4. **GDPR flag for Eleanor (9413, not this page).** The webinar FAQ promises sponsors a report "detailing who attended live, any chat messages, submitted questions". Sharing attendee identities and chat content with a sponsor needs a lawful basis and a registration-page notice. Worth Eleanor's check.
+
+### Post 8986 ("The Case Against Conference Sponsorship"): noted, not rewritten
+Yes, it needs a light fix before this page sends more hosts to it:
+- "Conference sponsorship at scale produces low-quality pipeline at scale" is a category comparison (no named competitor), so it's acceptable. But "what would 12 curated dinners per year... produce at your close rate from relationship-led pipeline?" invites the reader to model ROI from our dinners. That's an implied ROI/pipeline promise. Suggest reframing it as a question about conversation quality, without the close-rate maths.
+- These lines are unsubstantiated: "The cost-per-relationship is lower, often significantly", "the metrics know it" and "Teams that run this calculation honestly often find a case for moving at least part of the budget". Each needs a source or softer framing.
+- "Twelve people in a room" sits within 10 to 25, so it's fine, but "12 senior, qualified guests" per dinner reads as a standard size. Minor.
+- The OG and Twitter descriptions for 8986 are empty (they fall back to defaults). Worth setting at the same time.
+
+---
+
+Status: **DRAFT, Felix-reviewed (Pass with edits), for Freya's sign-off.** Nothing has been changed on the live site.
 Drafted by: Senior Content Writer, 10 November 2026, at Nathan's request.
 Pipeline: Felix (brand/quality) > Freya (sign-off) > Nathan (preview and approval) > Kai builds > Callum pre-publish check.
 
@@ -226,7 +285,7 @@ Format: **Current**, then **New**, then **Why**.
 
 ## Couldn't verify / flags for reviewers
 
-1. **Proof line wording.** `brand-voice.md` and `convenex-brain.md` aren't in this repo, so I couldn't check the exact approved website proof line (the agent notes say it reads "our founding team spent several years..."). I used "our team... in previous roles" per Nathan's brief. Felix to check it against brand-voice.md.
+1. **Proof line wording.** `brand-voice.md` and `convenex-brain.md` aren't in this repo, so I couldn't check the exact approved website proof line (the agent notes say it reads "our founding team spent several years..."). I used "our team... in previous roles" per Nathan's brief. Felix to check it against brand-voice.md. **Felix: brand-voice.md isn't in this repo for me either. I aligned the line to the proof line in my review checklist ("our founding team spent several years..."). Freya to confirm against the vault copy.**
 2. **Brand brief conflict.** `brand-brief.md` still lists "34 events in the last 18 months, 32 at or over capacity" as the approved proof claim. Freya's ruling bans event counts in public copy, so it's not used here. The brief needs updating, or the next writer will reuse the number. **Felix: resolved. `brand-brief.md` was updated on 10 Nov; event counts are banned and the claim is retired.**
 3. **Call length vs link.** The brand brief calls it a 45-minute exploratory call, but the link slug is `cal.com/convenexevents/15min`. The new FAQ says "45-minute". Confirm the length, and whether the slug should change. **Felix: length removed from the FAQ ("Book an exploratory call."). Open with Nathan.**
 4. **Webinar figures.** "25 to 50 registrations" and "Senior Manager+" come from the brand brief, and "professionally produced" is from the current page. I didn't check them against the webinar service page (9413).
