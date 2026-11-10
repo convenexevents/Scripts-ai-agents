@@ -8,7 +8,7 @@
 ## Business
 Convene X Events Ltd (convenexevents.com), a UK B2B executive events company.
 We run curated, invitation-only rooms for senior leaders: executive dinners
-(10-25 guests), virtual roundtables (6-12), webinars (25-50 registrations),
+(6-20 guests), virtual roundtables (6-12), webinars (25-50 registrations),
 1-2-1 meetings (packs of 5 or 10) and bespoke programmes.
 
 Two modes:

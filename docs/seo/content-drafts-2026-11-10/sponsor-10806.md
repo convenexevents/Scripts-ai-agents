@@ -7,6 +7,8 @@
 3. **12-week lead time and seniority bars: yes, state them.** Use Version A (drafted wording) for section 7 and both FAQs.
 4. **Reach: UK, Europe and the US.** Replace every "UK and US" / "the UK and US" with "the UK, Europe and the US" (section 7, the "Who is actually in the room?" FAQ, anywhere else it appears).
 
+5. **Dinner size: 6 to 20 guests** (Nathan, 10 Nov). Replace every "10 to 25" on this page with "6 to 20" (formats card, room-size FAQ, anywhere else).
+
 Callum's FAQPage schema must match the built FAQ text word for word.
 
 
