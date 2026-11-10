@@ -169,3 +169,34 @@ Nothing has been uploaded, scheduled or published.
 3. **Logo source.** The SVG is an auto-trace of your 1439px PNG. If the designer's original vector exists, send it over and Rhys will swap it in with one command.
 
 Nothing has been uploaded, posted, scheduled or published.
+
+## Wed/Sat clear-space fix (Rhys, 10 Nov 2026), for Felix's pixel re-check
+
+**Rule applied** (Freya's recommendation, until Nathan decides): at least the X height (156px) between the logo and any other element, lines included. The 96px margin to the canvas edges stays. No wording changed: the only edits in `source/gen.py` are positions and spacing.
+
+**Layout changes (`source/gen.py`)**
+- Wed and Sat strip: the pink rule no longer runs the full width. It's now a 400px rule over the tagline only (x 96 to 495). The logo and tagline haven't moved (padding-top 36 to 39px replaces the 3px border). `.strip` is used only on these two cards.
+- Wed: save prompt moved from bottom:360 to bottom:436. Moving only the prompt made it overlap "(vendor survey)", so the stat block also moved up 80px (content top 300 to 220). The pill still ends at y 147 and the stat now starts at y 283.
+- Sat: list spacing tightened from 34px to 20px, and the content block moved up from top 330 to 310.
+- Mon and Thu: not touched. After the re-export, both PDFs are byte-identical to the approved files (same md5), and all 15 slides re-render with 0 pixel difference.
+
+**Measured from the pixels** (logo pixels isolated by rendering each card again with only the logo hidden and diffing the two renders; distance = nearest painted pixel to nearest logo pixel)
+- Logo (both cards, unchanged): x 657 to 979, y 1078 to 1234. Top of the X tip at y 1078, so the clear-space line is y 922. Edges: 100px right, 115px bottom.
+
+| Element | Wed | Sat |
+|---|---|---|
+| Pink strip rule (x 96 to 495, y 1035 to 1037) | 198px (162px left of the logo's left edge) | 198px (same) |
+| Tagline "Who's in the room is the event." | 244px (236px to the left) | 244px |
+| Save prompt (bottom y 906) | 181px (172px above the X tip) | n/a |
+| List item 5 text (bottom y 893) | n/a | 191px (185px above) |
+| List item 5 number circle (bottom y 912) | n/a | 166px above (557px direct) |
+| Source line (bottom y 817) | 301px | n/a |
+| List item 4 | n/a | 295px |
+| Stat numbers / body | 613px / 457px+ | n/a |
+| Heading, pill, streak | pill 940px | heading 685px, pill 934px, streak 1128px |
+
+Nearest element on each card: Wed save prompt 181px; Sat item 5 circle 166px above the X. Everything is 156px or more.
+
+**Visual checks:** looked at both cards at full size, the 390px phone preview of Wed and Sat (the X stands clear and no longer reads as hanging off a line), and the refreshed `contact-sheet.png`. On Wed, "(vendor survey)" to the save prompt is 67px and the pill to the stat is 136px. Nothing collides.
+
+Nothing has been uploaded, posted, scheduled or published.

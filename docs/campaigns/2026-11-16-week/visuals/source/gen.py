@@ -40,8 +40,11 @@ h1.xl {{ font-size:104px; line-height:1.04; }}
 /* 164px tall = script words about 30px, about 11px on a 390px phone feed (same floor as .src) */
 .logo {{ height:164px; width:auto; display:block; flex:none; }}
 .tag {{ font-family:'Fraunces', serif; font-style:italic; font-weight:300; font-size:46px; color:{TXT}; line-height:1.1; text-wrap:balance; }}
-.strip {{ position:absolute; left:96px; right:96px; bottom:112px; border-top:3px solid {PINK}; padding-top:36px;
+/* Rhys 10 Nov (Wed/Sat clear-space fix): the pink rule spans the tagline only (x 96 to 496) and stops
+   well over 156px (the X height) left of the logo, instead of running the full width above the X. */
+.strip {{ position:absolute; left:96px; right:96px; bottom:112px; padding-top:39px;
   display:flex; align-items:flex-end; justify-content:space-between; }}
+.strip::before {{ content:''; position:absolute; left:0; top:0; width:400px; height:3px; background:{PINK}; }}
 /* timeline */
 .tl {{ position:relative; height:60px; }}
 .tl .line {{ position:absolute; left:0; right:0; top:29px; height:2px; background:#3A3A3A; }}
@@ -136,13 +139,13 @@ def thu():
 def wed():
     arrow = f"""<svg width='120' height='40' viewBox='0 0 120 40' style='margin:0 28px'><path d='M2 20 H112 M96 6 L114 20 L96 34' stroke='{TXT}' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>"""
     p = [f"""<section class='page'><div class='top'><span class='pill pink'>NETWORKING, RATED BY ORGANISERS</span></div>
-      <div class='content' style='top:300px;text-align:center'>
+      <div class='content' style='top:220px;text-align:center'>
         <div style="display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.02em">
           <span style='font-size:200px;color:{GREY}'>46%</span>{arrow}<span style='font-size:250px;color:{YEL}'>15%</span></div>
         <p class='body' style='margin:40px auto 0;font-weight:500;max-width:820px'>Organisers who rate their networking &#8216;very effective&#8217;, 2025 to 2026.</p>
         <p class='src' style='margin-top:48px'>Source: Bizzabo 2026 State of Events Benchmark<br>(vendor survey)</p>
       </div>
-      <p class='save' style='position:absolute;left:96px;bottom:360px'>SAVE THIS FOR YOUR NEXT GUEST LIST</p>
+      <p class='save' style='position:absolute;left:96px;bottom:436px'>SAVE THIS FOR YOUR NEXT GUEST LIST</p>
       <div class='strip'><span class='tag'>Who&#8217;s in the room is the event.</span>{LOGO_IMG}</div></section>"""]
     return doc("Convene X LinkedIn Wed 18 Nov stat card", p)
 
@@ -151,14 +154,14 @@ def sat():
     items = ["One table, one conversation", "A door that shuts", "The quietest voice carries",
              "Close to the main stations", "Staff who serve around the talk"]
     rows = "".join(
-        f"<li style='display:flex;align-items:center;gap:32px;margin-bottom:34px'><span class='num' style='width:72px;height:72px;font-size:36px;margin:0;flex:none'>{i}</span>"
+        f"<li style='display:flex;align-items:center;gap:32px;margin-bottom:20px'><span class='num' style='width:72px;height:72px;font-size:36px;margin:0;flex:none'>{i}</span>"
         f"<span style='font-size:44px;line-height:1.2'>{e(t)}</span></li>" for i, t in enumerate(items, 1))
     streak = f"""<svg width='420' height='260' viewBox='0 0 420 260' style='position:absolute;left:0;top:0'>
       <defs><filter id='g' x='-50%' y='-50%' width='200%' height='200%'><feGaussianBlur stdDeviation='6'/></filter></defs>
       <path d='M-20 230 L330 -20' stroke='{PINK}' stroke-width='10' opacity='0.55' filter='url(#g)'/>
       <path d='M-20 230 L330 -20' stroke='{PINK}' stroke-width='3'/></svg>"""
     p = [f"""<section class='page'>{streak}<div class='top' style='top:180px'><span class='pill yellow'>THE LONDON ROOM</span></div>
-      <div class='content' style='top:330px'><h1 style='font-size:92px'>5 things before the menu</h1>
+      <div class='content' style='top:310px'><h1 style='font-size:92px'>5 things before the menu</h1>
       <ol style='list-style:none;margin-top:64px'>{rows}</ol></div>
       <div class='strip'><span class='tag'>Who&#8217;s in the room is the event.</span>{LOGO_IMG}</div></section>"""]
     return doc("Convene X LinkedIn Sat 21 Nov checklist card", p)
