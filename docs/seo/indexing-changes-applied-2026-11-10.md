@@ -192,3 +192,55 @@ Preview: https://convenexevents.com/?page_id=12289&preview=true&easy_mcp_ai_prev
 - **Twitter description on /sponsor/** shows the OG text in the preview, because Rank Math's "Use data from Facebook tab" is on and the MCP can't switch it off (Rank Math integration disabled). Switch it off in Rank Math > Social on 12289/10806 before release.
 - **/sponsor/ preview styling:** 14 page-scoped CSS rules target `body.page-id-10806`, so the preview (page ID 12289) misses some dividers, FAQ width and button styling. They apply once the copy is released into 10806. Review the copy, not those details.
 - **Site-wide "Continue with Convene X" script** still says "in the UK and US". Theme-level, outside this release.
+
+## Round 4: booking links and reach wording (10 Nov 2026, late evening)
+
+Applied by Kai on Nathan's approval ("yes switch buttons to 15 min and fix UK wording", 10 Nov 2026, relayed by Jarvis). All writes went through the Convene X Events WordPress MCP and are in Easy MCP change history (audit IDs below; history holds every before-value). Out of scope and untouched: /join/ (9517), the homepage venue carousel, and the /sponsor/ draft 12289.
+
+### Where the old values actually live
+- **cal.com/convenexevents/45min**: no page, post, Custom Code snippet, widget, menu, theme mod or Elementor page data contains it. It was in one Elementor global widget (5724 "Button") and, for everything visitors see, in the **child theme files** (`convene-x-child` 2.2.7): header "Book a Call", footer "Book a Call", mobile menu "Book a Call", venue drawer "Book a call" and the partner panel "Book Exploratory Call". The Elementor header (6771) and footer (7435) templates are not the live header/footer (footer 7435 already said 15min). The MCP cannot read or write theme files (`wp_privileged_files_read_query` is off and there is no file-write tool).
+- **"Continue with Convene X"**: injected on every blog post by the Custom Code snippet 10309 "CX Cookie Consent Banner" (script `cx-postcta-js`). The copies inside the `post_content` of 18 posts are not rendered (those posts are Elementor-built), so they were left alone.
+- **"UK & US" top strip** on public pages: also from the child theme. The member-area pages carry their own copy in page content.
+
+### Change log
+| # | What | Where | Before | After | Audit / revision |
+|---|---|---|---|---|---|
+| R4-1 | Global widget link | Elementor library 5724 "Button" (Book Exploratory Call) | `https://cal.com/convenexevents/45min` | `https://cal.com/convenexevents/15min` | audit 5184, revision 12325 |
+| R4-2 | "Continue with Convene X" text (all blog posts) | Custom Code 10309, `_elementor_code`, script `cx-postcta-js` | "...for senior leaders in the UK and US. Explore the formats..." | "...for senior leaders in the UK, Europe and the US. Explore the formats..." | audit 5187, history 11971 (full before-value) |
+| R4-3 | Interim override for theme-rendered links and top strip (new, appended at the end of 10309) | Custom Code 10309, new `<script id="cx-booking-1110">` with an explanatory comment | none | Rewrites any `a[href*="cal.com/convenexevents/45min"]` to `/15min` (MutationObserver, so the venue drawer, mobile menu and partner panel are covered when built) and the theme top strip "UK & US · Invitation only" to "UK, Europe & US · Invitation only" | same as R4-2. Remove this block once the theme is fixed |
+| R4-4 | Event-page network paragraph | Pages 10566, 10567, 10568, 10569, 10570, 10305, 10306 | "...senior decision-makers in the UK and US." | "...senior decision-makers in the UK, Europe and the US." | audits 5211-5217, one revision each |
+| R4-5 | Sector-page network paragraph | Pages 10667, 10668, 10669, 10670, 10671 | same | same | audits 5206-5210 (10667 revision 12326) |
+| R4-6 | Partner profile | Page 10654 | "for senior leaders in the UK and US." / "audiences in the UK and the US." | "...in the UK, Europe and the US." (both) | audits 5218, 5219 |
+| R4-7 | Partners hub | Page 10653 | pill "Partners · UK and US"; "for senior leaders in the UK and US."; "Demo profile · UK and US" | "Partners · UK, Europe and US"; "...in the UK, Europe and the US."; "Demo profile · UK, Europe and US" | audits 5220-5222 |
+| R4-8 | Partners hub meta description (Rank Math, also OG/Twitter) | Page 10653 `rank_math_description` | "...roundtables and webinars in the UK and US." | "...roundtables and webinars in the UK, Europe and the US." | audit 5244 (+ resave) |
+| R4-9 | /sponsor/ live page (not the 12289 draft) | Page 10806, 5 strings | "reaches your ICP in the UK and US at once"; chip "UK and US reach"; "in London and across the UK and US."; "...the profile we agree with you, in the UK and US."; "...reach your audience across the UK and US in a single session." | "...in the UK, Europe and the US at once"; "UK, Europe and US reach" (matches draft 12289); "...across the UK, Europe and the US."; "...in the UK, Europe and the US."; "...across the UK, Europe and the US in a single session." | audits 5223-5227 |
+| R4-10 | Member/login header strip | Pages 9859 /login/, 8388 /my-account/, 9545, 9544, 9543, 9542, 9539 | `UK &amp; US &middot; Invitation only` | `UK, Europe &amp; US &middot; Invitation only` | audits 5228-5234 |
+| R4-11 | Dinners hero pill + rotator | Page 9415 | "Invitation-Only · UK &amp; US" and rotator `t:"Invitation-Only · UK & US"` | "Invitation-Only · UK, Europe &amp; US" / `t:"Invitation-Only · UK, Europe & US"` | audits 5235, 5236 |
+| R4-12 | Services hero rotator | Page 9411 | `t:"Executive Formats · UK & US"` | `t:"Executive Formats · UK, Europe & US"` | audit 5237 |
+| R4-13 | Homepage splash subline (not the venue carousel) | Page 9110 | "UK and US · Invitation only" | "UK, Europe and US · Invitation only" | audit 5238 |
+| R4-14 | Maintenance-mode page | Elementor library 11514 "We'll be back soon" | "Invitation only &middot; UK &amp; US" | "Invitation only &middot; UK, Europe &amp; US" | audit 5240, revision 12359 |
+
+Every text swap used an exact-match search with expected count 1, so nothing else on those pages changed. Visible "45-minute"/"45 min" call-length text next to the buttons: none found on the site (the buttons say "Book a Call" / "Book Exploratory Call"). Webinar-length mentions ("45 minutes") are format lengths, not the call, and were left.
+
+### Cache
+`wp_clear_cache` scope `site`: Rank Math sitemap and Elementor CSS cleared. FlyingPress still has no purge route over the MCP.
+
+### Verification (Firecrawl, logged-out, maxAge 0, rendered DOM)
+| URL | Booking links in the page | Reach wording |
+|---|---|---|
+| / | 7 links, all `/15min` (header, footer, hero, band, final CTA) | top strip "UK, Europe & US · Invitation only"; splash "UK, Europe and US · Invitation only" |
+| /the-connaught-london-private-dining-venue/ | 7 rendered links, all `/15min` | top strip updated |
+| /why-senior-leaders-value-conversation/ (post 44) | all rendered links `/15min`, incl. the post's "Book a Call with the Team" | "Continue with Convene X" block reads "...in the UK, Europe and the US." |
+| /contact-us/ | 7 rendered links, all `/15min` | top strip updated |
+| Extra: /sponsor/, /private-executive-dinners/, /partners/ | all rendered links `/15min` | all edited strings live; partners meta/OG/Twitter description updated |
+The only `45min` strings left in page source are inside the theme's own JavaScript templates (venue drawer, partner panel, mobile menu on posts) and the override script itself; the override rewrites them as soon as those elements are added to the page. Crawlers that do not run JavaScript will still see `45min` in those theme templates until the theme is fixed.
+
+### FlyingPress purge needed
+The snippet change (R4-2/R4-3) affects every page, so **Purge everything** is the right action. If purging by URL: /, /sponsor/, /partners/, /partners/convene-x-events/, /private-executive-dinners/, /services/, /login/, /my-account/, /dashboard/, /activity/, /groups/, /profile/, /directory/, /executive-dinners-for-cfos/, /ciso-roundtables/, /cio-cto-dinners/, /procurement-leaders/, /marketing-leaders/, /human-edge-leadership-culture-age-of-automation-roundtable/, /ai-advantage-enterprise-efficiency-decision-making-webinar/, /cfo-leadership-dinner-capital-strategy-london-2026/, /modern-finance-function-automation-ai-controls-roundtable/, /treasury-liquidity-navigating-market-volatility-roundtable/, /us-executive-webinar-february-2027/, /us-executive-virtual-roundtable-march-2027/, and every blog post URL (for the post CTA block).
+
+### Not changed (needs the theme, a decision, or is outside scope)
+1. **Child theme files** (`convene-x-child`): header/footer/mobile-menu/venue-drawer/partner-panel links still say `cal.com/convenexevents/45min` in the theme source, and the theme top strip says "UK & US · Invitation only". The override in R4-3 fixes what visitors see; the permanent fix is a find-and-replace in the theme files (or switch on `wp_privileged_files_read_query` plus a file-edit route). Then delete the `cx-booking-1110` block from snippet 10309.
+2. **Theme-level meta descriptions** (not Rank Math, not page content): /contact-us/ says "...or book a 45-minute exploratory call." and /private-executive-dinners/ says "...for senior leaders across the UK and US." Both come from the theme (Rank Math's own description for 9415 is different and correct). Suggested: "...or book a 15-minute exploratory call." and "...across the UK, Europe and the US."
+3. **Old Royal Addons footer template** (wpr_templates 7450): "Book a Call" links to `tidycal.com/convenexevents/45-minute-sales-call-block`. It is not the live footer and not the cal.com link, so it was left; worth deleting or repointing.
+4. **Drafts, not public**: 6873 brochure page ("Book a 45-minute exploratory call"), 10564 event draft, 8782/31/1288 post drafts (post-CTA copies in post_content), 11707/11722 ("two 45-minute" set-up calls, a different subject). Fix 6873 before it is ever published.
+5. **Revisions pruned by WordPress**: this round's saves pushed some pages over the site's revision limit and WordPress deleted their oldest revisions, including several Round 1 rollback points listed above (9110: 11737 and 11838; 9415: 11626 and 11627; 10806: 11829, 11830, 11842). Round 1 rollback still works by deleting the dated blocks, and Easy MCP history holds the before-values. Round 3 revisions (12250-12286) were not in the pruned set.
