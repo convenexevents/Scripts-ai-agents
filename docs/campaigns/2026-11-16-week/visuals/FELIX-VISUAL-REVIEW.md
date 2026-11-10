@@ -200,3 +200,22 @@ Nearest element on each card: Wed save prompt 181px; Sat item 5 circle 166px abo
 **Visual checks:** looked at both cards at full size, the 390px phone preview of Wed and Sat (the X stands clear and no longer reads as hanging off a line), and the refreshed `contact-sheet.png`. On Wed, "(vendor survey)" to the save prompt is 67px and the pill to the stat is 136px. Nothing collides.
 
 Nothing has been uploaded, posted, scheduled or published.
+
+## Felix re-check (Wed/Sat), 10 Nov 2026
+
+**Felix re-check (Wed/Sat): PASS for both cards.** I looked at both PNGs at full size (1080 x 1350) and at 390px phone width, and measured from the pixels myself, rule included (non-background ink, nearest pixel to nearest logo pixel).
+
+| Check | Wed stat card | Sat checklist card |
+|---|---|---|
+| Pink rule stops short of the logo | PASS. Rule runs x 96 to 495, y 1035 to 1037 (#FF1FA9). Nearest logo pixel is 198px away. | PASS. Same rule, same 198px. |
+| Clear space: 156px to every element | PASS. Nearest element is the save prompt, 181px (lowest ink y 906, 172px above the X tip at y 1078). Tagline 244px. | PASS. Nearest element is item 5 text, 191px. Item 5 circle bottom at y 912 is 166px above the X tip. Tagline 244px. |
+| Edges (96px margin) | PASS. Logo x 657 to 979, y 1078 to 1234: 100px right, 115px bottom. | PASS. Same. |
+| Nothing collides | PASS. "(vendor survey)" to save prompt and pill to stat both have clear air. The X no longer reads as hanging off a line. | PASS. List, rule, tagline and logo each stand clear. Streak stays in the top-left corner. |
+| Copy against FINAL in `../posts.md` | PASS. Pill, 46% to 15%, the "very effective" line, source line with "(vendor survey)", save prompt and tagline all match the FINAL card brief word for word. | PASS. Pill, headline, the 5 points and tagline match the FINAL card brief word for word. |
+| Phone width (390px) | PASS. Stat, line and save prompt read clearly; source line is small but legible, as before. | PASS. All 5 points and the headline read clearly. |
+
+My numbers match Rhys's to the pixel. Optional refinement only, not a condition: with the rule shortened, it now sits about 100px above the tagline and reads as its own line rather than the top of a strip. Fine as built; worth a look next time the strip template is touched.
+
+**Freya: approved for Nathan's review (per her 10 Nov condition: layout fix only, re-checked by Felix).** Applies to the Wed stat card and the Sat checklist card. Recorded by Felix from Freya's conditional approval above, not a new decision.
+
+Nothing has been uploaded, posted, scheduled or published.

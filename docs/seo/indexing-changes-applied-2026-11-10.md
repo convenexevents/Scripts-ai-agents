@@ -116,3 +116,79 @@ Preview links expire around 13:48 UTC on 11 Nov 2026. If they lapse, run `wp_cre
 **Not done (waits for approval):** the 301, the 8782 draft, the inbound link updates, cache purge, logged-out checks of live URLs, and indexing requests. /join/, /sponsor/ and the Drive sheet were not touched.
 
 **Also noticed, outside the go-list:** the homepage "London Venues" carousel (9110) still shows the old claims: Michelin (Connaught, Dorchester), "since 1910" and royal warrant (Goring), "open since 1837" and "longest-standing" (Brown's), "58th Floor" (Horizon 22), Ivy Club at 1-5 West St WC2H 9NQ, and The Beaumont at 8 Balderton St. It needs the same clean-up once Freya approves.
+
+## Round 3: release (10 Nov 2026, evening)
+
+Released by Kai on Nathan's approval of all Round 2 previews ("Approve all previews", 10 Nov 2026, relayed by Jarvis). All writes went through the Convene X Events WordPress MCP and are in Easy MCP change history. Verification was done logged-out with Firecrawl (maxAge 0), desktop and mobile.
+
+### Pre-release fix
+| What | Where | Before | After |
+|---|---|---|---|
+| Call length | Draft 11901 (8987 merge), closing CTA | "book a 45-minute exploratory call" | "book a 15-minute exploratory call" |
+| "45-minute" check | All other drafts (11865, 11884-11900), title, excerpt and content | None found (the only "45" hits were CSS values) | No change |
+
+### Releases (wp_republish_post; each saved a revision of the original first and moved the copy to the trash)
+| Live page | Draft | Revision (undo) | Audit ID | Released | Verified logged-out (desktop + mobile) |
+|---|---|---|---|---|---|
+| The Connaught 10707 | 11865 | 12250 | 5026 | Yes | Yes |
+| The Lanesborough 10709 | 11884 | 12252 | 5027 | Yes | Yes |
+| The Dorchester 10710 | 11885 | 12254 | 5028 | Yes | Yes |
+| The Goring 10711 | 11886 | 12256 | 5029 | Yes | Yes |
+| The Beaumont 10712 | 11887 | 12258 | 5030 | Yes | Yes |
+| The Stafford 10713 | 11888 | 12260 | 5031 | Yes | Yes |
+| Brown's Hotel 10714 | 11889 | 12262 | 5032 | Yes | Yes |
+| NoMad London 10715 | 11890 | 12264 | 5033 | Yes | Yes |
+| Royal Automobile Club 10716 | 11891 | 12266 | 5034 | Yes | Yes |
+| The Ivy Club 10717 (interim) | 11892 | 12268 | 5035 | Yes | Yes (address only; page has no FAQ, as before) |
+| The Soho Hotel 9476 | 11893 | 12270 | 5036 | Yes | Yes |
+| Claridge's 9477 | 11894 | 12272 | 5037 | Yes | Yes |
+| The Ned 9478 | 11895 | 12274 | 5038 | Yes | Yes |
+| Searcys Horizon 22 9479 | 11896 | 12276 | 5039 | Yes | Yes |
+| Haymarket Hotel 9480 | 11897 | 12278 | 5040 | Yes | Yes |
+| Covent Garden Hotel 9481 | 11898 | 12280 | 5041 | Yes | Yes |
+| Home 9110 | 11899 | 12282 | 5042 | Yes | Yes ("last 10 minutes" live) |
+| Executive Virtual Roundtables 9414 | 11900 | 12284 | 5043 | Yes | Yes |
+| Post 8987 /b2b-virtual-roundtable-guide/ | 11901 | 12286 | 5044 | Yes | Yes |
+
+Slugs, status and authors of every original are unchanged (checked after release). Template stayed `elementor_canvas` on every page. Venue checks: every new sentence from the approved drafts is present (13 to 22 per page), FAQPage + Place schema present, robots `index, follow`. To undo any row: `wp_restore_revision` with the revision ID, then `wp_history_apply` with the audit ID.
+
+Warning seen on the homepage release: WordPress holds an older unsaved autosave of 9110 from another user. If someone restores that autosave in the editor, or presses Publish in Elementor on an old session, it would overwrite this release. Discard it rather than restore it.
+
+### 8987 merge
+| Step | Record | Before | After | Verified |
+|---|---|---|---|---|
+| 1. Body + meta | 8987 | Old body | Merged body (Round 2 draft, 15-minute fix) | Yes |
+| 2. Redirect on | seo_redirects 11864 (Rank Math ID 44) | draft, `seo_redirect_active` 0 | publish, active 1, 301 to `/b2b-virtual-roundtable-guide/` | Yes: `/how-to-host-a-virtual-roundtable/` lands on `/b2b-virtual-roundtable-guide/` |
+| 3. No chain | seo_redirects 11629 (Rank Math ID 43) | `/how-to-host-a-virtual-roundtable-2026/` to `/how-to-host-a-virtual-roundtable/` | to `/b2b-virtual-roundtable-guide/` (301) | Yes |
+| 4. Internal links | 9414 post_content | 1 link to `/how-to-host-a-virtual-roundtable/` | `/b2b-virtual-roundtable-guide/` | Yes |
+| 4. Internal links | Posts 8983-8987, all other posts and pages (content and Elementor data) | No hard-coded links found | No change | Origin check: no page or post links the old URL |
+| 5. Retire | Post 8782 | publish | draft (not deleted) | Yes |
+
+Cached copies of 13 blog posts still show 8782 in their auto-generated "related posts" cards (the origin no longer does; checked with a cache-busting query). They clear with the FlyingPress purge below.
+
+### Leftover drafts
+`wp_republish_post` moved every copy to the trash itself (11865, 11884-11901 all `trash`, none left as draft). Nothing else to remove.
+
+### Cache
+`wp_clear_cache` (posts scope, 20 IDs): Rank Math sitemap cache and Elementor CSS cleared. FlyingPress is not reachable from the MCP.
+
+### Fix 7: Nathan's name (Eva form and site-wide)
+Snippet 11764 (Eva) was already fixed in B8 and still reads "the team" in all 4 places. Fresh logged-out scrapes of all 42 sitemap pages, all 21 published posts, /blog/, /register/, /build-your-room/ and /join-the-network/ found **no remaining "Nathan will get back to you" text** (earlier hits were FlyingPress copies cached before B8; they have since refreshed). Database search (page and post content, Elementor data, Elementor library, Custom Code, terms) found one remaining public occurrence, which was **not changed**:
+
+| Where | Text | Why not changed |
+|---|---|---|
+| About Us 9382, "single point of ownership" section | Founder card: photo `nathan-pritchard-photo.jpg`, alt "Nathan Pritchard, founder of Convene X Events", name "Nathan Pritchard", label "Founder, Convene X Events" | It is a deliberate named founder card with a photo, not the Eva form. Swapping the name for "the team" under a portrait would read wrongly. It needs a decision (remove the card, or keep it as an agreed exception to the house rule). |
+
+No before-state to record because nothing was edited in this step.
+
+### /sponsor/ preview (not published)
+Draft 12289 (copy of 10806), template `elementor_canvas`, built from `content-drafts-2026-11-10/sponsor-10806.md` with Nathan's decisions: 15-minute call (FAQ "How do we start?"), guest-list sign-off for dinners and roundtables only (Version B: hero, step 2, FAQ, meta, OG, Twitter), 12-week minimum and seniority bars stated (Version A: section 7, "Who is actually in the room?", "How long does it take to set up?"), reach "the UK, Europe and the US" everywhere (chip reads "UK, Europe and US reach"), dinners 6 to 20. Freya's approved final-CTA button swap is in. 35 text swaps, each matched exactly once; class names, IDs, CSS and script untouched; the Further reading block is unchanged. Rank Math description, OG description and Twitter description set as in the file; SEO title unchanged.
+Preview: https://convenexevents.com/?page_id=12289&preview=true&easy_mcp_ai_preview=1.1794432106.0e48d9503498ba733ac014756278b5ad (expires 11 Nov 2026, 21:21 UTC). Release later with `wp_republish_post { copy_id: 12289 }`.
+
+### Found during release, not changed
+- **Booking links say 45 minutes.** The site-wide header ("Book a Call"), footer ("Book a Call") and the post-template CTA link to `cal.com/convenexevents/45min`; page bodies and Eva use `/15min`. Now that the call is 15 minutes, the header/footer templates should point at `/15min` (navigation change, needs Nathan's OK).
+- **/events/ returns 404.** There is no page, archive or redirect at that path (it was not touched in this release). /executive-events/ returns 200. Suggest a 301 from /events/ to /executive-events/ if anything links to it.
+- **8987 has no FAQPage schema** (BlogPosting only). The FAQ is visible. Callum to add FAQ schema matching the 5 questions.
+- **Twitter description on /sponsor/** shows the OG text in the preview, because Rank Math's "Use data from Facebook tab" is on and the MCP can't switch it off (Rank Math integration disabled). Switch it off in Rank Math > Social on 12289/10806 before release.
+- **/sponsor/ preview styling:** 14 page-scoped CSS rules target `body.page-id-10806`, so the preview (page ID 12289) misses some dividers, FAQ width and button styling. They apply once the copy is released into 10806. Review the copy, not those details.
+- **Site-wide "Continue with Convene X" script** still says "in the UK and US". Theme-level, outside this release.
