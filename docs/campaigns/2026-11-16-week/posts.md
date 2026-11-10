@@ -61,7 +61,7 @@ Before a senior leader gives up an evening, they check 4 things. The menu isn't 
 
 An invitation that answers all 4 before the guest asks gets a yes. One that doesn't looks like it could have gone to anyone.
 
-Our team learned this in previous roles, inviting Directors and C-level guests across the UK, Europe and the US. It's why we start every invitation from the guest's side of the table.
+Our team learned this in previous roles, writing invitations for Directors and C-level guests. It's why every invitation we send, to guests across the UK, Europe and the US, starts from the guest's side of the table.
 
 Save the carousel for the next invitation you write. Which would you add as a 5th?
 
@@ -71,7 +71,7 @@ Link in the first comment.
 ### Personal variant (201 words)
 
 ```text
-Senior leaders turn down most dinner invitations for the same reason. They read like they could have gone to anyone.
+The dinner invitations senior leaders turn down tend to fail the same way. They read like they could have gone to anyone.
 
 In previous roles, I wrote a lot of executive dinner invitations. The ones that got a yes answered 4 questions before the guest had to ask.
 
@@ -83,7 +83,7 @@ What we'll talk about. I stopped writing topics and started writing one question
 
 The terms. Chatham House Rule, how many seats, and when it finishes. Senior people plan their evenings to the minute.
 
-The invitations that skipped these weren't badly written. They were generic, and to a senior inbox that's the same thing.
+The invitations that skipped these were often well written and still generic. To a senior inbox, generic reads the same as badly written.
 
 Who's in the room is the event. The invitation is where you prove it.
 
@@ -94,12 +94,12 @@ Link in the first comment.
 
 ### First comments
 
-- **Company:** The 4 checks, and how we build the guest list for a private executive dinner: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=mon-company
+- **Company:** How we build the guest list for a private executive dinner: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=mon-company
 - **Personal:** How we put this into practice for private executive dinners: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=mon-personal
 
 ### Carousel: slide-by-slide copy (7 slides)
 
-Build: 1080 x 1350 portrait, exported as PDF, uploaded as a native LinkedIn document. Background #0A0A0A, white text, accents #FF1FA9 (pink) and #FCD500 (yellow). Fraunces for headlines, Libre Franklin for body, IBM Plex Mono for small labels. No photos of people, no names, no logos other than our mark, no numbers other than the check count. Same template as Thursday so the 2 carousels read as a pair. The personal post attaches the same PDF.
+Build: 1080 x 1350 portrait, exported as PDF, uploaded as a native LinkedIn document. Background #0A0A0A, text #F5F5F5 (brand off-white, not pure white), accents #FF1FA9 (pink) and #FCD500 (yellow). Fraunces for headlines, Libre Franklin for body, IBM Plex Mono for small labels. No photos of people, no names, no logos other than our mark, no numbers other than the check count. Same template as Thursday so the 2 carousels read as a pair. The personal post attaches the same PDF.
 
 | Slide | Label (Plex Mono, pink pill) | Headline (Fraunces) | Body (Libre Franklin, max 15 words) | Notes |
 |---|---|---|---|---|
@@ -133,7 +133,7 @@ Top fixes left (minor): 1. Emotion is calm by design; a guest-side line about th
 ```text
 The best sponsored dinner is the one where the sponsor doesn't pitch.
 
-Buyers don't dislike people. They dislike being sold to.
+Buyers still want people in the conversation. What they avoid is being sold to.
 
 Gartner found 67% of B2B buyers prefer a rep-free experience (Gartner, 9 Mar 2026). In a separate survey, 69% said they turn to sales reps to validate AI-generated insights (Gartner, 20 May 2026).
 
@@ -171,7 +171,7 @@ Nobody complains. People go polite. Answers get shorter. Someone checks the time
 
 The hosts who kept the room did the opposite. They asked the question and let it run. They introduced people to each other. They spoke last. They followed up a week later with something useful, not a deck.
 
-Gartner found 67% of B2B buyers prefer a rep-free experience (Gartner, 9 Mar 2026). I don't read that as buyers disliking people. I read it as buyers disliking being sold to, especially over dinner.
+Gartner found 67% of B2B buyers prefer a rep-free experience (Gartner, 9 Mar 2026). My reading: buyers still want people in the conversation. They want them without the pitch, especially over dinner.
 
 Staying quiet is the hardest thing a host does all evening. It's also the job.
 
@@ -180,7 +180,17 @@ If you've hosted one of these, what was the hardest part of staying quiet?
 Link in the first comment.
 ```
 
-**[CONFIRM THIS: Nathan]** The personal hook is a first-person claim ("I've watched a host lose a room with one slide"). Only post it if it matches your experience in previous roles. If not, swap the first line for: "A host can lose a room with one slide."
+**[CONFIRM THIS: Nathan]** The personal hook is a first-person claim ("I've watched a host lose a room with one slide"), and line 2 ("In previous roles I sat at a lot of executive dinners") is a second one. Only post them if they match your experience in previous roles. Fallbacks, ready to paste (Felix, 10 Nov):
+- **Fallback 1 (you sat at executive dinners in previous roles, but the one-slide moment isn't yours):** swap line 1 only, to "A host can lose a room with one slide." Everything else stays.
+- **Fallback 2 (neither line is yours):** replace lines 1 and 2 with:
+
+```text
+A host can lose a room with one slide.
+
+From the guest's chair, it tends to look the same.
+```
+
+The rest of the post reads as observation and stays as written. Word count drops to about 190.
 
 ### First comments
 
@@ -339,7 +349,7 @@ Link in the first comment.
 
 ### Carousel: slide-by-slide copy (8 slides)
 
-Build: same template as Monday. 1080 x 1350, PDF, native document upload. #0A0A0A background, #FF1FA9 and #FCD500 accents, Fraunces / Libre Franklin / IBM Plex Mono. Slides 3 to 7 carry a horizontal timeline along the top, labelled in Plex Mono: BEFORE, THE NIGHT, WEEK 1, WEEKS 2 TO 4, WEEK 6. The current stage is highlighted in #FF1FA9; the others sit in white at 40%. No charts or numbers beyond the Forrester figures. No example results. Every slide says "look at", never "you'll get". The personal post attaches the same PDF.
+Build: same template as Monday. 1080 x 1350, PDF, native document upload. #0A0A0A background, #FF1FA9 and #FCD500 accents, Fraunces / Libre Franklin / IBM Plex Mono. Slides 3 to 7 carry a horizontal timeline along the top, labelled in Plex Mono: BEFORE, THE NIGHT, WEEK 1, WEEKS 2 TO 4, WEEK 6. The current stage is highlighted in #FF1FA9; the others sit in #A3A3A3 (brand secondary grey). Not white at 40%: that comes out at about 3.7:1 on #0A0A0A and fails WCAG AA for small Plex Mono labels. Text #F5F5F5 throughout. No charts or numbers beyond the Forrester figures. No example results. Every slide says "look at", never "you'll get". The personal post attaches the same PDF.
 
 | Slide | Label (Plex Mono) | Headline (Fraunces) | Body (Libre Franklin, max 15 words) | Notes |
 |---|---|---|---|---|
