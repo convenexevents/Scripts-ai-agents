@@ -59,6 +59,34 @@ The brief bans "it's not just X, it's Y" and similar shapes. This set had 7 two-
 - **First-person claims to check when you sign off each personal post:** Mon ("In previous roles, I wrote a lot of executive dinner invitations"), Tue line 2 ("I sat at a lot of executive dinners"), Wed ("I saw what opening it up does"), Thu ("I couldn't answer that honestly... I'd judge a dinner at week 6"). Only post the ones that are true to you. Friday's "I won't run an executive dinner on less than 12 weeks" is current policy, not a past claim.
 - **Still your decisions:** Friday A or B. If B, someone has to reply to every "playbook" comment, and Eleanor should give a quick view first if the playbook goes out by DM or email rather than as a public reply. Also: Friday's optional 15-minute call line (the plan keeps the booking link out of this week), Sunday text or poll, the Saturday photo, and /sponsor/ on Thursday and Friday (Kai, by Wed 18).
 
+## Freya sign-off (Head of Marketing & Content), 10 Nov 2026
+
+**Status:** COPY SIGNED OFF, with 4 small edits (listed below). It goes to Nathan for per-post sign-off. The visuals aren't signed off yet: the 2 carousels and 2 cards come back to me after the Canva brand check and Felix's visual review. Nothing has been created in Buffer, scheduled or published.
+
+I re-read every post against `brand-brief.md` (10 Nov) and `campaign-plan.md`, and re-checked each stat against Nadia's safe-to-use table. Felix's review holds. My edits apply his own test from Tuesday ("the dinners we run" implies events already run) to 3 lines he didn't catch, plus 1 date fix.
+
+### Verdict per day
+
+| Day | Verdict | My edit |
+|---|---|---|
+| Mon 16 | SIGNED OFF | Personal first comment: "How we put this into practice for" became "How we approach this for". "Put into practice" implies we've already run dinners. |
+| Tue 17 | SIGNED OFF | None. Hook stays, but only Nathan's own sign-off confirms it, not the coordinator's message. |
+| Wed 18 | SIGNED OFF | Personal post: "how we run them" became "how we approach them" (same reason as Monday). Word count unchanged. Kai's guide check by Wed 18 still applies. |
+| Thu 19 | SIGNED OFF | Personal post: "an honest report at week 6" became "an honest look at week 6". A week-6 report isn't a deliverable in the brief, and "look at" matches the carousel rule. Word count unchanged. |
+| Fri 20 | SIGNED OFF (version A recommended) | Company /sponsor/ first comment: "If a February or March dinner" became "If a late February or March dinner". Anything before Fri 12 Feb is under 12 weeks from posting, so plain "February" broke the post's own rule. Matches the personal post. |
+| Sat 21 | SIGNED OFF | None. |
+| Sun 22 | SIGNED OFF (text version recommended) | None. |
+
+### Recommendations on Nathan's open calls (his decisions, not mine)
+1. **Friday: version A.** The playbook doesn't exist, its brief still carries the retired "34 events" line, and the earliest honest delivery is late December with Christmas in the way. Collecting "playbook" commenters to send them something also lands on decision 9 (commenter data) before Eleanor has looked at it. Tease it in a later week, once there's a draft and a date we can keep.
+2. **Friday's 15-minute call line: leave it out of the first comment.** The plan keeps the booking link out this week on purpose, and both Friday links already lead to the same "Book Exploratory Call" button on the site, with UTMs, so bookings stay traceable. Keep the line ready for Nathan to use in a reply if a would-be host asks how it works.
+3. **Sunday: text.** A week-long poll on a new company page will show a small public vote count, and it pushes the link to Monday morning, where it overlaps week 2. The text post scores the same (7.6), keeps the link on the day, and ends on the same question.
+
+### Before anything goes live
+- Nathan confirms each first-person line in the personal posts is true to him (Felix's list above).
+- Kai confirms /sponsor/ (Thu, Fri) and the roundtable guide (Wed) by Wed 18. Otherwise use the fallbacks.
+- Visuals: Canva brand check, then Felix's visual review, then back to me.
+
 ---
 
 **Written by:** Theo (Social & LinkedIn), from Leo's campaign plan (`campaign-plan.md`, this folder).
@@ -156,7 +184,7 @@ Link in the first comment.
 ### First comments
 
 - **Company:** How we build the guest list for a private executive dinner: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=mon-company
-- **Personal:** How we put this into practice for private executive dinners: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=mon-personal
+- **Personal:** How we approach this for private executive dinners: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=mon-personal
 
 ### Carousel: slide-by-slide copy (7 slides) FINAL (Felix)
 
@@ -313,7 +341,7 @@ A full room of the wrong job titles is still a failure. It only looks like a suc
 
 So for virtual roundtables, I'm strict about it. Director level and above, every title checked against the host's ideal customer, and the host signs off the list. 6 to 12 people. If the right 8 say yes, that's the roundtable.
 
-We've written up how we run them, from choosing the question to the follow-up, in a short guide.
+We've written up how we approach them, from choosing the question to the follow-up, in a short guide.
 
 Where do you draw the line on job titles?
 
@@ -390,7 +418,7 @@ Week 1: a follow-up that carries on the conversation, not a sales sequence.
 Weeks 2 to 4: who replied, who wanted a second conversation, who brought in a colleague.
 Week 6: where those relationships stand, and whether the guests would come again.
 
-None of that is a promise. Nobody can honestly promise a host leads or ROI from a dinner. What you can commit to is a guest list the host signed off and an honest report at week 6.
+None of that is a promise. Nobody can honestly promise a host leads or ROI from a dinner. What you can commit to is a guest list the host signed off and an honest look at week 6.
 
 Forrester found about half of organisations say their events perform well, but only 38% of CMOs agree (Forrester, The Next Era of B2B Events, 25 Jun 2026). I suspect part of that gap is reporting at the wrong moment.
 
@@ -535,7 +563,7 @@ Link in the first comment.
 
 ### First comments (both versions given; use the /sponsor/ one only if Kai confirms the rewrite is live by Wed 18 Nov)
 
-- **Company, primary (/sponsor/):** If a February or March dinner is in your 2027 plan, here's how hosting with us works: https://convenexevents.com/sponsor/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=fri-company
+- **Company, primary (/sponsor/):** If a late February or March dinner is in your 2027 plan, here's how hosting with us works: https://convenexevents.com/sponsor/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=fri-company
 - **Company, fallback (dinners page):** How a private executive dinner comes together over 12 weeks: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=fri-company
 - **Personal, primary (/sponsor/):** How hosting a dinner with us works, from week 1: https://convenexevents.com/sponsor/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=fri-personal
 - **Personal, fallback (dinners page):** How we build a private executive dinner over 12 weeks: https://convenexevents.com/private-executive-dinners/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=fri-personal

@@ -78,3 +78,41 @@ Verification was done logged-out with Firecrawl (maxAge 0). FlyingPress page cac
 - `groups.html` (attachment 9019) and `community-dashboard.html` (9018) in `/uploads/2026/08/` belong to the same mock-up set and are still public. Other HTML uploads there (homepage drafts, old forms) are also public. Recommend the same clean-up.
 - The /directory/ page (9539, noindex, login-walled) has a Rank Math meta description of a CSS fragment and an auto-generated OG description listing the same invented member names. Not indexable, but worth fixing.
 - After deletion, GSC removal for `/wp-content/uploads/2026/08/` is still step C2 of the plan (Nathan, Search Console).
+
+## Round 2 (10 Nov 2026, afternoon): Freya go-list, built as previews only
+
+Nathan wants to see the pages before anything goes live, so Round 2 was built as **draft copies with preview links**. No published page or post was edited. Apply each draft with `wp_republish_post` once Nathan approves; the original's revision is saved automatically. The original HTML of every page is also kept locally (Kai's session scratchpad, `raw/{id}.html`).
+
+Preview links expire around 13:48 UTC on 11 Nov 2026. If they lapse, run `wp_create_preview_link` on the draft ID again.
+
+| Page (live ID) | Draft ID | Scope |
+|---|---|---|
+| The Connaught (10707) | 11865 | full venue go-list |
+| The Lanesborough (10709) | 11884 | full venue go-list |
+| The Dorchester (10710) | 11885 | full venue go-list |
+| The Goring (10711) | 11886 | full venue go-list |
+| The Beaumont (10712) | 11887 | full venue go-list, address Brown Hart Gardens W1K 6TF |
+| The Stafford (10713) | 11888 | full venue go-list |
+| Brown's Hotel (10714) | 11889 | full venue go-list |
+| NoMad London (10715) | 11890 | full venue go-list, "Capacity on request" |
+| Royal Automobile Club (10716) | 11891 | full venue go-list, "by arrangement" |
+| The Ivy Club (10717) | 11892 | interim strip only (9 West Street, WC2H 9NE); no new copy |
+| The Soho Hotel (9476) | 11893 | full venue go-list |
+| Claridge's (9477) | 11894 | full venue go-list |
+| The Ned (9478) | 11895 | full venue go-list; Horizon 22 swapped for Covent Garden Hotel in carousel |
+| Searcys Horizon 22 (9479) | 11896 | full venue go-list; "58th Floor" removed |
+| Haymarket Hotel (9480) | 11897 | full venue go-list |
+| Covent Garden Hotel (9481) | 11898 | full venue go-list |
+| Home (9110) | 11899 | "last ten minutes" > "last 10 minutes" |
+| Virtual roundtables (9414) | 11900 | "last ten minutes" > "last 10 minutes" |
+| Post 8987 (/b2b-virtual-roundtable-guide/) | 11901 | merged body + Rank Math title/description; no redirect, 8782 untouched |
+
+**Dinner size 6 to 20 (Nathan, 10 Nov):** wherever the venue copy states our recommended dinner size, the drafts now use a figure within 6 to 20 (the venues' own published capacities are unchanged). Full list of edits is in Kai's handback.
+
+**Only live change in Round 2 (incident):** seo_redirects record 11864 (/how-to-host-a-virtual-roundtable/ > /b2b-virtual-roundtable-guide/, 301, Rank Math redirect ID 44) was created as a draft at 13:03:20 UTC but the bridge activated it in Rank Math. It was deactivated at 13:03:57 (`seo_redirect_active` = 0) and the origin returns 200 for the old URL again. The record is kept inactive for release. FlyingPress may have cached the redirect in that 37-second window; purge /how-to-host-a-virtual-roundtable/ to be safe. At release, also retarget redirect 11629 (/how-to-host-a-virtual-roundtable-2026/) straight to /b2b-virtual-roundtable-guide/ to avoid a chain.
+
+**Release order for the merge (after Nathan's OK):** republish 11901 into 8987 > reactivate redirect 11864 > retarget 11629 > update inbound links to /how-to-host-a-virtual-roundtable/ > set 8782 to draft > purge FlyingPress > verify logged-out.
+
+**Not done (waits for approval):** the 301, the 8782 draft, the inbound link updates, cache purge, logged-out checks of live URLs, and indexing requests. /join/, /sponsor/ and the Drive sheet were not touched.
+
+**Also noticed, outside the go-list:** the homepage "London Venues" carousel (9110) still shows the old claims: Michelin (Connaught, Dorchester), "since 1910" and royal warrant (Goring), "open since 1837" and "longest-standing" (Brown's), "58th Floor" (Horizon 22), Ivy Club at 1-5 West St WC2H 9NQ, and The Beaumont at 8 Balderton St. It needs the same clean-up once Freya approves.
