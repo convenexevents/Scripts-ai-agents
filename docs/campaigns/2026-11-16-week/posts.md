@@ -1,5 +1,66 @@
 # Posts: "The other side of the table" (LinkedIn, Mon 16 to Sun 22 Nov 2026)
 
+## Felix review (brand and quality), 10 Nov 2026
+
+**Reviewed by:** Felix Grant, Brand & Quality Reviewer. **Status:** APPROVED WITH EDITS. All edits have been made in this file, so it goes to Freya for sign-off and then to Nathan per post. Nothing has been created in Buffer, scheduled or published.
+
+**Checked against:** `brand-brief.md` (updated 10 Nov), Nadia's "Statistics: safe to use" table and do-not-use list (`docs/research/2026-11-10/market-and-articles.md`), and `campaign-plan.md`. On 10 Nov I confirmed that all 6 linked pages are published on convenexevents.com: /private-executive-dinners/, /executive-virtual-roundtables/, /b2b-virtual-roundtable-guide/, /sponsor/, /london-venues/ and /executive-webinars/. I didn't do a logged-out visual check; Kai still owns that.
+
+### Verdict per day
+
+| Day | Verdict | What changed (details below) |
+|---|---|---|
+| Mon 16 | APPROVED WITH EDITS | Company: the UK, Europe and US reach now describes how we invite today, not the team's previous roles. Personal: hook softened from "most... for the same reason" to an observation, and one "weren't X. They were Y" line rewritten. First comment no longer promises "the 4 checks" on a page that doesn't carry them. Carousel text colour set to #F5F5F5. Carousel FINAL. |
+| Tue 17 | APPROVED WITH EDITS | 2 "don't X. They Y" reframes rewritten (company line 2; personal Gartner paragraph). Personal hook kept, confirmed by Nathan via the coordinator. Fallbacks kept. Personal first comment: "the dinners we run" changed, because it implies events already run. |
+| Wed 18 | APPROVED WITH EDITS | Hook: Theo's version. The quoted "very effective" stays. The "don't fail because... They fail because..." reframe rewritten. "Before we confirm anyone" cut, because that process detail isn't in the brief. Stat card: 46% now #A3A3A3 and 15% now #FCD500 (it had pink and yellow at full saturation side by side). Card FINAL. |
+| Thu 19 | APPROVED WITH EDITS | Personal hook rewritten ("never came from X. It came from Y" two-beat). The personal Forrester line now gives both halves of the gap, so "that gap" has something to refer to. Carousel inactive timeline labels changed from white at 40% (about 3.7:1, fails WCAG AA) to #A3A3A3. Carousel FINAL. /sponsor/ link still depends on Kai. |
+| Fri 20 | APPROVED WITH EDITS | "aren't padding" and "don't start the day before. They start..." rewritten in both company versions. "Q1 dinner" changed to "late February or March" (personal) and "February or March" (first comment): a January dinner is under 12 weeks from 20 Nov, so the post contradicted its own rule. Version A or B is Nathan's call. |
+| Sat 21 | APPROVED | Copy unchanged. Card text colours set to #F5F5F5. Card FINAL. |
+| Sun 22 | APPROVED | No edits. Text or poll is Nathan's call. |
+
+### Checks that passed across all posts
+- **Proof framing:** passes. Proof appears only as "our team... in previous roles" (company) or "in previous roles, I..." (personal), with no numbers. No "Convene X has delivered/run".
+- **Names:** none of anyone at Convene X, no previous-role brands, and no client, venue or competitor named.
+- **Counts:** no event counts, capacity rates or time-window claims. "A lot of" is the only quantity on past experience. The 8 v 20 (Wed personal) and 40 v 400 (Sun) are stated preferences, not records.
+- **Promises and pricing:** no leads, meetings or ROI promised; Thursday says outright that we won't promise them. No pricing.
+- **Brief facts:** 12-week minimum (2 prep + 10 recruitment), Director+ for dinners and roundtables, Senior Manager+ for webinars, roundtables 6 to 12 and webinars 25 to 50 registrations all match. Guest-list sign-off appears only on dinners and roundtables, never webinars. The table of 12 (Sat) sits inside 6 to 20. The 15-minute call link matches the brief.
+- **Mechanics:** no em or en dashes, no exclamation marks, no question openers, nothing from the banned word list. Every post is between 120 and 250 words (recounted after edits). Every post with a link ends "Link in the first comment." There are no links in post bodies and no UTM URLs on any slide or card.
+- **Dates:** Mon 16, Fri 20 and Sun 22 Nov 2026 fall on the right weekdays. 12 weeks from Fri 20 Nov 2026 is Fri 12 Feb 2027.
+
+### Stats, checked against Nadia's safe-to-use table
+| Post | Stat | Source and date as written | Verdict |
+|---|---|---|---|
+| Tue company | 67% of B2B buyers prefer rep-free | Gartner, 9 Mar 2026 | Pass. In the table, date matches. |
+| Tue company | 69% turn to reps to validate AI insights | Gartner, 20 May 2026 | Pass. Kept separate from the 67% ("In a separate survey"), as the plan required. |
+| Tue personal | 67% rep-free | Gartner, 9 Mar 2026 | Pass. 1 stat only. |
+| Wed company + card | "Very effective" networking 46% to 15% | Bizzabo 2026 State of Events Benchmark, labelled vendor survey | Pass. Nadia's table gives the year only, so "2026" is the most precise date available. |
+| Thu company, personal, slide 2 | 38% of CMOs agree events perform well; about half of organisations say they do | Forrester, The Next Era of B2B Events, 25 Jun 2026 | Pass. The table row is the 38% figure. The "about half" comparison comes from the same primary Forrester source (Nadia's section 1, marked observed and strong). Same source, so allowed. Nadia could add it as its own row. |
+| Sun (both versions) | Average live attendance 47.7%, 33,786 sessions | Livestorm 2026, labelled vendor data | Pass. Year only in the table, as above. |
+
+Nothing from the do-not-use list appears anywhere: no 112-to-38, no 82%/94%/77%, no $20.98, no 27%, no 21x, no ON24/GoTo/BrightTALK study.
+
+### UTM links
+All 18 links use `?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=<day>-<company|personal>`. The format is correct, each `utm_content` matches its day and profile, and every page matches the plan. The /sponsor/ links and their dinners-page fallbacks share a `utm_content`, which is fine because only one of each runs. The Sunday poll's next-morning comment keeps `sun-company`, which is right because it's the same post. The cal.com line on Friday has no UTM, matching the brief's link exactly.
+
+### Decisions on Theo's flagged points
+1. **Wednesday hook: Theo's version.** Leo's "isn't a good event. It's an expensive one." is the banned "it's not just X, it's Y" shape with the "just" removed, so the same rule applies. Theo's "most expensive kind of full" is a figure of speech, not a superlative claim about us, so it passes the superlatives check.
+2. **"Very effective": acceptable as written, no -0.5.** It's Bizzabo's survey wording, in quotation marks, attributed and labelled vendor. The filler-word rule covers our own writing. Paraphrasing a quoted metric would misstate the source. Wednesday's score stays at 7.9.
+3. **Tuesday personal hook: keep it.** The coordinator passed on Nathan's confirmation on 10 Nov. That came through an agent, not from Nathan himself, so his per-post sign-off on Tuesday is the formal check. Fallback 1 (line 1 only) and Fallback 2 (lines 1 and 2) stay under the post, ready to paste.
+
+### For Theo (pattern, not a one-off)
+The brief bans "it's not just X, it's Y" and similar shapes. This set had 7 two-beat "X doesn't/isn't/never A. It/They B" reframes across 5 days, plus Leo's Wednesday hook. Single-sentence contrasts like "by role and seniority, not by name" and "6 weeks after it ends, not on the night" are fine, and I've left them in. The test: if the second sentence exists only to overturn the first, rewrite it as a single positive claim. I'll raise this with Theo directly rather than re-flag it every week.
+
+### For Freya
+- Sign-off on the edited set. Rewriting the reframes didn't change any hooks except Thursday personal, so the grader scores should hold. I'd expect Thursday personal to land at about 7.8 to 8.0 (hook 8, unchanged tension).
+- **Visual chain:** the 2 carousel specs and 2 card specs are marked FINAL (Felix) for Rhys to build. They still go through the Canva brand check, then come back to me for a visual review against this spec before your sign-off. That review covers #F5F5F5 not pure white, small pink pills with #0A0A0A text not white, and the #A3A3A3 timeline labels.
+- **Wednesday personal links to /b2b-virtual-roundtable-guide/** (post 8987). That post has a merge and rewrite pending (`docs/seo/content-drafts-2026-11-10/merge-8987.md`). The post promises a guide "from choosing the question to the follow-up". Kai needs to confirm the live version covers that by Wed 18. If it doesn't, use the /executive-virtual-roundtables/ link with `utm_content=wed-personal`.
+
+### For Nathan
+- **First-person claims to check when you sign off each personal post:** Mon ("In previous roles, I wrote a lot of executive dinner invitations"), Tue line 2 ("I sat at a lot of executive dinners"), Wed ("I saw what opening it up does"), Thu ("I couldn't answer that honestly... I'd judge a dinner at week 6"). Only post the ones that are true to you. Friday's "I won't run an executive dinner on less than 12 weeks" is current policy, not a past claim.
+- **Still your decisions:** Friday A or B. If B, someone has to reply to every "playbook" comment, and Eleanor should give a quick view first if the playbook goes out by DM or email rather than as a public reply. Also: Friday's optional 15-minute call line (the plan keeps the booking link out of this week), Sunday text or poll, the Saturday photo, and /sponsor/ on Thursday and Friday (Kai, by Wed 18).
+
+---
+
 **Written by:** Theo (Social & LinkedIn), from Leo's campaign plan (`campaign-plan.md`, this folder).
 **Date:** 10 Nov 2026
 **Status:** DRAFT ONLY. Nothing has been created in Buffer, scheduled or published. Review order: Felix (brand and quality) > Freya (sign-off) > Nathan (per-post sign-off). Posting times below are suggestions for Nathan to approve per post.
