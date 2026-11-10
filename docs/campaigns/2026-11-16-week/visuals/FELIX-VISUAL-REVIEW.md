@@ -111,3 +111,61 @@ The brief's "Poppins" conflicts with the type system everywhere else. Whoever ow
 **Logo status:** the master is now confirmed (Nathan's file), so the HOLD in check 4 can close if you're happy with the look. One caveat from the brand README: this is an auto-trace of a 1439px raster, so the finest brush texture is simplified. If the designer's original vector turns up, swap it into `source/logo-footer.svg` and re-run the export. No other changes are needed.
 
 Nothing has been uploaded, scheduled or published.
+
+## Felix final check (logo swap), 10 Nov 2026
+
+**Method.** I re-rendered both PDFs at 96 dpi (`pdftoppm -r 96`, 15 slides at 1080 x 1350) and looked at the contact sheet, Thu slide 2, Mon slide 7, the Wed card and the Sat card at full size. I also made a 2x zoom of the Wed strip and logo, and a 390px phone-width preview of Wed, Sat, Thu 2 and Mon 7. Logo box, distances and colours are measured from the pixels, not the CSS. I checked against my brand rule: "lockup kept together, clear space = height of the X, never stretched, recoloured off-palette or placed on a busy or light background."
+
+**Measured on every piece:** the logo's painted area is 323 x 157px, from x 657 to 980 and y 1078 to 1234. The X is 156px tall, so the X is the full height of this mark. That makes the clear space the rule asks for 156px. Edges: 99px to the right, 115px to the bottom. `source/logo-footer.svg` is byte-identical to `docs/brand/logo/convene-x-events-logo.svg` (md5 `62bb6a2d…`).
+
+| Check | Mon carousel | Thu carousel | Wed card | Sat card |
+|---|---|---|---|---|
+| Lockup intact | PASS | PASS | PASS | PASS |
+| Clear space (156px) to other elements | PASS. Nearest is the URL on slide 7, 219px away. Every other slide is 316px or more. | PASS. Nearest is the source line on slide 2, 210px away. URL on slide 8 is 219px. | **FAIL.** The pink strip rule sits 41px above the tip of the X. The save prompt is about 93px above the logo. | **FAIL.** The pink strip rule sits 41px above the tip of the X. List item 5 is about 85px above the logo. |
+| Nothing colliding | PASS | PASS | **FAIL.** The X's top-right brush stroke points straight at the rule. At phone width the gap is about 15px, so the X reads as hanging off the line. | **FAIL.** Same as Wed. |
+| Readable at phone width (390px) | PASS. "Convene" and "Events" come out at about 12px and are legible. The X is clear. | PASS | PASS | PASS |
+| #FC1595 X next to the #FF1FA9 rule | n/a (no rule near the logo) | n/a. The slide 2 "38%" is #FF1FA9, more than 500px away. Side by side they read as one pink. | Colour PASS: sampled X (252,21,149) and rule (255,31,169) read as the same pink at 1x and 2x. The problem is the spacing, not the colour. Two near-identical pinks 41px apart make a small shift look like a mistake. | As Wed |
+
+**Notes**
+- **Lockup.** The script words and the X sit exactly as in Nathan's master. The mark isn't stretched (323:157 matches the SVG), recoloured or separated, and it's on flat #0A0A0A. My rule still says "two-line lockup". That describes the old CONVENE X / EVENTS mark, and Nathan's master is a single-line script lockup. I'll update the rule wording to "lockup kept together as supplied". The intent is unchanged.
+- **Rhys's measurement missed the rule.** His "nothing closer than 84px" measured text boxes against the logo box. The strip's `border-top` rule wasn't in that measurement, and it is the closest element on both cards.
+- **Canvas edges.** The logo sits 99px from the right edge and 115px from the bottom, against a 156px X. That lines up with the 96px layout margin used by all the type. I treated edge distance as a refinement in my first review, not a fail, and I'm keeping that reading. It still needs a decision, because the X-height rule was written for a mark whose X was a small part of it. See "For Nathan" below.
+- **Trace quality.** This is an auto-trace and some fine brush texture is simplified. At 2x zoom the edges are clean and there are no stray specks, so it's fine for these uses.
+
+**Result.**
+- The HOLD on logo provenance closes.
+- Mon carousel and Thu carousel: **PASS.**
+- Wed stat card and Sat checklist card: **HOLD on clear space.** The pink strip rule sits 41px above the X, against 156px required. The save prompt (Wed, about 93px) and list item 5 (Sat, about 85px) are also inside the clear space.
+- Fix for Rhys, `source/gen.py`. These are layout changes only, with no copy changes:
+  1. End the strip rule at least 156px left of the logo, so the rule sits over the tagline only (about x 96 to 500). Or move the rule up so it is 156px or more above the logo top.
+  2. Raise the Wed save prompt and the Sat list so that their lowest line is 156px or more above the logo top (y 922 or less). On Sat, tighten the list's `margin-bottom` from 34px to about 20px so it still fits.
+  3. Re-run `python3 source/export.py`, re-measure from the pixels with the rule included, and refresh the contact sheet.
+
+## Freya sign-off, 10 Nov 2026
+
+**Reviewed:** Felix's review and final logo check above. I also looked at the contact sheet, Thu slide 2, Mon slide 7 and both cards at full size, plus the 390px phone preview. I agree with Felix's measurements. The rule-to-X gap on Wed and Sat is visible without measuring once you know to look: it's the first thing your eye catches in the bottom third of both cards.
+
+| Checklist | Mon carousel | Wed stat card | Thu carousel | Sat checklist card |
+|---|---|---|---|---|
+| Felix brand review completed | Yes | Yes, failed on logo clear space | Yes | Yes, failed on logo clear space |
+| Brand voice and proof framing (no company track-record claims, no event counts, no names) | Pass | Pass | Pass | Pass |
+| Claims sourced | No numbers | Bizzabo, labelled as a vendor survey | Forrester, dated | No numbers |
+| Anti-AI writing / no hype or fake urgency | Pass | Pass | Pass | Pass |
+| No names of anyone at Convene X | Pass | Pass | Pass | Pass |
+| Nothing implying Convene X has delivered events | Pass | Pass | Pass ("Leads, meetings or ROI" slide is framed as things to look at, not promises) | Pass |
+| CTA right for stage | Save prompt and URL. The booking link goes in the first comment, per the brief. | Save prompt | Save prompt and URL | Save prompt |
+| Logo | Pass | **Fail: clear space** | Pass | **Fail: clear space** |
+| Timing | Mon 16 Nov | Wed 18 Nov | Thu 19 Nov | Sat 21 Nov |
+
+**Verdicts**
+- **Mon carousel (7 slides): APPROVED for Nathan's review.**
+- **Thu carousel (8 slides): APPROVED for Nathan's review.**
+- **Wed stat card: HOLD.** It goes back to Rhys for the strip and logo spacing fix above. It comes back to Felix for a pixel re-check (including the rule), and to me after that. No copy changes, so it's a quick turnaround that fits the 18 Nov slot.
+- **Sat checklist card: HOLD.** Same fix and the same route as the Wed card.
+
+**For Nathan**
+1. **Clear space for your new logo.** The rule "clear space = height of the X" was written for the old stacked mark. On your script lockup the X is the whole height of the logo (156px at footer size), so applied literally it also asks for 156px to the canvas edges. Today the edges are 99px and 115px, aligned to the 96px type margin. My recommendation: X height between the logo and any other element, and the 96px layout margin to the canvas edges. Mon and Thu pass on that basis. If you want the literal reading instead, every piece needs the logo moved in or made smaller.
+2. **Two pinks.** The logo's X is #FC1595 (sampled from your file) and the brand/site pink is #FF1FA9. They're indistinguishable at normal viewing. We've kept your logo as supplied. Let us know if you'd like the logo X standardised to #FF1FA9, or the reverse, so the brand file states one pink.
+3. **Logo source.** The SVG is an auto-trace of your 1439px PNG. If the designer's original vector exists, send it over and Rhys will swap it in with one command.
+
+Nothing has been uploaded, posted, scheduled or published.
