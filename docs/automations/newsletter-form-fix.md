@@ -1,5 +1,7 @@
 # Footer newsletter form: fix spec
 
+> **Nathan's decision (10 Nov 2026): double opt-in.** Consent scope: newsletter plus occasional invitations to Convene X Events dinners, roundtables and webinars (Eleanor's recommended wording). Build on staging only after the conditions in newsletter-compliance-review.md; nothing goes live until the privacy policy is updated after solicitor review and the waitlist opt-in is fixed.
+
 > Owner: Amara (Email & Lifecycle). Builder: Kai. Compliance check: Eleanor.
 > Review chain: Felix > Freya > Nathan. Written 10 Nov 2026.
 > **Status: DRAFT. Nothing in this file has been built, changed or sent.** No Make scenario has been created. All emails below are drafts for Nathan's sign-off.
