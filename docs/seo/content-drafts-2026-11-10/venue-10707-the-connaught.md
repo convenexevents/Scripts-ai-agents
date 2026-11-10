@@ -1,5 +1,11 @@
 # Venue page draft: The Connaught (page 10707)
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass.**
+
+Voice, structure and house rules are clean, and the fit sentences are future-facing ("suit", "works for"). Room facts weren't re-scraped (not in the spot-check set), but every figure traces to a cited hotel page. Kai: apply the carousel/tile rule below. "Michelin-starred" comes off the tile and the card unless it's sourced.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-connaught-london-private-dining-venue/`
@@ -59,6 +65,8 @@ Cut the 15-card carousel to these 4 nearby venues (same card markup, other cards
 - A Chef's Table / Sommelier's Table for up to 8 appears in a search snippet from the hotel's dining pages but I didn't read the page. Not used.
 
 ### Elsewhere on this page (Kai, when applying)
+
+- **Felix decision (carousel cards, summary tiles, amenities):** remove walk times, Michelin claims, royal warrants, founding dates and "since" lines, "58th Floor", "longest-standing" and AV claims, unless the fact is on the venue's own site and listed in section 5. Default is remove.
 
 - Update the summary tiles, the "What this venue offers" list and the schema `description` so they match the copy above. Remove any room name, capacity or feature listed in section 6 as wrong or unverified.
 - Keep the address and access block, but don't add walk times that aren't in the copy unless they're checked.

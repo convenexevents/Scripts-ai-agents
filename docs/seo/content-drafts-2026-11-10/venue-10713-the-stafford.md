@@ -1,5 +1,12 @@
 # Venue page draft: The Stafford London (page 10713)
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass with edits.**
+
+- "It's hard to beat" softened to "it's a strong choice": no superlatives we can't stand behind.
+- "Exclusive hire" is kept. Here it's the hotel's booking term (as opposed to semi-private), not brand hype.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-stafford-london-private-dining-venue/`
@@ -17,7 +24,7 @@ Replaces the remaining "About this venue" paragraphs, including the shared closi
 
 The Stafford's private spaces are small in number and very different in character.
 
-**The Wine Cellar** is almost 400 years old, home to more than 8,000 bottles of wine, cognac and whisky, and was used as an air raid shelter in the Second World War. It seats 32 at an oval table or 24 at round tables. For a dinner where the setting should be part of the story, it's hard to beat, and it suits a larger peer table of 20 to 30.
+**The Wine Cellar** is almost 400 years old, home to more than 8,000 bottles of wine, cognac and whisky, and was used as an air raid shelter in the Second World War. It seats 32 at an oval table or 24 at round tables. For a dinner where the setting should be part of the story, it's a strong choice, and it suits a larger peer table of 20 to 30.
 
 **The Sutherland Room** is the hotel's room for private dining, available for semi-private or exclusive hire. It seats 26 at an oval table, 24 at rounds, or 22 in a U-shape. For an executive dinner around one conversation, book it on exclusive hire.
 
@@ -58,6 +65,8 @@ Cut the 15-card carousel to these 4 nearby venues (same card markup, other cards
 - Nearest Tube 'Green Park, 6 minutes': not verified. Left out.
 
 ### Elsewhere on this page (Kai, when applying)
+
+- **Felix decision (carousel cards, summary tiles, amenities):** remove walk times, Michelin claims, royal warrants, founding dates and "since" lines, "58th Floor", "longest-standing" and AV claims, unless the fact is on the venue's own site and listed in section 5. Default is remove.
 
 - Update the summary tiles, the "What this venue offers" list and the schema `description` so they match the copy above. Remove any room name, capacity or feature listed in section 6 as wrong or unverified.
 - Keep the address and access block, but don't add walk times that aren't in the copy unless they're checked.

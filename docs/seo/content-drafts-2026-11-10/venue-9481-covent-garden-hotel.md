@@ -1,5 +1,11 @@
 # Venue page draft: Covent Garden Hotel (page 9481)
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass.**
+
+- Felix decision on the live line "All executive dinners run under the Chatham House Rule": remove it from this venue page. It's an absolute promise, and the brand brief says Chatham House "where relevant". It also belongs on the format pages, not on a venue page.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/covent-garden-hotel-london/`
@@ -63,6 +69,8 @@ Cut the 15-card carousel to these 4 nearby venues (same card markup, other cards
 - 'Covent Garden, 4 minutes': not verified. Left out.
 
 ### Elsewhere on this page (Kai, when applying)
+
+- **Felix decision (carousel cards, summary tiles, amenities):** remove walk times, Michelin claims, royal warrants, founding dates and "since" lines, "58th Floor", "longest-standing" and AV claims, unless the fact is on the venue's own site and listed in section 5. Default is remove.
 
 - Update the summary tiles, the "What this venue offers" list and the schema `description` so they match the copy above. Remove any room name, capacity or feature listed in section 6 as wrong or unverified.
 - Keep the address and access block, but don't add walk times that aren't in the copy unless they're checked.

@@ -1,5 +1,16 @@
 # Venue page draft: The Ivy Club (page 10717)
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass with edits. Not ready for go-live until the member-access question is answered (Freya).**
+
+Spot-checked against the-ivyclub.co.uk with Firecrawl (home, /privatedining/, /the-loft/, /the-private-room/). Loft figures, timings, Brudnizki and the September 2008 opening all check out. Changes:
+- **Directions were wrong.** The draft sent guests to The Ivy restaurant's entrance. The club's homepage says the club entrance is further up West Street, through The Flower Shop on the left. Fixed in the copy and the FAQ.
+- **The Private Room:** the club's page calls it "The Private Room at The Ivy" and compares it with "the restaurant downstairs", so it may be The Ivy restaurant's room rather than the club's. Copy now says the club's private dining pages list it, rather than presenting it as a club room. Kai/Nathan to confirm with the events team.
+- **Address resolved:** the club homepage gives 9 West Street, WC2H 9NE. Use that in the address block and schema.
+- "Dinner runs from 18:30..." is a Loft timing, so the copy now says so.
+- **Member access (Freya):** the club's private dining index is described as "members' only private dining". Until we know a non-member host can book, this page shouldn't be promoted to sponsors.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-ivy-club-london-private-dining-venue/`
@@ -15,15 +26,15 @@ Replaces the first sentence of "About this venue" (the shared template line "...
 
 Replaces the remaining "About this venue" paragraphs, including the shared closing paragraph ("Convene X curates the full evening here..."), which is identical on every venue page.
 
-The Ivy Club opened in September 2008 across three floors above The Ivy restaurant, with interiors by designer Martin Brudnizki. Two rooms are offered for private hire.
+The Ivy Club opened in September 2008 across three floors above The Ivy restaurant, with interiors by designer Martin Brudnizki. Its private dining pages list two rooms.
 
 **The Loft** sits on the top floor. By day, light comes through the club's harlequin windows; in the evening, rich fabrics and contemporary art set a quieter tone. It holds up to 50 seated or 100 standing, so a table of 20 or so senior guests has room to breathe, and a short drinks welcome can run in the same space before everyone sits down.
 
-**The Private Room** seats up to 60, or 100 standing. A refurbishment added a bespoke bar and a collection of contemporary art alongside the signature harlequin stained glass and oak panelling.
+The club's pages also list **The Private Room** at The Ivy, which seats up to 60, or 100 standing. A refurbishment added a bespoke bar and a collection of contemporary art alongside the signature harlequin stained glass and oak panelling.
 
 Both rooms are generous for an executive dinner, which makes The Ivy Club a better fit for a slightly larger evening: a sector dinner for 20 to 30 marketing, technology or professional-services leaders who know the West End, with drinks and dinner in one room. For a table of 8 to 10, a smaller room elsewhere in the portfolio will feel more intimate.
 
-Dinner runs from 18:30 to midnight, with host access from 18:00. The nearest Tube is Leicester Square: leave by Exit 3, walk up Charing Cross Road, turn right into Litchfield Street, and the entrance is around the corner on West Street, opposite St Martin's Theatre.
+Dinner in The Loft runs from 18:30 to midnight, with host access from 18:00. The nearest Tube is Leicester Square: leave by Exit 3, walk up Charing Cross Road and turn right into Litchfield Street. On West Street, walk past The Ivy to The Flower Shop on your left, which is the club's entrance.
 
 ## 3. FAQ (3 questions, for an FAQ block plus FAQPage schema)
 
@@ -34,7 +45,7 @@ A: The Loft seats up to 50 and the Private Room up to 60, according to the club.
 A: The Loft holds 100 standing as well as 50 seated, so a short reception and the dinner can happen in the same room without moving guests.
 
 **Q: How do guests get to The Ivy Club?**
-A: The nearest Tube is Leicester Square. From Exit 3, walk up Charing Cross Road and turn right into Litchfield Street; the entrance is on West Street, opposite St Martin's Theatre.
+A: The nearest Tube is Leicester Square. From Exit 3, walk up Charing Cross Road and turn right into Litchfield Street. The club's entrance is further up West Street, through The Flower Shop on the left.
 
 ## 4. "Other rooms in the portfolio" carousel: keep these only
 
@@ -63,6 +74,8 @@ Cut the 15-card carousel to these 4 nearby venues (same card markup, other cards
 - Drive sheet phone/email (020 3301 0200, events@theivyclub.co.uk) differ from the club site (0203 727 6548, events@theivy-collection.com). Internal only, but the sheet needs correcting.
 
 ### Elsewhere on this page (Kai, when applying)
+
+- **Felix decision (carousel cards, summary tiles, amenities):** remove walk times, Michelin claims, royal warrants, founding dates and "since" lines, "58th Floor", "longest-standing" and AV claims, unless the fact is on the venue's own site and listed in section 5. Default is remove.
 
 - Update the summary tiles, the "What this venue offers" list and the schema `description` so they match the copy above. Remove any room name, capacity or feature listed in section 6 as wrong or unverified.
 - Keep the address and access block, but don't add walk times that aren't in the copy unless they're checked.

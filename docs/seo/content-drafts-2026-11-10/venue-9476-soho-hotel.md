@@ -1,5 +1,12 @@
 # Venue page draft: The Soho Hotel (page 9476)
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass with edits.**
+
+- The address is removed from the copy (not re-checked on the hotel site). Kai: confirm 4 Richmond Mews, W1D 3DH with Firmdale before it goes in the address block and schema.
+- Sector sentence softened. "Who tend to respond to a room with personality" was a claim about guests we can't back.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/soho-hotel-london/`
@@ -23,7 +30,7 @@ The Soho Hotel suits a dinner that wants character as well as privacy, with art 
 
 Both rooms can be joined with the hotel's other private spaces for larger events. The hotel also has The Crimson Bar and its own screening rooms, which open up options for a short screening or briefing before dinner.
 
-The setting works especially well for marketing, media and technology leaders, who tend to respond to a room with personality more than to a formal boardroom. The hotel is at 4 Richmond Mews, W1D 3DH, in Soho.
+The setting suits marketing, media and technology leaders who'd rather have a room with personality than a formal boardroom. The hotel is in Soho.
 
 ## 3. FAQ (3 questions, for an FAQ block plus FAQPage schema)
 
@@ -60,6 +67,8 @@ Cut the 15-card carousel to these 4 nearby venues (same card markup, other cards
 - 'Piccadilly Circus, 4-5 minutes': not verified. Left out.
 
 ### Elsewhere on this page (Kai, when applying)
+
+- **Felix decision (carousel cards, summary tiles, amenities):** remove walk times, Michelin claims, royal warrants, founding dates and "since" lines, "58th Floor", "longest-standing" and AV claims, unless the fact is on the venue's own site and listed in section 5. Default is remove.
 
 - Update the summary tiles, the "What this venue offers" list and the schema `description` so they match the copy above. Remove any room name, capacity or feature listed in section 6 as wrong or unverified.
 - Keep the address and access block, but don't add walk times that aren't in the copy unless they're checked.

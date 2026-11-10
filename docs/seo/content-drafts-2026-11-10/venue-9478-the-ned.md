@@ -1,5 +1,12 @@
 # Venue page draft: The Ned (page 9478)
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass (one source line added).**
+
+Spot-checked against thened.com with Firecrawl (meetings and events, The Rose Room). Six Grade I-listed rooms and two terraces on the sixth floor, Rose Room 21 m² / 14 (named after the Rose Tavern and the Great Fire), RWB 45 m² / 50, Drawing Room 70 m² connecting to The Saloon and its Devonshire House chandelier, Tapestry Room 200, Princes Dome 50 with terrace: all match. The address (27 Poultry, EC2R 8AJ) is on The Ned's contact and FAQ pages; source added. Small note: the Rose Room page says "wood panelling", the overview says "mahogany". Both are official, so the copy stands.
+- Carousel includes Searcys Horizon 22. If Freya drops Horizon 22, swap in Covent Garden Hotel.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-ned-london-executive-dinner-venue/`
@@ -47,6 +54,7 @@ Cut the 15-card carousel to these 3 nearby venues (same card markup, other cards
 ## 5. Sources (venue's own website)
 
 - https://www.thened.com/london/meetings-and-events (six Grade I-listed meeting rooms and two terraces on the restored sixth floor; Tapestry Room 200, Saloon 120, Drawing Room 80, RWB Room 50, Rose Room 14, Princes Dome 50, The Kennels 24 semi-private, with sizes and features)
+- https://www.thened.com/london/contact and /london/faqs (address: 27 Poultry, EC2R 8AJ; checked by Felix)
 - https://www.thened.com/london/meetings-and-events/the-rose-room (search excerpt from the official page: named after the Rose Tavern, Great Fire of London, up to 14)
 
 ## 6. Unverified items, corrections and flags
@@ -57,6 +65,8 @@ Cut the 15-card carousel to these 3 nearby venues (same card markup, other cards
 - Carousel: only 3 picks, because the City has just two venues in the portfolio. NoMad and The Ivy Club are the nearest West End options.
 
 ### Elsewhere on this page (Kai, when applying)
+
+- **Felix decision (carousel cards, summary tiles, amenities):** remove walk times, Michelin claims, royal warrants, founding dates and "since" lines, "58th Floor", "longest-standing" and AV claims, unless the fact is on the venue's own site and listed in section 5. Default is remove.
 
 - Update the summary tiles, the "What this venue offers" list and the schema `description` so they match the copy above. Remove any room name, capacity or feature listed in section 6 as wrong or unverified.
 - Keep the address and access block, but don't add walk times that aren't in the copy unless they're checked.

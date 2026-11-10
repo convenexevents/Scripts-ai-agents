@@ -1,5 +1,14 @@
 # Venue page draft: NoMad London (page 10715)
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass with edits. Hold go-live until the hotel's events team confirms capacities and the address.**
+
+- The address line is removed from the copy. It came from our page and the Drive sheet, not the hotel. Kai can show it in the address block once it's confirmed.
+- The sector-fit sentence contrasted NoMad with "a formal hotel dining room", but NoMad is a hotel. Rewritten.
+- FAQ answer 1 said "entrance through the original courtroom entrance". Fixed.
+- No capacities are published, and that's correct: third-party listings are not sources.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/nomad-london-private-dining-venue/`
@@ -19,14 +28,12 @@ NoMad London's events floor is built around the building's history. The original
 
 **The Fielding Room** is a private dining space off the Magistrates' Ballroom. It connects to **the De Veil Room**, which has its own full bar, so drinks and dinner can run side by side without guests crossing the hotel.
 
-That layout suits a two-part evening: a short reception in the De Veil Room, then a single-table dinner in the Fielding Room, with a dedicated entrance that keeps arrivals discreet. It's a good fit for technology, media and marketing leaders who'd rather be in Covent Garden than in a formal hotel dining room.
-
-The hotel is at 28 Bow Street, WC2E 7AW, in Covent Garden.
+That layout suits a two-part evening: a short reception in the De Veil Room, then a single-table dinner in the Fielding Room, with a dedicated entrance that keeps arrivals discreet. It suits technology, media and marketing leaders who'd rather spend the evening in Covent Garden than in a traditional Mayfair dining room.
 
 ## 3. FAQ (3 questions, for an FAQ block plus FAQPage schema)
 
 **Q: What's the history of NoMad London's event spaces?**
-A: The hotel's Magistrates' Ballroom is the building's original Magistrates' Courtroom, with its own street entrance through the original courtroom entrance.
+A: The hotel's Magistrates' Ballroom is the building's original Magistrates' Courtroom, with its own street entrance through the original courtroom doors.
 
 **Q: Which NoMad London room suits a private dinner?**
 A: The Fielding Room, a private dining space off the Magistrates' Ballroom, connected to the De Veil Room and its bar. We'd confirm the seated capacity with the hotel for your numbers.
@@ -57,6 +64,8 @@ Cut the 15-card carousel to these 4 nearby venues (same card markup, other cards
 - 'Covent Garden, 3 minutes' and AV: not verified. Left out.
 
 ### Elsewhere on this page (Kai, when applying)
+
+- **Felix decision (carousel cards, summary tiles, amenities):** remove walk times, Michelin claims, royal warrants, founding dates and "since" lines, "58th Floor", "longest-standing" and AV claims, unless the fact is on the venue's own site and listed in section 5. Default is remove.
 
 - Update the summary tiles, the "What this venue offers" list and the schema `description` so they match the copy above. Remove any room name, capacity or feature listed in section 6 as wrong or unverified.
 - Keep the address and access block, but don't add walk times that aren't in the copy unless they're checked.

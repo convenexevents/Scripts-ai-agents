@@ -1,5 +1,15 @@
 # Fix 4 (plan item B5): merge the virtual-roundtable posts into 8987
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass with edits.**
+
+Voice is right: calm, specific, peer-level, UK English, no exclamation marks, no personal names, no proof claim. Every unsourced statistic and lead/ROI promise from 8782 is gone. The comparison table is proper markup, one H2 per section with H3s beneath, the focus keyword sits in the first line, and all 6 internal targets plus the 301 source resolve (checked on WordPress: 9414, 44, 6264, 8985, 48, 8984 published). Changes:
+- **Opening link anchor.** The page's own focus keyword ("B2B virtual roundtables") was the anchor pointing at a different page, which tells Google another URL owns the term. The keyword is now plain text, and the service-page link moves to the end of the intro paragraph with the anchor "executive virtual roundtables".
+- **Meta title** changed to `B2B Virtual Roundtable Guide: How to Run One Well` (49 chars). The old one, "How to Run One Leaders Stay For", misreads as "One Leaders" when it's cut short in search results. The description (151 chars) is unchanged.
+- Numbers as digits: "Four things" becomes "4 things", and "two to three days" becomes "2 to 3 days".
+- Blocking: none on copy. The 301 and inbound-link updates must ship in the same release (Kai, Callum).
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Drafted by: Senior Content Writer, 10 November 2026.
 Signed off for drafting by Nathan (plan items B5/B6). Kai applies after Felix > Freya.
@@ -17,7 +27,7 @@ Signed off for drafting by Nathan (plan items B5/B6). Kai applies after Felix > 
 
 ### Proposed meta (Rank Math)
 
-- **SEO title (55 chars):** `B2B Virtual Roundtable: How to Run One Leaders Stay For`
+- **SEO title (49 chars, changed by Felix):** `B2B Virtual Roundtable Guide: How to Run One Well`
 - **Meta description (151 chars):** `How to run a B2B virtual roundtable senior leaders stay for: the guest list, format, facilitation, common mistakes and follow-up, with answers to FAQs.`
 - **Post H1/title:** keep `How to Run a Virtual Roundtable Senior Leaders Stay For`
 - **Excerpt:** keep the current one.
@@ -40,7 +50,7 @@ Signed off for drafting by Nathan (plan items B5/B6). Kai applies after Felix > 
 
 | Anchor text | Target | Why |
 |---|---|---|
-| executive virtual roundtables | `/executive-virtual-roundtables/` (9414) | Service page, opening paragraph |
+| executive virtual roundtables | `/executive-virtual-roundtables/` (9414) | Service page, end of the intro paragraph (Felix moved it off the focus-keyword anchor) |
 | why senior leaders value conversation over presentation | `/why-senior-leaders-value-conversation/` (44) | Supports the "format" argument; 44 is "Discovered, not crawled", so this also helps B3 |
 | why invitation-only rooms get better conversation | `/why-invitation-only-events/` (6264) | Guest-list section |
 | why senior executives say no to events | `/senior-executives-say-no-to-events/` (8985) | Pre-event section; 8985 needs more internal links (B3) |
@@ -80,15 +90,15 @@ That takes 8987 from 2 to 6 distinct internal targets, which meets B3's "5+ link
 ## New body for post 8987 (paste into the block editor as Custom HTML, or convert to blocks)
 
 ```html
-<p>Most <a href="https://convenexevents.com/executive-virtual-roundtables/">B2B virtual roundtables</a> have a reputation problem. Not because the format is bad, but because most of them are run badly, and senior leaders have learned to expect a 60-minute call that could have been a well-written email.</p>
+<p>Most B2B virtual roundtables have a reputation problem. Not because the format is bad, but because most of them are run badly, and senior leaders have learned to expect a 60-minute call that could have been a well-written email.</p>
 
-<p>The ones that work share a handful of structural choices that most organisers don't make. This guide covers them: who to invite, how to design the hour, how to facilitate, what goes wrong, and what to do afterwards.</p>
+<p>The ones that work share a handful of structural choices that most organisers don't make. This guide covers them: who to invite, how to design the hour, how to facilitate, what goes wrong, and what to do afterwards. It's also how we design our own <a href="https://convenexevents.com/executive-virtual-roundtables/">executive virtual roundtables</a>.</p>
 
 <h2>What a B2B virtual roundtable is</h2>
 
 <p>A B2B virtual roundtable is a private, invitation-only video discussion where a small group of senior leaders, usually 6 to 12, work through one specific business question together. A facilitator guides the conversation, and the participants, not a speaker, are the programme.</p>
 
-<p>Four things separate it from other online formats:</p>
+<p>4 things separate it from other online formats:</p>
 
 <ul>
 <li><strong>Curated attendance.</strong> Every seat is chosen. Nobody joins from a public registration link.</li>
@@ -165,7 +175,7 @@ That takes 8987 from 2 to 6 distinct internal targets, which meets B3's "5+ link
 
 <h3>Send a participant brief</h3>
 
-<p>Most virtual roundtable invitations describe the format and the date. The ones that produce good attendance and good conversation send a participant brief two to three days before. It should include the opening question, the guest list by role and company type (not individual names unless agreed), the facilitation structure, and what a participant who comes prepared should think about in advance.</p>
+<p>Most virtual roundtable invitations describe the format and the date. The ones that produce good attendance and good conversation send a participant brief 2 to 3 days before. It should include the opening question, the guest list by role and company type (not individual names unless agreed), the facilitation structure, and what a participant who comes prepared should think about in advance.</p>
 
 <p>This does two things. It filters out passive attendees who were never going to contribute. It prepares the active ones to arrive with something worth saying. It also answers most of the reasons <a href="https://convenexevents.com/senior-executives-say-no-to-events/">senior executives say no to events</a> before they come up.</p>
 

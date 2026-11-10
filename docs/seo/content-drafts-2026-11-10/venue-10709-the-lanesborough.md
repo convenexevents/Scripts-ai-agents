@@ -1,5 +1,12 @@
 # Venue page draft: The Lanesborough (page 10709)
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass with edits.**
+
+- Removed the Executive Chef's name from the copy and the FAQ. Named chefs change, and a stale name on an evergreen venue page is a factual error waiting to happen. "Modern British" stays.
+- FAQ question 3 replaced with a view question that the verified copy already answers.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-lanesborough-london-private-dining-venue/`
@@ -19,7 +26,7 @@ The Lanesborough's spread of private rooms helps when you know exactly how many 
 
 For a senior dinner of 12 to 30, three rooms stand out. **The Wilkins**, for up to 30, is the hotel's own suggestion for private business meetings or an intimate dinner party. **The Windsor**, for up to 20, is a classic boardroom: neutral, private, and built for a conversation rather than an occasion. **The Wine Cellar**, for up to 14, is the most distinctive of the three and suits a smaller table where the setting is part of the evening.
 
-Larger rooms are there when a dinner grows. **The Westminster** takes up to 60 in a light-filled room; **St George's**, up to 100, overlooks Wellington Arch; **The Wellington**, up to 90, recalls the great houses of the Regency period; and **The Belgravia**, up to 120, overlooks Hyde Park. Menus are modern British, from Executive Chef Shay Cooper.
+Larger rooms are there when a dinner grows. **The Westminster** takes up to 60 in a light-filled room; **St George's**, up to 100, overlooks Wellington Arch; **The Wellington**, up to 90, recalls the great houses of the Regency period; and **The Belgravia**, up to 120, overlooks Hyde Park. Private dining menus are modern British.
 
 The Windsor and the Wine Cellar suit a confidential board-level dinner, for example finance, legal or risk leaders working through one hard question. The Wilkins suits a fuller cross-sector dinner of 20 to 30. All of them sit at Hyde Park Corner, SW1X 7TA, on the edge of Knightsbridge and Belgravia.
 
@@ -31,8 +38,8 @@ A: Seven individually designed private dining rooms, plus the Great Hall for rec
 **Q: Which Lanesborough room suits a dinner for 12 to 20?**
 A: The Windsor, a boardroom for up to 20, or the Wine Cellar for up to 14. For up to 30, the hotel suggests The Wilkins for intimate dinners and business meetings.
 
-**Q: Who cooks for private dinners at The Lanesborough?**
-A: The hotel's private dining menus are modern British, by Executive Chef Shay Cooper.
+**Q: Which Lanesborough rooms have a view?**
+A: St George's overlooks Wellington Arch and The Belgravia overlooks Hyde Park, according to the hotel.
 
 ## 4. "Other rooms in the portfolio" carousel: keep these only
 
@@ -55,6 +62,8 @@ Cut the 15-card carousel to these 4 nearby venues (same card markup, other cards
 - 'Full audio-visual support' and walk time from Hyde Park Corner Tube: not verified. Left out of the copy.
 
 ### Elsewhere on this page (Kai, when applying)
+
+- **Felix decision (carousel cards, summary tiles, amenities):** remove walk times, Michelin claims, royal warrants, founding dates and "since" lines, "58th Floor", "longest-standing" and AV claims, unless the fact is on the venue's own site and listed in section 5. Default is remove.
 
 - Update the summary tiles, the "What this venue offers" list and the schema `description` so they match the copy above. Remove any room name, capacity or feature listed in section 6 as wrong or unverified.
 - Keep the address and access block, but don't add walk times that aren't in the copy unless they're checked.

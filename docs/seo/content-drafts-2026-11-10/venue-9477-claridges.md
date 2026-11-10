@@ -1,5 +1,11 @@
 # Venue page draft: Claridge's (page 9477)
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass with edits.**
+
+- FAQ question 2 asked for the "largest" room for 20 to 24, but the Highgrove Room takes 35. Reworded so the answer is accurate.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/claridges-london-executive-dinner-venue/`
@@ -30,7 +36,7 @@ The Boardroom suits a confidential evening for a handful of CFOs or general coun
 **Q: Which Claridge's room suits a confidential dinner for 10 to 16?**
 A: The Boardroom on the mezzanine, for 5 to 16, with its own private reception area. The Dante Mayfair Private Dining Room also seats up to 16.
 
-**Q: What's the largest private dining room at Claridge's for a seated executive dinner of around 20 to 24?**
+**Q: Which Claridge's rooms suit a seated executive dinner of around 20 to 24?**
 A: The St James Room offers private dining for up to 20, and the Foyer Private Dining Room seats up to 24, according to the hotel.
 
 **Q: Can a Claridge's private room connect to another for a larger group?**
@@ -58,6 +64,8 @@ Cut the 15-card carousel to these 4 nearby venues (same card markup, other cards
 - Nearest Tube 'Bond Street, 2 minutes': not verified. Left out.
 
 ### Elsewhere on this page (Kai, when applying)
+
+- **Felix decision (carousel cards, summary tiles, amenities):** remove walk times, Michelin claims, royal warrants, founding dates and "since" lines, "58th Floor", "longest-standing" and AV claims, unless the fact is on the venue's own site and listed in section 5. Default is remove.
 
 - Update the summary tiles, the "What this venue offers" list and the schema `description` so they match the copy above. Remove any room name, capacity or feature listed in section 6 as wrong or unverified.
 - Keep the address and access block, but don't add walk times that aren't in the copy unless they're checked.

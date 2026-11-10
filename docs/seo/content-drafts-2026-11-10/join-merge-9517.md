@@ -1,5 +1,17 @@
 # Plan item B7: merge /join-the-network/ into /join/ (page 9517)
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass with edits on copy. Blocked for build (form wiring and consent, see below).**
+
+The structure is right: one path (Request an invitation), guest-facing mode with no booking-call CTA, no personal names, no past-event claims. Internal links (privacy policy 9498, /join/ 9517, /join-the-network/ 11638) resolve. Changes:
+- "Invite-only" becomes "invitation-only" (brand word) in the lede and the meta description. The description is reworded so it doesn't say "invitation" twice (150 chars).
+- **"Rooms you can trust"** said "Every guest is a senior decision-maker", an unverified attendee/seniority claim. It now describes what we actually do: check every request against a company email address and LinkedIn before inviting.
+- **"Off the record"** applied "nothing is recorded" to every format, including webinars. It's now scoped to dinners and roundtables.
+- **Dinner seats: 10 to 25** (brand brief), not 8 to 25. The live card on /join-the-network/ should match once merged.
+- "Two minutes" becomes "2 minutes". FAQ "Each room is hosted by a partner organisation" becomes "Rooms are hosted by partner organisations" (not every peer-led room has a host; Freya to confirm the wording).
+- **Blocking go-live:** (1) Kai to confirm what `cx/v1/join` does before the two-step form is retired; (2) **Eleanor** on consent wording (one tick vs two) and the GDPR basis for matching; (3) n8n redirect URLs updated from /join-the-network/ to /join/; (4) the footer newsletter form currently drops sign-ups site-wide, which is a consent and data issue for Amara and Eleanor regardless of this page.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Decision (Nathan): one page at `/join/`; `/join-the-network/` (11638) then 301s to `/join/`.
 Drafted by: Senior Content Writer, 10 November 2026. Kai builds after Felix > Freya, and only once the form questions in section 2 are settled.
@@ -52,7 +64,7 @@ Combines the best of both pages with no duplication: the waitlist page's headlin
 
 - Eyebrow: `The Convene X network`
 - H1: **A seat at the table you'd clear your diary for.**
-- Lede: Request an invitation to invite-only executive dinners and virtual roundtables with your peers. Small rooms, one good question, nothing recorded.
+- Lede: Request an invitation to invitation-only executive dinners and virtual roundtables with your peers. Small rooms, one good question, nothing recorded.
 - Button (anchors to the form): `Request an invitation`
 
 ### Facts strip (3 items, unchanged from the waitlist page)
@@ -65,14 +77,14 @@ Combines the best of both pages with no duplication: the waitlist page's headlin
 
 ### H2: Why join
 
-- **Rooms you can trust.** Every guest is a senior decision-maker, checked against their company email and LinkedIn profile before anyone is invited.
-- **Off the record.** Conversations happen among peers who carry the same responsibility. Nothing is recorded, and nobody is on a stage.
+- **Rooms you can trust.** We check every request against a company email address and LinkedIn profile before anyone is invited.
+- **Off the record.** Dinners and roundtables are conversations among peers who carry the same responsibility. Nothing is recorded, and nobody is on a stage.
 - **Invitations that fit.** You're only invited to dinners, roundtables and webinars that match your role and the topics you care about.
 - **No obligation.** Say yes to the rooms you want and pass on the rest.
 
 ### H2 (form heading): Request an invitation
 
-Sub-line: Two minutes. We review every request by hand.
+Sub-line: 2 minutes. We review every request by hand.
 
 Form: the waitlist form, unchanged except:
 - form heading text "Join the waitlist" → **"Request an invitation"**
@@ -92,14 +104,14 @@ Success state: whatever n8n currently returns. If Kai builds an in-page message,
 
 ### H2: Small by design
 
-- **Executive dinners.** One table, one conversation, peers from across your sector. `8 to 25 seats · In person`
+- **Executive dinners.** One table, one conversation, peers from across your sector. `10 to 25 seats · In person`
 - **Virtual roundtables.** Cameras on, a chair keeping it moving, from wherever you are. `6 to 12 seats · Online`
 - **Webinars.** A sharper briefing on one topic, with time for your questions. `Up to 50 · Online`
 
 ### H2: Before you join
 
 **Is it really free?**
-Yes. Each room is hosted by a partner organisation, which is why invited guests never pay.
+Yes. Rooms are hosted by partner organisations, which is why invited guests never pay.
 
 **Who is it for?**
 Senior leaders, Director level and up for dinners and roundtables. Webinars are open to Senior Managers too.
@@ -137,7 +149,7 @@ Questions before you request an invitation? Email enquiries@convenexevents.com.
 ## 3. Meta for /join/ (Rank Math)
 
 - **SEO title (50 chars):** `Request an Invitation | Join the Convene X Network`
-- **Meta description (153 chars):** `Request an invitation to invite-only executive dinners and virtual roundtables for Director-level leaders and above. Free for guests. Chatham House Rule.`
+- **Meta description (150 chars, edited by Felix):** `Request a seat at invitation-only executive dinners and virtual roundtables for Director-level leaders and above. Free for guests. Chatham House Rule.`
 - **Focus keyword:** keep `join our network` for now (avoids a new overlap with `/why-invitation-only-events/`). Dev to check search demand for "executive network invitation" before changing it.
 - **Robots:** index, follow (as now).
 - **Page title (WordPress):** change "Join Our Network" → "Request an Invitation".

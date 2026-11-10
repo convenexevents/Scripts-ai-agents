@@ -1,5 +1,13 @@
 # Venue page draft: Royal Automobile Club (page 10716)
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass with edits. Go-live depends on Freya's portfolio decision (member sponsorship).**
+
+Spot-checked against royalautomobileclub.co.uk with Firecrawl (banqueting and meeting rooms tariff table, Committee Room, Terrace Room). All seven rooms and every lunch/dinner maximum match. Member sponsorship is stated on the Committee and Terrace Room pages. Terrace Room oval 30 / reception 80 confirmed. Bedrooms line confirmed. Changes:
+- Sector-fit sentence rewritten. "Long-established industrial leaders often feel at home here" was a generalisation about guests we can't stand behind.
+- Freya to decide whether the Club stays in the public portfolio, or is shown as "by arrangement with a member host". The copy is honest about the constraint either way.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/royal-automobile-club-london-private-dining-venue/`
@@ -28,7 +36,7 @@ Once that's in place, the rooms cover most formats. For lunch or dinner, the Clu
 
 For a senior dinner around one table, the Founders Room suits 8 to 10 leaders, and the Mall, Stewart or Segrave Room suits 16 to 26. The Terrace Room works well when you want an oval table for 20 to 30 and space for drinks. The Committee and Mountbatten Rooms are for larger, more formal occasions.
 
-The clubhouse's members' club formality suits audiences who value tradition: finance, legal, public-sector and long-established industrial leaders often feel at home here. Guests attending private events can also book bedrooms at the Club, subject to availability. The clubhouse is at 89 Pall Mall, SW1Y 5HS.
+The clubhouse's formality suits a more traditional evening, for example a dinner for finance, legal or public-sector leaders. Guests attending private events can also book bedrooms at the Club, subject to availability. The clubhouse is at 89 Pall Mall, SW1Y 5HS.
 
 ## 3. FAQ (3 questions, for an FAQ block plus FAQPage schema)
 
@@ -65,6 +73,8 @@ Cut the 15-card carousel to these 4 nearby venues (same card markup, other cards
 - 'Green Park, 6 minutes' and 'Full AV': not verified (the tariff page lists a 65-inch screen or projector in the day-delegate package only). Left out.
 
 ### Elsewhere on this page (Kai, when applying)
+
+- **Felix decision (carousel cards, summary tiles, amenities):** remove walk times, Michelin claims, royal warrants, founding dates and "since" lines, "58th Floor", "longest-standing" and AV claims, unless the fact is on the venue's own site and listed in section 5. Default is remove.
 
 - Update the summary tiles, the "What this venue offers" list and the schema `description` so they match the copy above. Remove any room name, capacity or feature listed in section 6 as wrong or unverified.
 - Keep the address and access block, but don't add walk times that aren't in the copy unless they're checked.

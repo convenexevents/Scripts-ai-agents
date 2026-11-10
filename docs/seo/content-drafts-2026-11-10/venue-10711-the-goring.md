@@ -1,5 +1,12 @@
 # Venue page draft: The Goring (page 10711)
 
+## Felix review (Brand & Quality), 10 Nov 2026
+
+**Verdict: Pass with edits.**
+
+- The Michelin star and the Churchill line are on the hotel's own page (section 5), so they stay, but both are now attributed to the hotel. Michelin status changes every year: recheck before each republish.
+- Carousel/card: "family-owned since 1910" and "royal warrant" come off unless they're sourced on thegoring.com.
+
 Status: **DRAFT for Felix's review.** Nothing has been changed on the live site.
 Plan item: B6 (make venue pages genuinely distinct). Kai builds after Felix > Freya.
 Page: `/the-goring-london-private-dining-venue/`
@@ -19,7 +26,7 @@ The Goring's five private spaces range from an 8-seat boardroom to a garden room
 
 **The Drawing Room**, at 27 m², hosts up to 12. Silverware, personalised menus and a hidden screen make it suited to a working dinner where someone may need to share a few slides.
 
-**The Silver Room** has an antique dining table and a history: Winston Churchill once held meetings here. It suits a boardroom-style meeting or an intimate dinner.
+**The Silver Room** has an antique dining table and, the hotel says, a history: Winston Churchill once held meetings here. It suits a boardroom-style meeting or an intimate dinner.
 
 **The Boardroom**, discreetly placed on the fourth floor, takes up to 8 for working lunches.
 
@@ -27,7 +34,7 @@ The Goring's five private spaces range from an 8-seat boardroom to a garden room
 
 **The Garden Room** is the largest private room, at 86 m², with a sliding glass wall onto the private garden. It seats 44 for dinner or 20 around a boardroom table.
 
-For a board-level dinner of 8 to 12, the Drawing Room or the Silver Room keeps the conversation close and private. For a cross-sector table of 20, the Garden Room in boardroom layout gives everyone a seat at one table. The hotel's Dining Room holds a Michelin star, which helps when the menu matters to the guest list.
+For a board-level dinner of 8 to 12, the Drawing Room or the Silver Room keeps the conversation close and private. For a cross-sector table of 20, the Garden Room in boardroom layout gives everyone a seat at one table. The hotel says its Dining Room holds a Michelin star, which helps when the menu matters to the guest list.
 
 ## 3. FAQ (3 questions, for an FAQ block plus FAQPage schema)
 
@@ -62,6 +69,8 @@ Cut the 15-card carousel to these 4 nearby venues (same card markup, other cards
 - 'Victoria, 6 minutes' and AV 'on request': not verified on the hotel site. Left out.
 
 ### Elsewhere on this page (Kai, when applying)
+
+- **Felix decision (carousel cards, summary tiles, amenities):** remove walk times, Michelin claims, royal warrants, founding dates and "since" lines, "58th Floor", "longest-standing" and AV claims, unless the fact is on the venue's own site and listed in section 5. Default is remove.
 
 - Update the summary tiles, the "What this venue offers" list and the schema `description` so they match the copy above. Remove any room name, capacity or feature listed in section 6 as wrong or unverified.
 - Keep the address and access block, but don't add walk times that aren't in the copy unless they're checked.
