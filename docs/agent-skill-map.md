@@ -122,15 +122,16 @@ not installed where cloud sessions can see it (it may exist on your PC).
 - Vault: event-campaign-runbook, landing-page-sprint
 
 ### Callum Reyes: SEO & Technical Auditor
-- Skills: `seo-auditor`, `marketing:seo-audit`, `small-business:seo-ai-visibility`, fixing-metadata (vault), skill-aeo (vault)
-- Tools: DataForSEO, Rank Math via WordPress, Firecrawl. SEO_Data connector **needs sign-in**.
+- Skills: `seo-auditor`, `marketing:seo-audit`, `small-business:seo-ai-visibility`, fixing-metadata (vault), skill-aeo (vault); OpenSEO plugin: `openseo:seo-audit`, `openseo:seo-report`, `openseo:seo-project-setup`, `openseo:ai-visibility-audit`, `openseo:local-seo`, `openseo:link-prospecting`, `openseo:seo-coach`
+- Tools: DataForSEO, Rank Math via WordPress, Firecrawl, OpenSEO MCP (**needs sign-in**, see below). SEO_Data connector **needs sign-in**.
 
 ### Dev Malhotra: Keyword & Search Insights Analyst
-- Skills: `keyword-researcher`, ai-citation-copy (vault), skill-aeo (vault)
-- Tools: DataForSEO (keywords, AI mentions)
+- Skills: `keyword-researcher`, ai-citation-copy (vault), skill-aeo (vault); OpenSEO plugin: `openseo:keyword-research`, `openseo:keyword-clustering`, `openseo:ai-prompt-research`
+- Tools: DataForSEO (keywords, AI mentions), OpenSEO MCP (**needs sign-in**)
 
 ### Nadia Kovač: Competitive Intelligence Analyst
 - Skills: `competitor-analyst`, `marketing:competitive-brief`, `product-management:competitive-brief`, `sales:competitive-intelligence`, `last30days`, `small-business:review-reputation`, `product-management:synthesize-research`, `design:research-synthesis`
+- Skills (OpenSEO plugin): `openseo:competitor-analysis`, `openseo:competitive-landscape`
 - Tools: Firecrawl, Apify, DataForSEO backlinks
 
 ### Sana Iqbal: Performance & Analytics Lead
@@ -212,3 +213,11 @@ Outdated processes removed where a newer one exists:
 | 15 empty files + 2 identical duplicates in the Drive root | n/a | Binned (restorable for 30 days) |
 
 Still open (not removed, needs a decision): two Elementor skill versions in Kai's folder (`SKILL-lmoncany-elementor-wordpress.md` and the `-OFFICIAL` copy; the repo uses OFFICIAL), and `scroll-film-studio` stored in both Kai's and Zara's folders (Zara owns it).
+
+## OpenSEO plugin (installed 2026-11-10)
+- Source: https://github.com/every-app/open-seo (MIT), plugin `openseo@openseo` v1.0.26, enabled for this repo in `.claude/settings.json`.
+- Adds 12 skills (namespaced `openseo:`) and the `openseo` MCP server at `https://app.openseo.so/mcp`.
+- The MCP signs in by OAuth the first time a tool is used. It needs an OpenSEO account: hosted plan (paid, see openseo.so/pricing) or a self-hosted copy (Docker or Cloudflare) with our own DataForSEO key. **Nathan signs off before any account, plan or credit spend.**
+- Until it is connected, the skills still load but their data calls will stop and ask for the connection; keep using DataForSEO MCP directly.
+- Check the connection without spending credits: "Use OpenSEO to check my connection and list my projects."
+

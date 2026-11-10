@@ -1,0 +1,13 @@
+{
+  "enabledPlugins": {
+    "openseo@openseo": true
+  },
+  "extraKnownMarketplaces": {
+    "openseo": {
+      "source": {
+        "source": "github",
+        "repo": "every-app/open-seo"
+      }
+    }
+  }
+}
