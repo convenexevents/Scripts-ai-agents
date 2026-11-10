@@ -57,9 +57,71 @@ Yes, it needs a light fix before this page sends more hosts to it:
 - "Twelve people in a room" sits within 10 to 25, so it's fine, but "12 senior, qualified guests" per dinner reads as a standard size. Minor.
 - The OG and Twitter descriptions for 8986 are empty (they fall back to defaults). Worth setting at the same time.
 
+## Freya sign-off (10 Nov 2026)
+
+**Verdict: APPROVED WITH EDITS, for Nathan's review.** Felix's review is done and I agree with all 8 of his edits. I've checked the copy against the updated `brand-brief.md` (event counts banned in public copy). There are no event counts, time windows, personal names, "Convene X has delivered" lines or lead, meeting or ROI promises. There are no em dashes, exclamation marks or banned words, and the copy is UK English with contractions and digits. It reads like a person wrote it, and the H1, section 2 and the "a host who pitches loses the room" FAQ make the page worth reading. **I haven't touched the live site.**
+
+This page doesn't need to wait for the service-page fixes below. It removes a live house-rule breach (the founder band) and the pipeline promises, so holding it would leave both live.
+
+### My edit
+1. **Section 6, proof line:** I took out the commas around "in previous roles". It now reads "our founding team spent several years in previous roles designing and delivering...". Felix's version had 3 commas in a row, which made the line hard to read. The framing hasn't changed. On Felix's flag 1: `brand-voice.md` isn't in the repo for me either, but the same proof line ("Before establishing Convene X Events, our founding team spent several years...") appears in the Felix, Andrew and Victor agent files. I'm treating it as the approved line. "Several years" is the approved wording, not a count, so the ban doesn't apply to it.
+
+### Decisions
+1. **Final CTA button swap: approved.** Book Exploratory Call becomes the primary button and Build Your Room the alt. That matches the hero and the brief's primary CTA.
+2. **The 3 open points for Nathan: no answer means the fallback.** Kai builds Version A of a point only if Nathan explicitly confirms it. If Nathan approves the page without answering a point, Kai builds Version B for that point. Callum's FAQPage schema must match whichever FAQ text is built, word for word.
+
+### Point 1: call length
+**Decision:** build with no length stated (Felix's edit). Nobody adds a length until the stated length and the link slug agree.
+
+- **Version B (default, build this now):** FAQ "How do we start?" stays as drafted: "Book an exploratory call. It's a conversation about your audience and goals, not a pitch. If you'd like to sketch the room first, use Build Your Room."
+- **Version A (only if Nathan confirms a length *and* the cal.com slug matches it):** "Book a [45/15]-minute exploratory call. It's a conversation about your audience and goals, not a pitch. If you'd like to sketch the room first, use Build Your Room."
+- The buttons read "Book Exploratory Call" in both versions. If the answer is 15 minutes, `brand-brief.md` gets updated (owner: me, once Nathan answers).
+
+### Point 2: guest-list sign-off for webinars
+**Decision:** until Nathan confirms that the host signs off the guest list for webinars too, the sign-off claim covers dinners and roundtables only, everywhere on the page. I don't agree with Felix that the meta "still works as written". "Dinners, roundtables and webinars, with a guest list you sign off" reads as covering all 3, so the meta gets the fallback as well.
+
+- **Version A (Nathan confirms it holds for webinars):** build everything as drafted above.
+- **Version B (default):**
+
+| Where | Version B wording |
+|---|---|
+| Hero lede | Sponsor an executive event your buyers will make time for. We invite senior leaders who match your ideal customer profile, and you host an honest conversation over a private dinner, a virtual roundtable or a webinar. For dinners and roundtables, you sign off the guest list. |
+| Meta description (142 chars, keyword still in the first 4 words) | Sponsor an executive event senior buyers make time for: invitation-only dinners and roundtables with a guest list you sign off, plus webinars. |
+| OG description (155 chars) | Invitation-only executive dinners, virtual roundtables and webinars for B2B teams who want real conversations with senior buyers. No pitch, no badge scans. |
+| Twitter description (146 chars) | Host an invitation-only dinner, roundtable or webinar for senior leaders who match your profile. You agree the audience. No pitch, no badge scans. |
+| Section 5, step 2 | **We invite the guests.** Our team invites and confirms senior leaders who match that profile, and shapes the question that earns their time. For dinners and roundtables, you sign off the guest list. |
+| FAQ "What exactly does a sponsor get?" | The right people in the room and a conversation worth having. We invite senior leaders who match the profile you agree with us, design the format and theme around your goals, and position your brand as the host. For dinners and roundtables, you sign off the guest list. We don't sell lead lists: what happens after the event is down to the conversation. |
+
+The OG and Twitter descriptions in Version B leave the sign-off out rather than qualify it. There isn't room to qualify it cleanly in a share card, and a half-claim reads worse than no claim.
+
+### Point 3: 12-week lead time and the Director+ / Senior Manager+ bars
+**Decision:** I approve the copy as drafted. Both points come straight from `brand-brief.md`, where they're listed as public angles ("Director+ means Director+"; "12 weeks minimum"), and they're the most specific things on the page. Stating them in public is still a positioning commitment, which is Nathan's call, not mine. So the same rule applies: Version A only if Nathan explicitly says yes.
+
+- **Version A (Nathan confirms):** sections 7 and 9 as drafted above.
+- **Version B (default):**
+
+| Where | Version B wording |
+|---|---|
+| Section 7, P | We invite chief officers, vice presidents, directors and other senior leaders across financial services, cybersecurity, IT and technology, procurement and marketing, from London and across the UK and US. We agree the seniority bar for each event with you before any invitations go out. |
+| FAQ "Who is actually in the room?" | Senior decision-makers who match your profile: chief officers, vice presidents and directors across financial services, cybersecurity, IT, procurement and marketing in the UK and US. We agree the seniority bar with you before invitations go out, and every guest is invited and vetted. |
+| FAQ "How long does it take to set up?" | Most of the time goes on inviting and confirming the right guests, not on logistics. Rushing that part fills seats with the wrong people, so we'll agree a realistic timeline with you on the first call. |
+
+Points 2 and 3 are independent. Kai can build A for one and B for the other. Section 7's lede ("vetted against the profile you agree with us") works in every combination.
+
+### Other notes for Nathan (not blocking)
+- "UK and US" reach (hero chips, roundtable card, section 7 and the FAQ) is carried over from the live page, so it isn't new, but nobody has checked it operationally (flag 7). If we can't recruit US guests today, tell me and it comes out.
+- I agree with Felix on the GDPR flag for 9413. It goes to Eleanor and doesn't block this page.
+
+### Follow-ups, in priority order (Iris drafts, then Felix, me and Nathan; Kai builds; Callum checks. None of these is authorised by this sign-off.)
+1. **Site-wide search (Callum, read-only, first).** Search for "founder", "his career", "pipeline", "warm", "commercial opportunit", "Discovery Call", "Ten seats", "8 to 12", "manager level", "34 events" and "18 months". It's cheap, and it scopes items 2 to 5 so Iris fixes each page once, not twice.
+2. **9413 webinars.** The "Founder led" band is the same house-rule breach we've just removed here. It's live now, and /sponsor/ links to this page. Also: "manager level and above" becomes "Senior Manager level and above" (to match Version A of point 3; if Nathan picks Version B, align to that instead), and "Book a Discovery Call" becomes "Book Exploratory Call". Eleanor checks the attendee and chat report in the FAQ in parallel.
+3. **9415 dinners.** Sponsor-promise breach ("warm introductions", "meaningful commercial opportunities"), plus "Ten seats", "Ten at the table", "Ten seats. One question." and the FAQ "8 to 12", which all contradict 10 to 25 on this page. "Trusted by global enterprise brands" comes out unless we can substantiate it. Ideally 2 and 3 ship in the same release as /sponsor/, or straight after, because the "Explore →" cards send readers to both.
+4. **Post 8986 (ROI framing).** It's linked from this page's Further reading block. Take out the close-rate maths and the unsourced "cost-per-relationship is lower" and "the metrics know it" lines, and set the empty OG and Twitter descriptions. Fix it before Nathan requests indexing for /sponsor/.
+5. **9414 roundtables (light edit).** Soften "build trusted commercial relationships" and change "Six to twelve" to "6 to 12".
+
 ---
 
-Status: **DRAFT, Felix-reviewed (Pass with edits), for Freya's sign-off.** Nothing has been changed on the live site.
+Status: **DRAFT, Felix-reviewed (Pass with edits), Freya-approved with edits (10 Nov), for Nathan's review.** Nothing has been changed on the live site.
 Drafted by: Senior Content Writer, 10 November 2026, at Nathan's request.
 Pipeline: Felix (brand/quality) > Freya (sign-off) > Nathan (preview and approval) > Kai builds > Callum pre-publish check.
 
@@ -210,7 +272,7 @@ Format: **Current**, then **New**, then **Why**.
 **New**
 - Eyebrow: Experience in the room
 - H2: A team that's done this before.
-- P: Before establishing Convene X Events, our founding team spent several years, in previous roles, designing and delivering senior-level events and executive programmes for large enterprise organisations. That experience shapes every room we build: who's invited, how the question is framed and how the evening runs.
+- P: Before establishing Convene X Events, our founding team spent several years in previous roles designing and delivering senior-level events and executive programmes for large enterprise organisations. That experience shapes every room we build: who's invited, how the question is framed and how the evening runs.
 - Chips: unchanged.
 - Button: unchanged.
 
