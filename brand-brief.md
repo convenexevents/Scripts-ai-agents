@@ -51,9 +51,12 @@ Supporting angles:
   prep, 10 weeks recruitment). Anything faster is filling seats.
 
 ## Story Vault
-- Approved proof claim (use exactly this framing): our team has run 34 events
-  in the last 18 months, 32 of them at or over capacity, across their careers /
-  in previous roles.
+- No event counts in public copy (decided by Nathan, 10 Nov 2026). Don't quote
+  how many events the team has run, capacity rates or time windows (the old
+  "34 events in 18 months" claim is retired). Proof stays qualitative: the team
+  has run executive dinners, roundtables and webinars across their careers /
+  in previous roles. Internal documents and sales calls may still use the
+  figures if Nathan gives them.
 - Brands the team has worked with in previous roles: Siemens, Darktrace,
   SoftwareOne, Tricentis, Basware, LucaNet, Tradeshift, Softwerx, Pleo, Ivalua.
   Mention as previous-role experience only. No quotes, results or endorsements.
@@ -86,8 +89,10 @@ Five words: warm, direct, specific, peer-to-peer, no-nonsense.
 - **Proof framing.** Past results belong to the team "across their careers" /
   "in previous roles". Never "Convene X has delivered/run/hosted". Convene X
   has not run its own first event yet; never imply case studies exist.
-- **No invented numbers.** Only the approved proof claim, figures the user
-  gives, or sourced figures. Anything unverified: [CONFIRM THIS].
+- **No event counts.** Never quote how many events the team or Convene X has
+  run, capacity rates or "in the last X months" claims in public copy.
+- **No invented numbers.** Only figures the user gives or sourced figures.
+  Anything unverified: [CONFIRM THIS].
 - **Never promise sponsors** leads, guaranteed meetings or ROI.
 - **No pricing** in public content unless asked.
 - **Outreach exclusions:** never target Siemens, Darktrace, SoftwareOne,
