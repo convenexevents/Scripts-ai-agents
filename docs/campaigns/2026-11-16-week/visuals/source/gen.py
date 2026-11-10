@@ -22,10 +22,13 @@ html, body {{ background: {BG}; }}
 .top {{ position:absolute; left:96px; right:96px; top:96px; }}
 .content {{ position:absolute; left:96px; right:96px; top:300px; }}
 .hero {{ position:absolute; left:96px; right:96px; top:0; bottom:260px; display:flex; flex-direction:column; justify-content:center; }}
-h1 {{ font-family:'Fraunces', serif; font-weight:300; font-size:92px; line-height:1.08; letter-spacing:-0.01em; color:{TXT}; }}
+h1 {{ font-family:'Fraunces', serif; font-weight:300; font-size:92px; line-height:1.08; letter-spacing:-0.01em; color:{TXT}; text-wrap:pretty; }}
 h1.xl {{ font-size:104px; line-height:1.04; }}
 .em {{ color:{YEL}; font-style:italic; }}
-.body {{ font-size:46px; line-height:1.32; color:{TXT}; margin-top:44px; max-width:860px; }}
+.body {{ font-size:46px; line-height:1.32; color:{TXT}; margin-top:44px; max-width:860px; text-wrap:pretty; }}
+/* Felix 10 Nov: source lines and save prompts at 30px minimum (about 11px on a 390px-wide phone feed) */
+.src {{ font-family:'IBM Plex Mono', monospace; font-weight:500; font-size:30px; line-height:1.4; letter-spacing:0.02em; color:{GREY}; }}
+.save {{ font-family:'IBM Plex Mono', monospace; font-weight:500; font-size:30px; letter-spacing:0.08em; text-transform:uppercase; color:{TXT}; }}
 .num {{ display:inline-flex; align-items:center; justify-content:center; width:96px; height:96px; border-radius:999px;
   background:{PINK}; color:{INK}; font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:48px; margin-bottom:48px; }}
 .rule-y {{ width:160px; height:6px; background:{YEL}; margin-bottom:48px; }}
@@ -106,7 +109,7 @@ def thu():
         <div style="font-family:'Fraunces',serif;font-weight:300;font-size:300px;line-height:0.95;color:{PINK};letter-spacing:-0.02em">38%</div>
         <p class='body' style='margin-top:40px'>of CMOs agree their events perform well. About half of organisations say they do.</p>
       </div>
-      <div class='footer'><div class='mono' style='font-size:24px;color:{GREY};max-width:680px;line-height:1.4;letter-spacing:0.02em;text-transform:none'>Source: Forrester, The Next Era of B2B Events, 25 Jun 2026</div>{LOGO_IMG}</div></section>""")
+      <div class='footer'><div class='src' style='max-width:600px'>Source: Forrester, The Next Era of B2B Events, 25 Jun 2026</div>{LOGO_IMG}</div></section>""")
     steps = [
         ("Agree what to look at first", "3 or 4 signals, chosen with the host before any invitation goes out."),
         ("Check the room against the list", "The right guests from the signed-off list. A conversation that went somewhere."),
@@ -121,7 +124,7 @@ def thu():
       <div class='content' style='top:300px'><h1 class='xl'>Leads, meetings or ROI.</h1>
       <p class='body'>These are things to look at, not outcomes anyone can guarantee.</p>
       <p class='tag' style='margin-top:96px;font-size:56px'>Who&#8217;s in the room is the event.</p>
-      <p class='mono' style='margin-top:36px;font-size:26px;color:{TXT}'>SAVE THIS FOR YOUR NEXT POST-EVENT REPORT</p></div>
+      <p class='save' style='margin-top:36px'>SAVE THIS FOR YOUR NEXT POST-EVENT REPORT</p></div>
       {footer('convenexevents.com')}</section>""")
     return doc("Convene X LinkedIn Thu 19 Nov carousel", p)
 
@@ -133,9 +136,9 @@ def wed():
         <div style="display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.02em">
           <span style='font-size:200px;color:{GREY}'>46%</span>{arrow}<span style='font-size:250px;color:{YEL}'>15%</span></div>
         <p class='body' style='margin:40px auto 0;font-weight:500;max-width:820px'>Organisers who rate their networking &#8216;very effective&#8217;, 2025 to 2026.</p>
-        <p class='mono' style='margin-top:48px;font-size:26px;color:{GREY};text-transform:none;letter-spacing:0.02em'>Source: Bizzabo 2026 State of Events Benchmark<br>(vendor survey)</p>
+        <p class='src' style='margin-top:48px'>Source: Bizzabo 2026 State of Events Benchmark<br>(vendor survey)</p>
       </div>
-      <p class='mono' style='position:absolute;left:96px;bottom:300px;font-size:26px;color:{TXT}'>SAVE THIS FOR YOUR NEXT GUEST LIST</p>
+      <p class='save' style='position:absolute;left:96px;bottom:300px'>SAVE THIS FOR YOUR NEXT GUEST LIST</p>
       <div class='strip'><span class='tag'>Who&#8217;s in the room is the event.</span>{LOGO_IMG}</div></section>"""]
     return doc("Convene X LinkedIn Wed 18 Nov stat card", p)
 
