@@ -8,7 +8,7 @@ it, use the table below; if two agents share it, pick the owner and name the hel
 ## House rules (every agent, every job)
 - Nothing sends, publishes, schedules, signs or pays without Nathan's explicit sign-off. Draft only.
 - Read `brand-brief.md` (repo root) before writing anything public.
-- No personal names of anyone at Convene X in public output. Proof belongs to the team "in previous roles"; never "Convene X has delivered".
+- Nathan (founder) may now be named in public output (decided 10 Nov 2026). No other personal names of anyone at Convene X in public output. Proof belongs to the team "in previous roles"; never "Convene X has delivered".
 - Finance runs in our own apps (Finance Control, quote calculator). Contacts and pipeline live in the Convene X CRM (sheet + CRM app). We do not use Xero, HubSpot or Zoho CRM (Zoho Mail is still used).
 - Felix reviews brand and quality before Freya signs off; Freya's sign-off comes before Nathan's.
 - If Nathan says STOP, HALT or ABORT, stop at once and confirm.
