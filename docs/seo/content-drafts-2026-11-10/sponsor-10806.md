@@ -9,7 +9,7 @@ Pipeline: Felix (brand/quality) > Freya (sign-off) > Nathan (preview and approva
 From Felix and Freya's review on 10 Nov:
 1. The band "A founder who has done this before... our founder... his career" refers to one person. Proof belongs to the team "in previous roles".
 2. "The room your pipeline is missing", "From ICP to pipeline" and "Warm pipeline follows" lean towards a pipeline promise. The brand brief rules out lead, meeting and ROI promises.
-3. No event counts in public copy. Freya's ruling overrides the "34 events" proof claim still in `brand-brief.md`.
+3. No event counts in public copy. Nathan's decision (10 Nov) is now in `brand-brief.md`, and the "34 events" claim is retired.
 4. Dinner size is 10 to 25 guests everywhere. The dinner card currently says "ten".
 
 ## Summary
@@ -32,7 +32,9 @@ The layout read shows **this page isn't Elementor-built.** It's one Gutenberg `w
 - **SEO title (48 chars, unchanged):** `Sponsor an Executive Event in London | Convene X`
 - **Meta description (138 chars, new):** `Sponsor an executive event senior buyers make time for: invitation-only dinners, roundtables and webinars, with a guest list you sign off.`
 - Current description (for reference): "Put your brand in the room with senior decision-makers. Invitation-only executive dinners, virtual roundtables and webinars built around your ICP." It doesn't contain the focus keyword and leans on "ICP" jargon.
-- **OG and Twitter description:** set both explicitly to the new meta description. At the moment Rank Math fills them with the whole page body, including the old "founder" and "pipeline" lines, so the old copy would keep appearing on LinkedIn shares after the rewrite.
+- **OG description (158 chars, new, written by Felix):** `Invitation-only executive dinners, virtual roundtables and webinars for B2B teams who want real conversations with senior buyers. You sign off the guest list.`
+- **Twitter description (151 chars, new, written by Felix):** `Host an invitation-only dinner, roundtable or webinar for senior leaders who match your profile. You sign off the guest list. No pitch, no badge scans.`
+- Both must be set explicitly in Rank Math (Social tab). Confirmed live on 10 Nov: Rank Math is filling both fields with the whole page body, including "The room your pipeline is missing", "our founder... his career" and "Warm pipeline follows", so the old copy would keep appearing on LinkedIn shares after the rewrite.
 - **OG and Twitter title:** leave inheriting the SEO title.
 - Rank Math reports an SEO score of 0 for this page. That's probably because the content is one HTML block. Callum to check after the build.
 
@@ -110,7 +112,7 @@ Format: **Current**, then **New**, then **Why**.
 - Intro: Every format is private, invitation-only and built around your ideal customer profile. You agree the audience and the question with us. We invite the guests, design the format and run it on the day.
 - Dinner card: *Executive Dinners · In person* / H3: Host a table of your ICP. / An invitation-only London dinner for 10 to 25 senior leaders who match your profile, with you hosting an off-the-record conversation.
 - Roundtable card: *Virtual Roundtables · Digital* / H3: Convene peers across markets. / A moderated, closed-door discussion for 6 to 12 senior leaders across the UK and US, built for peer exchange, not a pitch.
-- Webinar card: *Executive Webinars · Broadcast* / H3: Put your experts on the agenda. / A professionally produced session on a topic your buyers care about, led by your experts, for 25 to 50 senior registrations.
+- Webinar card: *Executive Webinars · Broadcast* / H3: Put your experts on the agenda. / A professionally produced session on a topic your buyers care about, led by your experts, aiming for 25 to 50 senior registrations.
 - "Explore →" links: unchanged.
 
 **Why:** Fixes the dinner size (10 to 25), drops "warm follow-up" and "at scale", and gives each format its real size from the brand brief. "Own the room" didn't fit a page that says the host shouldn't dominate the room. "Three" becomes "3" (numbers as digits).
@@ -132,7 +134,7 @@ Format: **Current**, then **New**, then **Why**.
 - 1. **Agree the room.** Together we set the seniority, sectors and accounts worth an evening of your budget.
 - 2. **We invite the guests.** Our team invites and confirms senior leaders who match that profile, and shapes the question that earns their time. You sign off the guest list.
 - 3. **You host the conversation.** On the day, your brand hosts. We handle the venue or platform, the seating, the pacing and the moderation.
-- 4. **The relationship is yours.** You've spent real time with the right people. Any next step happens at their pace, which is why it counts for more than a badge scan.
+- 4. **The next step is yours to earn.** You've spent real time with the right people. Any follow-up happens at their pace, which is why it counts for more than a badge scan.
 - Button: Build Your Room (unchanged)
 
 **Why:** Removes both pipeline lines. Step 4 also implied guests give "permission" for follow-up, which we can't promise. It adds the guest-list sign-off, which is our clearest point of difference. Step 3 now covers virtual formats as well as dinners.
@@ -149,7 +151,7 @@ Format: **Current**, then **New**, then **Why**.
 **New**
 - Eyebrow: Experience in the room
 - H2: A team that's done this before.
-- P: Before establishing Convene X Events, our team spent several years in previous roles designing and delivering senior-level events and executive programmes for large enterprise organisations. That experience shapes every room we build: who's invited, how the question is framed and how the evening runs.
+- P: Before establishing Convene X Events, our founding team spent several years, in previous roles, designing and delivering senior-level events and executive programmes for large enterprise organisations. That experience shapes every room we build: who's invited, how the question is framed and how the evening runs.
 - Chips: unchanged.
 - Button: unchanged.
 
@@ -167,7 +169,7 @@ Format: **Current**, then **New**, then **Why**.
 **New**
 - Eyebrow: The audience (unchanged)
 - H2: The seniority you can't cold-email.
-- Lede: Every guest is invited and vetted, not registered. You sit with the level of buyer your sales team struggles to reach.
+- Lede: Every guest is invited and vetted against the profile you agree with us. You sit with the level of buyer your sales team struggles to reach.
 - P: For dinners and roundtables, that means Director level and above: chief officers, vice presidents and directors across financial services, cybersecurity, IT and technology, procurement and marketing. Webinars are open to Senior Manager level and above. We invite guests from London and across the UK and US.
 - Chips: unchanged.
 
@@ -194,11 +196,11 @@ Format: **Current**, then **New**, then **Why**.
 **New** (eyebrow and H2 unchanged; 2 questions added, marked NEW)
 - **What exactly does a sponsor get?** The right people in the room and a conversation worth having. We invite senior leaders who match the profile you agree with us, design the format and theme around your goals, and position your brand as the host. You sign off the guest list. We don't sell lead lists: what happens after the event is down to the conversation.
 - **Who is actually in the room?** Senior decision-makers who match your profile. That's Director level and above for dinners and roundtables, and Senior Manager and above for webinars, across financial services, cybersecurity, IT, procurement and marketing in the UK and US. Every guest is invited and vetted.
-- **How many guests are there? (NEW)** Executive dinners seat 10 to 25 guests and virtual roundtables 6 to 12, so everyone at the table takes part. Webinars aim for 25 to 50 registrations.
+- **How many guests are there? (NEW)** Executive dinners seat 10 to 25 guests and virtual roundtables 6 to 12, small enough for a real conversation. Webinars aim for 25 to 50 registrations.
 - **Is this a pitch slot?** No. These rooms work because nobody's being sold to. You host a genuine conversation on a topic your buyers care about, and a host who pitches loses the room.
 - **In person or virtual?** Both. Executive dinners are held in person in private dining rooms in London. Virtual roundtables and webinars bring together senior leaders from across the UK and US in one session.
 - **How long does it take to set up? (NEW)** Allow 12 weeks from kick-off: about 2 weeks to plan and 10 to invite and confirm the right guests. Anything faster tends to fill seats with the wrong people.
-- **How do we start?** Book a 45-minute exploratory call. It's a conversation about your audience and goals, not a pitch. If you'd like to sketch the room first, use Build Your Room.
+- **How do we start?** Book an exploratory call. It's a conversation about your audience and goals, not a pitch. If you'd like to sketch the room first, use Build Your Room.
 
 **Why:** Removes "warm follow-up" and "earns your next meeting" (outcome promises). Adds the 2 questions a host asks before booking a call (room size, lead time), using figures from the brand brief. "Leading London venues" was an unverifiable superlative. The last answer now points to the primary CTA. **Callum:** suggest FAQPage schema for these 7 Q&As, matching the visible text word for word.
 
@@ -225,8 +227,8 @@ Format: **Current**, then **New**, then **Why**.
 ## Couldn't verify / flags for reviewers
 
 1. **Proof line wording.** `brand-voice.md` and `convenex-brain.md` aren't in this repo, so I couldn't check the exact approved website proof line (the agent notes say it reads "our founding team spent several years..."). I used "our team... in previous roles" per Nathan's brief. Felix to check it against brand-voice.md.
-2. **Brand brief conflict.** `brand-brief.md` still lists "34 events in the last 18 months, 32 at or over capacity" as the approved proof claim. Freya's ruling bans event counts in public copy, so it's not used here. The brief needs updating, or the next writer will reuse the number.
-3. **Call length vs link.** The brand brief calls it a 45-minute exploratory call, but the link slug is `cal.com/convenexevents/15min`. The new FAQ says "45-minute". Confirm the length, and whether the slug should change.
+2. **Brand brief conflict.** `brand-brief.md` still lists "34 events in the last 18 months, 32 at or over capacity" as the approved proof claim. Freya's ruling bans event counts in public copy, so it's not used here. The brief needs updating, or the next writer will reuse the number. **Felix: resolved. `brand-brief.md` was updated on 10 Nov; event counts are banned and the claim is retired.**
+3. **Call length vs link.** The brand brief calls it a 45-minute exploratory call, but the link slug is `cal.com/convenexevents/15min`. The new FAQ says "45-minute". Confirm the length, and whether the slug should change. **Felix: length removed from the FAQ ("Book an exploratory call."). Open with Nathan.**
 4. **Webinar figures.** "25 to 50 registrations" and "Senior Manager+" come from the brand brief, and "professionally produced" is from the current page. I didn't check them against the webinar service page (9413).
 5. **Roundtable size (6 to 12)** and the **12-week timeline** (2 weeks to plan, 10 to recruit) come from the brand brief. Not checked against the service pages.
 6. **"You sign off the guest list"** is in the brand brief's sponsor-hosted model. Confirm it holds for every format, including webinars.
