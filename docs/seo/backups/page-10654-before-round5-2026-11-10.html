@@ -1,0 +1,201 @@
+ <main id="main" class="cx-event"><style id="cx-partner-css">html body main.cx-event .cxpf:not(#cx-x){display:grid!important;grid-template-columns:1fr 1fr;gap:18px;margin-top:34px;text-align:left}html body main.cx-event .cxpf .full{grid-column:1/-1}html body main.cx-event .cxpf label:not(#cx-x){display:block;font-family:var(--mono,'IBM Plex Mono',monospace);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8d8d8d;margin-bottom:8px;text-align:left}html body main.cx-event .cxpf label .req{color:#FCD500}html body main.cx-event .cxpf input:not([type=checkbox]):not([type=file]),html body main.cx-event .cxpf select,html body main.cx-event .cxpf textarea{width:100%;background:#0f0f0f;border:1px solid #262626;border-radius:10px;padding:14px 16px;font-family:var(--body,'Libre Franklin',sans-serif);font-size:15px;color:#fff;box-sizing:border-box;transition:border-color .2s}html body main.cx-event .cxpf textarea{min-height:130px;resize:vertical}html body main.cx-event .cxpf input::placeholder,html body main.cx-event .cxpf textarea::placeholder{color:#6f6f6f}html body main.cx-event .cxpf input:focus,html body main.cx-event .cxpf select:focus,html body main.cx-event .cxpf textarea:focus{outline:none;border-color:#FF1FA9}html body main.cx-event .cxpf select{appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,#8d8d8d 50%),linear-gradient(135deg,#8d8d8d 50%,transparent 50%);background-position:calc(100% - 20px) 22px,calc(100% - 14px) 22px;background-size:6px 6px,6px 6px;background-repeat:no-repeat}html body main.cx-event .cxpf .cxf-file{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden}html body main.cx-event .cxpf .cxf-drop:not(#cx-x){display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:150px;border:1px dashed #3a3a3a;border-radius:12px;background:#0f0f0f;cursor:pointer;text-transform:none;letter-spacing:0;padding:24px;transition:border-color .2s,background .2s;margin:0}html body main.cx-event .cxpf .cxf-drop:hover,html body main.cx-event .cxpf .cxf-drop.over{border-color:#FCD500;background:#121212}html body main.cx-event .cxpf .cxf-drop-ico{width:40px;height:40px;border-radius:50%;background:#FCD500;color:#0a0a0a;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700}html body main.cx-event .cxpf .cxf-drop-t{font-family:var(--body,'Libre Franklin',sans-serif);font-size:15px;color:#fff}html body main.cx-event .cxpf .cxf-drop-t u{color:#FCD500;text-underline-offset:3px}html body main.cx-event .cxpf .cxf-drop-s{font-family:var(--mono,'IBM Plex Mono',monospace);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8d8d8d}html body main.cx-event .cxpf .cxf-files{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}html body main.cx-event .cxpf .cxf-files li{font-family:var(--mono,'IBM Plex Mono',monospace);font-size:11px;letter-spacing:.06em;color:#fff;background:#141414;border:1px solid #2a2a2a;border-radius:999px;padding:7px 12px}html body main.cx-event .cxpf .cxf-check{display:flex;gap:12px;align-items:flex-start}html body main.cx-event .cxpf .cxf-check input{width:18px;height:18px;margin:2px 0 0;accent-color:#FCD500;flex:none}html body main.cx-event .cxpf .cxf-check label{text-transform:none;letter-spacing:0;font-family:var(--body,'Libre Franklin',sans-serif);font-size:14px;color:#c9c9c9;margin:0}html body main.cx-event .cxpf .cxf-hp{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden}html body main.cx-event .cxpf .cxf-submit{height:56px;padding:0 34px;font-size:15px;cursor:pointer}html body main.cx-event .cxpf .cxf-submit[disabled]{opacity:.6;cursor:default}html body main.cx-event .cxpf .cxf-note{font-size:13px!important;color:#8d8d8d!important;margin:14px 0 0!important;max-width:52ch!important}html body main.cx-event .cxpf .cxf-msg{grid-column:1/-1;font-family:var(--mono,'IBM Plex Mono',monospace);font-size:13px;letter-spacing:.05em;min-height:1.2em;line-height:1.5;margin:0!important;max-width:none!important}html body main.cx-event .cxpf .cxf-msg.ok{color:#FCD500}html body main.cx-event .cxpf .cxf-msg.err{color:#FF1FA9}@media(max-width:700px){html body main.cx-event .cxpf:not(#cx-x){grid-template-columns:1fr}}html body main.cx-event .ev-res li{padding-left:0!important}html body main.cx-event .ev-res li::before{display:none}html body main.cx-event .ev-res li a{color:#fff;font-weight:600;text-decoration:none;font-size:16px}html body main.cx-event .ev-res li a:hover{color:#FCD500}html body main.cx-event .ev-res li span{display:block;font-family:var(--mono,'IBM Plex Mono',monospace);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8d8d8d;margin-top:5px}html body main.cx-event .cx-form-wrap{margin-top:30px;border:1px solid #232323;border-radius:12px;overflow:hidden;background:#0f0f0f}html body main.cx-event .cx-form-wrap iframe{width:100%;height:1050px;border:0;display:block}html body main.cx-event .ev-logo{display:inline-block;background:#0f0f0f;border:1px solid #232323;border-radius:10px;padding:16px 22px;margin:0 0 22px}html body main.cx-event .ev-hero .ev-logo img:not(#cx-x){height:44px!important;width:auto!important;aspect-ratio:auto!important;object-fit:contain!important;border-radius:0!important;display:block!important;background:none!important}html body.page-id-10653 .venues:not(#cx-x){padding:88px 0!important}html body.page-id-10653 .venues .cards-head:not(#cx-x){max-width:1180px;margin:0 auto 34px;padding:0 28px;text-align:left}html body.page-id-10653 .venues .cards-head h2{margin:0 0 14px}html body.page-id-10653 .venue-grid{max-width:1180px;margin:0 auto;padding:0 28px!important}html body.page-id-10653 .venue-grid .vname a{color:inherit!important;text-decoration:none!important}</style><style>:root{--max:1640px!important}:root{--body:'Libre Franklin',sans-serif!important}.nav-links a{white-space:nowrap!important}.nav-links .nav-login{display:inline-flex!important;align-items:center;gap:8px;border:1px solid #3a3a3a!important;border-radius:999px!important;padding:8px 18px 8px 16px!important;color:#fff!important;opacity:1!important;font-weight:700!important;font-size:12px!important;letter-spacing:.06em;text-transform:uppercase;background:#0d0d0d!important;line-height:1!important;transition:border-color .2s,box-shadow .2s}.nav-links .nav-login::before{content:"";display:inline-block;width:12px;height:13px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23FF1FA9'%3E%3Cpath d='M17 9V7a5 5 0 0 0-10 0v2H5v13h14V9h-2zm-8-2a3 3 0 0 1 6 0v2H9V7z'/%3E%3C/svg%3E") center/contain no-repeat}.nav-links .nav-login:hover{border-color:#FF1FA9!important;box-shadow:0 0 0 1px #FF1FA9,0 0 18px rgba(255,31,169,.35)}</style><style id="cx-event-css">
+main.cx-event{--y:#FCD500;--p:#FF1FA9;--line:rgba(255,255,255,.09);display:block;color:#f2f2f2}
+main.cx-event .ev-wrap{max-width:1180px;margin:0 auto;padding:0 28px;box-sizing:border-box}
+main.cx-event section.ev{padding:88px 0;border-top:1px solid var(--line)}
+main.cx-event section.ev-top{border-top:0;padding:48px 0 88px}
+main.cx-event .ev-back{display:inline-block;font-family:var(--mono,'IBM Plex Mono',monospace);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#9a9a9a;text-decoration:none;margin:0 0 34px}
+main.cx-event .ev-back:hover{color:var(--y)}
+main.cx-event .ev-hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:64px;align-items:center}
+main.cx-event .ev-hero img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:6px;display:block;background:#111}
+main.cx-event .ev-pill{display:block;font-family:var(--mono,'IBM Plex Mono',monospace);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--y);margin:0 0 20px}
+main.cx-event h1{font-family:var(--display,'Fraunces',Georgia,serif);font-weight:300;font-size:clamp(38px,4.8vw,62px);line-height:1.04;letter-spacing:-.01em;margin:0 0 22px;color:#fff;font-variant-ligatures:none;text-wrap:balance}
+main.cx-event h1 em{font-style:italic;color:var(--y)}
+main.cx-event h2{font-family:var(--display,'Fraunces',Georgia,serif);font-weight:300;font-size:clamp(30px,3.4vw,44px);line-height:1.1;letter-spacing:-.01em;margin:0 0 22px;color:#fff;font-variant-ligatures:none;text-wrap:balance}
+main.cx-event h2 em{font-style:italic;color:var(--y)}
+main.cx-event .ev-prose{max-width:760px}
+main.cx-event .ev-prose p{margin:0 0 18px}
+main.cx-event .ev-meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:20px 28px;margin:30px 0 34px;padding:24px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+main.cx-event .ev-meta b{display:block;font-family:var(--mono,'IBM Plex Mono',monospace);font-weight:500;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:#8d8d8d;margin:0 0 7px}
+main.cx-event .ev-meta span{display:block;font-size:15px;line-height:1.45;color:#f2f2f2}
+main.cx-event .ev-ctas{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+html body main.cx-event .btn{opacity:1!important;visibility:visible!important;transform:none!important}
+main.cx-event .ev-split{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:56px;align-items:start}
+main.cx-event .ev-split h2{margin-bottom:14px}
+main.cx-event .ev-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+main.cx-event .ev-card{background:#0f0f0f;border:1px solid #1f1f1f;border-radius:10px;padding:26px 24px 28px}
+main.cx-event .ev-card b{display:block;font-family:var(--body,'Libre Franklin',sans-serif);font-weight:600;font-size:16px;color:#fff;margin:0 0 8px}
+main.cx-event .ev-card p{margin:0}
+main.cx-event ul.ev-list{list-style:none;margin:0;padding:0}
+main.cx-event ul.ev-list li{position:relative;padding:14px 0 14px 26px;border-top:1px solid var(--line);margin:0}
+main.cx-event ul.ev-list li:last-child{border-bottom:1px solid var(--line)}
+main.cx-event ul.ev-list li::before{content:"";position:absolute;left:0;top:23px;width:10px;height:1px;background:var(--y)}
+main.cx-event ol.ev-run{list-style:none;margin:0;padding:0}
+main.cx-event ol.ev-run li{display:grid;grid-template-columns:110px minmax(0,1fr);gap:18px;padding:16px 0;border-top:1px solid var(--line);margin:0}
+main.cx-event ol.ev-run li:last-child{border-bottom:1px solid var(--line)}
+main.cx-event ol.ev-run li b{font-family:var(--mono,'IBM Plex Mono',monospace);font-weight:500;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--y);padding-top:3px}
+main.cx-event .ev-share{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+main.cx-event .ev-share a,main.cx-event .ev-share button{display:inline-flex;align-items:center;gap:8px;border:1px solid #333;border-radius:999px;padding:11px 20px;color:#fff;background:#0d0d0d;font-family:var(--body,'Libre Franklin',sans-serif);font-weight:600;font-size:12px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;cursor:pointer;line-height:1;transition:border-color .2s,color .2s}
+main.cx-event .ev-share a:hover,main.cx-event .ev-share button:hover{border-color:var(--p);color:var(--y)}
+main.cx-event .ev-share svg{width:14px;height:14px;fill:currentColor}
+main.cx-event .ev-copied{font-family:var(--mono,'IBM Plex Mono',monospace);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--y);align-self:center;min-height:1em}
+main.cx-event .ev-rel-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:30px}
+main.cx-event .ev-rel-head h2{margin:0}
+main.cx-event .ev-rel-head a{font-family:var(--mono,'IBM Plex Mono',monospace);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#bdbdbd;text-decoration:none;white-space:nowrap}
+main.cx-event .ev-rel-head a:hover{color:var(--y)}
+main.cx-event .ev-rel{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+main.cx-event .ev-rel a{display:flex;flex-direction:column;background:#0f0f0f;border:1px solid #1f1f1f;border-radius:10px;overflow:hidden;color:inherit;text-decoration:none;transition:border-color .2s,transform .2s}
+main.cx-event .ev-rel a:hover{border-color:#3a3a3a;transform:translateY(-3px)}
+main.cx-event .ev-rel img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;display:block;background:#111}
+main.cx-event .ev-rel .rb{padding:22px 22px 26px;display:flex;flex-direction:column;flex:1 1 auto}
+main.cx-event .ev-rel .ra{font-family:var(--mono,'IBM Plex Mono',monospace);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8d8d8d}
+main.cx-event .ev-rel .rn{font-family:var(--display,'Fraunces',Georgia,serif);font-weight:400;font-size:21px;line-height:1.22;color:#fff;margin:10px 0 18px;font-variant-ligatures:none}
+main.cx-event .ev-rel .rc{margin-top:auto;font-family:var(--body,'Libre Franklin',sans-serif);font-weight:600;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--y)}
+main.cx-event .ev-join{background:linear-gradient(180deg,#111 0%,#0a0a0a 100%);border:1px solid #1f1f1f;border-radius:14px;padding:64px 40px;text-align:center;position:relative;overflow:hidden}
+main.cx-event .ev-join::before{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,var(--p),var(--y))}
+main.cx-event .ev-join h2{margin-bottom:16px}
+main.cx-event .ev-join p{max-width:60ch;margin:0 auto 30px;text-align:center}
+main.cx-event .ev-join .ev-ctas{justify-content:center}
+@media(max-width:1024px){main.cx-event .ev-hero{gap:44px}main.cx-event .ev-split{grid-template-columns:1fr;gap:26px}}
+@media(max-width:900px){main.cx-event section.ev{padding:56px 0}main.cx-event section.ev-top{padding:36px 0 56px}main.cx-event .ev-hero{grid-template-columns:1fr;gap:34px}main.cx-event .ev-cards{grid-template-columns:1fr}main.cx-event .ev-rel{grid-template-columns:1fr}main.cx-event .ev-join{padding:44px 22px}main.cx-event ol.ev-run li{grid-template-columns:1fr;gap:6px}main.cx-event .ev-wrap{padding:0 22px}}
+</style>
+<section class="ev ev-top"><div class="ev-wrap">
+ <a class="ev-back" href="https://convenexevents.com/partners/">&larr; All partners</a>
+ <div class="ev-hero">
+  <div>
+   <span class="ev-logo"><img src="https://convenexevents.com/wp-content/uploads/2026/05/cropped-cropped-Convene-250-x-100-px-1-1.png" alt="Convene X Events logo"></span>
+   <span class="ev-pill">Partner profile · Founding partner · Demo</span>
+   <h1>Convene X Events:<br>the room,<br><em id="ev-type">done properly.</em></h1>
+   <p>Invitation-only executive dinners, virtual roundtables and webinars for senior leaders in the UK, Europe and the US. This profile shows what every partner receives: a full biography, the rooms they support, key people and a resources library.</p>
+   <div class="ev-meta"><div><b>Sector</b><span>Executive events</span></div><div><b>Headquarters</b><span>Cardiff, UK. Rooms in London and the US</span></div><div><b>Partner since</b><span>2026, founding partner</span></div><div><b>Formats</b><span>Dinners, roundtables, webinars</span></div><div><b>Website</b><span><a href="https://convenexevents.com/">convenexevents.com</a></span></div></div>
+   <div class="ev-ctas"><a class="btn btn--lg" href="https://convenexevents.com/">Visit website</a><a class="btn btn--alt btn--lg" href="#ev-share">Share this profile</a></div>
+  </div>
+  <img src="https://convenexevents.com/wp-content/uploads/2026/09/convene-x-place-setting-napkin.jpg" alt="Executive dinner place setting" width="1600" height="1067" fetchpriority="high">
+ </div>
+</div></section>
+
+<section class="ev"><div class="ev-wrap"><div class="ev-split">
+ <div><h2>About <em>the partner.</em></h2><p>Who they are, what they do and why they sit at the table.</p></div>
+ <div class="ev-prose"><p>Convene X Events designs and delivers invitation-only environments where senior leaders can speak openly: private executive dinners in London, closed virtual roundtables and professionally produced webinars for audiences in the UK, Europe and the US. Every room is built around one question that matters, with guests curated for seniority, sector and a direct stake in the conversation.</p><p>The company is founder-led. Before establishing Convene X Events, our founder spent years designing and delivering senior-level events and executive programmes for global enterprise organisations, achieving consistent results throughout his career.</p><p>Nothing is sold at the table. There are no panels, no pitches and no audience. Guests come for the quality of the other people in the room and the candour the format allows, and partners come for the same reason.</p></div>
+</div></div></section>
+
+<section class="ev"><div class="ev-wrap">
+ <h2>What they bring <em>to the room.</em></h2>
+ <p style="max-width:60ch;margin-bottom:34px">Every partner profile sets out what the organisation contributes, so guests know why they are at the table.</p>
+ <div class="ev-cards"><div class="ev-card"><b>Curated rooms</b><p>Guest lists built person by person for seniority, relevance and fit with the question, never for volume.</p></div><div class="ev-card"><b>Venues chosen for conversation</b><p>Private dining rooms and leadership venues across Mayfair, the West End and the City, selected for privacy, acoustics and comfort.</p></div><div class="ev-card"><b>Chairing and moderation</b><p>Every room is hosted by an expert moderator, who keeps the conversation balanced, candid and useful to everyone present.</p></div><div class="ev-card"><b>Continuity afterwards</b><p>Personal introductions after each room and a private delegate group where the conversation continues at the same senior level.</p></div></div>
+</div></section>
+
+<section class="ev"><div class="ev-wrap"><div class="ev-split">
+ <div><h2>Who they want <em>to meet.</em></h2><p>Partners tell us the leaders they need in front of them. The rooms are built around that.</p></div>
+ <div><ul class="ev-list"><li>Chief Financial Officers and Finance Directors</li><li>Chief Information, Technology and Digital Officers</li><li>Chief Information Security Officers and Heads of Security</li><li>Chief Procurement Officers and Heads of Procurement</li><li>Chief Marketing Officers and Marketing Directors</li></ul></div>
+</div></div></section>
+
+<section class="ev"><div class="ev-wrap"><div class="ev-split">
+ <div><h2>Key <em>people.</em></h2><p>The people a guest will meet from this partner, and who to contact.</p></div>
+ <div class="ev-cards">
+  <div class="ev-card"><b>The founding team</b><p>Chairs every Convene X room and sets the question with each partner. Years of running senior rooms across finance and technology, credited to the team rather than the company.</p></div>
+  <div class="ev-card"><b>Partner contact</b><p>For partnership enquiries: <a href="mailto:enquiries@convenexevents.com">enquiries@convenexevents.com</a> or <a href="tel:+442922645779">+44 29 2264 5779</a>. Or <a href="https://cal.com/convenexevents/15min" target="_blank" rel="noopener">book a 15-minute call</a>.</p></div>
+ </div>
+</div></div></section>
+
+<section class="ev"><div class="ev-wrap">
+ <div class="ev-rel-head"><h2>Rooms they <em>support.</em></h2><a href="https://convenexevents.com/executive-events/">View all events &rarr;</a></div>
+ <div class="ev-rel"><a href="https://convenexevents.com/ai-leadership-dinner-enterprise-transformation-london-2026/"><img src="https://convenexevents.com/wp-content/uploads/2026/09/convene-x-champagne-reception-1024x585.jpg" alt="AI Leadership Dinner" loading="lazy" width="1024" height="585"><div class="rb"><span class="ra">Executive Dinner · AI &amp; Technology</span><span class="rn">AI Leadership Dinner: Navigating Enterprise Transformation in 2026</span><span class="rc">View event &rarr;</span></div></a><a href="https://convenexevents.com/cfo-leadership-dinner-capital-strategy-london-2026/"><img src="https://convenexevents.com/wp-content/uploads/2026/09/convene-x-private-dining-oval-table-1024x585.jpg" alt="CFO Leadership Dinner" loading="lazy" width="1024" height="585"><div class="rb"><span class="ra">Executive Dinner · Finance &amp; Investment</span><span class="rn">CFO Leadership Dinner: Capital Strategy in a High-Rate Era</span><span class="rc">View event &rarr;</span></div></a><a href="https://convenexevents.com/us-executive-webinar-february-2027/"><img src="https://convenexevents.com/wp-content/uploads/2026/09/convene-x-london-private-dining-room-1024x585.jpg" alt="US Executive Webinar" loading="lazy" width="1024" height="585"><div class="rb"><span class="ra">Executive Webinar · US</span><span class="rn">US Executive Webinar: Leading Enterprise AI Adoption Without Losing the Room</span><span class="rc">View event &rarr;</span></div></a></div>
+</div></section>
+
+<section class="ev" id="ev-resources"><div class="ev-wrap"><div class="ev-split">
+ <div><h2>Partner <em>resources.</em></h2><p>Material this partner has shared with the network. Everything here is reviewed before it is published.</p></div>
+ <div><ul class="ev-list ev-res"><li><a href="/convene-x-brochure-download-page/">Convene X services brochure</a><span>PDF · Services overview · Dinners, roundtables and webinars</span></li><li><a href="https://convenexevents.com/sponsorship-deal/">Partnership overview</a><span>Web page · What partners receive and how to apply</span></li><li><a href="https://convenexevents.com/wp-content/uploads/2026/05/cropped-cropped-Convene-250-x-100-px-1-1.png" target="_blank" rel="noopener">Convene X Events logo</a><span>PNG · Brand asset for partner and event materials</span></li><li><a href="https://convenexevents.com/blog/">Insights and articles</a><span>Blog · Perspective on executive events and senior audiences</span></li></ul></div>
+</div></div></section>
+
+<section class="ev" id="ev-upload"><div class="ev-wrap">
+ <h2>Upload a <em>resource.</em></h2>
+ <p style="max-width:62ch">Partners can send brochures, case studies, research, speaker biographies, logos and recordings here. We review each one and add it to the profile within two working days.</p>
+ <form class="cxf cxpf" id="cx-partner-form" action="https://submit.jotform.com/submit/262522884160053" method="post" enctype="multipart/form-data" novalidate>
+ <input type="hidden" name="formID" value="262522884160053">
+ <input type="hidden" name="simple_spc" value="262522884160053-262522884160053">
+ <input type="hidden" name="q10_q10_widget_TermsAndConditions8" id="cxpf-consent-val" value="">
+ <div>
+ <label for="cxpf-org">Organisation name <span class="req" aria-hidden="true">*</span></label>
+ <input type="text" id="cxpf-org" name="q2_q2_textbox0" autocomplete="organization" placeholder="Your organisation" required>
+ </div>
+ <div>
+ <label for="cxpf-name">Your name <span class="req" aria-hidden="true">*</span></label>
+ <input type="text" id="cxpf-name" name="q3_q3_textbox1" autocomplete="name" placeholder="First and last name" required>
+ </div>
+ <div>
+ <label for="cxpf-email">Work email <span class="req" aria-hidden="true">*</span></label>
+ <input type="email" id="cxpf-email" name="q4_q4_email2" autocomplete="email" placeholder="you@company.com" required>
+ </div>
+ <div>
+ <label for="cxpf-title">Resource title <span class="req" aria-hidden="true">*</span></label>
+ <input type="text" id="cxpf-title" name="q5_q5_textbox3" placeholder="For example: 2026 CFO Outlook Report" required>
+ </div>
+ <div>
+ <label for="cxpf-type">Resource type</label>
+ <select id="cxpf-type" name="q6_q6_dropdown4">
+ <option value="Brochure or one-pager">Brochure or one-pager</option>
+ <option value="Case study">Case study</option>
+ <option value="Research or report">Research or report</option>
+ <option value="Speaker biography">Speaker biography</option>
+ <option value="Logo or brand assets">Logo or brand assets</option>
+ <option value="Video or recording">Video or recording</option>
+ <option value="Other">Other</option>
+ </select>
+ </div>
+ <div>
+ <label for="cxpf-link">Link to resource</label>
+ <input type="url" id="cxpf-link" name="q9_q9_textbox7" placeholder="https:// (for anything hosted elsewhere)">
+ </div>
+ <div class="full">
+ <label for="cxpf-desc">Short description</label>
+ <textarea id="cxpf-desc" name="q7_q7_textarea5" placeholder="One or two sentences on what this resource is and who it is for."></textarea>
+ </div>
+ <div class="full">
+ <label for="cxpf-file">Upload file <span class="req" aria-hidden="true">*</span></label>
+ <label class="cxf-drop" for="cxpf-file" id="cxpf-drop"><span class="cxf-drop-ico" aria-hidden="true">&uarr;</span><span class="cxf-drop-t">Drop files here or <u>choose files</u></span><span class="cxf-drop-s">PDF, DOC, PPT, PNG, JPG, MP4 or ZIP. Up to 5 files.</span></label>
+ <input type="file" id="cxpf-file" name="q8_q8_fileupload6[]" multiple accept=".pdf,.doc,.docx,.ppt,.pptx,.png,.jpg,.jpeg,.mp4,.zip" class="cxf-file">
+ <ul class="cxf-files" id="cxpf-files" aria-live="polite"></ul>
+ </div>
+ <div class="full cxf-check">
+ <input type="checkbox" id="cxpf-consent">
+ <label for="cxpf-consent">I confirm Convene X Events may publish this resource on my organisation's partner profile. <span class="req" aria-hidden="true">*</span></label>
+ </div>
+ <div class="cxf-hp" aria-hidden="true">
+ <label for="cxpf-website">Leave this field empty</label>
+ <input type="text" id="cxpf-website" name="website" tabindex="-1" autocomplete="off">
+ </div>
+ <div class="full">
+ <button type="submit" class="btn cxf-submit" id="cxpf-submit">Send resource</button>
+ <p class="cxf-note">We review every resource before it is published, usually within two working days. Files are stored securely and used only for your partner profile.</p>
+ </div>
+ <p class="cxf-msg" id="cxpf-msg" role="status" aria-live="polite"></p>
+ </form>
+</div></section>
+
+<section class="ev" id="ev-share"><div class="ev-wrap"><div class="ev-split">
+ <div><h2>Share <em>this profile.</em></h2><p>Know an organisation that should be at the table? Pass it on.</p></div>
+ <div class="ev-share">
+  <a id="sh-li" href="https://www.linkedin.com/sharing/share-offsite/?url=https://convenexevents.com/partners/convene-x-events/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.2 8h4.6v14H.2V8zm7.4 0h4.4v1.9h.06c.61-1.16 2.1-2.38 4.33-2.38 4.63 0 5.49 3.05 5.49 7.02V22h-4.6v-6.6c0-1.58-.03-3.6-2.2-3.6-2.2 0-2.53 1.72-2.53 3.49V22H7.6V8z"/></svg>LinkedIn</a>
+  <a id="sh-x" href="https://twitter.com/intent/tweet?url=https://convenexevents.com/partners/convene-x-events/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 1.2h3.7l-8 9.2L24 22.8h-7.4l-5.8-7.6-6.6 7.6H.5l8.6-9.8L0 1.2h7.6l5.2 6.9 6.1-6.9zm-1.3 19.4h2L6.5 3.3H4.3l13.3 17.3z"/></svg>X</a>
+  <a id="sh-em" href="mailto:?subject=Convene X Events partner profile&amp;body=https://convenexevents.com/partners/convene-x-events/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 4h20v16H2V4zm2 2v.5l8 5 8-5V6H4zm16 3-8 5-8-5v9h16V9z"/></svg>Email</a>
+  <button id="sh-cp" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.5-3.5a3 3 0 1 1 4.2 4.2l-1.4 1.4a1 1 0 1 1-1.4-1.4l1.4-1.4a1 1 0 1 0-1.4-1.4l-3.5 3.5a1 1 0 0 1-1.4 0zm2.8-2.8a1 1 0 0 1 0 1.4l-3.5 3.5a3 3 0 1 1-4.2-4.2l1.4-1.4a1 1 0 1 1 1.4 1.4l-1.4 1.4a1 1 0 1 0 1.4 1.4l3.5-3.5a1 1 0 0 1 1.4 0z"/></svg>Copy link</button>
+  <span class="ev-copied" id="sh-msg" aria-live="polite"></span>
+ </div>
+</div></div></section>
+
+<section class="ev"><div class="ev-wrap"><div class="ev-join">
+ <h2>Your profile <em>could look like this.</em></h2>
+ <p>This page is a working demonstration of what every Convene X partner receives. Tell us the audience you need to reach and we will come back with the rooms that fit, what a partnership includes and what it costs.</p>
+ <div class="ev-ctas"><a class="btn btn--lg" href="https://convenexevents.com/sponsorship-deal/">Become a partner</a><a class="btn btn--alt btn--lg" href="https://cal.com/convenexevents/15min" target="_blank" rel="noopener">Book a call</a></div>
+</div></div></section>
+<script>(function(){
+  function typeIn(){var em=document.getElementById('ev-type');if(!em)return;var t=em.textContent;var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;if(reduce)return;em.textContent='';em.setAttribute('aria-label',t);var n=0;(function tick(){em.textContent=t.slice(0,++n);if(n<t.length)setTimeout(tick,58);})();}
+  function share(){var url=location.href.split('#')[0],title=document.title;var enc=encodeURIComponent;var li=document.getElementById('sh-li'),x=document.getElementById('sh-x'),em=document.getElementById('sh-em'),cp=document.getElementById('sh-cp'),msg=document.getElementById('sh-msg');
+    if(li)li.href='https://www.linkedin.com/sharing/share-offsite/?url='+enc(url);
+    if(x)x.href='https://twitter.com/intent/tweet?text='+enc(title)+'&url='+enc(url);
+    if(em)em.href='mailto:?subject='+enc(title)+'&body='+enc('Thought this might interest you: '+url);
+    if(cp)cp.addEventListener('click',function(){function done(){if(msg){msg.textContent='Link copied';setTimeout(function(){msg.textContent='';},2200);}}if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});return;}if(navigator.clipboard){navigator.clipboard.writeText(url).then(done,done);}else{done();}});}
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',function(){typeIn();share();});}else{typeIn();share();}
+})();</script>
+<script id="cx-partner-form">(function(){var f=document.getElementById('cx-partner-form');if(!f)return;var fi=document.getElementById('cxpf-file'),drop=document.getElementById('cxpf-drop'),list=document.getElementById('cxpf-files'),msg=document.getElementById('cxpf-msg'),btn=document.getElementById('cxpf-submit'),cons=document.getElementById('cxpf-consent');function showFiles(){list.innerHTML='';var fs=fi.files||[];for(var i=0;i<fs.length&&i<5;i++){var li=document.createElement('li');li.textContent=fs[i].name+' ('+Math.max(1,Math.round(fs[i].size/1024))+' KB)';list.appendChild(li);}}fi.addEventListener('change',showFiles);['dragenter','dragover'].forEach(function(ev){drop.addEventListener(ev,function(e){e.preventDefault();drop.classList.add('over');});});['dragleave','drop'].forEach(function(ev){drop.addEventListener(ev,function(e){e.preventDefault();drop.classList.remove('over');});});drop.addEventListener('drop',function(e){if(e.dataTransfer&&e.dataTransfer.files&&e.dataTransfer.files.length){try{fi.files=e.dataTransfer.files;}catch(x){}showFiles();}});f.addEventListener('submit',function(e){e.preventDefault();var org=f.elements['q2_q2_textbox0'].value.trim(),name=f.elements['q3_q3_textbox1'].value.trim(),email=f.elements['q4_q4_email2'].value.trim(),title=f.elements['q5_q5_textbox3'].value.trim(),link=f.elements['q9_q9_textbox7'].value.trim();var hasFile=fi.files&&fi.files.length>0;if(!org||!name||!title||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){msg.textContent='Please add your organisation, your name, a valid work email and a resource title.';msg.className='cxf-msg err';return;}if(!hasFile&&!link){msg.textContent='Please attach at least one file or add a link to the resource.';msg.className='cxf-msg err';return;}if(fi.files&&fi.files.length>5){msg.textContent='Please attach no more than five files.';msg.className='cxf-msg err';return;}if(!cons.checked){msg.textContent='Please confirm we may publish this resource on your partner profile.';msg.className='cxf-msg err';return;}document.getElementById('cxpf-consent-val').value='Confirmed';btn.disabled=true;var orig=btn.textContent;btn.textContent='Sending...';msg.textContent='';msg.className='cxf-msg';var fd=new FormData(f);fetch(f.action,{method:'POST',mode:'no-cors',body:fd}).then(function(){f.reset();list.innerHTML='';msg.textContent='Thank you. Your resource is with us and will appear on your profile once reviewed, usually within two working days.';msg.className='cxf-msg ok';}).catch(function(){msg.textContent='We could not send that. Please email the resource to enquiries@convenexevents.com.';msg.className='cxf-msg err';}).then(function(){btn.disabled=false;btn.textContent=orig;});});})();</script>
+</main> <footer> <div class="foot-inner"> <div class="foot-brand"> <a class="logo" href="https://convenexevents.com/"><img referrerpolicy="no-referrer" src="https://convenexevents.com/wp-content/uploads/2026/05/cropped-cropped-Convene-250-x-100-px-1-1.png" alt="Convene X Events" style="height:44px;width:auto"></a> <p>Invitation-only executive environments for senior decision-makers.</p> </div> <nav class="foot" aria-label="Company"> <h2>Company</h2> <ul> <li><a href="https://convenexevents.com/">Home</a></li> <li><a href="https://convenexevents.com/about-us/">About Us</a></li> <li><a href="https://convenexevents.com/contact-us/">Contact Us</a></li> <li><a href="https://cal.com/convenexevents/15min">Book a Call</a></li> </ul> </nav> <nav class="foot" aria-label="Services"> <h2>Services</h2> <ul> <li><a href="https://convenexevents.com/private-executive-dinners/">Executive Dinners</a></li> <li><a href="https://convenexevents.com/executive-virtual-roundtables/">Virtual Roundtables</a></li> <li><a href="https://convenexevents.com/executive-webinars/">Executive Webinars</a></li> <li><a href="https://convenexevents.com/join/">Join the Network</a></li> </ul> </nav> <nav class="foot" aria-label="Legal"> <h2>Legal</h2> <ul> <li><a href="https://convenexevents.com/terms-and-conditions/">Terms &amp; Conditions</a></li> <li><a href="https://convenexevents.com/convene-x-events-privacy-policy/">Privacy Policy</a></li> <li><a href="https://convenexevents.com/cookie-policy/">Cookie Policy</a></li> <li><a href="https://convenexevents.com/website-disclaimer/">Website Disclaimer</a></li> </ul> </nav> <div class="foot foot-news rv"> <h2>Newsletter</h2> <p class="foot-news-copy">Insights on executive events, delivered occasionally. No noise.</p> <form class="news-form" id="news-form" novalidate> <input type="email" class="news-input" id="news-email" placeholder="Your work email" aria-label="Email address" required> <button type="submit" class="btn news-btn">Subscribe</button> <span class="news-msg" id="news-msg" aria-live="polite"></span> </form> </div> </div> <div class="foot-base"> <span>© 2026 Convene X Events Ltd. Registered in England &amp; Wales.</span> <span>+44 29 2264 5779 · enquiries@convenexevents.com</span> </div> </footer> <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script> <script>(function(){ function section(name, fn){ try { fn(); } catch(e) {} } section('reveal', function(){ document.querySelectorAll('.rv').forEach(function(el){el.style.opacity='1';el.style.transform='none';}); }); section('dropdown-aria', function(){ document.querySelectorAll('.has-sub').forEach(function(li){ var a = li.querySelector(':scope > a'); if (!a) return; li.addEventListener('mouseenter', function(){a.setAttribute('aria-expanded','true');}); li.addEventListener('mouseleave', function(){a.setAttribute('aria-expanded','false');}); li.addEventListener('focusin', function(){a.setAttribute('aria-expanded','true');}); li.addEventListener('focusout', function(){a.setAttribute('aria-expanded','false');}); }); }); section('mobile-menu', function(){ var mt=document.querySelector('.menu-toggle'); if(!mt) return; mt.addEventListener('click', function(){ var menu=document.getElementById('m-menu'); if(!menu){ menu=document.createElement('nav'); menu.id='m-menu'; menu.setAttribute('aria-label','Mobile'); menu.style.cssText='position:fixed;inset:0;top:0;background:rgba(10,10,10,.98);z-index:120;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:18px;overflow-y:auto;padding:88px 24px calc(40px + env(safe-area-inset-bottom));'; menu.innerHTML = '<button aria-label="Close menu" style="position:absolute;top:24px;right:24px;background:none;border:1px solid #3d3d3d;border-radius:8px;width:46px;height:46px;color:#f5f5f5;font-size:20px;">&#10005;</button>'+ ['Home|https://convenexevents.com/','About Us|https://convenexevents.com/about-us/','London Venues|https://convenexevents.com/london-venues/','Services|https://convenexevents.com/services/','Private Executive Dinners|https://convenexevents.com/private-executive-dinners/','Executive Virtual Roundtables|https://convenexevents.com/executive-virtual-roundtables/','Executive Webinars|https://convenexevents.com/executive-webinars/','Executive Events|https://convenexevents.com/executive-events/','Events for CFOs|https://convenexevents.com/executive-dinners-for-cfos/','Events for CISOs|https://convenexevents.com/ciso-roundtables/','Events for CIOs and CTOs|https://convenexevents.com/cio-cto-dinners/','Events for Procurement|https://convenexevents.com/procurement-leaders/','Events for Marketing|https://convenexevents.com/marketing-leaders/','Sponsor|https://convenexevents.com/sponsor/','Blog|https://convenexevents.com/blog/','Contact Us|https://convenexevents.com/contact-us/','Login|https://convenexevents.com/login/'].map(function(s){var p=s.split('|');return '<a href="'+p[1]+'" style="font-family:Libre Franklin,sans-serif;font-weight:600;font-size:19px;color:#f5f5f5;padding:4px 0;">'+p[0]+'</a>';}).join('')+ '<a href="https://cal.com/convenexevents/15min" class="btn btn--lg" style="margin-top:12px;">Book a Call</a>'; document.body.appendChild(menu); menu.querySelector('button').addEventListener('click', function(){menu.remove();mt.setAttribute('aria-expanded','false');}); } mt.setAttribute('aria-expanded','true'); }); }); section('newsletter', function(){ var form=document.getElementById('news-form'); if(!form) return; var email=document.getElementById('news-email'), msg=document.getElementById('news-msg'); form.addEventListener('submit', function(e){ e.preventDefault(); var v=(email.value||'').trim(); var ok=/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); if(!ok){ msg.textContent='Please enter a valid email.'; msg.className='news-msg err'; return; } msg.textContent='Thanks, you are subscribed.'; msg.className='news-msg ok'; email.value=''; }); }); })();</script>
