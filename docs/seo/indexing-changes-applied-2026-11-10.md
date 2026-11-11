@@ -244,3 +244,52 @@ The snippet change (R4-2/R4-3) affects every page, so **Purge everything** is th
 3. **Old Royal Addons footer template** (wpr_templates 7450): "Book a Call" links to `tidycal.com/convenexevents/45-minute-sales-call-block`. It is not the live footer and not the cal.com link, so it was left; worth deleting or repointing.
 4. **Drafts, not public**: 6873 brochure page ("Book a 45-minute exploratory call"), 10564 event draft, 8782/31/1288 post drafts (post-CTA copies in post_content), 11707/11722 ("two 45-minute" set-up calls, a different subject). Fix 6873 before it is ever published.
 5. **Revisions pruned by WordPress**: this round's saves pushed some pages over the site's revision limit and WordPress deleted their oldest revisions, including several Round 1 rollback points listed above (9110: 11737 and 11838; 9415: 11626 and 11627; 10806: 11829, 11830, 11842). Round 1 rollback still works by deleting the dated blocks, and Easy MCP history holds the before-values. Round 3 revisions (12250-12286) were not in the pruned set.
+
+## Round 5: hide the sponsorship deal form, mobile tables (10 to 11 Nov 2026)
+
+Applied by Kai on Nathan's own instruction (10 Nov 2026, relayed by Jarvis). The job was cut off by a system restart at about 23:40 UTC on 10 Nov and resumed on 11 Nov. Easy MCP history was checked first, so nothing was applied twice. All writes went through the Convene X Events WordPress MCP and are in Easy MCP change history.
+
+### 1. Sponsorship deal form: unlisted, not removed
+The form is page **8960** "Sponsorship Deal Form & Contract" (template `elementor_canvas`; it embeds `/wp-content/uploads/2026/08/sponsorship-deal-form-v2-1.html`). It stays published at the same slug, with no password, and works by direct link (checked logged-out: the form renders, "Deal details", "Sponsor details" and the rest).
+
+**Direct URL for Nathan: https://convenexevents.com/sponsorship-deal/**
+
+Before-state: published; Rank Math robots `noindex, follow` (it was already noindex); not in any menu; linked from /partners/ (6 links) and /partners/convene-x-events/ (2 links), every one labelled "Become a partner", "Your organisation here" or "Partnership overview".
+
+| # | What | Where | Before | After | Audit / revision |
+|---|---|---|---|---|---|
+| R5-1 | Rank Math robots | Page 8960 `rank_math_robots` | `noindex, follow` | `noindex, nofollow` | audit 5265, history 12082 (applied 10 Nov, 23:38 UTC) |
+| R5-2 | Partner links repointed | Page 10653 /partners/: hero "Become a partner" button, both "Your organisation here" card titles, both card "Become a partner" buttons, the partner-drawer script's "Become a partner" link, and the final CTA "Become a partner" (6 links plus 1 script link) | `https://convenexevents.com/sponsorship-deal/` | `https://convenexevents.com/sponsor/` | audit 5270, revision 12360 (before: revision 12342) (10 Nov, 23:39 UTC) |
+| R5-3 | Partner profile links repointed | Page 10654 /partners/convene-x-events/: resources list "Partnership overview" and the CTA "Become a partner" | `https://convenexevents.com/sponsorship-deal/` | `https://convenexevents.com/sponsor/` | audit 5271, revision 12361 (10 Nov, 23:39 UTC) |
+
+The links now go to /sponsor/, the public page for partner enquiries, so every button still has somewhere to go.
+
+Checked with nothing found to change: all 14 classic menus (no item points at 8960 or the slug; none is assigned to a theme location, as the header and footer are hard-coded in the child theme and do not link to it); /sponsor/ (10806) and the /sponsor/ preview draft 12289 (no link to the form, checked in the raw content); Custom Code 10309 and 11764; Elementor library and Royal templates; posts and pages (content search for the slug finds only 8960 itself).
+
+Sitemap: Rank Math leaves noindex pages out of the sitemap. After the cache clear, the live `page-sitemap.xml` (125 URLs) does not contain /sponsorship-deal/.
+
+### 2. Blog comparison tables on phones
+Cause: the theme sets `.article-body table { min-width: 520px }` and only wraps Elementor or block tables in a scroll container. A plain table in a post (8987 is a classic post) is 520px wide inside a 324px column, and `html, body { overflow-x: clip }` cuts off the third column.
+
+| # | What | Where | Before | After | Audit / revision |
+|---|---|---|---|---|---|
+| R5-4 | Site-wide mobile table CSS (block `cx-table-1111`) | Customizer Additional CSS, theme `convene-x-child` (custom_css post 12362) | empty | At 767px and below, every `.article-body` table scrolls sideways inside its own rounded, bordered box. The first column stays fixed while the rest scrolls, and a yellow mono "Swipe to see all columns →" hint sits at the top. Pink scrollbar, 14px text, and brand tokens (#141414 / #2a2a2a / #FF1FA9 / #FCD500). It also stops the theme styling the first body row like a header when a table already has a `<thead>` (on 8987, "Peer exchange and relationships" was showing in uppercase pink). | audit 5312, revision 12363 |
+
+Posts with tables: 8987 /b2b-virtual-roundtable-guide/ (3 columns, `<thead>`) and 8878 /what-is-an-executive-conference/ (4 columns, header in the first row). /executive-webinars-vs-virtual-roundtables/ (48) has no HTML table on the live page (checked the rendered DOM), so there is nothing to fix there. The CSS applies to any future table in a post automatically.
+
+To roll back, delete the `cx-table-1111` block from Additional CSS (the file was empty before).
+
+### Cache
+`wp_clear_cache` scope `site` (11 Nov, 21:51 UTC): Rank Math sitemap and Elementor CSS cleared. FlyingPress still has no purge route over the MCP.
+
+### Verification (Firecrawl, logged-out, maxAge 0)
+- /sponsorship-deal/: 200, the form renders, `<meta name="robots" content="nofollow, noindex">`.
+- page-sitemap.xml: no /sponsorship-deal/.
+- /, /sponsor/, /partners/, /partners/convene-x-events/: no link to /sponsorship-deal/ (the partner pages are already serving the 23:39 versions).
+- Tables: the cached copy of 8987 that FlyingPress serves does not have the new CSS yet. A cache-bypassing fetch (`?cxv=1111`) does: "Swipe to see all columns" and the thead fix are in the page. That uncached HTML was rendered in Playwright at 360 and 390px (the live host is blocked from this container's browser, so the Firecrawl copy with its inlined CSS was used). The table sits inside the column (left 18, right 342 at 360 and right 372 at 390), the page has no sideways overflow, and swiping shows the full Webinar column with the first column fixed. The 4-column 8878 table was checked the same way and also works.
+
+### FlyingPress purge needed
+**Purge everything** (Additional CSS is in every page's head), or at least: /b2b-virtual-roundtable-guide/, /what-is-an-executive-conference/, /partners/, /partners/convene-x-events/, /sponsorship-deal/. Until the purge, phones still see the cut-off table on cached posts.
+
+### Not done (no tool for it)
+- **Site search still lists the form.** `/?s=sponsorship` shows /sponsorship-deal/ (the search page itself is noindex, and nothing on the site links to it). WordPress search ignores Rank Math robots, and the MCP cannot add PHP. Permanent fix: one filter in the child theme's functions.php, e.g. `add_action('pre_get_posts', function($q){ if(!is_admin() && $q->is_main_query() && $q->is_search()){ $q->set('post__not_in', array_merge((array)$q->get('post__not_in'), [8960])); } });`. Second best, if Nathan approves: a small script in Custom Code 10309 that removes `/sponsorship-deal/` results on search pages (visual only). Pages are not in any archive (category, tag, date or author), so no archive lists it.
