@@ -51,7 +51,7 @@
 
 **6. Source lines on the stat slides: PASS.**
 - Thursday slide 2: "Source: Forrester, The Next Era of B2B Events, 25 Jun 2026", in Plex Mono #A3A3A3 at the foot.
-- Wednesday card: "Source: Bizzabo 2026 State of Events Benchmark (vendor survey)", in Plex Mono #A3A3A3.
+- Wednesday card: "Source: 2026 State of Events Benchmark (vendor survey)", in Plex Mono #A3A3A3.
 - Both match the spec and Nadia's safe-to-use table. No other numbers appear.
 
 **7. Last slides carry the tagline and URL: PASS.**

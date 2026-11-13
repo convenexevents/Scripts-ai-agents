@@ -306,7 +306,7 @@ None (text only). If Felix or Freya want an image: a plain brand-kit quote card 
 ```text
 A room full of the wrong job titles is the most expensive kind of full.
 
-Only 15% of organisers now rate their networking as "very effective", down from 46% in 2025 (Bizzabo 2026 State of Events Benchmark, a vendor survey).
+Only 15% of organisers now rate their networking as "very effective", down from 46% in 2025 (2026 State of Events Benchmark, a vendor survey).
 
 The easy reading is that people are tired of networking. We don't buy it. When a room falls flat, it's usually because nobody chose who was in it.
 
@@ -357,7 +357,7 @@ Link in the first comment.
 - **Top label** (IBM Plex Mono, small caps, #FF1FA9 pill, #0A0A0A text): "NETWORKING, RATED BY ORGANISERS"
 - **Main figure** (Fraunces, very large, centred): "46%" in #A3A3A3, a thin #F5F5F5 arrow, "15%" in #FCD500. The 15% sits slightly larger than the 46% so the drop reads at a glance. (Felix: the draft had yellow 46% and pink 15% side by side, which puts both accents at full saturation in one block against the brand rule. Grey for the old figure and yellow for the new one also makes the drop easier to read.)
 - **Line under it** (Libre Franklin, medium): "Organisers who rate their networking 'very effective', 2025 to 2026."
-- **Source line** (IBM Plex Mono, small but legible, #A3A3A3): "Source: Bizzabo 2026 State of Events Benchmark (vendor survey)"
+- **Source line** (IBM Plex Mono, small but legible, #A3A3A3): "Source: 2026 State of Events Benchmark (vendor survey)"
 - **Save prompt** (Plex Mono, small, above the strip): "SAVE THIS FOR YOUR NEXT GUEST LIST"
 - **Tagline strip** (bottom band, Fraunces italic, #F5F5F5 on #0A0A0A with a thin #FF1FA9 rule above): "Who's in the room is the event."
 - Small logo mark bottom right. No other numbers, no people, no logos, no URL with UTMs.

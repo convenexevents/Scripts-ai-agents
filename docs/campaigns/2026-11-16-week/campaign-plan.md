@@ -133,7 +133,7 @@ Rules for every day (Theo and Felix):
 - **Format:** Single image (stat card) plus a caption of about 150 to 200 words.
 - **Hook (Theo's hook 2):** "A full room of the wrong job titles isn't a good event. It's an expensive one."
 - **Key points:**
-  1. Only 15% of organisers now rate their networking as "very effective", down from 46% in 2025 (Bizzabo 2026 State of Events Benchmark, vendor survey).
+  1. Only 15% of organisers now rate their networking as "very effective", down from 46% in 2025 (2026 State of Events Benchmark, vendor survey).
   2. Our reading (Theo's hook 3 as the turn): networking events don't fail because people are tired of meeting. They fail because nobody chose the room.
   3. What Director+ means in practice: every title checked against the host's ideal customer, inflated titles don't count, the host signs off the list, and a smaller right room beats a bigger wrong one. For virtual roundtables that's 6 to 12 people, all Director+.
   4. Fair note (Nadia): guest-list sign-off isn't unique to us, so the post rests on what we won't do (pad the room with the wrong titles), not on sign-off alone.
@@ -145,7 +145,7 @@ Rules for every day (Theo and Felix):
   - 1080 x 1350, #0A0A0A background.
   - Large figure in Fraunces: "46% to 15%" (yellow for 46%, pink for 15%, or an arrow between them).
   - Under it in Libre Franklin: "Organisers who rate their networking 'very effective'."
-  - Source line in IBM Plex Mono, small but legible: "Source: Bizzabo 2026 State of Events Benchmark (vendor survey)".
+  - Source line in IBM Plex Mono, small but legible: "Source: 2026 State of Events Benchmark (vendor survey)".
   - Tagline strip at the bottom: "Who's in the room is the event."
   - No other numbers, no people, no logos.
 - **Felix check:** the hook and the "isn't X. It's Y" shape sit close to the brief's banned "it's not just X, it's Y" pattern. Theo's view is that it's different; Felix makes the call.

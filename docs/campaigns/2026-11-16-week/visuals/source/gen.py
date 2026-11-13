@@ -143,7 +143,7 @@ def wed():
         <div style="display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.02em">
           <span style='font-size:200px;color:{GREY}'>46%</span>{arrow}<span style='font-size:250px;color:{YEL}'>15%</span></div>
         <p class='body' style='margin:40px auto 0;font-weight:500;max-width:820px'>Organisers who rate their networking &#8216;very effective&#8217;, 2025 to 2026.</p>
-        <p class='src' style='margin-top:48px'>Source: Bizzabo 2026 State of Events Benchmark<br>(vendor survey)</p>
+        <p class='src' style='margin-top:48px'>Source: 2026 State of Events Benchmark<br>(vendor survey)</p>
       </div>
       <p class='save' style='position:absolute;left:96px;bottom:436px'>SAVE THIS FOR YOUR NEXT GUEST LIST</p>
       <div class='strip'><span class='tag'>Who&#8217;s in the room is the event.</span>{LOGO_IMG}</div></section>"""]
