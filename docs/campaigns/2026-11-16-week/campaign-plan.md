@@ -112,7 +112,7 @@ Rules for every day (Theo and Felix):
 - **Format:** Text only, about 180 to 230 words (Theo's top text posts sat around this length).
 - **Hook (Theo's hook 1):** "The best sponsored dinner is the one where the sponsor doesn't pitch."
 - **Key points:**
-  1. Buyers don't dislike people; they dislike being sold to. Gartner found 67% of B2B buyers prefer a rep-free experience (Gartner, 9 Mar 2026), and 69% turn to sales reps to validate AI-generated insights (Gartner, 20 May 2026). They want expertise without the pitch. A room of peers gives them that.
+  1. Buyers don't dislike people; they dislike being sold to. Gartner found 67% of B2B buyers prefer a rep-free experience (Gartner, 9 Mar 2026), and 69% prefer to validate AI-generated insights with sales reps (Gartner, 20 May 2026). Fieldwork for both ran in Aug to Sep 2025. Our reading: buyers still want people in the conversation, without the pitch. A room of peers gives them that.
   2. The moment it goes wrong is usually mid-dinner, when the conversation turns to a problem the host's product solves. That's the moment the host keeps quiet.
   3. What the host does instead: opens with the table question, introduces people to each other, speaks last, and follows up afterwards with something useful, not a deck.
   4. The relationship is earned by the quality of the evening, not by airtime.
@@ -121,7 +121,7 @@ Rules for every day (Theo and Felix):
 - **Personal variant:** "I've watched a host lose a room with one slide." Then what that looked like from the guest's chair, and what the hosts who kept the room did differently. "In previous roles" framing, no counts, no company or person named. Same Gartner stat optional (one stat at most). Link `utm_content=tue-personal`.
 - **Suggested time:** personal 15:00 (slot B); company page 11:00.
 - **Visual:** none (text only). If Felix or Freya want an image, a plain brand-kit quote card of the hook, no stock photo.
-- **Felix check:** the Gartner figures are 2 separate surveys; keep both dates and don't merge them into one claim.
+- **Felix check:** keep both Gartner dates; don't say whether the 2 figures come from one survey (Gartner's releases don't say). State only that fieldwork for both ran in Aug to Sep 2025.
 
 ---
 

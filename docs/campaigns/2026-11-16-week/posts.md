@@ -31,7 +31,7 @@
 | Post | Stat | Source and date as written | Verdict |
 |---|---|---|---|
 | Tue company | 67% of B2B buyers prefer rep-free | Gartner, 9 Mar 2026 | Pass. In the table, date matches. |
-| Tue company | 69% turn to reps to validate AI insights | Gartner, 20 May 2026 | Pass. Kept separate from the 67% ("In a separate survey"), as the plan required. |
+| Tue company | 69% prefer to validate AI insights with reps | Gartner, 20 May 2026 | Pass. Wording matches Gartner's release ("prefer to validate"); both dates kept; fieldwork for both stated as Aug to Sep 2025. |
 | Tue personal | 67% rep-free | Gartner, 9 Mar 2026 | Pass. 1 stat only. |
 | Wed company + card | "Very effective" networking 46% to 15% | Bizzabo 2026 State of Events Benchmark, labelled vendor survey | Pass. Nadia's table gives the year only, so "2026" is the most precise date available. |
 | Thu company, personal, slide 2 | 38% of CMOs agree events perform well; about half of organisations say they do | Forrester, The Next Era of B2B Events, 25 Jun 2026 | Pass. The table row is the 38% figure. The "about half" comparison comes from the same primary Forrester source (Nadia's section 1, marked observed and strong). Same source, so allowed. Nadia could add it as its own row. |
@@ -217,16 +217,14 @@ Top fixes left (minor): 1. Emotion is calm by design; a guest-side line about th
 **Reader:** would-be hosts. **Format:** text only. **Goal:** comments (the argument post of the week).
 **Posting time:** company page 11:00; personal 15:00 (slot B).
 
-### Company post (201 words)
+### Company post (197 words)
 
 ```text
 The best sponsored dinner is the one where the sponsor doesn't pitch.
 
-Buyers still want people in the conversation. What they avoid is being sold to.
+Gartner found 67% of B2B buyers prefer a rep-free experience (Gartner, 9 Mar 2026). Gartner also found 69% prefer to validate AI-generated insights with sales reps (Gartner, 20 May 2026). Fieldwork for both ran in Aug to Sep 2025.
 
-Gartner found 67% of B2B buyers prefer a rep-free experience (Gartner, 9 Mar 2026). In a separate survey, 69% said they turn to sales reps to validate AI-generated insights (Gartner, 20 May 2026).
-
-Read together, buyers still want expertise. They want it without the pitch. A table of peers gives them that, as long as the host lets it.
+Our reading: buyers still want people in the conversation. What they avoid is being sold to. A table of peers gives them that, as long as the host lets it.
 
 The moment it goes wrong is usually halfway through the main course. The conversation turns to a problem the host's product solves, and the host leans in.
 
@@ -245,7 +243,7 @@ If you've hosted one of these, what was the hardest part of staying quiet?
 Link in the first comment.
 ```
 
-### Personal variant (199 words)
+### Personal variant (196 words)
 
 ```text
 I've watched a host lose a room with one slide.
@@ -260,7 +258,7 @@ Nobody complains. People go polite. Answers get shorter. Someone checks the time
 
 The hosts who kept the room did the opposite. They asked the question and let it run. They introduced people to each other. They spoke last. They followed up a week later with something useful, not a deck.
 
-Gartner found 67% of B2B buyers prefer a rep-free experience (Gartner, 9 Mar 2026). My reading: buyers still want people in the conversation. They want them without the pitch, especially over dinner.
+Gartner found 67% of B2B buyers prefer a rep-free experience (Gartner, 9 Mar 2026). My reading: buyers still want people in the conversation. They want them without the pitch.
 
 Staying quiet is the hardest thing a host does all evening. It's also the job.
 
@@ -293,7 +291,6 @@ None (text only). If Felix or Freya want an image: a plain brand-kit quote card 
 ### Post-grader
 
 **Company: 8.0/10.** Hook 8 (contrarian, clear stake for hosts); curiosity 8 (2 dated Gartner stats, a specific moment "halfway through the main course"); emotion 7; share 8; voice 9; polarity 8; platform 8. Voice rules: all pass.
-Felix check: the 2 Gartner figures are separate surveys with separate dates, and the post says so ("In a separate survey").
 
 **Personal: 8.5/10.** Hook 9 (a scene with a cost, 47 characters); curiosity 8; emotion 8; share 8; voice 8; polarity 7; platform 8. Voice rules: all pass. Uses 1 stat only, as the plan asked.
 
