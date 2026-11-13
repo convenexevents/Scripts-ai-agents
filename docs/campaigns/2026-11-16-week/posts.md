@@ -12,7 +12,7 @@
 |---|---|---|
 | Mon 16 | APPROVED WITH EDITS | Company: the UK, Europe and US reach now describes how we invite today, not the team's previous roles. Personal: hook softened from "most... for the same reason" to an observation, and one "weren't X. They were Y" line rewritten. First comment no longer promises "the 4 checks" on a page that doesn't carry them. Carousel text colour set to #F5F5F5. Carousel FINAL. |
 | Tue 17 | APPROVED WITH EDITS | 2 "don't X. They Y" reframes rewritten (company line 2; personal Gartner paragraph). Personal hook kept, confirmed by Nathan via the coordinator. Fallbacks kept. Personal first comment: "the dinners we run" changed, because it implies events already run. |
-| Wed 18 | APPROVED WITH EDITS | Hook: Theo's version. The quoted "very effective" stays. The "don't fail because... They fail because..." reframe rewritten. "Before we confirm anyone" cut, because that process detail isn't in the brief. Stat card: 46% now #A3A3A3 and 15% now #FCD500 (it had pink and yellow at full saturation side by side). Card FINAL. |
+| Wed 18 | APPROVED WITH EDITS | Hook: Theo's version. The "don't fail because... They fail because..." reframe rewritten. "Before we confirm anyone" cut, because that process detail isn't in the brief. Card revised 13 Nov (Forrester 38% replaces the Bizzabo stat, Nathan's decision). |
 | Thu 19 | APPROVED WITH EDITS | Personal hook rewritten ("never came from X. It came from Y" two-beat). The personal Forrester line now gives both halves of the gap, so "that gap" has something to refer to. Carousel inactive timeline labels changed from white at 40% (about 3.7:1, fails WCAG AA) to #A3A3A3. Carousel FINAL. /sponsor/ link still depends on Kai. |
 | Fri 20 | APPROVED WITH EDITS | "aren't padding" and "don't start the day before. They start..." rewritten in both company versions. "Q1 dinner" changed to "late February or March" (personal) and "February or March" (first comment): a January dinner is under 12 weeks from 20 Nov, so the post contradicted its own rule. Version A or B is Nathan's call. |
 | Sat 21 | APPROVED | Copy unchanged. Card text colours set to #F5F5F5. Card FINAL. |
@@ -33,7 +33,7 @@
 | Tue company | 67% of B2B buyers prefer rep-free | Gartner, 9 Mar 2026 | Pass. In the table, date matches. |
 | Tue company | 69% prefer to validate AI insights with reps | Gartner, 20 May 2026 | Pass. Wording matches Gartner's release ("prefer to validate"); both dates kept; fieldwork for both stated as Aug to Sep 2025. |
 | Tue personal | 67% rep-free | Gartner, 9 Mar 2026 | Pass. 1 stat only. |
-| Wed company + card | "Very effective" networking 46% to 15% | Bizzabo 2026 State of Events Benchmark, labelled vendor survey | Pass. Nadia's table gives the year only, so "2026" is the most precise date available. |
+| Wed company + card | 38% of CMOs agree their events perform well; about half of organisations say they do | Forrester, The Next Era of B2B Events, 25 Jun 2026 | Pass (swapped in 13 Nov on Nathan's decision, replacing the Bizzabo stat). Table row is the 38% figure; "about half" is the same Forrester finding. Note: Thursday slide 2 uses the same 38%. |
 | Thu company, personal, slide 2 | 38% of CMOs agree events perform well; about half of organisations say they do | Forrester, The Next Era of B2B Events, 25 Jun 2026 | Pass. The table row is the 38% figure. The "about half" comparison comes from the same primary Forrester source (Nadia's section 1, marked observed and strong). Same source, so allowed. Nadia could add it as its own row. |
 | Sun (both versions) | Average live attendance 47.7%, 33,786 sessions | Livestorm 2026, labelled vendor data | Pass. Year only in the table, as above. |
 
@@ -44,7 +44,7 @@ All 18 links use `?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-20
 
 ### Decisions on Theo's flagged points
 1. **Wednesday hook: Theo's version.** Leo's "isn't a good event. It's an expensive one." is the banned "it's not just X, it's Y" shape with the "just" removed, so the same rule applies. Theo's "most expensive kind of full" is a figure of speech, not a superlative claim about us, so it passes the superlatives check.
-2. **"Very effective": acceptable as written, no -0.5.** It's Bizzabo's survey wording, in quotation marks, attributed and labelled vendor. The filler-word rule covers our own writing. Paraphrasing a quoted metric would misstate the source. Wednesday's score stays at 7.9.
+2. **"Very effective": superseded 13 Nov.** Nathan dropped the Bizzabo stat from all public copy, so this decision no longer applies to Wednesday.
 3. **Tuesday personal hook: keep it.** The coordinator passed on Nathan's confirmation on 10 Nov. That came through an agent, not from Nathan himself, so his per-post sign-off on Tuesday is the formal check. Fallback 1 (line 1 only) and Fallback 2 (lines 1 and 2) stay under the post, ready to paste.
 
 ### For Theo (pattern, not a one-off)
@@ -99,7 +99,7 @@ I re-read every post against `brand-brief.md` (10 Nov) and `campaign-plan.md`, a
 
 ## Rules applied to every post
 
-- UK English, contractions, numbers as digits. No exclamation marks, no em dashes, no question openers, nothing from the brief's banned list, none of the grader's filler words (really, very, just, basically, literally, actually, simply). The one "very" in the set is Bizzabo's survey wording, kept in quotation marks on Wednesday.
+- UK English, contractions, numbers as digits. No exclamation marks, no em dashes, no question openers, nothing from the brief's banned list, none of the grader's filler words (really, very, just, basically, literally, actually, simply).
 - One idea per post, 120 to 250 words (word counts listed per post).
 - Every stat comes from Nadia's "safe to use" table and names its source in the post. Vendor data is labelled as vendor data.
 - No personal names of anyone at Convene X. No event counts or capacity rates. Proof only as "our team in previous roles" (company) or "in previous roles, I..." (personal), with no numbers attached.
@@ -301,14 +301,14 @@ None (text only). If Felix or Freya want an image: a plain brand-kit quote card 
 **Reader:** would-be hosts. **Format:** single image (stat card) plus caption. **Goal:** saves and reposts.
 **Posting time:** company page 11:00; personal 12:15 (slot A).
 
-### Company post (155 words)
+### Company post (179 words)
 
 ```text
 A room full of the wrong job titles is the most expensive kind of full.
 
-Only 15% of organisers now rate their networking as "very effective", down from 46% in 2025 (2026 State of Events Benchmark, a vendor survey).
+Only 38% of CMOs agree their events perform well (Forrester, The Next Era of B2B Events, 25 Jun 2026). About half of organisations say they do.
 
-The easy reading is that people are tired of networking. We don't buy it. When a room falls flat, it's usually because nobody chose who was in it.
+The easy reading is that events have got worse. We read the gap differently. A full room counts as a win on the attendance sheet, and a CMO asking who was in it may see a miss. When a room falls flat, it's usually because nobody chose who was in it.
 
 What Director+ means when we build a virtual roundtable:
 Every title checked against the host's ideal customer.
@@ -348,24 +348,62 @@ Link in the first comment.
 ### First comments
 
 - **Company:** How we build and check the guest list for an executive virtual roundtable: https://convenexevents.com/executive-virtual-roundtables/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=wed-company
+  Source: Forrester, The Next Era of B2B Events, 25 Jun 2026: https://www.forrester.com/blogs/the-next-era-of-b2b-events-eight-data-backed-shifts-defining-2026/
 - **Personal:** The guide, from the question to the follow-up: https://convenexevents.com/b2b-virtual-roundtable-guide/?utm_source=linkedin&utm_medium=social&utm_campaign=cx-week-2026-11-16&utm_content=wed-personal
 
-### Image brief: stat card (single image) FINAL (Felix)
+### Image brief: stat card (single image) REVISED 13 Nov for the Forrester stat (Nathan's decision; Felix to re-check)
 
 - **Size:** 1080 x 1350 portrait.
 - **Background:** black #0A0A0A. Text #F5F5F5 unless stated.
-- **Top label** (IBM Plex Mono, small caps, #FF1FA9 pill, #0A0A0A text): "NETWORKING, RATED BY ORGANISERS"
-- **Main figure** (Fraunces, very large, centred): "46%" in #A3A3A3, a thin #F5F5F5 arrow, "15%" in #FCD500. The 15% sits slightly larger than the 46% so the drop reads at a glance. (Felix: the draft had yellow 46% and pink 15% side by side, which puts both accents at full saturation in one block against the brand rule. Grey for the old figure and yellow for the new one also makes the drop easier to read.)
-- **Line under it** (Libre Franklin, medium): "Organisers who rate their networking 'very effective', 2025 to 2026."
-- **Source line** (IBM Plex Mono, small but legible, #A3A3A3): "Source: 2026 State of Events Benchmark (vendor survey)"
+- **Top label** (IBM Plex Mono, small caps, #FF1FA9 pill, #0A0A0A text): "EVENT PERFORMANCE, RATED BY CMOs"
+- **Main figure** (Fraunces, very large, centred): "38%" in #FCD500. One accent colour in the block, so the #FF1FA9 pill above is the only pink and the two never compete. (Option: #FF1FA9 for the 38% and a #F5F5F5 outline pill instead, as on the Thursday slide. Yellow is recommended, so Wednesday and Thursday don't look identical.)
+- **Line under it** (Libre Franklin, medium): "of CMOs agree their events perform well."
+- **Source line** (IBM Plex Mono, small but legible, #A3A3A3): "Source: Forrester, The Next Era of B2B Events, 25 Jun 2026"
 - **Save prompt** (Plex Mono, small, above the strip): "SAVE THIS FOR YOUR NEXT GUEST LIST"
 - **Tagline strip** (bottom band, Fraunces italic, #F5F5F5 on #0A0A0A with a thin #FF1FA9 rule above): "Who's in the room is the event."
 - Small logo mark bottom right. No other numbers, no people, no logos, no URL with UTMs.
 - Personal post: same card.
+- The existing render `visuals/2026-11-18-wed-stat-card.png` shows the old 46% to 15% card and must be re-rendered (Rhys) before use.
+
+### OPTION B (ready second option, not the chosen version): Wed 18 with the "18% plan more large hosted events" stat
+
+Nathan chose the 38% version above. Theo recommends this option instead, because Thursday's carousel slide 2 already carries the Forrester 38% (see the report note). Same Forrester source and date, a different figure, and it supports the "smaller right room" argument directly. If Nathan switches, use this post and card, the same first comments (including the Forrester source line), and the same personal variant.
+
+#### Option B company post (162 words)
+
+```text
+A room full of the wrong job titles is the most expensive kind of full.
+
+Only 18% plan more large hosted events (Forrester, The Next Era of B2B Events, 25 Jun 2026).
+
+The easy reading is that big rooms are going out of fashion. Whatever the reason, it points the same way as our approach: a smaller room, chosen on purpose. When a room falls flat, it's usually because nobody chose who was in it.
+
+What Director+ means when we build a virtual roundtable:
+Every title checked against the host's ideal customer.
+Inflated titles don't count. The title has to match the role behind it.
+The host signs off the guest list.
+6 to 12 people, all Director level and above.
+
+Guest-list sign-off isn't unique to us. What we won't do is pad the room to hit a number. A smaller right room beats a bigger wrong one.
+
+Where do you draw the line on job titles?
+
+Link in the first comment.
+```
+
+#### Option B stat card (replaces the card above if chosen)
+
+- Same size, background, fonts, colours and layout rules as the card above.
+- **Top label** (pill): "HOSTED EVENTS, ORGANISERS' PLANS"
+- **Main figure** (Fraunces, very large, centred): "18%" in #FCD500.
+- **Line under it** (Libre Franklin, medium): "plan more large hosted events."
+- **Source line** (IBM Plex Mono, #A3A3A3): "Source: Forrester, The Next Era of B2B Events, 25 Jun 2026"
+- Save prompt, tagline strip, logo mark: unchanged. No other numbers.
+- Stat check: Nadia's safe-to-use table row "Only 18% plan more large hosted events" (Forrester, 25 Jun 2026). Wording kept as the table has it; the subject of "plan" isn't specified there, so don't add one.
 
 ### Post-grader
 
-**Company: 7.9/10.** Hook 8 (a twist on "full", lands inside the cut); curiosity 8 (dated vendor stat, named source, concrete rules); emotion 6; share 8; voice 9; polarity 8 ("We don't buy it"); platform 8. Voice rules: pass. The only "very" is Bizzabo's survey wording in quotation marks, so I haven't counted it as filler. If Felix disagrees, it's -0.5 (7.4); the fix would be to paraphrase as "rate their networking at the top of the scale", which I'd rather not do because it changes a quoted stat.
+**Company: not yet re-graded after the stat swap.** The hook is unchanged (8). The earlier 7.9 was scored on the Bizzabo version, so Felix and Theo should re-run the grader on the Forrester text. The post no longer contains "very", so the quoted-wording note no longer applies.
 
 **Personal: 8.0/10.** Hook 8 (clear trade-off with numbers, under 70 characters); curiosity 8; emotion 8 (the moment the right guests realise it isn't their room); share 7; voice 9; polarity 8; platform 8. Voice rules: all pass ("just" removed from v1, which would have cost 0.5). The 8 and 20 are a stated preference, not a past-event figure.
 

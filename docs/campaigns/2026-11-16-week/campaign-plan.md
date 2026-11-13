@@ -51,7 +51,7 @@ This keeps the feed from reading as 7 days of promotion (Theo's advice: mix the 
 |---|---|---|---|---|---|---|---|---|---|
 | Mon 16 | The guest's side | What a Director checks before saying yes | Carousel (7 slides) | Before a senior leader gives up an evening, they check 4 things. The menu isn't one of them. | None | /private-executive-dinners/ | Yes | 12:15 (A) | 11:00 |
 | Tue 17 | The host who doesn't pitch | Staying quiet is the host's job | Text | The best sponsored dinner is the one where the sponsor doesn't pitch. | Gartner 67% and 69% | /private-executive-dinners/ | Yes | 15:00 (B) | 11:00 |
-| Wed 18 | Director+ means Director+ | Networking didn't get worse; rooms stopped being chosen | Single image (stat card) | A full room of the wrong job titles isn't a good event. It's an expensive one. | Bizzabo 46% to 15% | /executive-virtual-roundtables/ (personal: /b2b-virtual-roundtable-guide/) | Yes | 12:15 (A) | 11:00 |
+| Wed 18 | Director+ means Director+ | The perception gap: rooms stopped being chosen | Single image (stat card) | A full room of the wrong job titles isn't a good event. It's an expensive one. | Forrester 38% of CMOs | /executive-virtual-roundtables/ (personal: /b2b-virtual-roundtable-guide/) | Yes | 12:15 (A) | 11:00 |
 | Thu 19 | Honest measurement | Judge a dinner at week 6, not on the night | Carousel (8 slides) | Judge an executive dinner 6 weeks after it ends, not on the night. | Forrester 38% of CMOs | /sponsor/ (first day allowed) | Yes | 15:00 (B) | 11:00 |
 | Fri 20 | The honest 12-week timeline | A February dinner starts this week | Text | 12 weeks is the minimum for an executive dinner worth attending. Anything faster is filling seats. | None | /sponsor/ | Yes | 15:00 (B) | 11:00 |
 | Sat 21 | UK-first | What a London private room needs for 12 | Single image (venue photo or checklist card) | A private room for 12 senior guests needs 5 things before it needs a good menu. | None | /london-venues/ | No (weekend) | n/a | 11:00 |
@@ -127,14 +127,14 @@ Rules for every day (Theo and Felix):
 
 ### Wednesday 18 Nov: Director+ means Director+
 
-- **Theme:** Networking didn't get worse. Rooms got bigger and less curated.
+- **Theme:** The perception gap. Rooms got bigger and less curated, and CMOs notice.
 - **Goal:** Saves and reposts from hosts; position curation as the answer. Secondary: roundtables page and guide visits.
 - **Reader:** Would-be hosts.
 - **Format:** Single image (stat card) plus a caption of about 150 to 200 words.
 - **Hook (Theo's hook 2):** "A full room of the wrong job titles isn't a good event. It's an expensive one."
 - **Key points:**
-  1. Only 15% of organisers now rate their networking as "very effective", down from 46% in 2025 (2026 State of Events Benchmark, vendor survey).
-  2. Our reading (Theo's hook 3 as the turn): networking events don't fail because people are tired of meeting. They fail because nobody chose the room.
+  1. Only 38% of CMOs agree their events perform well; about half of organisations say they do (Forrester, The Next Era of B2B Events, 25 Jun 2026). Swapped in 13 Nov on Nathan's decision, replacing the Bizzabo stat. Option B if Nathan wants to avoid repeating Thursday's figure: "Only 18% plan more large hosted events" (Forrester, same date); see posts.md.
+  2. Our reading (Theo's hook 3 as the turn): when a room falls flat, it's usually because nobody chose who was in it.
   3. What Director+ means in practice: every title checked against the host's ideal customer, inflated titles don't count, the host signs off the list, and a smaller right room beats a bigger wrong one. For virtual roundtables that's 6 to 12 people, all Director+.
   4. Fair note (Nadia): guest-list sign-off isn't unique to us, so the post rests on what we won't do (pad the room with the wrong titles), not on sign-off alone.
 - **CTA (soft):** "Where do you draw the line on job titles? Reply below." Save prompt on the image.
@@ -143,9 +143,9 @@ Rules for every day (Theo and Felix):
 - **Suggested time:** personal 12:15 (slot A); company page 11:00.
 - **Image brief (stat card):**
   - 1080 x 1350, #0A0A0A background.
-  - Large figure in Fraunces: "46% to 15%" (yellow for 46%, pink for 15%, or an arrow between them).
-  - Under it in Libre Franklin: "Organisers who rate their networking 'very effective'."
-  - Source line in IBM Plex Mono, small but legible: "Source: 2026 State of Events Benchmark (vendor survey)".
+  - Large figure in Fraunces: "38%" in #FCD500 (or #FF1FA9).
+  - Under it in Libre Franklin: "of CMOs agree their events perform well."
+  - Source line in IBM Plex Mono, small but legible: "Source: Forrester, The Next Era of B2B Events, 25 Jun 2026".
   - Tagline strip at the bottom: "Who's in the room is the event."
   - No other numbers, no people, no logos.
 - **Felix check:** the hook and the "isn't X. It's Y" shape sit close to the brief's banned "it's not just X, it's Y" pattern. Theo's view is that it's different; Felix makes the call.
