@@ -1,6 +1,6 @@
 # Final copy: company page, 14 to 19 Nov 2026 (draft, nothing scheduled)
 
-**Prepared by:** Freya, 13 Nov 2026. **Status:** FREYA SIGNED OFF 13 Nov (section at the foot). Felix re-checked this version (223fb06): all 8 posts and all 6 cards pass. Re-issued earlier after Felix's gate of the first version (commit 08bdc77). Felix has passed Posts 4 and 5 and all 6 cards (card 4 re-rendered in commit 472a3ac). Posts 1, 2, 3, 7 and 8 had reverted my earlier edits and are fixed below, and Post 6 has his one edit. **None of Posts 1, 2, 3, 6, 7 or 8 counts as Felix-passed until he re-checks this version.** Nadia's Gartner wording is applied (J-1113-nadia-gartner), with Felix's change to the stats paragraph. Awaiting Nathan's approval per post. Nothing has been created in Buffer, scheduled or published.
+**Prepared by:** Freya, 13 Nov 2026. **Status:** FREYA SIGNED OFF 13 Nov (section at the foot). Nathan's approval of the copy and his answers to the open items were relayed by the coordinator at about 11:40 UTC on 13 Nov. Waiting for Nathan's own confirmation before any post is marked "Approved by Nathan". NOT SCHEDULED: approval of copy is not approval to schedule, and Buffer is untouched. Felix re-checked this version (223fb06): all 8 posts and all 6 cards pass. Re-issued earlier after Felix's gate of the first version (commit 08bdc77). Felix has passed Posts 4 and 5 and all 6 cards (card 4 re-rendered in commit 472a3ac). Posts 1, 2, 3, 7 and 8 had reverted my earlier edits and are fixed below, and Post 6 has his one edit. **None of Posts 1, 2, 3, 6, 7 or 8 counts as Felix-passed until he re-checks this version.** Nadia's Gartner wording is applied (J-1113-nadia-gartner), with Felix's change to the stats paragraph. Awaiting Nathan's approval per post. Nothing has been created in Buffer, scheduled or published.
 
 **Rules applied:** brand-brief.md (10 Nov decisions), UK English, no em dashes, no hashtags, no event counts, no personal names, no promised leads or ROI. Link in the first comment, never in the body.
 
@@ -14,6 +14,7 @@
 
 | | |
 |---|---|
+| **Approval** | **Copy approval relayed to Freya by the coordinator on 13 Nov 2026 (about 11:40 UTC) as Nathan's "All approved to change". NOT yet confirmed by Nathan directly, so not recorded as approved by him.** Not scheduled. Answers recorded: No open answers. |
 | **Date and time** | Sat 14 Nov, 11:00 (moved from Fri 13, 12:00, now past) |
 | **Format** | Single image, company page |
 | **First comment** | Booking link: https://cal.com/convenexevents/15min |
@@ -45,6 +46,7 @@ Book a 15-minute exploratory call, a conversation about your audience and goals,
 
 | | |
 |---|---|
+| **Approval** | **Copy approval relayed to Freya by the coordinator on 13 Nov 2026 (about 11:40 UTC) as Nathan's "All approved to change". NOT yet confirmed by Nathan directly, so not recorded as approved by him.** Not scheduled. Answers recorded: No open answers. |
 | **Date and time** | Sun 15 Nov, 15:00 (moved from Fri 13, 16:00, now past) |
 | **Format** | Single image, company page |
 | **First comment** | None. The post ends on a question, so leave the link out and keep the thread for replies. |
@@ -75,6 +77,7 @@ What's the best room you've been in, and what made it work?
 
 | | |
 |---|---|
+| **Approval** | **Copy approval relayed to Freya by the coordinator on 13 Nov 2026 (about 11:40 UTC) as Nathan's "All approved to change". NOT yet confirmed by Nathan directly, so not recorded as approved by him.** Not scheduled. Answers recorded: No open answers. |
 | **Date and time** | Sat 14 Nov, 15:00 |
 | **Format** | Native LinkedIn poll, company page. Set the poll to run 3 days (a 1-week poll would still be open on Sat 21). |
 | **First comment** | None |
@@ -107,6 +110,7 @@ Vote below, then tell us why in the comments.
 
 | | |
 |---|---|
+| **Approval** | **Copy approval relayed to Freya by the coordinator on 13 Nov 2026 (about 11:40 UTC) as Nathan's "All approved to change". NOT yet confirmed by Nathan directly, so not recorded as approved by him.** Not scheduled. Answers recorded: No open answers. |
 | **Date and time** | Sun 15 Nov, 11:00 |
 | **Format** | Single image, company page |
 | **First comment** | https://convenexevents.com/build-your-room/ (no Chatham House page exists yet) |
@@ -140,6 +144,7 @@ Note: "We design every room around it" replaces the earlier "Every room we desig
 
 | | |
 |---|---|
+| **Approval** | **Copy approval relayed to Freya by the coordinator on 13 Nov 2026 (about 11:40 UTC) as Nathan's "All approved to change". NOT yet confirmed by Nathan directly, so not recorded as approved by him.** Not scheduled. Answers recorded: Host sign-off wording for dinners and roundtables (line 4, card 4): approved for public use. Hook "the whole point": approved. |
 | **Date and time** | Mon 16 Nov, 15:00 (the signed-off Mon 16 carousel stays at 11:00) |
 | **Format** | Single image, company page |
 | **First comment** | https://convenexevents.com/build-your-room/ |
@@ -185,6 +190,7 @@ Card 4 text (as now rendered):
 
 | | |
 |---|---|
+| **Approval** | **Copy approval relayed to Freya by the coordinator on 13 Nov 2026 (about 11:40 UTC) as Nathan's "All approved to change". NOT yet confirmed by Nathan directly, so not recorded as approved by him.** Not scheduled. Answers recorded: Gartner wording, company and personal: approved. |
 | **Date and time** | Tue 17 Nov, 11:00 |
 | **Format** | Text only, company page |
 | **First comment** | https://convenexevents.com/private-executive-dinners/ |
@@ -240,6 +246,7 @@ This was signed off with the "separate survey" and "especially over dinner" word
 
 | | |
 |---|---|
+| **Approval** | **Copy approval relayed to Freya by the coordinator on 13 Nov 2026 (about 11:40 UTC) as Nathan's "All approved to change". NOT yet confirmed by Nathan directly, so not recorded as approved by him.** Not scheduled. Answers recorded: Host sign-off wording (item 2, post and card 5): approved for public use. Time: 16:00. |
 | **Date and time** | Tue 17 Nov, 16:00 recommended (15:00 if Nathan prefers) |
 | **Format** | Single image, company page |
 | **First comment** | https://convenexevents.com/executive-virtual-roundtables/ |
@@ -279,6 +286,7 @@ Note: the host sign-off claim in item 2 (post and card 5) falls under the same N
 
 | | |
 |---|---|
+| **Approval** | **Copy approval relayed to Freya by the coordinator on 13 Nov 2026 (about 11:40 UTC) as Nathan's "All approved to change". NOT yet confirmed by Nathan directly, so not recorded as approved by him.** Not scheduled. Answers recorded: "We read every one": approved, so it stays. |
 | **Date and time** | Wed 18 Nov, 15:00 |
 | **Format** | Single image, company page |
 | **First comment** | None (the ask is for replies in the comments) |
@@ -322,18 +330,21 @@ Depends on Nathan: "We read every one" stays only if someone will read every rep
 
 ---
 
-## Needs Nathan
+## Nathan's answers (relayed by the coordinator, 13 Nov, as "All approved to change")
 
-1. Host sign-off wording. May we say hosts sign off the guest list for dinners and roundtables? It is in the 10 Nov brief but on no live page. It affects Post 5 (line 4 and card 4), Post 7 (card 5) and the signed-off Wed 18 card.
-2. Tue 17 company roundtables time: 16:00 (recommended, clears his 15:00 personal post) or 15:00.
-3. Founder naming. The repo brief on this branch says no personal names. Commit 4a2c7a4 ("Allow the founder to be named publicly") sits only on branch ccr-b8e816d5-lif0ek and was never merged. This copy names nobody and follows the stricter rule. Confirm which applies.
-4. Mon 16 hook: "the whole point" replaces "the product" (Felix passed it, card 4 is rendered with it). Confirm, or revert and card 4 is re-rendered.
-5. Wed 18: someone must read every reply if "We read every one" stays. Otherwise change it to "Reply with it."
-6. Gartner wording for Tue 17 (company and personal), as above.
+Recorded as relayed, not yet confirmed by Nathan directly.
+
+1. Host sign-off wording for dinners and roundtables: approved for public use (Post 5 line 4, Post 7, cards 4 and 5, and the signed-off Wed 18 card).
+2. Tue 17 company roundtables: 16:00.
+3. Founder naming: keep the house rule, no personal names of anyone at Convene X. This copy names nobody. The unmerged commit 4a2c7a4 should not be merged, or should be reverted if it is.
+4. Mon 16 hook "the whole point": approved.
+5. Wed 18 "We read every one": approved, so it stays.
+6. Gartner wording for Tue 17, company and personal: approved.
+7. brand-voice.md ruling: no hashtags; text and carousel posts 150 to 300 words; single-image cards and polls 60 to 120 words. The exact changes are in `docs/brand-voice-changes-2026-11-13.md`, because the Drive file is view-only for this session.
 
 ## Rhys
 
-Nothing outstanding. All 6 cards are rendered and passed Felix, including card 4 (commit 472a3ac). If Nathan changes the Mon 16 hook back to "the product", or does not confirm host sign-off, cards 4 and 5 need another pass.
+Nothing outstanding on the cards. All 6 are rendered and passed Felix, including card 4 (commit 472a3ac), and the answers above match what the cards say. Optional: rename the PNGs to the new slots (the file names keep the old Fri 13 labels).
 
 ---
 
@@ -341,18 +352,18 @@ Nothing outstanding. All 6 cards are rendered and passed Felix, including card 4
 
 Felix re-checked commit 223fb06: all 8 posts and all 6 cards pass. Post 2 (122 words) is fine, since the prose is 119 and 3 are list markers. Post 8 (58 words) is waived by Felix, so I've left his text exactly as passed.
 
-| Post | Slot | My sign-off | Pending Nathan's answer |
+| Post | Slot | My sign-off | Nathan's answer (relayed) |
 |---|---|---|---|
-| 1 Three formats | Sat 14 11:00 | SIGNED OFF | None |
-| 2 Small rooms | Sun 15 15:00 | SIGNED OFF | None |
-| 3 Poll | Sat 14 15:00 | SIGNED OFF | None |
-| 4 Chatham House | Sun 15 11:00 | SIGNED OFF | None |
-| 5 Guest list | Mon 16 15:00 | SIGNED OFF | Host sign-off wording (line 4). Hook "the whole point". |
-| 6 Gartner | Tue 17 11:00 | SIGNED OFF | Nathan approves the Gartner wording. He must approve from this file, because Theo's page still shows the old text. |
-| 7 Roundtables | Tue 17 16:00 | SIGNED OFF | Host sign-off wording (item 2, post and card 5). Time: 16:00 or 15:00. |
-| 8 Best question | Wed 18 15:00 | SIGNED OFF | Who reads every reply ("We read every one"). |
+| 1 Three formats | Sat 14 11:00 | SIGNED OFF | No open answers |
+| 2 Small rooms | Sun 15 15:00 | SIGNED OFF | No open answers |
+| 3 Poll | Sat 14 15:00 | SIGNED OFF | No open answers |
+| 4 Chatham House | Sun 15 11:00 | SIGNED OFF | No open answers |
+| 5 Guest list | Mon 16 15:00 | SIGNED OFF | Host sign-off wording and hook: approved |
+| 6 Gartner | Tue 17 11:00 | SIGNED OFF | Gartner wording approved. Theo's page still shows the old text. |
+| 7 Roundtables | Tue 17 16:00 | SIGNED OFF | Host sign-off wording approved. Time 16:00. |
+| 8 Best question | Wed 18 15:00 | SIGNED OFF | "We read every one" approved |
 
-No holds. Every signed post is **ready for Nathan, pending his answers** where the last column says so. Nothing goes to Buffer, and nothing is scheduled, until he approves each post.
+No holds. Approval was relayed, not confirmed by Nathan directly. Nothing goes to Buffer, and nothing is scheduled, until Nathan confirms and schedules each post himself.
 
 ### What Theo changes on his 16 to 22 Nov page (Tue 17 only)
 
