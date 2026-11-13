@@ -2,7 +2,7 @@
 
 File: Drive `brand-voice.md` (https://drive.google.com/file/d/1v1RG-rv90iU7PfUPCiPfuqz8LnbF9gT1/view). The Drive connector reports it as view-only for this session, so these changes are not applied. Apply them in place. Rulings: Freya (hashtags and lengths) and Nathan (naming), both as relayed by the coordinator on 13 Nov.
 
-## 1. Founder naming (relayed ruling, pending Nathan's direct confirmation)
+## 1. Founder naming (confirmed by Nathan directly, 13 Nov 2026)
 
 Latest relay (13 Nov): "It can name me now". The founder, Nathan only, may be named publicly, never as proof of results. No other Convene X names. Apply this only once Nathan confirms it in his own message. Until then the no-names house rule stands.
 
