@@ -137,13 +137,11 @@ def thu():
 
 # ---------------- Wednesday stat card ----------------
 def wed():
-    arrow = f"""<svg width='120' height='40' viewBox='0 0 120 40' style='margin:0 28px'><path d='M2 20 H112 M96 6 L114 20 L96 34' stroke='{TXT}' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>"""
-    p = [f"""<section class='page'><div class='top'><span class='pill pink'>NETWORKING, RATED BY ORGANISERS</span></div>
-      <div class='content' style='top:220px;text-align:center'>
-        <div style="display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.02em">
-          <span style='font-size:200px;color:{GREY}'>46%</span>{arrow}<span style='font-size:250px;color:{YEL}'>15%</span></div>
-        <p class='body' style='margin:40px auto 0;font-weight:500;max-width:820px'>Organisers who rate their networking &#8216;very effective&#8217;, 2025 to 2026.</p>
-        <p class='src' style='margin-top:48px'>Source: 2026 State of Events Benchmark<br>(vendor survey)</p>
+    p = [f"""<section class='page'><div class='top'><span class='pill pink'>EVENT PERFORMANCE, RATED BY CMOs</span></div>
+      <div class='content' style='top:240px;text-align:center'>
+        <div style="font-family:'Fraunces',serif;font-weight:300;letter-spacing:-0.02em;font-size:300px;line-height:1;color:{YEL}">38%</div>
+        <p class='body' style='margin:40px auto 0;font-weight:500;font-size:44px;max-width:888px'>of CMOs agree their events perform well.</p>
+        <p class='src' style='margin-top:44px'>Source: Forrester,<br>The Next Era of B2B Events, 25 Jun 2026</p>
       </div>
       <p class='save' style='position:absolute;left:96px;bottom:436px'>SAVE THIS FOR YOUR NEXT GUEST LIST</p>
       <div class='strip'><span class='tag'>Who&#8217;s in the room is the event.</span>{LOGO_IMG}</div></section>"""]
