@@ -1,6 +1,6 @@
 # Final copy: company page, 14 to 19 Nov 2026 (draft, nothing scheduled)
 
-**Prepared by:** Freya, 13 Nov 2026. **Status:** re-issued 13 Nov after Felix's gate of the first version (commit 08bdc77). Felix has passed Posts 4 and 5 and all 6 cards (card 4 re-rendered in commit 472a3ac). Posts 1, 2, 3, 7 and 8 had reverted my earlier edits and are fixed below, and Post 6 has his one edit. **None of Posts 1, 2, 3, 6, 7 or 8 counts as Felix-passed until he re-checks this version.** Nadia's Gartner wording is applied (J-1113-nadia-gartner), with Felix's change to the stats paragraph. Awaiting Nathan's approval per post. Nothing has been created in Buffer, scheduled or published.
+**Prepared by:** Freya, 13 Nov 2026. **Status:** FREYA SIGNED OFF 13 Nov (section at the foot). Felix re-checked this version (223fb06): all 8 posts and all 6 cards pass. Re-issued earlier after Felix's gate of the first version (commit 08bdc77). Felix has passed Posts 4 and 5 and all 6 cards (card 4 re-rendered in commit 472a3ac). Posts 1, 2, 3, 7 and 8 had reverted my earlier edits and are fixed below, and Post 6 has his one edit. **None of Posts 1, 2, 3, 6, 7 or 8 counts as Felix-passed until he re-checks this version.** Nadia's Gartner wording is applied (J-1113-nadia-gartner), with Felix's change to the stats paragraph. Awaiting Nathan's approval per post. Nothing has been created in Buffer, scheduled or published.
 
 **Rules applied:** brand-brief.md (10 Nov decisions), UK English, no em dashes, no hashtags, no event counts, no personal names, no promised leads or ROI. Link in the first comment, never in the body.
 
@@ -334,3 +334,35 @@ Depends on Nathan: "We read every one" stays only if someone will read every rep
 ## Rhys
 
 Nothing outstanding. All 6 cards are rendered and passed Felix, including card 4 (commit 472a3ac). If Nathan changes the Mon 16 hook back to "the product", or does not confirm host sign-off, cards 4 and 5 need another pass.
+
+---
+
+## Freya sign-off, 13 Nov 2026
+
+Felix re-checked commit 223fb06: all 8 posts and all 6 cards pass. Post 2 (122 words) is fine, since the prose is 119 and 3 are list markers. Post 8 (58 words) is waived by Felix, so I've left his text exactly as passed.
+
+| Post | Slot | My sign-off | Pending Nathan's answer |
+|---|---|---|---|
+| 1 Three formats | Sat 14 11:00 | SIGNED OFF | None |
+| 2 Small rooms | Sun 15 15:00 | SIGNED OFF | None |
+| 3 Poll | Sat 14 15:00 | SIGNED OFF | None |
+| 4 Chatham House | Sun 15 11:00 | SIGNED OFF | None |
+| 5 Guest list | Mon 16 15:00 | SIGNED OFF | Host sign-off wording (line 4). Hook "the whole point". |
+| 6 Gartner | Tue 17 11:00 | SIGNED OFF | Nathan approves the Gartner wording. He must approve from this file, because Theo's page still shows the old text. |
+| 7 Roundtables | Tue 17 16:00 | SIGNED OFF | Host sign-off wording (item 2, post and card 5). Time: 16:00 or 15:00. |
+| 8 Best question | Wed 18 15:00 | SIGNED OFF | Who reads every reply ("We read every one"). |
+
+No holds. Every signed post is **ready for Nathan, pending his answers** where the last column says so. Nothing goes to Buffer, and nothing is scheduled, until he approves each post.
+
+### What Theo changes on his 16 to 22 Nov page (Tue 17 only)
+
+His page is https://claude.ai/artifact/6wjNtEySjoKZVUEmoVYMNr. I haven't edited it.
+
+1. Company post, stats paragraph. Replace "In a separate survey, 69% said they turn to sales reps to validate AI-generated insights (Gartner, 20 May 2026)." with: "Gartner also found 69% prefer to validate AI-generated insights with sales reps (Gartner, 20 May 2026). Fieldwork for both ran in Aug to Sep 2025."
+2. Company post, the line after it. Delete "Buyers still want people in the conversation. What they avoid is being sold to." (above the stats), and replace "Read together, buyers still want expertise. They want it without the pitch." with "Our reading: buyers still want people in the conversation. What they avoid is being sold to." (Post 6 above has the exact text.)
+3. Company first comment. Add both Gartner release URLs as sources (Post 6 above).
+4. Personal variant. Cut "especially over dinner", so it ends "They want them without the pitch." The 67% sentence stays. Optionally add the 9 Mar 2026 Gartner release URL to the personal first comment.
+5. Remove the "Felix check" line that says the 2 figures are separate surveys and that the post says so. It is no longer true.
+6. Post-grader note: the company stat line still says "2 dated Gartner stats". That is fine, but re-run the score on the new text.
+
+The same old wording is also in the repo's `docs/campaigns/2026-11-16-week/posts.md` (lines 33 to 35, 227, 263, 295 to 296) and `campaign-plan.md` (lines 115 and 124). It is Theo's and Leo's to update, and I haven't touched it.
