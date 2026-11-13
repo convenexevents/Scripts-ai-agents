@@ -330,13 +330,13 @@ Depends on Nathan: "We read every one" stays only if someone will read every rep
 
 ---
 
-## Nathan's answers (relayed by the coordinator, 13 Nov, as "All approved to change")
+## Nathan's answers (relayed by the coordinator, 13 Nov, as "All approved to change" and "It can name me now, that's all good")
 
-Recorded as relayed, not yet confirmed by Nathan directly.
+Recorded as relayed. The coordinator says Nathan confirmed in the session, but that confirmation has not reached me from Nathan himself, so no post is marked "Approved by Nathan directly".
 
 1. Host sign-off wording for dinners and roundtables: approved for public use (Post 5 line 4, Post 7, cards 4 and 5, and the signed-off Wed 18 card).
 2. Tue 17 company roundtables: 16:00.
-3. Founder naming: keep the house rule, no personal names of anyone at Convene X. This copy names nobody. The unmerged commit 4a2c7a4 should not be merged, or should be reverted if it is.
+3. Founder naming: first relayed as "keep the house rule", then relayed again (13 Nov) as "It can name me now": Nathan only may be named publicly, never as proof of results, no other Convene X names. Neither relay is confirmed by Nathan directly. This copy names nobody, so no post depends on it. Until Nathan confirms directly in his own message, the no-names house rule stands.
 4. Mon 16 hook "the whole point": approved.
 5. Wed 18 "We read every one": approved, so it stays.
 6. Gartner wording for Tue 17, company and personal: approved.
