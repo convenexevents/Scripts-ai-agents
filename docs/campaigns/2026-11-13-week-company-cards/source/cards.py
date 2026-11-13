@@ -25,8 +25,8 @@ cards = {
   + li(["Everyone gets to speak.","The question on the invitation shapes the evening.","Peers compare notes instead of trading pitches."], 38), h1size=72, topc=250),
 "3-sun15-1100-chatham-house": card("THE CHATHAM HOUSE RULE", "You can use what you hear, but you can&#8217;t say who said it or which company they work for.",
   "<p class='body' style='font-size:44px;margin-top:56px'>We design every room around it: no names, no attributed quotes, no public list of who was there afterwards.</p>", h1size=68, topc=290),
-"4-mon16-1500-guest-list": card("THE GUEST LIST", "For a sponsor, the guest list is the product.",
-  li(["You tell us who you want to meet.","We check every guest against that brief.","If someone doesn&#8217;t fit the conversation, they don&#8217;t get the seat.","You sign off the final list."], 40).replace("&amp;#8217;","&#8217;"), h1size=80, topc=290),
+"4-mon16-1500-guest-list": card("THE GUEST LIST", "For a sponsor, the guest list is the whole point.",
+  li(["You tell us who you want to meet.","We check every guest against that brief.","If someone doesn&#8217;t fit the conversation, they don&#8217;t get the seat.","For dinners and roundtables, you sign off the final list."], 40).replace("&amp;#8217;","&#8217;"), h1size=80, topc=290),
 "5-tue17-1500-virtual-roundtables": card("VIRTUAL ROUNDTABLES", "10 executives, 10 cities, one table.",
   "<p class='body' style='font-size:40px;margin-top:32px'>6 to 12 senior leaders. About an hour.</p>"
   + li(["One question, sent with the invitation.","A guest list checked against a brief and signed off by the host.","A moderator who makes sure the quietest person is heard."], 38), h1size=84, topc=270),
