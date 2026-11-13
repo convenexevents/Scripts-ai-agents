@@ -20,14 +20,14 @@
 
 **1. Copy matches FINAL word for word: PASS.**
 - Every label, headline, body line, source line, save prompt and tagline matches the spec tables in `posts.md`.
-- The only differences are typographic: curly apostrophes, and UK single quotes around ‘very effective’. Those are correct.
+- The only differences are typographic: curly apostrophes. Those are correct. (Wednesday's card was re-rendered on 13 Nov for the Forrester 38% stat; see the 13 Nov section at the end.)
 - After my rebuild, the word sequence in both PDFs is identical to Rhys's export. I only changed where lines break.
 
 **2. Palette and contrast: PASS.** Values are sampled from the pixels.
 - Background #0A0A0A. Text #F5F5F5, not pure white.
 - Pills are #FF1FA9 (or #FCD500 on Saturday) with #0A0A0A text, about 5.7:1 and 13.8:1. There's no white-on-pink text anywhere.
 - Thursday's timeline labels are #A3A3A3 (7.9:1), as the spec requires.
-- Wednesday: 46% is #A3A3A3 and 15% is #FCD500, with an #F5F5F5 arrow. Pink and yellow never sit at full saturation in the same block.
+- Wednesday (re-rendered 13 Nov): 38% is #FCD500 on its own, with the #FF1FA9 pill above it and no other accent in the figure block. Pink and yellow never sit at full saturation in the same block.
 - Thursday's 38% is #FF1FA9, per the spec. Thin rules and the streak are #FF1FA9.
 - The only pure #FFFFFF is the logo wordmark. That's the logo asset itself and must not be recoloured.
 - The #3A3A3A timeline track and future-stage dots are decorative, and the current stage is carried by the pink pill. That's acceptable.
@@ -51,7 +51,7 @@
 
 **6. Source lines on the stat slides: PASS.**
 - Thursday slide 2: "Source: Forrester, The Next Era of B2B Events, 25 Jun 2026", in Plex Mono #A3A3A3 at the foot.
-- Wednesday card: "Source: 2026 State of Events Benchmark (vendor survey)", in Plex Mono #A3A3A3.
+- Wednesday card: "Source: Forrester, The Next Era of B2B Events, 25 Jun 2026", in Plex Mono #A3A3A3.
 - Both match the spec and Nadia's safe-to-use table. No other numbers appear.
 
 **7. Last slides carry the tagline and URL: PASS.**
@@ -149,7 +149,7 @@ Nothing has been uploaded, scheduled or published.
 |---|---|---|---|---|
 | Felix brand review completed | Yes | Yes, failed on logo clear space | Yes | Yes, failed on logo clear space |
 | Brand voice and proof framing (no company track-record claims, no event counts, no names) | Pass | Pass | Pass | Pass |
-| Claims sourced | No numbers | Bizzabo, labelled as a vendor survey | Forrester, dated | No numbers |
+| Claims sourced | No numbers | Forrester, dated (38% of CMOs; card re-rendered 13 Nov) | Forrester, dated | No numbers |
 | Anti-AI writing / no hype or fake urgency | Pass | Pass | Pass | Pass |
 | No names of anyone at Convene X | Pass | Pass | Pass | Pass |
 | Nothing implying Convene X has delivered events | Pass | Pass | Pass ("Leads, meetings or ROI" slide is framed as things to look at, not promises) | Pass |
@@ -210,12 +210,30 @@ Nothing has been uploaded, posted, scheduled or published.
 | Pink rule stops short of the logo | PASS. Rule runs x 96 to 495, y 1035 to 1037 (#FF1FA9). Nearest logo pixel is 198px away. | PASS. Same rule, same 198px. |
 | Clear space: 156px to every element | PASS. Nearest element is the save prompt, 181px (lowest ink y 906, 172px above the X tip at y 1078). Tagline 244px. | PASS. Nearest element is item 5 text, 191px. Item 5 circle bottom at y 912 is 166px above the X tip. Tagline 244px. |
 | Edges (96px margin) | PASS. Logo x 657 to 979, y 1078 to 1234: 100px right, 115px bottom. | PASS. Same. |
-| Nothing collides | PASS. "(vendor survey)" to save prompt and pill to stat both have clear air. The X no longer reads as hanging off a line. | PASS. List, rule, tagline and logo each stand clear. Streak stays in the top-left corner. |
-| Copy against FINAL in `../posts.md` | PASS. Pill, 46% to 15%, the "very effective" line, source line with "(vendor survey)", save prompt and tagline all match the FINAL card brief word for word. | PASS. Pill, headline, the 5 points and tagline match the FINAL card brief word for word. |
+| Nothing collides | PASS. Source line to save prompt and pill to stat both have clear air. The X no longer reads as hanging off a line. (Layout re-checked on the 13 Nov Forrester card; see the end of this file.) | PASS. List, rule, tagline and logo each stand clear. Streak stays in the top-left corner. |
+| Copy against FINAL in `../posts.md` | PASS. Pill, 38%, the "of CMOs agree their events perform well." line, the Forrester source line, save prompt and tagline match the current card brief word for word (13 Nov Forrester version). | PASS. Pill, headline, the 5 points and tagline match the FINAL card brief word for word. |
 | Phone width (390px) | PASS. Stat, line and save prompt read clearly; source line is small but legible, as before. | PASS. All 5 points and the headline read clearly. |
 
 My numbers match Rhys's to the pixel. Optional refinement only, not a condition: with the rule shortened, it now sits about 100px above the tagline and reads as its own line rather than the top of a strip. Fine as built; worth a look next time the strip template is touched.
 
 **Freya: approved for Nathan's review (per her 10 Nov condition: layout fix only, re-checked by Felix).** Applies to the Wed stat card and the Sat checklist card. Recorded by Felix from Freya's conditional approval above, not a new decision.
+
+Nothing has been uploaded, posted, scheduled or published.
+
+## Felix re-check: Wed stat card, Forrester 38% version, 13 Nov 2026
+
+The Wed card was re-rendered (commit fe0abe4) when Nathan dropped the Bizzabo stat. The 10 Nov rows above that mention 46% to 15%, "(vendor survey)" or Bizzabo describe the superseded card and are kept only as the layout history. Current verdict for the Wed card: **PASS**, measured from the pixels of `2026-11-18-wed-stat-card.png`.
+
+| Check | Result |
+|---|---|
+| Fonts | PASS. Fraunces for the 38% and tagline, Libre Franklin for the caption, IBM Plex Mono for the pill, source line and save prompt. |
+| Colour | PASS. Background #0A0A0A, 38% #FCD500 (13.8:1), caption #F5F5F5, source line #A3A3A3 (7.9:1), pill #FF1FA9 with #0A0A0A text (5.7:1). The only other colours are the logo's own #FC1595 and #FFFFFF. |
+| Margins | PASS. Figure x 328 to 757, caption x 119 to 959, source line x 178 to 900, save prompt x 97 to 786. All inside the 96px margin. |
+| Clear space | PASS. Save prompt (lowest ink y 906) is 172px above the X tip at y 1078, against 156px needed. Source line (lowest ink y 760) is 318px clear. Rule and tagline are unchanged at 198px and 244px. |
+| Spacing and legibility | PASS. Caption to source line about 60px, source line to save prompt about 124px. Source line stays at 30px (about 11px on a 390px feed). |
+| Copy against the revised brief in `../posts.md` | PASS. Pill "EVENT PERFORMANCE, RATED BY CMOs", "38%", "of CMOs agree their events perform well.", "Source: Forrester, The Next Era of B2B Events, 25 Jun 2026", save prompt and tagline. |
+| Claim | PASS. Matches Nadia's safe-to-use row ("Only 38% of CMOs agree their events perform well", Forrester, 25 Jun 2026). |
+
+Optional, not a condition: the pill uppercases "CMOs" to "CMOS". It reads fine in context, but "EVENT PERFORMANCE: THE CMO VIEW" would avoid it if the card is re-rendered anyway.
 
 Nothing has been uploaded, posted, scheduled or published.
