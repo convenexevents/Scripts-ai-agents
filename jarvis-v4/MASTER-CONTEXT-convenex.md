@@ -19,7 +19,7 @@ These rules sit on top of the JARVIS v4 rules above and win if they conflict.
    CRM app). Finance: Finance Control + quote calculator. Prospecting: the
    Prospecting Machine. We do not use HubSpot, Zoho CRM or Xero (Zoho Mail is used).
 5. **Brand.** Read `brand-brief.md` (Scripts-ai-agents repo) before writing
-   anything public. No personal names of anyone at Convene X in public output.
+   anything public. Only Nathan (the founder) may be named in public output, never as proof of results; no other personal names of anyone at Convene X.
    Proof belongs to the team "in previous roles".
 6. **No SSH needed.** JARVIS v4 maps each agent to an SSH host of the same name.
    Convene X agents work through connectors, not servers, so leave the SSH host

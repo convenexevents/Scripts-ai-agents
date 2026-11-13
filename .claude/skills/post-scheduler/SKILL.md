@@ -72,7 +72,7 @@ Before touching Buffer, scan the post one more time for:
 - [ ] Hashtag count fits platform (0-3 for LinkedIn, 3-5 for Instagram)
 - [ ] For Instagram: media URL is attached
 - [ ] For LinkedIn: external links are flagged (they reduce reach; suggest putting the link in the first comment via `metadata.linkedin.firstComment`)
-- [ ] Convene X non-negotiables (from `brand-brief.md`): no personal names, proof framed as "in previous roles", no "Convene X has delivered", no promised leads/ROI, no pricing, no unconfirmed numbers
+- [ ] Convene X non-negotiables (from `brand-brief.md`): only Nathan may be named (never as proof), no other personal names, proof framed as "in previous roles", no "Convene X has delivered", no promised leads/ROI, no pricing, no unconfirmed numbers
 
 If anything fails, **stop and report**:
 

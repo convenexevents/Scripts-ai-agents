@@ -91,7 +91,7 @@ Five words: warm, direct, specific, peer-to-peer, no-nonsense.
   rhetorical-question openers, triple-adjective stacks
 
 ## Convene X Non-Negotiables (every post)
-- **No personal names** of anyone at Convene X. Company voice ("we", "our team").
+- **Names:** Nathan (founder) may be named publicly, e.g. the About Us founder card (Nathan, 13 Nov 2026). No other names of anyone at Convene X. Default to company voice ("we", "our team"); use his name where a real person helps, never as proof of results.
 - **Proof framing.** Past results belong to the team "across their careers" /
   "in previous roles". Never "Convene X has delivered/run/hosted". Convene X
   has not run its own first event yet; never imply case studies exist.
