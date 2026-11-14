@@ -57,3 +57,14 @@ Name the files `exec1.mp3` to `exec5.mp3` and Rhys will time them to the cut.
 ## Files
 - `convene-x-ad-animatic-9x16.mp4`: timed animatic with placeholder silhouettes, captions, end card and whooshes (measured -13.1 LUFS integrated).
 - `render.py`: rebuilds the animatic (Python + Pillow + ffmpeg).
+
+## v1 build (14 Nov): `convene-x-ad-v1-9x16.mp4`
+Built without Higgsfield or Canva:
+- **Faces:** 5 fictional executives, kie.ai nano-banana-2 at 1K, 8 credits each (40 credits, about $0.20). Prompts are in `stills.py`, and the outputs are in `stills/`.
+- **Voices (ElevenLabs, eleven_multilingual_v2):** 1 Lily (British), 2 Chris (American), 3 Bella (American), 4 George (British), 5 Sarah (American). The cast was adjusted to match the available voices: Exec 3 is now American, not German, and Exec 5 is South Asian American, not French. Files are in `voices/`.
+- **Ambience:** ElevenLabs sound effects, a restaurant murmur mixed low.
+- **Style:** candid documentary, with the voice over a still photo and a slow push-in. There's no lip-sync, so the speakers are shown mid-conversation rather than talking to camera.
+- **Checks:** 1080x1920, 14.0s, -14.6 LUFS integrated, -4.3 dBFS peak. Contact sheet reviewed.
+- **Rebuild:** `python3 render_final.py out.mp4`, then the ffmpeg mix (voices at 0.15/2.3/4.3/6.5/8.5s, ambience at 0.18, whooshes at 0.25, loudnorm -14).
+
+**Licence note:** check that the ElevenLabs plan allows commercial use of these voices before this runs as a paid ad.
