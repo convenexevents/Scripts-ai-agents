@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-16T15:53:41.155089Z",
+  "label": "still 02-banquet-boredom",
+  "model": "nano-banana-2",
+  "taskId": "858604ba9a1d1a4c10d3937af8a0ef0e",
+  "cost_credits": 8.0,
+  "balance_delta": 8.0,
+  "balance_after": 505.99,
+  "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/_work/02-banquet-boredom-still.jpg",
+  "hosted_url": "https://tempfile.aiquickdraw.com/workers/images/image_52414bf64703b0fa91e95d17da60707c.jpg",
+  "input": {
+    "prompt": "A long, stiff, empty-feeling banquet table in a large cavernous hall, rows of untouched place settings, a bored executive in a dark suit sitting alone glancing at his wristwatch, cold blue-grey lighting. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+    "image_input": [],
+    "aspect_ratio": "16:9",
+    "resolution": "1K",
+    "output_format": "jpg"
+  }
+}

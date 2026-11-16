@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-16T15:51:43.767735Z",
+  "label": "still 03-sommelier-pour",
+  "model": "nano-banana-2",
+  "taskId": "b6db534a98390df9d49b63f3c69633b1",
+  "cost_credits": 8.0,
+  "balance_delta": 8.0,
+  "balance_after": 513.99,
+  "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/_work/03-sommelier-pour-still.jpg",
+  "hosted_url": "https://tempfile.aiquickdraw.com/workers/images/image_17b859dcd9c2e2859526eab454c0f7e6.jpg",
+  "input": {
+    "prompt": "A sleek private dining room at night, dark wood and black marble, close view of a sommelier pouring red wine into a crystal glass, candle glow, pink and gold rim light on the glass and bottle. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+    "image_input": [],
+    "aspect_ratio": "16:9",
+    "resolution": "1K",
+    "output_format": "jpg"
+  }
+}

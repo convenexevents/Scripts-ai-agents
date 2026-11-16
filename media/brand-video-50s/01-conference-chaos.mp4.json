@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-16T16:00:14.106210Z",
+  "label": "clip 01-conference-chaos (5s requested -> 5s)",
+  "model": "bytedance/v1-pro-image-to-video",
+  "taskId": "5bd376ed072ec9a616117da8b9807b41",
+  "cost_credits": 70.0,
+  "balance_delta": 70.0,
+  "balance_after": 147.99,
+  "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/01-conference-chaos.mp4",
+  "hosted_url": "https://tempfile.aiquickdraw.com/seedance/1794844798639-o5c07zyvl3k.mp4",
+  "input": {
+    "prompt": "Fast quick cuts and whip pans inside a crowded, noisy conference hall, blurred crowds rushing past, lanyards swinging, bright harsh lighting, sense of chaos and overload. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+    "image_url": "https://tempfile.1f6c22e0a6980b81e6d5c6c5f89b1984.r2.cloudflarestorage.com/workers/images/image_25d05f27e24e77fb442dc71464e0b3b6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261116T155906Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Credential=65e28771b1c98e115745309fbc7e614b%2F20261116%2Fapac%2Fs3%2Faws4_request&X-Amz-Signature=24a30aafaf74db2d4a0f1692f0f25c729835e519fdf3b9c46286a55af62b06b5",
+    "resolution": "1080p",
+    "duration": "5",
+    "camera_fixed": false
+  }
+}

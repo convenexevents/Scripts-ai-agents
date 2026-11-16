@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-16T15:45:35.238235Z",
+  "label": "clip 07-neon-ring (8s requested -> 10s)",
+  "model": "bytedance/v1-pro-image-to-video",
+  "taskId": "19a1ab7c547d3822292e7f9b798786e0",
+  "cost_credits": 140.0,
+  "balance_delta": 140.0,
+  "balance_after": 669.99,
+  "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/07-neon-ring.mp4",
+  "hosted_url": "https://tempfile.aiquickdraw.com/seedance/1794843909731-0j0nlruruqa.mp4",
+  "input": {
+    "prompt": "Abstract black background, a glowing hot pink neon ring slowly rotating, gold light streaks sweeping across, fine particles drifting, the centre stays empty and clean. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+    "image_url": "https://tempfile.1f6c22e0a6980b81e6d5c6c5f89b1984.r2.cloudflarestorage.com/workers/images/image_2f3ae4df27438b9983d68f93496ac9bb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261116T154349Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Credential=65e28771b1c98e115745309fbc7e614b%2F20261116%2Fapac%2Fs3%2Faws4_request&X-Amz-Signature=8952fd8505be72be9b69365241d62eb0bceb95de7b2b6debc6ba279b09cad486",
+    "resolution": "1080p",
+    "duration": "10",
+    "camera_fixed": false
+  }
+}

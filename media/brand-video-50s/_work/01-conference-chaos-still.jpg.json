@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-16T15:54:47.976160Z",
+  "label": "still 01-conference-chaos",
+  "model": "nano-banana-2",
+  "taskId": "a24a6df5cc7a0948fde3f4001503e16d",
+  "cost_credits": 8.0,
+  "balance_delta": 8.0,
+  "balance_after": 497.99,
+  "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/_work/01-conference-chaos-still.jpg",
+  "hosted_url": "https://tempfile.aiquickdraw.com/workers/images/image_25d05f27e24e77fb442dc71464e0b3b6.jpg",
+  "input": {
+    "prompt": "A crowded, noisy conference hall, blurred crowds of delegates rushing past the camera, lanyards with blank badges, bright harsh overhead lighting, motion blur, sense of chaos and overload. Badges and signage blank or out of focus. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+    "image_input": [],
+    "aspect_ratio": "16:9",
+    "resolution": "1K",
+    "output_format": "jpg"
+  }
+}

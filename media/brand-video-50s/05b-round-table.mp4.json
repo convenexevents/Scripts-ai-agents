@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-16T15:56:51.383920Z",
+  "label": "clip 05b-round-table (8s requested -> 10s)",
+  "model": "bytedance/v1-pro-image-to-video",
+  "taskId": "0580afd840daf2cd70e69ec6dfd70b1a",
+  "cost_credits": 140.0,
+  "balance_delta": 140.0,
+  "balance_after": 357.99,
+  "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/05b-round-table.mp4",
+  "hosted_url": "https://tempfile.aiquickdraw.com/seedance/1794844586968-5s6b6ba1bn9.mp4",
+  "input": {
+    "prompt": "Small intimate round table of senior executives leaning in, genuinely engaged in conversation, warm low light, crystal glasses, subtle pink and gold neon glow on the walls behind. Slow push-in from a high three-quarter angle. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+    "image_url": "https://tempfile.1f6c22e0a6980b81e6d5c6c5f89b1984.r2.cloudflarestorage.com/workers/images/image_f9fbd76f52b70a24835c2d06aea3f94e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261116T155506Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Credential=65e28771b1c98e115745309fbc7e614b%2F20261116%2Fapac%2Fs3%2Faws4_request&X-Amz-Signature=74c5514aa70235d6295748cbd3eb04fb2b68c8d5819dd2212dda8fc59becc14d",
+    "resolution": "1080p",
+    "duration": "10",
+    "camera_fixed": false
+  }
+}

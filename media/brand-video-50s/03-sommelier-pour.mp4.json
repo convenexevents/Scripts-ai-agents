@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-16T15:57:58.841450Z",
+  "label": "clip 03-sommelier-pour (5s requested -> 5s)",
+  "model": "bytedance/v1-pro-image-to-video",
+  "taskId": "1c86b39ddf63bf3ff2a21a92f4f67e62",
+  "cost_credits": 70.0,
+  "balance_delta": 70.0,
+  "balance_after": 287.99,
+  "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/03-sommelier-pour.mp4",
+  "hosted_url": "https://tempfile.aiquickdraw.com/seedance/1794844668845-vi2yr1xvn48.mp4",
+  "input": {
+    "prompt": "A sommelier pours red wine into a crystal glass in a sleek private dining room at night, dark wood and black marble, candle glow flickering, pink and gold rim light, slow push-in. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+    "image_url": "https://tempfile.1f6c22e0a6980b81e6d5c6c5f89b1984.r2.cloudflarestorage.com/workers/images/image_17b859dcd9c2e2859526eab454c0f7e6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261116T155651Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Credential=65e28771b1c98e115745309fbc7e614b%2F20261116%2Fapac%2Fs3%2Faws4_request&X-Amz-Signature=69572561aecc0438aab311a770f65637eb33eedbf54429fa0ddb601b4ef2c5f2",
+    "resolution": "1080p",
+    "duration": "5",
+    "camera_fixed": false
+  }
+}

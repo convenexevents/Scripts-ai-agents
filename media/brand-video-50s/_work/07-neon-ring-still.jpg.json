@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-16T15:38:40.914144Z",
+  "label": "still 07-neon-ring",
+  "model": "nano-banana-2",
+  "taskId": "d8df631d02942f40b137f5867f2f5bb3",
+  "cost_credits": 8.0,
+  "balance_delta": 8.0,
+  "balance_after": 809.99,
+  "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/_work/07-neon-ring-still.jpg",
+  "hosted_url": "https://tempfile.aiquickdraw.com/workers/images/image_2f3ae4df27438b9983d68f93496ac9bb.jpg",
+  "input": {
+    "prompt": "Abstract black background with a single glowing hot pink neon ring, gold light streaks sweeping across, fine floating particles, an empty clean dark centre inside the ring. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+    "image_input": [],
+    "aspect_ratio": "16:9",
+    "resolution": "1K",
+    "output_format": "jpg"
+  }
+}

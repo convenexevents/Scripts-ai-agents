@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-16T15:50:49.532365Z",
+  "label": "still 05b-round-table",
+  "model": "nano-banana-2",
+  "taskId": "a9f6248238bd01810e416661f9bfa46d",
+  "cost_credits": 8.0,
+  "balance_delta": 8.0,
+  "balance_after": 521.99,
+  "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/_work/05b-round-table-still.jpg",
+  "hosted_url": "https://tempfile.aiquickdraw.com/workers/images/image_f9fbd76f52b70a24835c2d06aea3f94e.jpg",
+  "input": {
+    "prompt": "A small intimate round table of ten to twelve senior executives leaning in, genuinely engaged in conversation, no laptops, no lanyards, warm low light, crystal glasses, subtle pink and gold neon glow on the walls behind. Slightly high three-quarter angle from behind one guest's shoulder. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+    "image_input": [],
+    "aspect_ratio": "16:9",
+    "resolution": "1K",
+    "output_format": "jpg"
+  }
+}

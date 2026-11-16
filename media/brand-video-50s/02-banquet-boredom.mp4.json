@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-16T15:59:06.440156Z",
+  "label": "clip 02-banquet-boredom (5s requested -> 5s)",
+  "model": "bytedance/v1-pro-image-to-video",
+  "taskId": "e6d3642e0ad91ef7113063b56f471643",
+  "cost_credits": 70.0,
+  "balance_delta": 70.0,
+  "balance_after": 217.99,
+  "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/02-banquet-boredom.mp4",
+  "hosted_url": "https://tempfile.aiquickdraw.com/seedance/1794844729074-6vexxr3a29b.mp4",
+  "input": {
+    "prompt": "A long, stiff, empty-feeling banquet table in a large hall, a bored executive in a dark suit slowly lifts his wrist and glances at his wristwatch, cold lighting, slow gimbal drift. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+    "image_url": "https://tempfile.1f6c22e0a6980b81e6d5c6c5f89b1984.r2.cloudflarestorage.com/workers/images/image_52414bf64703b0fa91e95d17da60707c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261116T155759Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Credential=65e28771b1c98e115745309fbc7e614b%2F20261116%2Fapac%2Fs3%2Faws4_request&X-Amz-Signature=654b58c47c3b3600d84cd87d4906bc47124cd03c4a0b3c8cd35462b565277ffe",
+    "resolution": "1080p",
+    "duration": "5",
+    "camera_fixed": false
+  }
+}

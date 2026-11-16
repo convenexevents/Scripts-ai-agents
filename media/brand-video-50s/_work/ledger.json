@@ -1,0 +1,213 @@
+[
+  {
+    "label": "still 05a-round-table (attempt 1, generated but download blocked by proxy; lost)",
+    "model": "nano-banana-2",
+    "cost_credits": 8.0
+  },
+  {
+    "label": "still 05a-round-table",
+    "model": "nano-banana-2",
+    "taskId": "5b6da1bd7268430289b312df0dd64418",
+    "cost_credits": 8.0,
+    "hosted_url": "https://tempfile.aiquickdraw.com/workers/images/image_25942ca3520dff29d0ffb5a3af1a413c.jpg",
+    "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/_work/05a-round-table-still.jpg"
+  },
+  {
+    "timestamp": "2026-11-16T15:38:40.914144Z",
+    "label": "still 07-neon-ring",
+    "model": "nano-banana-2",
+    "taskId": "d8df631d02942f40b137f5867f2f5bb3",
+    "cost_credits": 8.0,
+    "balance_delta": 8.0,
+    "balance_after": 809.99,
+    "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/_work/07-neon-ring-still.jpg",
+    "hosted_url": "https://tempfile.aiquickdraw.com/workers/images/image_2f3ae4df27438b9983d68f93496ac9bb.jpg",
+    "input": {
+      "prompt": "Abstract black background with a single glowing hot pink neon ring, gold light streaks sweeping across, fine floating particles, an empty clean dark centre inside the ring. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+      "image_input": [],
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "output_format": "jpg"
+    }
+  },
+  {
+    "timestamp": "2026-11-16T15:45:35.238235Z",
+    "label": "clip 07-neon-ring (8s requested -> 10s)",
+    "model": "bytedance/v1-pro-image-to-video",
+    "taskId": "19a1ab7c547d3822292e7f9b798786e0",
+    "cost_credits": 140.0,
+    "balance_delta": 140.0,
+    "balance_after": 669.99,
+    "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/07-neon-ring.mp4",
+    "hosted_url": "https://tempfile.aiquickdraw.com/seedance/1794843909731-0j0nlruruqa.mp4",
+    "input": {
+      "prompt": "Abstract black background, a glowing hot pink neon ring slowly rotating, gold light streaks sweeping across, fine particles drifting, the centre stays empty and clean. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+      "image_url": "https://tempfile.1f6c22e0a6980b81e6d5c6c5f89b1984.r2.cloudflarestorage.com/workers/images/image_2f3ae4df27438b9983d68f93496ac9bb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261116T154349Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Credential=65e28771b1c98e115745309fbc7e614b%2F20261116%2Fapac%2Fs3%2Faws4_request&X-Amz-Signature=8952fd8505be72be9b69365241d62eb0bceb95de7b2b6debc6ba279b09cad486",
+      "resolution": "1080p",
+      "duration": "10",
+      "camera_fixed": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T15:49:42.262221Z",
+    "label": "clip 05a-round-table (8s requested -> 10s)",
+    "model": "bytedance/v1-pro-image-to-video",
+    "taskId": "1ef05c319b3fef120fbdbc8ca6d658bd",
+    "cost_credits": 140.0,
+    "balance_delta": 140.0,
+    "balance_after": 529.99,
+    "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/05a-round-table.mp4",
+    "hosted_url": "https://tempfile.aiquickdraw.com/seedance/1794844172776-fb0fw3xz67r.mp4",
+    "input": {
+      "prompt": "Small intimate round table of senior executives leaning in, genuinely engaged in conversation, gestures and nods, warm low light, crystal glasses, subtle pink and gold neon glow on the walls behind. Slow push-in. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+      "image_url": "https://tempfile.1f6c22e0a6980b81e6d5c6c5f89b1984.r2.cloudflarestorage.com/workers/images/image_25942ca3520dff29d0ffb5a3af1a413c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261116T154809Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Credential=65e28771b1c98e115745309fbc7e614b%2F20261116%2Fapac%2Fs3%2Faws4_request&X-Amz-Signature=19262887c3079643d7b5f9402545658a6ceea46ad611645387385f1237bc28b8",
+      "resolution": "1080p",
+      "duration": "10",
+      "camera_fixed": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T15:50:49.532365Z",
+    "label": "still 05b-round-table",
+    "model": "nano-banana-2",
+    "taskId": "a9f6248238bd01810e416661f9bfa46d",
+    "cost_credits": 8.0,
+    "balance_delta": 8.0,
+    "balance_after": 521.99,
+    "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/_work/05b-round-table-still.jpg",
+    "hosted_url": "https://tempfile.aiquickdraw.com/workers/images/image_f9fbd76f52b70a24835c2d06aea3f94e.jpg",
+    "input": {
+      "prompt": "A small intimate round table of ten to twelve senior executives leaning in, genuinely engaged in conversation, no laptops, no lanyards, warm low light, crystal glasses, subtle pink and gold neon glow on the walls behind. Slightly high three-quarter angle from behind one guest's shoulder. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+      "image_input": [],
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "output_format": "jpg"
+    }
+  },
+  {
+    "timestamp": "2026-11-16T15:51:43.767735Z",
+    "label": "still 03-sommelier-pour",
+    "model": "nano-banana-2",
+    "taskId": "b6db534a98390df9d49b63f3c69633b1",
+    "cost_credits": 8.0,
+    "balance_delta": 8.0,
+    "balance_after": 513.99,
+    "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/_work/03-sommelier-pour-still.jpg",
+    "hosted_url": "https://tempfile.aiquickdraw.com/workers/images/image_17b859dcd9c2e2859526eab454c0f7e6.jpg",
+    "input": {
+      "prompt": "A sleek private dining room at night, dark wood and black marble, close view of a sommelier pouring red wine into a crystal glass, candle glow, pink and gold rim light on the glass and bottle. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+      "image_input": [],
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "output_format": "jpg"
+    }
+  },
+  {
+    "timestamp": "2026-11-16T15:53:41.155089Z",
+    "label": "still 02-banquet-boredom",
+    "model": "nano-banana-2",
+    "taskId": "858604ba9a1d1a4c10d3937af8a0ef0e",
+    "cost_credits": 8.0,
+    "balance_delta": 8.0,
+    "balance_after": 505.99,
+    "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/_work/02-banquet-boredom-still.jpg",
+    "hosted_url": "https://tempfile.aiquickdraw.com/workers/images/image_52414bf64703b0fa91e95d17da60707c.jpg",
+    "input": {
+      "prompt": "A long, stiff, empty-feeling banquet table in a large cavernous hall, rows of untouched place settings, a bored executive in a dark suit sitting alone glancing at his wristwatch, cold blue-grey lighting. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+      "image_input": [],
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "output_format": "jpg"
+    }
+  },
+  {
+    "timestamp": "2026-11-16T15:54:47.976160Z",
+    "label": "still 01-conference-chaos",
+    "model": "nano-banana-2",
+    "taskId": "a24a6df5cc7a0948fde3f4001503e16d",
+    "cost_credits": 8.0,
+    "balance_delta": 8.0,
+    "balance_after": 497.99,
+    "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/_work/01-conference-chaos-still.jpg",
+    "hosted_url": "https://tempfile.aiquickdraw.com/workers/images/image_25d05f27e24e77fb442dc71464e0b3b6.jpg",
+    "input": {
+      "prompt": "A crowded, noisy conference hall, blurred crowds of delegates rushing past the camera, lanyards with blank badges, bright harsh overhead lighting, motion blur, sense of chaos and overload. Badges and signage blank or out of focus. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+      "image_input": [],
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "output_format": "jpg"
+    }
+  },
+  {
+    "timestamp": "2026-11-16T15:56:51.383920Z",
+    "label": "clip 05b-round-table (8s requested -> 10s)",
+    "model": "bytedance/v1-pro-image-to-video",
+    "taskId": "0580afd840daf2cd70e69ec6dfd70b1a",
+    "cost_credits": 140.0,
+    "balance_delta": 140.0,
+    "balance_after": 357.99,
+    "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/05b-round-table.mp4",
+    "hosted_url": "https://tempfile.aiquickdraw.com/seedance/1794844586968-5s6b6ba1bn9.mp4",
+    "input": {
+      "prompt": "Small intimate round table of senior executives leaning in, genuinely engaged in conversation, warm low light, crystal glasses, subtle pink and gold neon glow on the walls behind. Slow push-in from a high three-quarter angle. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+      "image_url": "https://tempfile.1f6c22e0a6980b81e6d5c6c5f89b1984.r2.cloudflarestorage.com/workers/images/image_f9fbd76f52b70a24835c2d06aea3f94e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261116T155506Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Credential=65e28771b1c98e115745309fbc7e614b%2F20261116%2Fapac%2Fs3%2Faws4_request&X-Amz-Signature=74c5514aa70235d6295748cbd3eb04fb2b68c8d5819dd2212dda8fc59becc14d",
+      "resolution": "1080p",
+      "duration": "10",
+      "camera_fixed": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T15:57:58.841450Z",
+    "label": "clip 03-sommelier-pour (5s requested -> 5s)",
+    "model": "bytedance/v1-pro-image-to-video",
+    "taskId": "1c86b39ddf63bf3ff2a21a92f4f67e62",
+    "cost_credits": 70.0,
+    "balance_delta": 70.0,
+    "balance_after": 287.99,
+    "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/03-sommelier-pour.mp4",
+    "hosted_url": "https://tempfile.aiquickdraw.com/seedance/1794844668845-vi2yr1xvn48.mp4",
+    "input": {
+      "prompt": "A sommelier pours red wine into a crystal glass in a sleek private dining room at night, dark wood and black marble, candle glow flickering, pink and gold rim light, slow push-in. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+      "image_url": "https://tempfile.1f6c22e0a6980b81e6d5c6c5f89b1984.r2.cloudflarestorage.com/workers/images/image_17b859dcd9c2e2859526eab454c0f7e6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261116T155651Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Credential=65e28771b1c98e115745309fbc7e614b%2F20261116%2Fapac%2Fs3%2Faws4_request&X-Amz-Signature=69572561aecc0438aab311a770f65637eb33eedbf54429fa0ddb601b4ef2c5f2",
+      "resolution": "1080p",
+      "duration": "5",
+      "camera_fixed": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T15:59:06.440156Z",
+    "label": "clip 02-banquet-boredom (5s requested -> 5s)",
+    "model": "bytedance/v1-pro-image-to-video",
+    "taskId": "e6d3642e0ad91ef7113063b56f471643",
+    "cost_credits": 70.0,
+    "balance_delta": 70.0,
+    "balance_after": 217.99,
+    "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/02-banquet-boredom.mp4",
+    "hosted_url": "https://tempfile.aiquickdraw.com/seedance/1794844729074-6vexxr3a29b.mp4",
+    "input": {
+      "prompt": "A long, stiff, empty-feeling banquet table in a large hall, a bored executive in a dark suit slowly lifts his wrist and glances at his wristwatch, cold lighting, slow gimbal drift. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+      "image_url": "https://tempfile.1f6c22e0a6980b81e6d5c6c5f89b1984.r2.cloudflarestorage.com/workers/images/image_52414bf64703b0fa91e95d17da60707c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261116T155759Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Credential=65e28771b1c98e115745309fbc7e614b%2F20261116%2Fapac%2Fs3%2Faws4_request&X-Amz-Signature=654b58c47c3b3600d84cd87d4906bc47124cd03c4a0b3c8cd35462b565277ffe",
+      "resolution": "1080p",
+      "duration": "5",
+      "camera_fixed": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T16:00:14.106210Z",
+    "label": "clip 01-conference-chaos (5s requested -> 5s)",
+    "model": "bytedance/v1-pro-image-to-video",
+    "taskId": "5bd376ed072ec9a616117da8b9807b41",
+    "cost_credits": 70.0,
+    "balance_delta": 70.0,
+    "balance_after": 147.99,
+    "out": "/home/user/Scripts-ai-agents/media/brand-video-50s/01-conference-chaos.mp4",
+    "hosted_url": "https://tempfile.aiquickdraw.com/seedance/1794844798639-o5c07zyvl3k.mp4",
+    "input": {
+      "prompt": "Fast quick cuts and whip pans inside a crowded, noisy conference hall, blurred crowds rushing past, lanyards swinging, bright harsh lighting, sense of chaos and overload. Cinematic, luxury, high-end corporate film. Deep black and charcoal palette, with subtle hot pink (#FF1FA9) and warm gold-yellow (#FCD500) neon rim light and soft neon glow rings. Shallow depth of field, anamorphic lens flares, slow gimbal movement, rich shadows, filmic grain. No on-screen text, no logos, no watermarks.",
+      "image_url": "https://tempfile.1f6c22e0a6980b81e6d5c6c5f89b1984.r2.cloudflarestorage.com/workers/images/image_25d05f27e24e77fb442dc71464e0b3b6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261116T155906Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Credential=65e28771b1c98e115745309fbc7e614b%2F20261116%2Fapac%2Fs3%2Faws4_request&X-Amz-Signature=24a30aafaf74db2d4a0f1692f0f25c729835e519fdf3b9c46286a55af62b06b5",
+      "resolution": "1080p",
+      "duration": "5",
+      "camera_fixed": false
+    }
+  }
+]
