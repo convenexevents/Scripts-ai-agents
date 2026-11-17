@@ -5,7 +5,10 @@ tmux session with a Cursor CLI worker, and gives each one a private Rocket.Chat
 channel you can message from your phone. This folder installs the 22 Convene X
 agents into it as `cx-<firstname>` (channel `#cx-amara`, session `cx-amara`, …).
 
-## What you need
+## Free, in-house option (recommended to start)
+Run it all on your Windows PC with Claude Code as the engine (no Cursor subscription) and chat from your phone: see **[home/README.md](home/README.md)**.
+
+## What you need (cloud or Mac option)
 - A Mac or Linux machine to host it (JARVIS v4 is not built for Windows; WSL may work but is untested).
 - A Rocket.Chat server (self-hosted or Rocket.Chat Cloud), with an admin account and a bot account.
 - Cursor with the CLI agent (`cursor agent`), plus `tmux` and Python 3.
